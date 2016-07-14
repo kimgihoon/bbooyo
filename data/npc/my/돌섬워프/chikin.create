@@ -1,0 +1,25 @@
+NPCCREATE
+{
+floorid=300
+borncenter=478,458
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16122
+name=다나 청년의 형
+enemy=npcgen_warpman|file:my/돌섬워프/교환소1
+}
+
+{
+floorid=25300
+borncenter=79,19
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16122
+name=다나 청년의 형
+enemy=npcgen_warpman|file:my/돌섬워프/교환소2
+}
+

@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:갇힌 사람을 구하고싶니?
+star tmsg:
+dieact:0
+end msg:
+enemyno:722,512,512,508,508
+deniedmsg:대단하군...。
+alreadymsg:화이또!
+time:300
+onebattle:1
+

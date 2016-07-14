@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:JBA본부에 가려고?
+askbattlemsg2:가입하려면 나를 뛰어넘어야 한다.
+startmsg:한번 해볼까?
+dieact:1
+warpfl:20711
+warpx:23
+warpy:4
+end msg:
+enemyno:943,944
+deniedmsg:JBA에 가입할 조건이 되는군.
+alreadymsg:드디어 JBA에 가입하게되었군.
+onebattle:1

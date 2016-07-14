@@ -1,0 +1,45 @@
+###########################################################
+#４ㅔㅞ減똬ㆂGETㅉㅻⅳ?τΘ　　　　　　　　　　　　　　  #
+# 						척툭¨읍쵸#
+###########################################################
+
+NomalMainMsg:날씨 좋지？
+
+EventNo:45
+TYPE:ACCEPT
+EVENT:LV>59&ITEM=2764&ITEM=2760&ITEM=2761&ITEM=2762&ITEM=2763
+AcceptMsg:\n\n4개의 정령들의 전리품을 모아왔구나?
+ThanksMsg:\n대단해！\n나도 잘 못찾는 이 귀한것들를! \n 너에게 작은 보답을 해주고 싶어 받아주렴!
+ItemFullMsg:이런! 아이템창이 꽉찼네。\n아이템창 좀 비워줄래?
+NpcWarp:4000.53.101,2000.44.39,5105.14.3,6000.58.44
+GetItem:2765
+DelItem:2764,2760,2761,2762,2763
+EndSetFlg:45
+EventEnd
+
+EventNo:45
+TYPE:REQUEST
+EVENT:LV>59
+RequestMsg:\n\n나는 취미로 정령들의 전리품을 수집하고 있어\n나를 혹시 도와줄 수 있겠니?
+RequestMsg2:\n고마워! 이건 정령을 불러들이는 신비한 돌이야\n이 돌를 가지고 있으면 \n정령이 야생 페트의 모습으로 변장하여도 알아챌 수가 있지.
+ThanksMsg:\n받아！\n정령들은 각 대륙 지역의 야생페트사이에 숨어\n지내고 있을거야.\n각 정령들의 전리품을 4개 수집해줘.
+StopMsg:\n\n그만두고 싶다고？
+EndStopMsg:\n어쩔수없지. 다른 사람과 수집을 해봐야겠어.
+NoStopMsg:\n어서 찾아봐! 정령들은 우리 가까이에 있어
+GetItem:2764*1
+ItemFullMsg:아이템창이 꽉찼어.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>59&ENDEV=45
+NomalWindowMsg:\n\n지난번엔 고마웠어!\n나도 너 처럼 정령을 찾아 모험을 할거야
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n나는 정령의 돌를 수집하고있어!
+EventEnd
+

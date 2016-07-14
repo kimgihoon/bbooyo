@@ -1,0 +1,45 @@
+
+########################################
+#´ÓµÁÔôÊÖÖÐÈ¡»ØÈýÖÖÉñÆ÷Ö®ÊÂ¼þ#
+#                                                   µ£ÈÎÕß£ºÊ¸ÑÓ#
+########################################
+
+NomalMainMsg:³ª´Â »çÅæ°¡ÀÇ »ç¶÷ÀÌ³×. ³ª´Â »çÅæ°¡ÀÇ °¡º¸¸¦ ÀÌ¾î¹Þ°í ÁöÅ°°í ÀÖÁö.
+
+EventNo:13
+TYPE:ACCEPT
+EVENT:NOWEV=13&ITEM=2428&ITEM=2429&ITEM=2430
+AcceptMsg:\n¿À¿À¿À!\n´ë´ë·Î ÀüÇØ ³»·Á¿À´Â ¼¼ Á¾·ùÀÇ ½Å±â¸¦\nµµµÏµé¿¡°Ô¼­ Ã£¾Æ¿ÍÁÖ¾ú±º!
+ThanksMsg:\nÁ¤¸» °í¸¿³×!\n»çÅæ°¡ÀÇ ÀÌ¸§À» °É°í °¨»çÇÏ³×!\nÀÚ ÀÌ°ÍÀº ´ë´ë·Î ³»·Á¿À´Â ºñ¾àÀÌ¾ß.\n³¯ µµ¿ÍÁØ º¸´äÀÏ¼¼.
+GetItem:2450
+DelItem:2428,2429,2430,2431
+ItemFullMsg:À½! ¾ÆÀÌÅÛ Ä­À» ºñ¿ì°í ¿À°Ô³ª!
+EndSetFlg:13
+EventEnd
+
+EventNo:13
+TYPE:MESSAGE
+EVENT:NOWEV=13&ITEM!=2431
+NomalWindowMsg:ÀÌ°Ç µµµÏµéÀÇ ¹ßÀÚÃëÀÏ¼¼..\n¹üÀÏÀ» ²À Àâ¾Æ´Ù¿À..
+GetItem:2431
+ItemFullMsg:¾ÆÀÌÅÛÀÌ °¡µæÃ¡±º.
+EventEnd
+
+EventNo:13
+TYPE:REQUEST
+EVENT:LV>15
+RequestMsg:¿ì¿ì¿ì...\nµµµÏ¿¡°Ô °¡º¸¸¦ »©¾Ñ°Ü ¹ö·È´Ù³×..\nµÇÃ£°í ½ÍÀº ¸¶À½Àº ±¼¶Ò°°Áö¸¸..\nµµÀúÈ÷ ÀÌ ´ÄÀº ¸öÀ¸·Î´Â..\n¹«¸®ÇÑ ÀÏÀÎ ÁÙÀº ¾ËÁö¸¸ ºÎÅ¹ÇÏ³×.\n°¡º¸ÀÎ ¡º¼¼Á¾·ùÀÇ ½Å±â¡»¸¦\nµÇÃ£¾ÆÁÖÁö ¾Ê°Ú³ª?
+ThanksMsg:\n¿À¿À¿À¿À¿À!\nÁ¤¸»ÀÎ°¡?\nÇæÇæÇæ, ÀÌ·± ÀþÀºÀÌ°¡ ÀÖ´Ù´Ï!?\nÀÚ, ÀÌ°ÍÀÌ µµµÏÀÌ ³²±â°í°£ ¹ßÀÚÃë¾ß.\n±×µéÀº ¾Æ¸¶ µµµÏÀÇ µ¿±¼·Î °¬À»°Å¾ß.\nÀÚ³×°¡ È¥³»ÁÖ°Ô!
+StopMsg:\n³» ºÎÅ¹À» °ÅÀýÇÒÅÙ°¡?
+EndStopMsg:±×·¸±º. ¿ª½Ã ¹«¸®ÀÎ°¡..\nÁ¶»ó´ÔÀ» ¾î¶»°Ô ºÉ²¿..
+NoStopMsg:\n°í¸¿³×!\n¾î¼­ Ãâ¹ßÇØÁÖ°Ô³ª!
+GetItem:2431*1
+ItemFullMsg:¾ÆÀÌÅÛÀÌ °¡µæÃ¡±º.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=13
+NomalWindowMsg:\nÀÚ³× ´öºÐ¿¡ »çÅæ°¡ÀÇ ¼¼°³ÀÇ ½Å±â°¡\nÁöÄÑÁö°í ÀÖ¾î.
+EventEnd

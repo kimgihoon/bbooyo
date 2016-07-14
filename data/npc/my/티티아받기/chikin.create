@@ -1,0 +1,22 @@
+NPCCREATE
+{
+floorid=1000
+borncenter=91,73
+time=0
+createnum=1
+graphicname=101178
+name=병든 티티아
+dir=6
+enemy=changeevent|file:my/티티아받기/교환소1
+}
+
+{
+floorid=3000
+borncenter=88,84
+time=0
+createnum=1
+graphicname=101178
+name=병든 티티아
+dir=6
+enemy=changeevent|file:my/티티아받기/교환소1
+}

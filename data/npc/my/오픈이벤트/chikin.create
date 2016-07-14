@@ -1,0 +1,14 @@
+NPCCREATE
+{
+floorid=3000
+borncenter=85,60
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=110585
+name=도우미 울보
+enemy=npcgen_warpman|file:my/오픈이벤트/교환소1
+}
+
+

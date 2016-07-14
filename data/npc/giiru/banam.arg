@@ -1,0 +1,13 @@
+routenum:1
+routeto1:394,340;396,338;397,334;398,326;395,322;389,322;389,309;400,309;404,302;407,302;407,301
+routename1:궁시렁쟁이[할아버지행]
+needstone:0
+waittime:120
+msg_start:궁시렁궁시렁。
+msg_end:다왔어내려!
+msg_stone:차비도 없냐?
+msg_gettingon:궁시렁궁시렁궁시렁
+msg_notparty:쳇 난 뭔지도 모르고 이곳에 있는군。
+msg_overparty:더이상자리가없어요!
+msg_denieditem:궁시렁。
+seflg:0

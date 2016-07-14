@@ -1,0 +1,7 @@
+START_MSG:\n\n\n가고싶은곳이 어디니?
+MenuHead:사냥터 까지 쉽게 이동 시켜주마...\n\n\n
+{
+MenuStr:아부굴
+FREE:LV>2
+WARPPOINT:100,190,365
+}

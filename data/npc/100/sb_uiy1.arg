@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:¾î¶»°Ô ¿Ô³Ä?!
+askbattlemsg2:¾Æ·¡Ãþ¿¡ ÀÖ´Â³à¼®¿¡°Ô µéÀº°Å¾ß?!
+askbattlemsg3:Áö³ª°¡·Á¸é ³ª¸¦ ÀÌ°Ü¾ßÇØ!
+startmsg:´ýº­ºÁ¶ó!
+dieact:1
+warpfl:10007
+warpx:29
+warpy:37
+end msg:
+enemyno:294,295,296,297,298,3206
+deniedmsg:ÉÔ³Í ¹°À» ¶°°¡µµ ÁÁ´Ù.
+

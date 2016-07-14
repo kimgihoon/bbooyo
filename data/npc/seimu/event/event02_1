@@ -1,0 +1,80 @@
+NomalMainMsg:나는 페트 수집가 카난이라고 해.
+
+EventNo:35
+TYPE:ACCEPT
+EVENT:LV>0&PET=25-221*1&PET=25-222*1&ITEM=2607&NOWEV=35
+AcceptMsg:\n내가 부탁한 공룡을\n전부 모은 것 같네!
+ThanksMsg:\n정말로 고마워!\n모두 모우리라곤 꿈에도 생각 못 했어.\n처음 약속대로 내가 주운 금색의\n신비한 공룡을 줄께.\n내 대신 소중하게 키워줘.\n그리고 반지는 돌려줘.
+PetFullMsg:페트칸이 가득 찼어.
+DelPet:PET=25-221*1,PET=25-222*1
+DelItem:2607
+GetPet:93
+EndSetFlg:35
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&NOWEV=35&ITEM=2607
+NomalWindowMsg:NomalWindowMsg:\n그 반지는 내 소중한 보물이야.
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET=25-223*1&PET=25-224*1&ITEM!=2607&NOWEV=35
+AcceptMsg:\n내가 부탁한 공룡을 모아왔니?
+ThanksMsg:내가 부탁한 LV25의 쟈그와 판지네!\n남은 것은 고반케스와 쟈그라야.\n잘 부탁해!\n이건 잠시 빌려줄게, 도움이 될거야.
+ItemFullMsg:아이템이 가득 찼어.
+DelPet:PET=25-223*1,PET=25-224*1
+GetItem:2607
+EventEnd
+
+EventNo:35
+TYPE:REQUEST
+EVENT:LV>0&ENDEV!=35
+RequestMsg:\n안녕? 만나서 반가워.\n나는 LV25인 공룡을 모으고 싶어서\n이 세계를 여행하고 있어.\n내가 가지고 있는 공룡 리스트 중에 없는 공룡은...
+RequestMsg2:물에 사는 공룡인가... 이름이\n쟈그 판지 고반케스 쟈그라\n이렇게 4마리인 것 같아.\n만약 나 대신 모아주면\n금색의 신비한 공룡을 너에게 줄게.\n어때? 나쁜 이야기 아니지?
+ThanksMsg:\n받아주는거지?\n그렇다면 먼저 쟈그와 판지를 모아주겠니??\n나의 페트란에는 두개밖에 공란이 없어.\n물론 LV은 25야. 그럼 부탁할께.\n그 동안 나는 이 사막근처를 여행할꺼야.
+StopMsg:\n네게 무리한 부탁이니?
+EndStopMsg:\n그래, 아쉽군. 다음에 들러줘.
+NoStopMsg:\n쟈그와 판지부터 가지고 와줘.\n그리고 고반케스 쟈그라.\n꼭 LV이 25여야만 해!
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET=25-558*1&PET=25-293*1&ITEM=2607&ENDEV=35,LV>0&PET=25-292*1&PET=25-293*1&ITEM=2607&ENDEV=35
+AcceptMsg:\n내가 부탁한 공룡을\n전부 모은 것 같네!
+ThanksMsg:\n정말로 고마워!\n모두 모우리라곤 꿈에도 생각 못 했어.\n처음 약속대로 내가 주운\n큰 공룡을 줄께.\n내 대신 소중하게 키워줘.\n그리고 반지는 돌려줘.
+PetFullMsg:페트칸이 가득 찼어.
+DelPet:EVDEL
+DelItem:2607
+GetPet:341,1642
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2607&ENDEV=35
+NomalWindowMsg:\n그 반지는 내 소중한 보물이야.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET=25-291*1&PET=25-294*1&ITEM!=2607&ENDEV=35
+AcceptMsg:\n내가 부탁한 공룡을 모아왔니?
+ThanksMsg:\n내가 부탁한 LV25의 타키와 카키네!\n남은 것은 호르쿠와 쿠쿠야.\n잘 부탁해!\n이건 잠시 빌려줄게, 도움이 될거야.
+ItemFullMsg:아이템이 가득 찼어.
+DelPet:PET=25-291*1,PET=25-294*1
+GetItem:2607
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=35
+AcceptMsg:\n어머! 안녕, 오랜만이야.\n요전에 아주 큰 공룡을 주웠어.\n어.. 내가 가지고 있는 공룡 리스트 중에 없는 공룡은...
+AcceptMsg2:날으는 공룡일까? 이름이\n타키 카키 호르쿠 쿠쿠\n이렇게 4마리가 없는 것 같아.\n만일 나 대신 모아 준다면\n아주 큰 공룡을 너에게 줄께.\n어때? 나쁜 이야기는 아니지?
+ThanksMsg:\n받아주는거지?\n그렇다면 먼저 타키와 카키를 모아주겠니??\n나의 페트란에는 두개밖에 공란이 없어.\n물론 LV은 25야. 그럼 부탁할께.\n그 동안 나는 이 사막근처를 여행할꺼야.
+StopMsg:\n네게 무리한 부탁이니?
+EndStopMsg:\n그래, 아쉽군. 다음에 들러줘.
+NoStopMsg:\n타키와 카키부터 가지고 와줘.\n그리고 호르쿠와 쿠쿠.\n꼭 LV이 25여야만 해!
+EventEnd

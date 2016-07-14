@@ -1,0 +1,14 @@
+NPCCREATE
+########ÈâµÄÎüÒıÁ¦#########
+
+{
+name=¸¶À» ¾ÆÁÜ¸¶
+floorid=1000
+borncenter=77,118
+dir=5
+ignoreinvincible=1
+createnum=1
+graphicname=16022
+enemy=changeevent|file:sa70/meat/meat1.arg
+}
+

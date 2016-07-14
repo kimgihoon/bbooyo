@@ -1,0 +1,47 @@
+NomalMainMsg:레벨30이 되시고 성인식을 마치시면 당신도 '포타'라는 스톤과는 다른 가상화폐를 원활히 획득하실 수 있으실거에요!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&ENDEV=157&ENDEV=156&PET=30-1197*1
+AcceptMsg:\n병든 티티아를 건강을 되찾을 수 있도록 레벨30까지 거뜬히 키워주셨군요!
+ThanksMsg:\n 감사합니다. 감사한 뜻으로 포타 10개를 선물로 드리겠습니다.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21100
+DelPet:PET=30-1197*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&ENDEV=156&ENDEV=157
+AcceptMsg:\n안녕하세요. 포타화폐 관리자입니다.\n또 오셨군요?
+ThanksMsg:\n이번에도 병든 티티아가 저에게 맡겨졌습니다. \n제 옆에 티티아와 대화를 걸어 '병든 티티아'와 동행하여 이번엔 레벨30까지 키우셔서 저에게 다시 와주세요!
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=157&ENDEV=4&PET=50-1197*1
+AcceptMsg:\n병든 티티아를 건강을 되찾을 수 있도록 레벨50까지 거뜬히 키워주셨군요!
+ThanksMsg:\n 감사합니다. 감사한 뜻으로 티티아와 포타30개를 선물로 드리겠습니다.
+itmeFullMsg:아이템창을 비워주세요.
+PetFullMsg:\n 페트창을 비워줄래요?
+GetItem:21101
+GetPet:3009
+DelPet:PET=50-1197*1
+EndSetFlg:156
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4
+AcceptMsg:\n안녕하세요. 포타화폐 관리자입니다.\n'포타'라는 화폐를 획득하시고 싶나요?
+ThanksMsg:\n그러기위해서는 그 만한 노동을 하셔야겠죠 \n 제 옆에 티티아와 대화를 걸어 '병든 티티아'와 동행하여 레벨50까지 키우셔서 저에게 다시 와주세요
+EndSetFlg:157
+EventEnd
+
+
+
+
+
+
+
+

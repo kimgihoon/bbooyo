@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:SBC에 가입하고싶니?
+askbattlemsg2:나를 이겨야 할테야!!
+startmsg:시작해볼까?!
+dieact:1
+warpfl:10920
+warpx:55
+warpy:28
+end msg:
+enemyno:941,942
+deniedmsg:SBC가입조건을 충족시켜주는군!
+alreadymsg:좋았어 합격!
+onebattle:1

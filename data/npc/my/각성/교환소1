@@ -1,0 +1,70 @@
+NomalMainMsg:'리카스' 라는 각성으로 태어난 알를 부화시키는 일를 맡고 있습니다.
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET>79-1308*1
+AcceptMsg:\n '리카스'를 부화시키기 위한 조건을 맞추어 주셨군요. \n 리카스를 부화시키겠습니까? \n [부화비용 0스톤] [성공율 100%]
+ThanksMsg:\n 부화를 완료하였습니다. 페트창을 확인해주십시오.
+PetFullMsg:\n 페트창을 비워줄래?
+GetPet:3179,3185,3190,3195
+DelPet:PET>79-1308*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET>79-1309*1
+AcceptMsg:\n '리카스'를 부화시키기 위한 조건을 맞추어 주셨군요. \n 리카스를 부화시키겠습니까? \n [부화비용 0스톤] [성공율 100%]
+ThanksMsg:\n 부화를 완료하였습니다. 페트창을 확인해주십시오.
+PetFullMsg:\n 페트창을 비워줄래?
+GetPet:3180,3186,3191,3196
+DelPet:PET>79-1309*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET>79-1310*1
+AcceptMsg:\n '리카스'를 부화시키기 위한 조건을 맞추어 주셨군요. \n 리카스를 부화시키겠습니까? \n [부화비용 0스톤] [성공율 100%]
+ThanksMsg:\n 부화를 완료하였습니다. 페트창을 확인해주십시오.
+PetFullMsg:\n 페트창을 비워줄래?
+GetPet:3182,3187,3192
+DelPet:PET>79-1310*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET>79-1311*1
+AcceptMsg:\n '리카스'를 부화시키기 위한 조건을 맞추어 주셨군요. \n 리카스를 부화시키겠습니까? \n [부화비용 0스톤] [성공율 100%]
+ThanksMsg:\n 부화를 완료하였습니다. 페트창을 확인해주십시오.
+PetFullMsg:\n 페트창을 비워줄래?
+GetPet:3183,3188,3193
+DelPet:PET>79-1311*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET>79-1312*1
+AcceptMsg:\n '리카스'를 부화시키기 위한 조건을 맞추어 주셨군요. \n 리카스를 부화시키겠습니까? \n [부화비용 0스톤] [성공율 100%]
+ThanksMsg:\n 부화를 완료하였습니다. 페트창을 확인해주십시오.
+PetFullMsg:\n 페트창을 비워줄래?
+GetPet:3184,3189,3194
+DelPet:PET>79-1312*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29
+AcceptMsg:\n\n안녕하세요. \n저는 '리카스' 라는 각성으로 태어난 알를 부화시키는 일를 맡고 있습니다.
+ThanksMsg:\n\n\n'리카스' Lv1 짜리를 Lv80까지 키워오시면 부화를 도와드리도록 하겠습니다!
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

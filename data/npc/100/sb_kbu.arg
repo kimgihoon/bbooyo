@@ -1,0 +1,9 @@
+entype:2
+askbattlemsg1:여길지나가려면, 나를 이겨야한다.
+startmsg:어디한번 해보자! 이얍!。
+dieact:0
+end msg:
+enemyno:1272,1277,1277,1280,1280,1278,1273,1273,1275,1275
+deniedmsg:이게 끝이아니다. 우리보스가 너를 기다릴거다。
+onebattle:0
+time:180

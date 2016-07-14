@@ -1,0 +1,38 @@
+NomalMainMsg:唱绰 窍肺魂狼 狼荤匙! 巢甸苞绰 促弗 距檬甫 某瘤.
+
+#希望玩家找药
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2401
+NomalWindowMsg:绢辑 弊 贸赤俊霸 距檬甫 艾促林霸!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=1984
+NomalWindowMsg:药粉已经确实交给你啦，尽快把这药粉送给病患吧！
+EventEnd
+
+###身上有药###
+EventNo:-1 
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=1983&ITEM=1982
+AcceptMsg1:你要我帮你把爱困草磨成药粉啊？好的，你稍等一下喔。
+ThanksMsg1:好了，拿去吧。
+ItemFullMsg:你身上的东西可以减少一点吗。
+GetItem:1984
+DelItem:1983*1
+EventEnd
+
+#接任务前来拿香草，没草给草
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=1&ITEM!=2401,NOWEV=87&ITEM!=2401,ENDEV=87&ITEM!=2401
+AcceptMsg1:弊 贸赤俊霸 何殴罐绊 吭唱?
+ThanksMsg1:弊繁啊? 舅疽促.\n弊矾搁 捞 距檬甫 林付.\n捞 距檬绰 捞 魂俊父 磊扼绰 距檬肺\n缴厘捍俊 辈厘洒 亮酒.\n弧府 捞 距檬甫 弊 贸赤俊霸 爱促林霸.\n郴啊 救何 傈茄促绊档 窍绊..
+GetItem:2401
+ItemFullMsg:酒捞袍 沫捞 啊垫 谩绢.
+EventEnd
+
+
+

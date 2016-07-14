@@ -1,0 +1,26 @@
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:코~~도오!
+askbattlemsg4:
+startmsg:코도도도도도도도!!!!
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21249
+enemyno:3311
+deniedmsg:코도코도코도코도~
+alreadymsg:코오도코도코도
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ITEM=21249
+WARP:
+endmsg:( 도망간다. )
+AddItem:21248
+DelItem:
+OVER

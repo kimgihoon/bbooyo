@@ -1,0 +1,38 @@
+NomalMainMsg:쟈쟈마을이 이렇게 나무가 많을지는 몰랐네!!!
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=180
+AcceptMsg:\n저희 우루리마을로 오실려면 남쪽 다리를 건너 토토마을 강을 따라내려오시면 보이실겁니다.
+ThanksMsg:\n우루리마을 사람들은 모두 체구가 작으니 주의해주세요
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>9&PET=1-21*1
+AcceptMsg:\n[꼬미 LV1] 페트를 포획해오셨군요. 감사합니다. 덕분에 번거로운 일를 사라지게되었네요.
+ThanksMsg:\n 갖고싶었던 꼬미를 얻었으니 다시 우루리마을로 돌아가야겠어요. 아 그리고 이 페트랑 아이템은 제가 꼬미를 잡을때 쓸려고 구해온것인데. 선물로 드리도록 할게요
+itmeFullMsg:아이템창을 비워주세요.
+PetFullMsg:\n 페트창을 비워줄래요?
+GetItem:21192,21193,21099
+GetPet:3252
+DelPet:PET=1-21*1
+EndSetFlg:180
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>9
+AcceptMsg:\n안녕하세요. 저는 우루리마을에서 온 번 이라고 합니다.\n제가 꼬미를 잡기위해 이 곳 쟈쟈마을까지 왔지만 알고보니 카루타나마을 근처 동굴에 서식한다고 하는군요
+ThanksMsg:\n저는 몸집이 작아 카루타나마을로 가려면 족히 2주일은 걸릴지 모릅니다.. 부탁이지만 카루타나마을 근처에 있는 '라토토의 복도'로 가셔서 [꼬미 LV1] 페트 1마리를 포획해 오실 수 있나요? 
+EventEnd
+
+
+
+
+
+
+
+

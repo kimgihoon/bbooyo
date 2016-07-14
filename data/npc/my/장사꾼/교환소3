@@ -1,0 +1,20 @@
+NomalMainMsg:(엄청 무거워 보이는 광석이다. 장갑을 안끼는이상 무리가 들지않을까 싶다..)
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21117
+AcceptMsg:\n (광석을 들으시겠습니까?)
+ThanksMsg:\n 광석을 들어올리셨습니다.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21114
+DelItem:
+EventEnd
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+entype:2
+askbattlemsg1:
+askbattlemsg2:
+askbattlemsg3:이 곳부터는 마음대로 지나갈 수 없어!
+askbattlemsg4:만약에 날 이겨 쓰러트린다면 
+askbattlemsg5:이 길를 비켜주지!
+startmsg:각오해, 쉽지 않을거야. 간다 후마！
+dieact:0
+#warpfl:100
+#warpx:472
+#warpy:293
+end msg:
+enemyno:253,254
+deniedmsg:이렇게 허망하게 쓰러지다니 본드족의 증표만 있었어도..
+time=60
+

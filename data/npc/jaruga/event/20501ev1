@@ -1,0 +1,92 @@
+
+########################################
+# 乖角芚릊淚소벗람。等湳？쟤벧걸？쮷#
+#쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺덫훨諒：訶儺#
+########################################
+
+NomalMainMsg:나는 최강의 대장장이 한일세. 무슨 일인가?
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=19&ITEM!=2466
+NomalWindowMsg:\n어? 바루의 작업의뢰서를 잃어버렸나?\n그럼 나도 일을 해줄 수 없어!\n다시 받아오게!
+EventEnd
+
+EventNo:19
+TYPE:ACCEPT
+EVENT:NOWEV=19&ITEM=2464&ITEM=2466
+AcceptMsg:\n흐음! 여기까지 다시 오느라 고생했군.\n잠깐 거기서 기다리시게.
+ThanksMsg:\n쿵·쿵·깡·쾅·쿵···。\n자! 됐다.\n이 도끼를 가지고 바루에게 가지고 가!
+GetItem:2465*1
+DelItem:2464,2466,2463
+EndSetFlg:19
+ItemFullMsg:아이템 칸을 비워주길 바래!
+EventEnd
+
+EventNo:19
+TYPE:MESSAGE
+EVENT:NOWEV=19&ITEM!=2463&ITEM=2466
+NomalWindowMsg:\n항아리를 잃어버린게야?\n다시 주지만 잃어버리지 말게!\n떨어뜨리면 소멸해버려!
+GetItem:2463
+ItemFullMsg:아이템 칸을 비워주길 바래!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=19&ITEM=2465
+NomalWindowMsg:\n바루는 언제나 내게 부탁을 하지!\n그 도끼를 가지고 바루에게 가거라!
+EventEnd
+
+EventNo:19
+TYPE:REQUEST
+EVENT:ITEM=2466
+RequestMsg:\n응? 그건 바루의 작업의뢰서잖아.\n그 녀석의 부탁이라면 거절할 수 없지.\n이봐! 미안하지만 일을 도와주지 않을래?
+ThanksMsg:\n좋아! 성실한 녀석이군.\n미안하지만 맨 밑층까지 가서\n수장한테 물을 받아오게.\n이 항아리 가득 부탁해.
+StopMsg:\n거절할셈인가?
+EndStopMsg:\n그럼 이만 가보게.
+NoStopMsg:\n그럼 어서 수장에게 가보게.
+GetItem:2463
+ItemFullMsg:아이템 칸을 비우고 오게!
+EventEnd
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:ITEM=2484
+RequestMsg:\n응? 이것은 바루의 부러진 도끼아닌가?\n이리줘보게. 내가 손봐줄테니.
+ThanksMsg:\n쿵·쿵·깡·쾅·쿵···。\n자! 됐다.
+GetItem:2485*1
+DelItem:2484*1
+ItemFullMsg:아이템 칸을 비우고 오게!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2465
+NomalWindowMsg:\n내 도끼는 누구보다 완벽하지!\n그렇게 생각하지 않나?
+EventEnd
+
+EventNo:-1
+TYPE:CLEAN
+EVENT:ENDEV=19
+CleanFlg:19
+CleanFlgMsg:乖옵꼇角\n踞긱앎곤훙逞芚릊庫돨錫！
+CleanMainMsg:痂척？拳헝乖隣릊庫찐？
+EventEnd
+
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:ITEM=1837
+RequestMsg:侶寧겉篤네뻘廬角鬼핀쑹鈴，찬景깎돨，켜밍청唐훙삔錦잿侶寧겉篤네。
+ThanksMsg:봤！乖곤콱錦릿劍걸！\n偵、偵、偵、偵、偵∼\n윱！콱옵鹿겉劍던浬죄！
+GetItem:1838*1
+DelItem:1837*1
+ItemFullMsg:痂척찍！콱돨돛야홍찮죄찍！
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=1838
+NomalWindowMsg:侶各썹廬펜췸∼\n젯篤네떼옵鹿隣돕侶척鬼！
+EventEnd

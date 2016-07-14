@@ -1,0 +1,41 @@
+##################################################
+#哥亚山洞窟中与乌力的谈话事件(哥亚山)#
+# 				       担任者:西竹
+##################################################
+
+NomalMainMsg:其飘客 捞具扁且 荐 乐阑鳖?, 抄 其飘客 捞具扁甫 窍绊 酵绢.
+
+EventNo:6
+TYPE:ACCEPT
+EVENT:NOWEV=6&ITEM=2414*2
+AcceptMsg:\n捞惑茄 炼俺甫 备秦吭绢?\n滴 俺啊 乐绰 巴 鞍篮单\n笛 促 郴霸 临 荐 乐绢?
+ThanksMsg:\n绊付况!!\n滴 俺促 郴霸 林促聪 馒窍备唱!\n焊翠栏肺 郴 家吝茄 其飘甫 呈俊霸 临抛聪\n肋 虐况拎!
+DelItem:2414*1
+GetPet:44
+PetFullMsg:其飘 沫捞 何练秦.  
+EndSetFlg:6
+EventEnd
+
+EventNo:6
+TYPE:ACCEPT
+EVENT:NOWEV=6&ITEM=2414*1
+AcceptMsg:\n捞惑茄 炼俺甫 备秦吭绢?\n茄 俺啊 乐绰 巴 鞍篮单\n郴霸 临 荐 乐绢?
+ThanksMsg:\n绊付况!!\n窍唱观俊 绝绰单 郴霸 林促聪 馒窍备唱!\n焊翠栏肺 郴 家吝茄 其飘甫 呈俊霸 临抛聪\n肋 虐况拎!
+DelItem:2414*1
+GetPet:47
+PetFullMsg:其飘 沫捞 何练秦.    
+
+EndSetFlg:6
+EventEnd
+
+
+EventNo:6
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:\n舅绊 乐聪?\n捞惑茄 炼俺扼绰 巴阑 爱绊 乐栏搁\n捞 悼奔俊 混绊 乐绰 葛电 其飘客\n措拳甫 且 荐 乐促绊 秦.\n父老 弊 炼俺甫 啊瘤绊 乐促搁\n唱俊霸 窍唱 林瘤 臼摆聪?
+ThanksMsg:\n绊付况! 肋 何殴秦!\n家巩栏肺绰 弥辟俊 墨风鸥唱俊辑 柯\n付府呈胶 惑牢捞 爱绊 乐促绊 甸菌绢\n炼俺甫 掘霸 等促搁 绝绢瘤瘤 臼档废\n糠俊 崔绊 乐阑芭具!
+StopMsg:\n郴 何殴阑 芭例且芭具?
+EndStopMsg:\n弊贰. 开矫 其飘客 措拳绰 绢菲摆瘤.
+NoStopMsg:\n绊付况! 绢辑 免惯秦拎!
+EventEnd
+

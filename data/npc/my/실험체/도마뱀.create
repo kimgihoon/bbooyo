@@ -1,0 +1,13 @@
+NPCCREATE
+
+{
+floorid=14444
+borncenter=69,150,1,1
+movecenter=20,20,100,100
+createnum=1
+time=
+dir=8
+graphicname=110637
+name=실험체
+enemy=sb_muge1|file:my/실험체/도마뱀
+}

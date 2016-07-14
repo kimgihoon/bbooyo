@@ -1,0 +1,10 @@
+entype:2
+askbattlemsg1:넌 뭔데 나의 앞을지나가려고하니?
+askbattlemsg2:
+start msg:어디한번 해볼테면 해봐！！
+dieact:0
+end msg:
+enemyno:660
+deniedmsg:크어억--
+time:180
+

@@ -1,0 +1,34 @@
+NPCCREATE
+{
+floorid=14450
+borncenter=26,2
+time=0
+createnum=1
+graphicname=100755
+name=본드족 삼황
+dir=4
+enemy=changeevent|file:my/본드족4대장/교환소1
+}
+
+{
+floorid=14450
+borncenter=11,3
+time=0
+createnum=1
+graphicname=100740
+name=본드족 삼황
+dir=4
+enemy=changeevent|file:my/본드족4대장/교환소2
+}
+
+{
+floorid=14450
+borncenter=26,23
+time=0
+createnum=1
+graphicname=100715
+name=본드족 삼황
+dir=4
+enemy=changeevent|file:my/본드족4대장/교환소3
+}
+

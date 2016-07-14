@@ -1,0 +1,12 @@
+NPCCREATE
+##万圣节爱宠男人##
+{
+name=杰克
+floorid=3403
+borncenter=15,12,1,1
+dir=5
+createnum=1
+time=0
+graphicname=16106
+enemy=sb_dou|file:party/halloween/jack.arg
+}

@@ -1,0 +1,31 @@
+NomalMainMsg:제발 저희 동료분들를 구해주세요...!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21172
+AcceptMsg:\n\n제 부탁을 거절하시겠나요?
+ThanksMsg:\n어쩔수없군요. 저 무서운 본드족 앞에서 제가 너무 힘든 부탁을 했죠.
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:21172
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29
+AcceptMsg:\n제발 저희 동료분들를 구해주세요!!\n 본드족들이 원하는건 제가 가지고 있는 이 기밀문서입니다. 이 문서와 저희 동료분들과 교환하자고 제시해주십시오.
+ThanksMsg:\n자! 어서 협상을 시작하세요..
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21172
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+#####莫西克#####
+
+NomalMainMsg:唱绰 傈汲狼 轨棱捞啊 瞪芭具!!
+
+####任务结束对话####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&ENDEV=4&ENDEV=138
+NomalWindowMsg:剩下的鳞片我想把它做成手炼呢！
+EventEnd
+
+###完成任务收四种蛇鳞片（关标１３８）###
+EventNo:138
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&NOWEV=138&ITEM=1703&ITEM=1704&ITEM=1705&ITEM=1706
+AcceptMsg1:\n客! 4辆幅狼 厚疵阑 茫疽匙!\n坷阀悼救 谩带扒单..! 焊翠栏肺 捞 4辆幅狼\n厚疵肺 癌渴阑 父甸绢 临膊. 抄 捞 厚疵甸狼 累篮 炼阿甸父 乐绢档 面盒秦!
+ThanksMsg1:\n磊 捞吧 罐酒!\n绊付况!!
+GetRandItem:1707
+DelItem:1703*1,1704*1,1705*1,1706*1,1702*1
+EndSetFlg:138
+EventEnd
+
+###完成任务收地蛇鳞片（关标１３８）###
+EventNo:138
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&NOWEV=138&ITEM=1703
+AcceptMsg1:\n弊 厚疵篮..! 己傍沁备唱!\n绊付况!\n窍瘤父 厚疵篮 醚 匙俺甫 啊廉客具秦.\n咯扁辑 弊父且贰?
+AcceptMsg2:\n弊繁啊? 酒奖备唱.\n匙啊 匙 俺狼 厚疵阑 促 葛酒柯促搁\n郴啊 漂喊茄 吧 林妨绊 沁菌绰单..
+ThanksMsg1:绊付况!\n磊 捞吧 罐酒!
+GetRandItem:1402
+DelItem:1703*1,1702*1
+EndSetFlg:138
+EventEnd
+
+###完成任务收水蛇鳞片（关标１３８）###
+EventNo:138
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&NOWEV=138&ITEM=1704
+AcceptMsg1:\n弊 厚疵篮..! 己傍沁备唱!\n绊付况!\n窍瘤父 厚疵篮 醚 匙俺甫 啊廉客具秦.\n咯扁辑 弊父且贰?
+AcceptMsg2:\n弊繁啊? 酒奖备唱.\n匙啊 匙 俺狼 厚疵阑 促 葛酒柯促搁\n郴啊 漂喊茄 吧 林妨绊 沁菌绰单..
+ThanksMsg1:绊付况!\n磊 捞吧 罐酒!
+GetRandItem:1379
+DelItem:1704*1,1702*1
+EndSetFlg:138
+EventEnd
+
+###完成任务收火蛇鳞片（关标１３８）###
+EventNo:138
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&NOWEV=138&ITEM=1705
+AcceptMsg1:\n弊 厚疵篮..! 己傍沁备唱!\n绊付况!\n窍瘤父 厚疵篮 醚 匙俺甫 啊廉客具秦.\n咯扁辑 弊父且贰?
+AcceptMsg2:\n弊繁啊? 酒奖备唱.\n匙啊 匙 俺狼 厚疵阑 促 葛酒柯促搁\n郴啊 漂喊茄 吧 林妨绊 沁菌绰单..
+ThanksMsg1:绊付况!\n磊 捞吧 罐酒!
+GetRandItem:1309
+DelItem:1705*1,1702*1
+EndSetFlg:138
+EventEnd
+
+###完成任务收风蛇鳞片（关标１３８）###
+EventNo:138
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&NOWEV=138&ITEM=1706
+AcceptMsg1:\n弊 厚疵篮..! 己傍沁备唱!\n绊付况!\n窍瘤父 厚疵篮 醚 匙俺甫 啊廉客具秦.\n咯扁辑 弊父且贰?
+AcceptMsg2:\n弊繁啊? 酒奖备唱.\n匙啊 匙 俺狼 厚疵阑 促 葛酒柯促搁\n郴啊 漂喊茄 吧 林妨绊 沁菌绰单..
+ThanksMsg1:绊付况!\n磊 捞吧 罐酒!
+GetRandItem:1217
+DelItem:1706*1,1702*1
+EndSetFlg:138
+EventEnd
+
+####身上有蛇之石####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&ENDEV=4&ITEM=1702&NOWEV=138
+NomalWindowMsg:\n绢辑 付阑 辟贸狼 悼奔肺 啊毫!\n侩狼 悼奔捞看带啊?
+EventEnd
+
+###重拿蛇之石##
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&NOWEV=138&ITEM!=1702
+AcceptMsg1:构? 倒阑 酪绢滚啡促备?!
+ThanksMsg1:捞繁.. 促矫 临霸! 捞哩 酪绢滚府瘤付!
+GetItem:1702*1
+ItemFullMsg:酒捞袍捞 啊垫 谩匙?
+EventEnd
+
+###接任务给唤蛇之石##
+EventNo:138
+TYPE:REQUEST
+EVENT:LV>29&ENDEV=4
+RequestMsg1:倾浅阑 栋绰霸 酒聪具!\n唱绰 绢妨辑何磐 轨阑 棱绰 巴阑 硅奎瘤.\n轨阑 棱绰 巴篮 唱俊霸 侥篮 磷 冈扁具.\n瘤陛 唱甫 鲍酚洒绰 扒 官肺 捞 付阑 辟贸俊 乐绰 悼奔 挥捞具.\n弊 救狼 轨篮 傈何 促 蠕切秦..\n割锅捞唱 棱栏矾 艾绰单 酒公 荐犬捞 绝菌绢.
+RequestMsg2:\n匙啊 唱 措脚 茄锅 弊镑俊 啊林瘤 臼阑贰?
+ThanksMsg1:嘎促, 镭阑 环 沁匙. 规陛 呈俊霸 霖 轨阑 何福绰 倒阑 啊瘤绊 乐栏搁, 奖霸 蠕厩茄 轨苞\n付林磨 荐 乐绢.\n酒捞袍阑 割俺 厚况初绊 啊绰 吧 镭瘤付!!
+GetItem:1702*1
+ItemFullMsg:酒捞袍捞 啊垫 谩匙?
+EventEnd
+
+#### 未接任务对话 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n唱绰 葛矫内扼绊 秦.\n唱绰 绢副利何磐 轨阑 棱酒吭瘤.
+EventEnd

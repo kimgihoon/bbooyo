@@ -1,0 +1,38 @@
+NomalMainMsg:얼마전 수수께끼 지진는 무엇일까?
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=164
+NomalWindowMsg:\n 얼마전 수수께끼 지진는 무엇일까?
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21137*1&ENDEV=4
+AcceptMsg:\n 칵테일를 가져왔구나! 바로 이거지! 얼마나 마시고 싶었는지 몰라
+ThanksMsg:\n 고마워\n 너가 나에게 칵테일를 만들어다줬으니 나도 너에게 보답을 해줘야겠지? 진짜로 고마워~
+PetFullMsg:\n페트창을 비워줄래요?
+GetPet:3016
+DelItem:21137*1
+EndSetFlg:164
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4
+AcceptMsg:\n너는 아랫섬에서 온 아이로구나? 마침 잘 됐구나. 토토마을에 갈 일이 있니?
+ThanksMsg:얼마전 토토마을에 가서 토토 칵테일를 마셔보았는데 그게 무척 맛있더라고!\n괜찮다면 들렸다오는길에 토토 칵테일바 앞에있는 바니걸 루나에게 칵테일를 부탁해 만들어 올 수 있니? 
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+###########################################################
+#쯔쟝컹介뵨힉캠섈랑裂쇌돨돛야騰箇慤숭（쯔쟝컸薑）#
+# 						덫훨諒：鮫賂#
+###########################################################
+
+NomalMainMsg:샴기르에 가본 적 있니? 그곳엔 내 친구 은경이가 있어.
+
+EventNo:-1
+TYPE:CLEAN
+EVENT:ENDEV=2&ITEM!=2414&SP=0,ENDEV=2&ITEM!=2414&SP=3
+CleanFlg:2
+CleanFlgMsg:\n그냥 막 줄 수는 없어.\n샴기르에 은경이에게 가서\n꽃을 받아와.
+CleanMainMsg:\n뭐? 조개껍질을 하나 더 달라구?
+EventEnd
+
+
+EventNo:2
+TYPE:ACCEPT
+EVENT:NOWEV=2&ITEM=2415
+AcceptMsg:\n샴기르의 은경이가 이 꽃을?
+ThanksMsg:\n고마워! 답례로 이 조개껍질을 줄게.\n어딘가에 살고 있는 페트의 이야기를\n이해하는데 도움이 될지도 몰라.
+ItemFullMsg:아이템 창이 가득찼어.
+GetItem:2414
+DelItem:2415
+EndSetFlg:2
+EventEnd
+
+
+EventNo:2
+TYPE:REQUEST
+EVENT:LV>0&SP=1,LV>0&SP=2
+RequestMsg:너 샴기르에 가봤니？\n거기에 있는 내친구 꽃미녀에게\n이것 좀 전해줄래？
+ThanksMsg:정말로?? 우와~~ 고마워!!。\n\n꽃미녀는.......\n샴기르마을안에 입구에 있어..\n
+StopMsg:왜 마리너스에 가기 귀찮아서 ??\n안해줄려구??\n장난이지~?
+EndStopMsg:쳇... 그럼 다음에 시간날때 해줘...
+NoStopMsg:그럴줄 알았어!!\n미녀가 지금 조개를 기다리느라\n힘들어 할꺼야 어서 가서 전해줘!!
+ItemFullMsg:아이템 창이 가득찼어...
+GetItem:2414
+EventEnd
+
+

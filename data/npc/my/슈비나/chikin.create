@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=3000
+borncenter=103,101
+time=0
+createnum=1
+graphicname=16441
+name=아이돌 슈비나
+dir=6
+enemy=changeevent|file:my/슈비나/교환소1
+}
+

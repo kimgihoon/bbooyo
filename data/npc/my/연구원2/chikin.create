@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=15080
+borncenter=15,31
+time=0
+createnum=1
+graphicname=16306
+name=연구원
+dir=4
+enemy=changeevent|file:my/연구원2/교환소1
+}
+

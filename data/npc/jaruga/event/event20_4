@@ -1,0 +1,50 @@
+#É½ÔôµÄÊÂ¼þ................Ç¿¶÷
+NomalMainMsg:³ª´Â ÀòÀÌ´Ù. ÀÌ °÷ÀÇ ÅëÄ¡ÀÚÁö.,¹«½¼ ÀÏÀÌÁö?
+
+#Ò»¿ªÊ¼µÄ¶Ô»°
+EventNo:20
+TYPE:ACCEPT
+EVENT:NOWEV=20&ITEM=2487
+AcceptMsg:\n³Ê´Â ÄíÅ°ÀÇ ÃÌÀå°ú ¾Æµé¿¡°Ô\nºÎÅ¹À» ¹Þ°í ÀÌ°÷¿¡ ¿Ô´Â°¡?\n±×·³ ±× µþ ¾Ö°¡ »ì¾ÆÀÖ´Ù¸é µ¥·Á°¡°í\n½Í´Ù´Â ¸»ÀÌ±º!
+ThanksMsg:\nÀ½, ±×·¸´Ù¸é ³» ¿·¿¡ ³ªÀÇ\n¾Æ³»¿Í ÀÌ¾ß±âÇØº¸¼¼.
+ItemFullMsg:\n¾ÆÀÌÅÛÀÌ °¡µæÃ¡¾î.
+EndSetFlg:20
+EventEnd
+
+
+#ÌýÁËÅ®¶ùµÄ»°Ö®ºó
+EventNo:22
+TYPE:ACCEPT
+EVENT:ENDEV=20&NOWEV=21
+AcceptMsg:\n±×·±°¡? »ç¶ó°¡ ±×·± ¸»À» Çß³ª?\n»ç¶ó°¡ Ä£ºÎ¸ðÇÑÅ× °¡°í ½Í´Ù°í\nÇÑ´Ù¸é ¸·Áö´Â ¾ÊÀ¸·Á°í ÇßÁö¸¸..
+ThanksMsg:\nÀÏ´Ü ¸Õ ±æÀ» ¿À´À¶ó°í ¼ö°íÇß³×.\n»ç¶ó¸¦ À§ÇØ¼­´Ï ³ªµµ º¸´äÀ» ÇÏÁö.\n±× ¿ë±â¸¦ ³ôÀÌ»ç¼­ ÀÌ°ÍÀ» ÁÖ¸¶.\n¹Ýµå½Ã µµ¿òÀÌ µÉ°Å¾ß.\n»ç¶ó°¡ ÀÚ³×¸¦ ºÎ¸£°í ÀÖ±º!
+ItemFullMsg:¾ÆÀÌÅÛÀÌ °¡µæ Ã¡±º.
+GetRandItem:2490,2491,2492,2493,2494
+EndSetFlg:22
+EventEnd
+
+
+EventNo:21
+TYPE:MESSAGE
+EVENT:ENDEV=22&NOWEV=21&ITEM!=2488
+NomalMsg:»ç¶ó´Â ³» Ä£ µþ°ú ´Ù¸§ÀÌ ¾ø¾î.
+EventEnd
+
+EventNo:21
+TYPE:MESSAGE
+EVENT:ENDEV=20&NOWEV=21&ITEM=2488
+NomalMsg:»ç¶ó´Â ±×·± ¼±ÅÃÀ» Çß³ª.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21&ENDEV=22
+NomalMsg:Ð»Ð»Äã°ïÎÒËÍÐÅ¡£
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20
+NomalMsg:¿©±â±îÁö ¿Ã¶ó¿À´Ù´Ï, ´ë´ÜÇÏ±º.
+EventEnd
+

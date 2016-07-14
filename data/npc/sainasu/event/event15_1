@@ -1,0 +1,69 @@
+#곤벗쨀奈奈婁돕쨀콩悸薑裂慤숭섟箇30섬돨굔쨀엥돨慤숭
+NomalMainMsg:음음.. 그 공룡은 말이지, 레벨 15이상부터 점프를 높게 뛴다고 하지.
+
+EventNo:15
+TYPE:ACCEPT
+EVENT:NOWEV=15&PET>14-74
+AcceptMsg:오오 가지고 왔는가?\n그래! 그 페트, 루니야!\n루니 외에 페트를 가지고 있지 말게!\n아무거나 가져가 버릴 것이야!
+ThanksMsg:고맙네! 덕분에 연구를 계속할 수 있어!\n앞으로도 잘 부탁하네!
+ItemFullMsg:아이템 창을 비워주게!\n내가 좋은 선물을 주지!
+DelPet:PET>14-74*1
+GetRandItem:1350,1351,1352,1354,700,1455,1102,1122
+EndSetFlg:15
+EventEnd
+
+EventNo:16
+TYPE:ACCEPT
+EVENT:ENDEV=15&NOWEV=16&PET>29-191
+AcceptMsg:그래! 그 페트지!\n베르가 외에 페트를 가지고 있지 말게! 그렇지 않으면 아무거나 빼앗아버릴 거야!
+ThanksMsg:고맙네!\n이로서 내 연구는 한층 더 발전할 것이야.\n내 연구를 거친 페트 한마리를 주지!
+PetFullMsg:페트 창이 꽉 찼군, 자리를 양보해주겠나?
+DelPet:PET>29-191*1
+GetPet:95
+EndSetFlg:16
+EventEnd
+
+EventNo:15
+TYPE:REQUEST
+EVENT:LV>9
+RequestMsg:나는 공룡 박사라고 하네!?\n내 얘기를 들어주겠나?\n실은 다음 공룡에 관해 연구하고 싶은데 갈수가 없어! 나이가 들어서 말이지.\n사이너스의 동서를 흐르는 강을 건너면 있는 갈색 공룡을 잡아와줬으면 하네!\n자세한 것은 저쪽의 조수에게 들어보게!
+ThanksMsg:내 부탁을 들어준다고?\n고맙네!!\n내 연구를 계속 할 수 있겠어!\n나는 세계에서 가장 유능하고 박식한 공룡 박사야!
+StopMsg:그 공룡을 못 잡아왔는가?\n내 부탁을 거절할 셈이로군.\n아쉽군 아시워!
+EndStopMsg:생각이 바뀌거든 다시 돌아오게!
+NoStopMsg:어서 출발하게, 기다리고 있겠네
+EventEnd
+
+
+EventNo:16
+TYPE:REQUEST
+EVENT:LV>15&ENDEV=15
+RequestMsg:오! 자네! 자네! 잠깐 내 얘기 좀 듣게!\n루니에 이어서 새로운 연구를 시작했어!\n그것은 푸른 빛의 호랑이지!\n새끼 호랑이는 너무 약하니\n내게 레벨 30의 베르가를 잡아다 줄 수 없겠나!?
+ThanksMsg:고맙네! 자네라면 내 부탁을 들어주리라 생각했어!
+StopMsg:내 부탁을 포기할건가?\n자네라면 충분할 것이라 생각했것만..
+EndStopMsg:그런가, 아쉽군!\n생각이 바뀌거든 다시 날 찾아오게!
+NoStopMsg:역시 그렇지! 어서 출발해주게!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=15&PET>0-74
+NomalMsg:剋剋콱곤乖婁윱가！앎겉콱뎠鱗乖돨燎癎걸！
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=15&NOWEV=16&PET>29-191
+NomalMsg:콱봤獗뻘청唐쒔법냥쾨돨老駕걸！된供냥죄疼윱걸！
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=15&ENDEV=16
+NomalMsg:앞으로의 내 연구는 계속해서 발전할 것이야!
+EventEnd
+
+
+
+
+
+

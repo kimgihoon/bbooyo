@@ -1,0 +1,12 @@
+NPCCREATE
+##万圣节贝理##
+{
+name=调皮的贝理
+floorid=4000
+borncenter=99,70,1,1
+dir=5
+createnum=1
+time=0
+graphicname=16046
+enemy=elfish|file:party/halloween/elfish.arg
+}

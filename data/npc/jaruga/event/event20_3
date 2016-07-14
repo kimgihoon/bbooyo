@@ -1,0 +1,29 @@
+#山贼的事件................吉德的儿子
+
+NomalMainMsg:唱绰 瘤档狼 酒甸涝聪促.
+
+#身上没有发饰的时候NOWEV=20
+EventNo:20
+TYPE:ACCEPT
+EVENT:NOWEV=20&ITEM!=2487
+AcceptMsg:\n捞霸 蜡老窍霸 悼积俊霸 扁撅俊 巢酒乐阑\n芭扼绊 积阿登绰 决付狼 庆绢 宏复瘤具.\n绢副锭绰 捞巴阑 啊瘤绊 愁绊绰 沁瘤.\n悼积阑 焊霸 登搁 怖 单府绊 客 拎.
+ThanksMsg:\n绊付况! 捞巴阑 罐酒.\n悼积篮 莉练狼 悼奔俊 乐阑芭扼绊\n积阿阑 窍绊 乐绢.\n怖 何殴秦!
+ItemFullMsg:\n酒捞袍捞 啊垫 谩焙.
+GetItem:2487
+EventEnd
+
+
+EventNo:20
+TYPE:MESSAGE
+EVENT:NOWEV=20&ITEM=2487
+NomalMsg:郴 悼积阑 茫酒拎..!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21
+NomalMsg:绊付况! 傣盒俊 郴 悼积阑 茫疽绢.
+EventEnd
+
+

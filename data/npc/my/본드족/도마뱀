@@ -1,0 +1,27 @@
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:우리 본드족은 이번 계기로 라케시스 대륙으로 진출할려한다!
+askbattlemsg2:그러기 위해서는 무엇보단 많은 기술과 페트가 필요하지
+askbattlemsg3:하지만 사이너스 대륙에 비해 라케시스 대륙의 페트들은 상대가 안될만큼 강하더군
+askbattlemsg4:그래서 가장 먼저 이 중앙 연구소의 기밀기술과 페트들를 빼돌려 힘을 키울 예정이다! 
+startmsg:기고만장한 것!!! 덤벼라!
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21172
+enemyno:3197,3198,3198,3199,3199,3200,3200,3200
+deniedmsg:꺼져!
+alreadymsg:애송이 녀석!
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ITEM=21172
+WARP:15080,17,29
+endmsg:으악! 일단 후퇴한다!!
+AddItem:21076
+DelItem:
+OVER

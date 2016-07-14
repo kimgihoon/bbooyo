@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:13860,29,99
+FREE:LV>149
+MONEY:-1
+FreeMsg:당신는 이곳을 지나가실 수 있습니다! 동굴 안에는 [델푸스 LV156~161] 페트가 서식하니 주의하십시오.
+PayMsg:이 곳은 너무 위험한 동굴이오니 출입을 금지합니다.
+PartyMsg:파티로 대화하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

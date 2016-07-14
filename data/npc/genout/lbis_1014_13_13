@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:1.5
+buy_msg:你好,引谢谢,打工,工作,帮忙,baito,work,hataraku,送货,送货,货物,货物,nimotu,todoke
+main_msg:谢谢！
+sell_msg:卖,卖,卖,卖,卖,sell,uru
+sell_main:绢恫 荐窍拱捞具？
+other_msg:暗示
+hint_msg:目前没有。
+sellonly_msg:唱绰 妇葛胶 琶硅荐窍拱父 概涝 罐绊乐绢。\n概涝且霸 乐绰芭具?
+stone_msg:你的金额已满了唷！
+realy_msg:运送货物的酬劳大概就这样了。
+LimitItemNo:2402,2403,2404
+special_item:
+special_rate:0.5
+
+
+

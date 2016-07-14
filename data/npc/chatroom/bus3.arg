@@ -1,0 +1,13 @@
+routenum:1
+routeto1:631,485;631,488;631,520;566,515;572,581;536,615;514,615;501,622;465,622;464,628
+routename1:샴기르∥쿠오
+denieditem:2402,2403,2404,2405,2406,2407,2408,2409,2410,2411,2412,2413
+waittime:180
+needstone:25
+msg_gettingon:빠아오오옹!
+msg_notparty:출발합니다!
+msg_overparty:더이상자리가없어요!
+msg_denieditem:아이템이 끝났어요!
+msg_stone:차비를 지불해주세요
+msg_start:출발합니다.빠아오오옹~~
+msg_end:목적지에 도착했습니다.

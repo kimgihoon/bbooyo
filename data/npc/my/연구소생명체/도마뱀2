@@ -1,0 +1,26 @@
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:키야오~~!!!
+askbattlemsg3:
+askbattlemsg4:캬오오!!
+startmsg:크아아아아오!!!
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21197
+enemyno:3257
+deniedmsg:크르르릉~! 캬오!!
+alreadymsg:키키키-!
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ITEM=21197
+WARP:
+endmsg:큭..
+DelItem:
+OVER

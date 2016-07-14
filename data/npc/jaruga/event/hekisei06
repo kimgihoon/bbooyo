@@ -1,0 +1,24 @@
+###########################################################
+朞嶝댕芎綾쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺  #
+# 						맏得훙：鮫賂#
+###########################################################
+
+NomalMainMsg:포타를 획득할 수 있는 상자。
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2766
+AcceptMsg:\n\n선물를 열어보시겠습니까？
+ThanksMsg:\n\n\n내용물를 확인하세요。
+ItemFullMsg:\n\n\n아이템창을 비워세주요。
+GetRandItem:21099,21100,21101,21102,21103,21104
+DelItem:2766
+Break
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM!=2766
+NomalWindowMsg:\n\n많은 포타를 획득 할 수 있는 큰 선물상자.
+EventEnd

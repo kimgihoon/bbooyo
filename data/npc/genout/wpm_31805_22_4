@@ -1,0 +1,10 @@
+WARP:31806,34,6
+FREE:ITEM=2527
+DelItem:2527*1
+MONEY:-1
+FreeMsg:허가증이 있군．\n이곳에 들어갈래？
+PayMsg:출입허가증이 필요한데?
+MoneyMsg:돈가져와!!
+
+
+

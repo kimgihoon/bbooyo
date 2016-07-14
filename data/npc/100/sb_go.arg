@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:너희 힘을 시험해보지.
+startmsg:우릴 이겨보아라.
+dieact:1
+warpfl:11107
+warpx:23
+warpy:35
+end msg:
+enemyno:527,526,528,529
+deniedmsg:.....
+

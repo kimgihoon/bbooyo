@@ -1,0 +1,13 @@
+NPCCREATE
+
+{
+floorid=30203
+borncenter=79,88,1,1
+movecenter=20,20,100,100
+createnum=1
+time=
+dir=6
+graphicname=100888
+name=Ã³À½º¸´Â ¼öÀå·æ
+enemy=sb_muge1|file:my/½Å´ë·úÁü½Â/µµ¸¶¹ì
+}

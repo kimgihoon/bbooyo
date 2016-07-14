@@ -1,0 +1,13 @@
+
+NomalMainMsg:안녕하세요. 쿠폰 관리자 아르랍니다. 쿠폰는 공식 사이트에서 얻으실 수 있으니 참고바랄게요.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg1:\n\n 쿠폰 입력 완료되었습니다. \n 해당 쿠폰의 아이템을 드리겠습니다!
+ThanksMsg1:\n\n 감사합니다. 즐거운 하루 되세요.
+ItemFullMsg:아이템창을 비워주세요.
+KeyWord:Stoneage
+GetItem:21011
+EventEnd
+

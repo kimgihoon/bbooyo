@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=3200
+borncenter=69,50
+time=0
+createnum=1
+graphicname=16089
+name=바니걸 루나
+dir=4
+enemy=changeevent|file:my/토토칵테일/교환소1
+}
+

@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:이봐! 잠깐!!
+askbattlemsg2:이곳은 함부로 지나갈 수 없다！
+startmsg:나를 쓰러뜨려봐라!
+dieact:1
+warpfl:20607
+warpx:36
+warpy:31
+end msg:
+enemyno:961,963,962
+deniedmsg:큭.. 방심했군..
+

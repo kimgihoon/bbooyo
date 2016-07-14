@@ -1,0 +1,98 @@
+
+NomalMainMsg:嗯，你就是从尼斯来的冒险者啊？欢迎来到尼克斯城，我是本城的近卫长邬莉叶，希望你在这里玩得高兴。
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:HERO_OVER=2
+NomalWindowMsg:十分感谢你的帮忙，你真是一位勇者阿！！\n不过听说真正的勇者身上会拥有一个特殊的信物，而只要持有这个信物，前往寻找一个流浪的旅人，这个旅人就会让他让他脱胎换骨。
+NomalWindowMsg1:不过那也要找得到那位流浪旅人，如果你是真正的勇者，快去寻找那位流浪旅人吧。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:HERO_OUT=2
+NomalWindowMsg:能否遵守时间契约的人，将是一个审查成为勇者的重要因素，经过我们的努力，已经让这次的事件结束了。
+EventEnd
+
+EventNo:225
+TYPE:ACCEPT
+EVENT:HERO_I_NOW=2&ENDEV=81&ENDEV=88&ENDEV=89&ENDEV=224&NOWEV=225&ITEM=2895
+AcceptMsg:原来这些生物是从魔界来的，如果还有其他魔界生物继续破坏的话，我们的日子会越来越苦。
+ThanksMsg:原本爱好和平的我们，也要开始捍卫家园了。
+DelItem:2895
+EndSetFlg:225
+MISSIONOVER:2
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:HERO_I_NOW=2&ENDEV=81&ENDEV=88&ENDEV=89&ENDEV=224&NOWEV=225
+NomalWindowMsg:不是水怪惹的祸，那究竟是什么奇怪的生物，在破坏我们的水底资源呢？
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:HERO_I_NOW=2&ENDEV=81&ENDEV=88&ENDEV=89&NOWEV=224
+NomalWindowMsg:什么时候，我们水城的人民才能过着安乐的生活阿，为什么总是有麻烦不断的找上我们呢？真想把水怪除掉。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:HERO_I_NOW=2&ENDEV=81&ENDEV=88&ENDEV=89&ENDEV=224
+NomalWindowMsg:原来水怪克拉肯也是受害者，看来我必须屏除对水怪的成见了。
+EventEnd
+
+EventNo:224
+TYPE:MESSAGE
+EVENT:HERO_I_NOW=2&ENDEV=81&ENDEV=88&ENDEV=89
+NomalWindowMsg:最近我们水城的人民前往水底捕鱼的时候，发现水底的鱼群减少很多，不知道是不是水怪克拉肯又出来捣乱了，真是让人烦恼阿，可惜我们又不懂克拉肯的语言。
+EventEnd
+
+
+
+#任务结束
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>90&ENDEV=81&ENDEV=88&ENDEV=89
+NomalWindowMsg:\n绊付况! 匙啊 老阑 秦搬秦林菌焙.\n弊烦 瞒扼档 茄儡 付角 矫埃阑 临鳖唱?
+NomalWindowMsg2:对了，如果你有兴趣的话，要不要加入我们尼克斯近卫队呢？我可以帮你安排喔？
+EventEnd
+
+#完成第二路线，给双头叉
+EventNo:88
+TYPE:ACCEPT
+EVENT:LV>90&ENDEV=81&NOWEV=88&ENDEV=89
+AcceptMsg1:\n构扼备!? 寸脚捞 国结 贸府沁促备?\n酒捞 荐鲍甫 酪绢滚赴芭看焙.\n酒捞 荐鲍绰 登倒妨玲唱?\n捞霸 沥富捞抗夸?\n芭窿富 酒聪瘤?
+AcceptMsg2:寸脚篮 碍窍焙. 弊烦 捞犯霸 窍档废 窍瘤.\n捞 芒阑 寸脚俊霸 林瘤!\n捞巴篮 快府 拱狼 辟困措狼 惑隆!\n寸脚鞍篮 困措茄 葛氰啊俊霸 林绰霸 嘎绰 巴 鞍焙.\n罐酒临芭瘤?
+ThanksMsg1:\n磊! 罐酒\n弊措俊霸 拱狼 咯脚狼 啊龋啊 窃膊窍辨!
+GetItem:20147
+ItemFullMsg:你身上的道具太多了，没办法收下这支长枪……\n这是我们所有尼克斯人的一点心意，请你务必要收下……
+EndSetFlg:88
+EventEnd
+
+#玩家回报已经见过克拉肯
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>90&ENDEV=81&ENDEV=88
+NomalWindowMsg:喔？你已经去地下水路见过克拉肯了吗，没想到你居然有办法和它沟通，果然是个见识多广的冒险家呢！这件事能拜托到你来处理，实在是太好了！
+NomalWindowMsg2:原来是它的孩子被穿灰色衣服的人带走了才如此生气是吗，这件事我知道了，我会和女王陛下报告这件事，必要的时候尼克斯会向伊甸园提出外交公文的。\n那这件事的后续发展还请你继续深入追查了喔！
+EventEnd
+
+#给玩家提示
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>90&ENDEV=81&NOWEV=88
+NomalWindowMsg:老窜篮 历 菊俊 辟困措盔 墨扼俊霸 啊毫.\n瘤窍荐肺肺 啊绰 辨阑 舅妨临 芭具.
+EventEnd
+
+#委托玩家处理水怪侵袭事件
+EventNo:88
+TYPE:REQUEST
+EVENT:LV>90&ENDEV=81
+RequestMsg1:\n公郊 老捞瘤?
+RequestMsg2:力啊 呈公 捞坏辑 历茄抛 富阑 吧绢 焊脚芭扼备? 寸脚 富林函捞 曼 亮焙!\n窍瘤父 历绰 瘤陛 贸府窍扁 塞电 老捞\n乐绢. 沥富 赣府 酒锹 老牢单..\n寸脚捞 矫埃捞 粱 等促搁 捞 老阑 贸府窍绰单 粱 档客临 狼氢捞 乐聪?\n弊烦 瞒 茄儡 沥档绰 积阿秦 焊摆绢.
+ThanksMsg1:\n悼巢率 笼甸狼 企倾啊 等 盔牢捞 拱狼 鲍拱\n锭巩捞具. 盔贰 拱俊 荤绰 鲍拱篮 葛滴 己狼 悼率 瘤窍 荐肺俊辑 荤绰单,\n厚废 拱俊 荤绰 鲍拱狼 塞捞 阜措窍促绊绰 窍瘤父..
+ThanksMsg2:\n乞家俊绰 林刮甸阑 嚼拜窍瘤 臼扁 锭巩俊\n撅瘤肺 郴卵瘤绰 臼疽绢.\n弊繁单 夸硫篮 愧 老牢瘤 拱俊 荤绰\n鲍拱捞 公郊 拱扒阑 茫绰瘤 割 瞒肥唱\n儡多 拳啊唱辑 付阑肺客辑 奴 家鄂阑 乔况.
+ThanksMsg3:\n弊贰辑 老何 笼甸捞 颇鲍登绊 割 林刮甸捞\n绢驴 荐 绝捞 档噶啊芭唱 促摹帮 秦.\n葛滴甸 穿焙啊啊 客辑 公仿绝捞 捞 老阑 秦搬窍咯 林辨 官贰.
+ThanksMsg4:\n弊 穿焙啊啊 匙啊 登绢林瘤 臼摆聪?\n唱 措脚 粱 舅酒毫 临 荐 乐绢?
+EventEnd

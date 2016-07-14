@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:200,284,939
+FREE:LV>49
+MONEY:-1
+FreeMsg:다시 쟈루섬 꽃밭으로 돌아가시겠나요?
+PayMsg:당신 어떻게 들어왔어요?
+PartyMsg:파티로 대화하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=15080
+borncenter=16,25,1,1
+movecenter=20,20,100,100
+time=0
+createnum=1
+graphicname=16107
+name=각성 연구원
+dir=4
+action=12
+enemy=transman|file:my/각성/도마뱀
+}

@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=200
+borncenter=117,1002
+time=0
+createnum=1
+graphicname=16069
+name=판느
+dir=4
+enemy=changeevent|file:my/판느/교환소1
+}
+

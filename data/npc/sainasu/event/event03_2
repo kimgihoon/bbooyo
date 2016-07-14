@@ -1,0 +1,38 @@
+###########################################
+#엥譴뵨샅景랑裂쇌돨돛야騰箇慤숭#
+# 				덫훨諒：鮫賂#
+###########################################
+
+NomalMainMsg:우리 손자는 잘 있으려나 허허허~
+
+EventNo:5
+TYPE:ACCEPT
+EVENT:NOWEV=5&ITEM=2423
+AcceptMsg:\n오오!\n손자의 편지를 가지고 와주었군!
+ThanksMsg:\n고맙군! 답례로 너에게 이 도끼를 주지!\n그래, 손자에게 주었던 것과 달리\n개량해서 더 강한 도끼가 되었지.\n떨어뜨려도 없어지지 않아!\n어떠냐?
+ItemFullMsg:\n아이템 창이 꽉 찼구나.
+GetItem:2448
+DelItem:2423
+EndSetFlg:5
+EventEnd
+
+
+EventNo:3
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:\n거기 자네!\n내 부탁 좀 들어주겠나?
+ThanksMsg:\n내가 만든 신기한 도끼를 호토르에 살고 있는 손자 마티에게 가져다 주지 않겠나?\n나이를 먹어서 사막을 넘어갈 수가 없어!\n아무쪼록 부탁하네!
+StopMsg:\n부탁을 들어주지 않을텐가?
+EndStopMsg:\n쯧! 그럼 나중에라도 도와주시게.
+NoStopMsg:\n고맙군, 빨리 전해주게.
+ItemFullMsg:\n아이템 창이 꽉 찼군.
+GetItem:2416
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=3,ENDEV=5
+NomalMsg:손자 마티가 보고 싶군. 마티는 호토르 마을에 있네.
+EventEnd
+
+

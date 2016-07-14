@@ -1,0 +1,44 @@
+NomalMainMsg:이 대륙의 페트들은 난폭하기 유명하기로 손 꼽히지!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=189
+AcceptMsg:\n또 식량을 훔쳐갔어!!! 마르모르 해저통로에 서식하는 밍코녀석들이 문제야!
+ThanksMsg:\n\n 해저통로 관리자 콜분도 답답해하시는 모양이야
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21256*10
+AcceptMsg:\n이렇게 빨리 오실줄 몰랐어요! 코도코도의 고기 10개를 가져오셨군요.
+ThanksMsg:\n 이제 일주일동안는 식량 걱정 없겠어요 고맙습니다.. 이게 다 나쁜 밍코녀석들 때문이에요. 그리고 모험하실때 외로울까봐 제 친구를 붙혀드릴게요!! 제 친구도 모험을 좋아하거든요.
+itmeFullMsg:아이템창을 비워줘!!
+PetFullMsg:\n 페트창을 비워주지 않겠어?
+GetPet:3302
+GetItem:21230*2
+DelItem:21256*10
+EndSetFlg:189
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29
+AcceptMsg:\n못보던 사람인데? 누구세요? 혹시 마르모스에 처음 오신분인가요?
+ThanksMsg:\n처음 오신 분이군요. 그럼 마르모스를 모험하러 오신거겠죠? 잘됐어요! 모험하면서 코도코도의 고기 10개 정도 가져오실 수 있을까요? 밍코 때문에 저희 사무소에 식량이 바닥이 나버렸습니다...
+EventEnd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

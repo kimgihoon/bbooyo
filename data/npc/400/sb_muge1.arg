@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:이 몽환의 공룡을 쓰러뜨리지 않으면,
+askbattlemsg2:전진할 수 없을 것 같다.
+askbattlemsg3:쓰러뜨리고 전진하겠습니까?
+start msg:
+dieact:1
+warpfl:41
+warpx:34
+warpy:39
+end msg:
+enemyno:1095,1095,1095,1087,1086,1096,1096,1096,1096,1096
+deniedmsg:
+

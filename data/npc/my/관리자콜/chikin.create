@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=14441
+borncenter=5,19
+time=0
+createnum=1
+graphicname=16102
+name=관리자 콜
+dir=4
+enemy=changeevent|file:my/관리자콜/교환소1
+}
+

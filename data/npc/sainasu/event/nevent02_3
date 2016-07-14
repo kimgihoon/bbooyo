@@ -1,0 +1,24 @@
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2449
+AcceptMsg:\n이것은.. 마비특효약인 [마비제거]!!\n혹시 이것을 나의 아들을 위해 가지고 오셨습니까? 
+ThanksMsg:\n오오! 이렇게 친절한 사람이!\n이걸로 우리 아들의 마비가 낫겠지요!\n\n도와주셔서 진심으로 고맙습니다!\n답례로 이것을 받아주세요!
+ItemFullMsg:아이템이 가득 찼네요.
+DelItem:2449*1
+GetItem:1264
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n이곳에 오는 도중에 제 아들이 마비거미에 물린 것 같습니다.\n애를 데리고 오느라 너무나 힘이 들어서..\n부탁합니다! 마비를 제거하는 특효약을 구해다 줄 수 없겠습니까?
+EventEnd
+
+
+
+
+
+

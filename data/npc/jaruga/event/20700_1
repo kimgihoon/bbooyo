@@ -1,0 +1,25 @@
+#속쨀엥改搗逃葵삔璂狂憩
+NomalMainMsg:어서오세요! 쟈루 JBA체크인 본부입니다.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=2479&ITEM!=2480
+AcceptMsg:＝＝＝＝＝ ＪＢＡ본부접수　＝＝＝＝＝\n\n쟈루·사육가협회본구에\n오신 것을 환영합니다!\nＪＢＡ인정서가 필요하시다구요。
+ThanksMsg:이것이ＪＢＡ의 인정서입니다。\n여기 있으면 3층에서 직업 이곳으로 \n올 수 있어요. 본인만 사용할 수 있으므로\n인정서를 지연에 놓는다던지 페트메일로\n보내지마세요.\n다시 발급받으시면 언제라도 와주세요.
+ItemFullMsg:퀭돨돛야綠찮。\n헝렴苟寧硅땜鮫。
+GetItem:2480
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=2480&ITEM=2479
+AcceptMsg:＝＝＝＝＝ ＪＢＡ본부접수　＝＝＝＝＝\n\n사이너스 SBC에 이미 가입되있으시군요. 중복가입이 불가능합니다. SBC를 포기하고 JBA로 가입하시겠습니까?
+ThanksMsg:ＪＢＡ접수완료。\n감사합니다. SBC로 가입되었습니다.
+ItemFullMsg:아이템창을 비워주세요.
+DelItem:2479
+GetItem:2480
+EventEnd
+
+
+

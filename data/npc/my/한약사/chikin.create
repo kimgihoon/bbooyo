@@ -1,0 +1,24 @@
+NPCCREATE
+{
+floorid=27060
+borncenter=43,34
+time=0
+createnum=1
+graphicname=16046
+name=한약사
+dir=6
+enemy=changeevent|file:my/한약사/교환소1
+}
+
+
+{
+floorid=200
+borncenter=417,602
+time=0
+createnum=1
+graphicname=16189
+name=한약사의 조수
+dir=4
+enemy=changeevent|file:my/한약사/교환소2
+}
+

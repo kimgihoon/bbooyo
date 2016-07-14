@@ -1,0 +1,32 @@
+NomalMainMsg:저는 레벨 10을 달성한 자에게 힘을 주고 있습니다.
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>9&ENDEV=171
+NomalWindowMsg:\n\n 신의 가호가 있기를...
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>9
+AcceptMsg:\n저는 희망을 나눠주는 정령 하르메스입니다. '레벨 10' 이상을 달성하신 모험가님에게 힘을 주고 있지요. 그 힘을 받으시겠습니까?
+ThanksMsg:\n 많은 모험을 하여 힘을 기르시길 바랍니다.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21155
+EndSetFlg:171
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

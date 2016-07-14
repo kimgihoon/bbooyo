@@ -1,0 +1,10 @@
+NomalMainMsg:의식을 치룰려고 온것인가?
+
+EventNo:4
+TYPE:ACCEPT
+EVENT:NOWEV=4&ITEM!=2417
+AcceptMsg:성인식을 치룰려고 온건인가？
+ThanksMsg:자 의식의구슬 15개 확인해보거라.
+ItemFullMsg:아이템창이 부족하군. 의식의 구슬은 총 15개 라고.
+GetItem:2417*15
+EventEnd

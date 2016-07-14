@@ -1,0 +1,53 @@
+#山贼的事件..............强恩的女儿（卡那和吉德的女儿）
+
+NomalMainMsg:公郊 老捞矫烈? 历绰 莉狼 叠捞抗夸.
+
+EventNo:21
+TYPE:ACCEPT
+EVENT:NOWEV=21&ENDEV=22&ITEM!=2488
+AcceptMsg:\n磅磅洒 积阿秦 好瘤父 郴罢 瘤陛狼\n何葛啊 家吝秦夸.\n拱沸 模何葛档 家吝窍瘤父...\n弊贰辑 富牢单夸, 何殴捞 乐绢夸.\n捞 祈瘤甫 力 模何葛丛膊 傈秦林矫摆绢夸?
+ThanksMsg:\n绊付况夸!\n莉俊霸 肋 富秦辑 模何葛丛膊档\n牢荤靛府矾 啊杭芭俊夸.\n祈瘤甫 何殴靛妨夸.
+GetItem:2488
+ItemFullMsg:\n酒捞袍捞 啊垫 谩焙.
+EventEnd
+
+
+EventNo:21
+TYPE:ACCEPT
+EVENT:NOWEV=21&ENDEV=22&ITEM=2488
+AcceptMsg:那信的事情就拜托你了。
+ThanksMsg:谢谢你！\n能够帮助我的生父母…。
+ItemFullMsg:你道具太多了，我无法交给你。
+EventEnd
+
+
+
+EventNo:21
+TYPE:REQUEST
+EVENT:ENDEV=20&ITEM=2487
+RequestMsg:\n构扼绊夸? 公郊 侩公俊夸?\n捞 赣府 厘侥篮... 控瘤 蝶淀窍绊\n何靛反绊 弊府款 弊繁 蠢肠捞...\n\n捞吧 唱俊霸...?
+ThanksMsg:\n弊犯焙夸. 开矫 弊凡 芭 鞍疽绢夸.\n瘤陛狼 何葛丛甸篮 构扼绊 窍烈?\n泪瘪 力霸 矫埃阑 林矫摆绢夸..?\n莉俊霸 艾促客林技夸.
+StopMsg:你还是要把我带回去吗？
+EndStopMsg:可是，我不回去。也许你会认为我太任性，不过在这16年来养育我长大成人的是强恩一族的所有的人。
+NoStopMsg:对不起，也许我真的是太任性了。不过因为在这16年来养育我长大成人的是强恩一族的所有的人…不过还是你帮我谢谢我的生父母。
+DelItem:2487
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&NOWEV=21
+NomalMsg:...........
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21
+NomalMsg:谢谢你！你帮我把信拿给他们了吧？每次我只要看到这个发饰，就好像想起妈妈小时候背着我的样子…。
+EventEnd
+
+
+
+
+

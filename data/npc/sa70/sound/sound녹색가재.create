@@ -1,0 +1,16 @@
+NPCCREATE
+####来自海底的声音####
+########盖尔#########
+
+###洛克侨###
+{
+name=洛克侨
+floorid=8006
+borncenter=22,17
+dir=4
+time=1
+ignoreinvincible=1
+createnum=1
+enemy=sb_dou|file:sa70/sound/sound2.arg
+graphicname=101574
+}

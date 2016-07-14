@@ -1,0 +1,23 @@
+NomalMainMsg:후르도 마을 설명[미수정]
+
+#횅훰鯤소숨돕爛람
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30
+NomalWindowMsg:콱綠쒔숨돕爛람쵠떼죄겠，廬角格妗頓죄！
+EventEnd
+
+#횅훰鯤소숨법욋怒
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=30&NOWEV=54
+NomalWindowMsg:닒욋怒일奈奈컸랏컬돕쓸綾죄耆！
+EventEnd
+
+#닭다鯤소혼冷욋怒
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&NOWEV=30&NOWEV=54
+AcceptMsg:음! 너는 한·로우를 만나러 이곳에 왔군. 그럼[진실의 안경]에 대해서 알고 싶을 테지...
+ThanksMsg1:[진실의 안경]은 구하려면 어떠한 [심성의 거울]을 통해서 구할 수 있게 되어있어.\n[심성의 거울]에 대해 알고 싶다면 쿠이옹에게 한번 물어봐!
+EventEnd

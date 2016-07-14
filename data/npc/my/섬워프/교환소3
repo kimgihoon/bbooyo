@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:900,46,649
+FREE:LV>1000
+MONEY:-1
+FreeMsg:라케시스 섬으로 안내해주고 있습니다. 다시 라케시스섬으로 이동하시겠습니까?
+PayMsg:...
+PartyMsg:파티로 대화하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

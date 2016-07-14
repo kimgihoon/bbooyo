@@ -1,0 +1,36 @@
+NomalMainMsg:我是这个洞窟的守护者    
+
+EventNo:17
+TYPE:ACCEPT
+EVENT:NOWEV=17&ITEM!=2505
+AcceptMsg:靛贰帮狼 敲讽阑 酪绢滚啡焙! 捞 荤疙阑 拌加且 付澜捞 乐嚼聪鳖?
+ThanksMsg:弊犯促搁 捞 敲讽阑 罐栏绞矫坷. 顶俊 初栏搁 绝绢廉滚赋聪促.
+ItemFullMsg:酒捞袍 沫阑 厚况林绞矫坷.
+GetItem:2505
+EventEnd
+
+
+EventNo:17
+TYPE:REQUEST
+EVENT:LV>0&ITEM!=2505
+RequestMsg:捞镑篮 侩狼 家奔涝聪促!\n磊楷拌狼 闭屈阑 捞秦窍绰 巴.\n弊巴捞 寸脚狼 荤疙涝聪促.\n荤疙阑 罐摆嚼聪鳖?
+ThanksMsg:弊犯促搁 捞巴阑 罐栏绞矫坷.\n刮酶茄 侩, 侩皑茄 侩, 碍枚狼 侩!\n弊甸狼 咯狼林甫 葛酒 7摸栏肺 啊绞矫坷.
+StopMsg:荤疙阑 器扁窍矫摆嚼聪鳖?
+EndStopMsg:原来你一点都不关心自然界的平衡\n好了，我已经认清你了！
+NoStopMsg:好好加油！
+ItemFullMsg:你的道具袋已经满了，留下些什么下来吧！
+GetItem:2505
+EventEnd
+
+EventNo:17
+TYPE:MESSAGE
+EVENT:NOWEV=17&ITEM=2505
+NomalMsg:刮酶, 侩皑, 碍枚! 弊甸狼 咯狼林!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=17
+NomalMsg:这样啊！已经遇到龙的守护人和三匹龙。从今以后也请尽力保护自然界，维持其平衡。
+EventEnd

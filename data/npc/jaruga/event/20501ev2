@@ -1,0 +1,29 @@
+
+########################################
+#乖角였磵彊돨옰것랑景鹿빈뻘헝뜩뜩밑亮#
+#쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺덫훨諒：訶儺#
+########################################
+
+NomalMainMsg:저는 이곳의 수장 코바르토입니다.
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2464
+NomalWindowMsg:\n그 물을 가지고 있으면\n공룡들이 달려듭니다. 조심하세요.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2463
+AcceptMsg:\n그건 한씨의 항아리군요.\n이곳의 물을 퍼 가시려구요?
+ThanksMsg:\n알겠습니다. 가져가세요.\n그러나 그 물을 노리는 공룡들이\n지금보다 더 당신을 괴롭힐 것입니다.\n조심하세요.
+GetItem:2464*1
+DelItem:2463*1
+ItemFullMsg:아이템 칸이 가득 찼어요.
+EventEnd
+
+
+
+
+
+

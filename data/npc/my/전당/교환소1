@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:6677,23,24
+FREE:LV>9
+MONEY:-1
+FreeMsg:\n각 레벨를 달성하신 모험가분들에게 신의 명예와 보상을 드리고 있습니다. 안내해드릴까요?
+PayMsg:\n\n\n이 곳에 들어가실 수 없습니다. \n레벨 10 이상 모험가님부터 입장가능합니다
+PartyMsg:파티상태로 해당 NPC와 대화 하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

@@ -1,0 +1,14 @@
+NPCCREATE
+{
+floorid=1000
+borncenter=35,52
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16300
+name=신녀
+enemy=npcgen_warpman|file:my/전당/교환소1
+}
+
+

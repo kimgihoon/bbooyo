@@ -1,0 +1,29 @@
+###########################################
+#속덮뵨붐景쨀裂쇌돨돛야騰箇慤숭#
+# 				덫훨諒：鮫賂#
+###########################################
+
+NomalMainMsg:할아버지는 잘 계시려나?
+
+EventNo:3
+TYPE:ACCEPT
+EVENT:NOWEV=3&ITEM=2416
+AcceptMsg:\n할아버지가 이 도끼를 나에게?
+ThanksMsg:\n먼거리인데 일부러 와 줘서 고맙군!\n\n나의 부탁도 들어줬으면 좋겠는데\n만일 괜찮다면 나중에 나에게\n와 주지 않겠어?
+DelItem:2416
+EndSetFlg:3
+EventEnd
+
+EventNo:5
+TYPE:REQUEST
+EVENT:ENDEV=3
+RequestMsg:\n전에 받은 도끼에 대한 감사편지를\n적었어. 내 힘으론 카탄까지 갈 수\n없을 것 같으니깐 이 편지를\n할아버지에게 전해주었으면 해.\n받아주겠니?
+ThanksMsg:\n고마워!\n\n만약 귀찮다면 버려도 괜찮아!
+StopMsg:\n편지를 돌려주려고?
+EndStopMsg:\n그래, 다른 사람을 찾아봐야겠네.
+NoStopMsg:\n고마워! 야무야무 할아버지에게 전해줘.
+ItemFullMsg:\n아이템창이 꽉 찼어.
+GetItem:2423
+EventEnd
+
+

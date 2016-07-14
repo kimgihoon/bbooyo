@@ -1,0 +1,27 @@
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:저는 이 시험장을 운영하는 제사장 고론입니다.
+askbattlemsg2:인간중 제 앞으로 온 인간는 당신이 첫번째입니다. 대단합니다.
+askbattlemsg3: 당신의 능력이 어느정도인지 제사장의 직위로 확인해보겠습니다.
+askbattlemsg4:
+startmsg:어서 오십시오!
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21243
+enemyno:3280,3277,3278,3279,3275,3273,3274,3276,3283,3284
+deniedmsg:능력 시험증서를 소지하고 계시지 않으시군요. 탈락처리하겠습니다.
+alreadymsg: 당신의 능력을 좀 더 기르고 오시는게 어떨지..?
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ITEM=21243
+WARP:19331,26,28
+endmsg:당신의 능력이 최종적으로 테스트되었습니다...
+AddItem:21242
+DelItem:21243*1
+OVER

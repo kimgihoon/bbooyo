@@ -1,0 +1,93 @@
+NomalMainMsg:본부장님에게 무슨일이 생긴것같아요...
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=192
+NomalWindowMsg:\n 마르모스 관리소는 모험가님을 환영합니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=191&ITEM=21273&ITEM=21271
+AcceptMsg:\n폭파소리를 들었습니다! 미션을 성공하셨군요. 본드족들이 배를 타고 후퇴하는 모습도 지켜보았지요. 감사합니다. 
+ThanksMsg:\n이렇게 DNA캡슐도 안전히 되찾아주시고 라케시스 협회에서 온 선물과 저희가 드리는 선물를 선사하겠습니다. 정말 감사합니다.
+PetFullMsg:\n 페트창을 비워줄래요?
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21274
+GetPet:3317
+DelItem:21273,21271
+EndSetFlg:192
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=191&ITEM=21272&ITEM=21271
+AcceptMsg:\n\n아무래도 무리겠죠?
+ThanksMsg:\n 아니요 괜찮습니다. 사람은 전부 무서움이 있기마련이죠.
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:21271,21272
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=191
+AcceptMsg:\n오셨군요. 엄청 강해지셨군요. 현재 파악중인 상태로는 유적지를 본드족이 점령한게 맞는것 같습니다. 저희가 밀수한 가짜 본드족 증표와 폭탄기능이 탑재된 신호탄을 받으십시오.
+ThanksMsg:이 증표는 본드족에게 본드족임을 알려주는 증표입니다. 또한 이 신호탄는 예전 신호탄과 다른 신호탄입니다. 바로 폭탄기능이 탑재되있죠. 이 신호탄으로 실험머신을 폭파시키고 DNA캡슐들를 되찾아와주세요.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21271,21272
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=190&ITEM=21259
+AcceptMsg:다녀오셨군요. 이 나무는 마르모스에서 서식하는 나무가 아닙니다! 이건 사이너스에서만 서식하는 나무조각입니다.  본드족의 본거지는 사이너스... 본드족의 소행일 확률이 높습니다. 본드족이 사람이 없는 마리모스로 진출하여 실험을 하고 있는게 분명합니다.
+ThanksMsg:\n엇? 또 무엇을 보셨나요? 뱃조각 있는 근처에 사람이 만든 인공물이 있었다구요? 그곳은 마르모스 유적이 있는 동굴이 있는 위치랍니다.. 큰일이군요. 일단 알겠습니다. 이 페트는 본부장님의 페트입니다. 레벨100으로 더 훈련시켜 완벽해진 날 나중에 다시 와주세요
+PetFullMsg:\n 페트창을 비워줄래요?
+GetPet:3294
+DelItem:21259
+EndSetFlg:191
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=190
+AcceptMsg:\n해안가로 가면 무슨 단서라도 찾을 수 있을겁니다. 또 다른 경로는 배를 타고 이 대륙에 진출했을테니까요
+ThanksMsg:\n배가 있는지 확인해주세요. 뱃조각 비슷한거라도 괜찮습니다.
+itmeFullMsg:아이템창을 비워주세요.
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21258
+AcceptMsg:\n이럴수가..본부장님이...그 정체를 알수없는 짐승은 잡으셨나요?
+ThanksMsg:그렇게 큰 페트가 존재할수가 없는데...설마 얼마전 라케시스 연구소에서 본드족이 DNA를 모두 훔쳐갔다던데. 본드족이 DNA 조합에 성공한건가요? 근데 왜 마르모스 대륙에...출구는 해저통로 밖에없는데..혹시 해안가로 가서 단서 좀 찾아 오실수 있나요?
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21230
+DelItem:21258,21257
+EndSetFlg:190
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=4
+AcceptMsg:\n안녕하세요. 저는 비서 하루나입니다. 지금 큰일이 일어난것같습니다. 본부장님의 도라비스가 날아왔습니다. 보통 도라비스가 날아올경우 본부장님에게 무슨 큰일이 생겼다는 신호거든요.
+ThanksMsg:\n이 장치는 본부장님이 위치한 곳을 알려주는 신호탄 입니다. 이 장치에 나오는 좌표대로 본부장님을 찾아 도와주세요!
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21257
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

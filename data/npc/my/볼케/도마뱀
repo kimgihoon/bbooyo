@@ -1,0 +1,27 @@
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:Å©¸£¸£¸ª-!
+askbattlemsg3:
+askbattlemsg4:Ä¼¿À!!
+startmsg:Å°¾Æ¿À!!!
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21109
+enemyno:3011,3012,3012,3012,3012,3013,3013,3013,3013,3013
+deniedmsg:Å©¸£¸£¸ª~! Ä¼¿À!!
+alreadymsg:Å°Å°Å°-!
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ITEM=21109
+WARP:
+endmsg:±ú°»!!
+AddItem:21108
+DelItem:
+OVER

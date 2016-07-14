@@ -1,0 +1,13 @@
+NPCCREATE
+
+{
+floorid=15080
+borncenter=17,31,1,1
+movecenter=20,20,100,100
+createnum=1
+time=60
+dir=4
+graphicname=101352
+name=본드족 J
+enemy=sb_muge1|file:my/본드족/도마뱀
+}

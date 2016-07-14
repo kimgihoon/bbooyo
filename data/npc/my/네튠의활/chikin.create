@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=200
+borncenter=114,1009
+time=0
+createnum=1
+graphicname=16748
+name=활 장인 툰라
+dir=6
+enemy=changeevent|file:my/네튠의활/교환소1
+}
+

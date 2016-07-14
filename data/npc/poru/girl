@@ -1,0 +1,81 @@
+NomalMainMsg:이 마을이 평화롭기 위해 샴기르가 있었어!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=63&ITEM=18538&ITEM=18539&ITEM=18540&ITEM=18541&ITEM=18542
+AcceptMsg:이것은 할아버지가 말한 샴기르의 곡옥?\n이것을 어디서 구했어?\n5개 모두 가지고 있으면 내게 줄래?\n내가 좋은 걸 만들어줄게.
+ThanksMsg1:고마워, 자 이제 됬다.\n할아버지를 통해 저 세계에 갔다왔구나?
+ItemFullMsg:아이템 칸을 비워줘
+DelItem:18538,18539,18540,18541,18542
+GetItem:18537,18543*5
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=63&ITEM=18538
+AcceptMsg:이것은 할아버지가 말한 샴기르의 곡옥?\n이것을 어디서 구했어?\n5개 모두 가지고 있으면 내게 줄래?\n내가 좋은 걸 만들어줄게.
+ThanksMsg1:고마워, 자 이제 됬다.\n할아버지를 통해 저 세계에 갔다왔구나?
+ItemFullMsg:아이템 칸을 비워줘
+GetItem:18543
+DelItem:18538
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=63&ITEM=18539
+AcceptMsg:이것은 할아버지가 말한 샴기르의 곡옥?\n이것을 어디서 구했어?\n5개 모두 가지고 있으면 내게 줄래?\n내가 좋은 걸 만들어줄게.
+ThanksMsg1:고마워, 자 이제 됬다.\n할아버지를 통해 저 세계에 갔다왔구나?
+ItemFullMsg:아이템 칸을 비워줘
+GetItem:18543
+DelItem:18539
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=63&ITEM=18540
+AcceptMsg:이것은 할아버지가 말한 샴기르의 곡옥?\n이것을 어디서 구했어?\n5개 모두 가지고 있으면 내게 줄래?\n내가 좋은 걸 만들어줄게.
+ThanksMsg1:고마워, 자 이제 됬다.\n할아버지를 통해 저 세계에 갔다왔구나?
+ItemFullMsg:아이템 칸을 비워줘
+GetItem:18543
+DelItem:18540
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=63&ITEM=18541
+AcceptMsg:이것은 할아버지가 말한 샴기르의 곡옥?\n이것을 어디서 구했어?\n5개 모두 가지고 있으면 내게 줄래?\n내가 좋은 걸 만들어줄게.
+ThanksMsg1:고마워, 자 이제 됬다.\n할아버지를 통해 저 세계에 갔다왔구나?
+ItemFullMsg:아이템 칸을 비워줘
+GetItem:18543
+DelItem:18541
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=63&ITEM=18542
+AcceptMsg:오 ? 샴기르 오빠가 보내서왔어?!
+AcceptMsg:이것은 할아버지가 말한 샴기르의 곡옥?\n이것을 어디서 구했어?\n5개 모두 가지고 있으면 내게 줄래?\n내가 좋은 걸 만들어줄게.
+ThanksMsg1:고마워, 자 이제 됬다.\n할아버지를 통해 저 세계에 갔다왔구나?
+ItemFullMsg:아이템 칸을 비워줘
+GetItem:18543
+DelItem:18542
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:할아버지가 말한 샴기르는 마을이 아니야.
+EventEnd
+

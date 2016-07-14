@@ -1,0 +1,55 @@
+NPCCREATE
+
+{
+floorid=1000
+borncorner=91,66,91,66
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16065
+name=전리품 판매원
+enemy=npcgen_shop|file:my/전리품아이템/은혜
+action=0
+}
+
+{
+floorid=2000
+borncorner=70,67,70,67
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16065
+name=전리품 판매원
+enemy=npcgen_shop|file:my/전리품아이템/은혜2
+action=0
+}
+
+
+{
+floorid=3000
+borncorner=63,109,63,109
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16066
+name=전리품 판매원
+enemy=npcgen_shop|file:my/전리품아이템/은혜3
+action=0
+}
+
+
+{
+floorid=4000
+borncorner=94,65,94,65
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16065
+name=전리품 판매원
+enemy=npcgen_shop|file:my/전리품아이템/은혜4
+action=0
+}

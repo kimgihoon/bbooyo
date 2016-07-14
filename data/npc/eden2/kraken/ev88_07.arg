@@ -1,0 +1,26 @@
+NEWNPCENEMY
+
+entype:2
+askbattlemsg1
+askbattlemsg2:弄弄...!!
+askbattlemsg3:抄 锐蓖茄 悼拱阑 葛栏绰 吧 亮酒窍芭电!
+askbattlemsg4:呈绰 弊 荤角阑 舅疽栏聪..
+askbattlemsg5:咯扁辑 荤扼廉林寂具摆绢!!!
+startmsg:弄弄.. 锐蓖茄 悼拱篮 沥富 券惑利捞具.
+dieact:1
+warpfl:0
+warpx:0
+warpy:0
+B_evnow:88
+enemyno:1803,1822,1822,1822,1822
+deniedmsg:原来你并没有找到证据啊，是我多心了？
+alreadymsg:我现在正在处理非常严重的事情，请再等一下就好……
+onebattle:1
+OVER
+
+#第二路线，直接过来找巴克
+NEWEVENT1:
+FREE:LV>90&ENDEV=81&NOWEV=88
+WARP:60212,7,12
+endmsg:......酒聪 捞凡荐啊..
+OVER

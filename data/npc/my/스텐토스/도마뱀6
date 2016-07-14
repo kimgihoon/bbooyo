@@ -1,0 +1,30 @@
+
+
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:횃불로 얼음을 녹이시겠습니까?
+askbattlemsg3:
+askbattlemsg4:
+startmsg:...
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21146
+enemyno:3110,3111,3111,3111,3108,3108,3108,3111,3106,3106
+deniedmsg:...
+alreadymsg:...
+onebattle:1
+OVER
+
+
+NEWEVENT1:
+FREE:ITEM=21146
+WARP:992,13,10
+endmsg:얼음을 녹였습니다.
+AddItem:2414
+DelItem:
+OVER

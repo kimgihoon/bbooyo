@@ -1,0 +1,31 @@
+NomalMainMsg:칵테일를 만들기위해선 무엇보다 손 테크닉이 중요해
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=12209*1&ITEM=12201*1&ITEM=12153*1&ITEM=12137*1
+AcceptMsg:\n 토토 칵테일를 만들 수 있는 재료를 모두 가지고 있네! 어때 칵테일 한번 마셔볼래?
+ThanksMsg:\n 자! 다 만들었어\n 취할 수 있으니 조심히 마셔~ 오호호
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21137*1
+DelItem:12209*1,12137*1,12153*1,12201*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:\n너도 토토 칵테일 한번 마셔볼래?
+ThanksMsg:토토 칵테일를 만들기 위해서는 '샴기르산 복숭아' 1개 와 '향기가 많은 허브' 1개 와 '호토루산 고구마' 1개 와 '토토산 이슬물' 1개가 필요해
+EventEnd
+
+
+
+
+
+
+RequestMsg:
+
+
+
+
+

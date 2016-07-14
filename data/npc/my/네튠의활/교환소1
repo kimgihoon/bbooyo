@@ -1,0 +1,29 @@
+NomalMainMsg:활의 기본는 끈과 나무야. 네튠의 활를 제작하기 위해서는 타무타무의 나무가지와 호토르의 끈이 필요하지. 재료는 물품관리자가 판매하고 있을거야.
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=194
+NomalWindowMsg:\n\n활의 기본는 끈과 나무야
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21348&ITEM=21349
+AcceptMsg:\n타무타무의 나뭇가지와 호토르의 끈을 모두 가지고 온거야?
+ThanksMsg:\n 좋아! 기다려봐. 내가 네튠의 활를 만들어줄게!
+itmeFullMsg:아이템창을 비워줘!!
+GetItem:21350
+DelItem:21348*1,21349*1
+EventEnd
+
+
+
+
+
+
+
+
+

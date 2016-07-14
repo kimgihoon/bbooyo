@@ -1,0 +1,52 @@
+NomalMainMsg:다나마을 윗쪽에 폭파로 생긴 채광이 있는데... 그 채광에 얼마전 사나운 짐승이 나타났어
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=158
+NomalWindowMsg:\n 저희 마을를 위기에서 모면시켜주신 모험가 아니십니까?
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21108&ITEM=21109
+AcceptMsg:오! 그놈을 쓰러트려 그놈의 이빨를 가져오셨군요! 아까 그놈이 채광밖으로 도망가는것을 보았습니다.\n쓰러트린 분이 모험가님이라니!\n근데 문제가 있습니다! 그놈이 자기 새끼를 버리고 갔더군요! 또 한번 죄송하지만. 이 페트를 키워주실 수 있나요?
+ThanksMsg:\n고맙습니다! 앞으로 잘 키워주세요. 이 상자는 저희 마을를 위해 공을 세우신 답레입니다!
+itmeFullMsg:아이템창을 비워주세요.
+PetFullMsg:\n 페트창을 비워줄래요?
+GetItem:21113
+GetPet:3010
+DelItem:21108,21109
+EndSetFlg:158
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=4&ITEM=21109
+AcceptMsg:\n\n제 부탁을 거절하시겠나요?
+ThanksMsg:\n어쩔수없군요. 제가 너무 힘든 부탁을 했죠.
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:21109
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=4
+AcceptMsg:\n제법 쌔보이는 분이군요.\n현재 다나마을 윗쪽에 폭파로 생긴 채광이 생겨났습니다. 하지만 얼마전 사나운 짐승이 채광 안쪽 입구를 막아서 사람들를 공격하고 있습니다. 혹시 퇴치를 도와주시겠나요?
+ThanksMsg:\n감사합니다.\n\n채광은 다나마을 윗출구로 나가셔서 조금만 올라가면 보이실겁니다! 사나운 짐승을 쓰러트려 그놈의 이빨를 가져다주십시오! 이건 채광에 들어갈 수 있는 증표입니다.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21109
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

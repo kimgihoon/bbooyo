@@ -1,0 +1,10 @@
+entype:2
+askbattlemsg1:무엇을 얻으러 왔니?
+askbattlemsg2:어디한번 해볼까?
+startmsg:우리들을 이기기는 쉽지않을껄?!
+item:2697
+dieact:0
+enemyno:1117,1117,1117,1117,1117,1117,1117,1117,1117,1117
+deniedmsg:오오? 대단한데? 앞으로도 지켜보겠어。
+time:60
+

@@ -1,0 +1,39 @@
+NomalMainMsg:내 페트 좀 혼내줘!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&ENDEV=162
+AcceptMsg:\n그때는 고마웠어 이번에 또 새로운 페트를 분양받았어
+ThanksMsg:\n포미는 잘 지내지?
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&PET=35-1201*1
+AcceptMsg:\n내 포미를 잡아와준거야?\n 고마워\n잘못했다간 사람이 다칠뻔했어! 이 포미는 너에게 가고싶어하는것같아!\n 괜찮다면 내 포미와 모험을 하지않을래?
+ThanksMsg:\n 좋아! 포미는 무척 좋아할거야
+itmeFullMsg:아이템창을 비워줄래?
+PetFullMsg:\n 페트창을 비워줄래?
+GetItem:21088,21136
+GetPet:3014
+DelPet:PET=35-1201*1
+EndSetFlg:162
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4
+AcceptMsg:\n으아아앙~ 살려줘
+ThanksMsg:\n저번 내 생일때 아빠에게 선물 받은 페트가 충성도가 낮아 도망가버렸어!\n지금 쟈쟈마을 정육점안으로 들어간것같은데 잡아와주지않겠어? 포미에게 정육점에서 파는 '고급육'으로 유혹하면 관심을 보일거야!
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

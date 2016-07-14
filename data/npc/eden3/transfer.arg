@@ -1,0 +1,50 @@
+START_MSG:°É¾î´Ù´Ï´À¶ó Èûµé¾úÁö?\n\n³ª´ÂÆ¯±ÞÀü¼Û»ç¾ß!\n³ª¿¡°Ô Â÷ºñ¸¦ Áö±ÞÇÏ°í °¡°í½ÍÀº °÷À¸·Î ÀÌµ¿ÇØºÁ¡£
+MenuHead:¾îµð·Î°¥·¡?£º
+
+#Ëþ¶úËþ
+{
+MenuStr:¶¥ÀÇ¸¶À»     12800½ºÅæ
+FREE:LV>0&GOLD>12499
+DelGold:12800
+WARPPOINT:7112,18,6
+}
+
+#Äá¿ËË¹
+{
+MenuStr:¹°ÀÇ¸¶À»     12500½ºÅæ
+FREE:LV>0&GOLD>12499
+DelGold:12500
+WARPPOINT:7200,37,33
+}
+
+#¸¥ÁÒ¶Ù
+{
+MenuStr:ºÒÀÇ¸¶À»     12500½ºÅæ
+FREE:LV>0&GOLD>12499
+DelGold:12500
+WARPPOINT:7300,87,101
+}
+
+#ÑÇÒÁÅ·
+{
+MenuStr:¹Ù¶÷ÀÇ¸¶À»   12800½ºÅæ
+FREE:LV>0&GOLD>12799
+DelGold:12800
+WARPPOINT:7400,99,90
+}
+
+#ÒÁµéÔ°
+{
+MenuStr:¿¡µ§¸¶À»     14000½ºÅæ
+FREE:LV>0&GOLD>13999
+DelGold:14000
+WARPPOINT:7000,35,128
+}
+
+#ÈðÆæÑÇË¹
+{
+MenuStr:ÀØÇôÁø¸¶À»   14000½ºÅæ
+FREE:LV>0&GOLD>3999
+DelGold:14000
+WARPPOINT:10030,37,32
+}

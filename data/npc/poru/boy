@@ -1,0 +1,34 @@
+NomalMainMsg:샴기르 형이 나를 도와줬어!,언젠가는 나도 형처럼 될거야!
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n콩薑댕쩍冷唐옵태돨왜질찐？�\n句寡꼇狼...
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:샴기르 형에게 말을 걸어봐.
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63
+NomalWindowMsg:샴기르 형은 우리 모두의 영웅이야.
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:내가 위험에 쳐했을 때\n샴기르 형이 도와줬어.\n나도 언젠가는 꼭 샴기르 형처럼 될 거야\n영웅 말이야!
+EventEnd
+
+
+

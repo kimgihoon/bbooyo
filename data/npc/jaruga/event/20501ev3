@@ -1,0 +1,62 @@
+
+########################################
+#我是樵夫！也是原始人！﹛﹛﹛﹛﹛#
+#﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛担任者：矢延#
+########################################
+
+NomalMainMsg:唱绰 唱公槽 官风扼绊 茄促.
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=18
+NomalWindowMsg:\n唱绰 唱公槽 官风!\n凯缴洒 快风府 付阑篮 累篮 模备甸捞 腹酒.\n抄 咯扁俊 档框捞 瞪芭具!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2467
+NomalWindowMsg:绊付况! 菊栏肺 肋 何殴秦!
+EventEnd
+
+EventNo:18
+TYPE:ACCEPT
+EVENT:NOWEV=18&ITEM=2465
+AcceptMsg:\n绢? 弊扒 茄狼 倒档尝 酒衬!?\n弊扒 唱甫 困秦 父甸绢霖 芭看瘤?
+ThanksMsg:\n弊贰! 绊付况.\n翠肥扼绊 窍扁浚 粱 构窍瘤父\n亮篮 酒福官捞飘甫 家俺秦临霸.\n捞巴阑 爱绊 鲤鲤俊 乐传\n格犁惑牢 磊儡阑 茫酒啊毫.\n酒! 弊府绊 何矾柳 档尝档 临膊.
+GetItem:2467,2484
+DelItem:2465*1
+EndSetFlg:18
+ItemFullMsg:酒捞袍 沫阑 厚况拎.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2465
+AcceptMsg:\n绢? 弊扒 茄狼 倒档尝 酒衬!?\n弊扒 唱甫 困秦 父甸绢霖 芭看瘤?
+ThanksMsg:\n弊贰! 绊付况.\n翠肥扼绊 窍扁浚 粱 构窍瘤父\n亮篮 酒福官捞飘甫 家俺秦临霸.\n捞巴阑 爱绊 鲤鲤俊 乐传\n格犁惑牢 磊儡阑 茫酒啊毫.\n酒! 弊府绊 何矾柳 档尝档 临膊.
+GetItem:2467,2484
+DelItem:2465*1
+EndSetFlg:18
+ItemFullMsg:酒捞袍 沫阑 厚况拎.
+EventEnd
+
+EventNo:18
+TYPE:MESSAGE
+EVENT:NOWEV=18&ITEM!=2466
+NomalWindowMsg:委托书不见了吗？\n真拿你没办法…\n那我再写一张你等一下。\n是阿鲁姆山的哈恩对吧。
+GetItem:2466
+ItemFullMsg:喂喂！\n你的道具袋\n装不下委托书嘛！\n丢掉一些东西之后再来！
+EventEnd
+
+EventNo:18
+TYPE:REQUEST
+EVENT:LV>14
+RequestMsg:\n唱公槽狼 格见捞扼绊 且 荐 乐绰 档尝甫 何矾哆府绊 富疽绢. 官悔瘤 臼栏搁 该败 初篮\n档尝甫 茫酒客 林瘤 臼阑贰?\n弊烦 亮篮 酒福官捞飘甫 家俺秦临膊.
+ThanksMsg:绢? 罐酒林摆绢?\n唱茄抛 疵 档尝甫 父甸绢 林绰\n茄捞扼绰 措厘厘捞啊 酒抚魂俊 乐绢.\n弧府 崔妨啊辑 何殴秦拎\n捞扒 累诀狼汾辑具.\n茄篮 扒噶刘捞 缴秦辑 档尝甫 罐阑 锭鳖瘤 狼汾辑甫 酪绢滚府搁 救登.
+StopMsg:\n郴 何殴阑 芭例且芭聪?
+EndStopMsg:\n弊贰..? 弊烦 郴 档尝绰 绢痘霸 窍瘤..
+NoStopMsg:\n绊付况! 绢辑 茄俊霸 啊毫!
+GetItem:2466
+ItemFullMsg:捞繁! 酒捞袍 沫捞 啊垫蛮 巴 鞍酒!
+EventEnd
+
+

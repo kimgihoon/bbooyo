@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:
+askbattlemsg2:
+askbattlemsg3:이 다리를 넘어가려고?
+askbattlemsg4:옆 길로는 못지나가!
+askbattlemsg5:날 이긴다면 비켜주지
+startmsg:각오해, 쉽지 않을거야. ！
+dieact:0
+end msg:
+enemyno:440,441
+deniedmsg:지나가도 괜찮겠군, 한번잘해봐。
+time=60
+

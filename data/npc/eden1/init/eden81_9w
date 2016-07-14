@@ -1,0 +1,13 @@
+NEWWARPMAN
+
+NOFREE
+FREE:LV>0
+NomalMsg:\n무슨 볼일이지?
+PartyMsg:\n파티로는 입장하실 수 없습니다.	
+OVER
+
+TALKEVENT1
+WARP:5579,15,22
+FREE:ENDEV=81
+FreeMsg:\n아~ 당신이 카터의 은인이시군요.\n어서 들어오세요.
+OVER

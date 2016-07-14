@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=3000
+borncenter=87,79,1,1
+movecenter=20,20,100,100
+createnum=1
+time=
+dir=8
+graphicname=100250
+name=快府
+enemy=sb_muge1|file:my/快府/档付轨
+}
+

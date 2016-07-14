@@ -1,0 +1,37 @@
+
+
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:나는 이 세르노스의 골목대장 스텐토스!
+askbattlemsg3:날 쓰러트리면 이 섬의 최강자로 인정해주지
+askbattlemsg4:일단 너를 잡아먹어야겠다!
+startmsg:캬오~ 덤벼라!
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:2414
+enemyno:3000,3001,3002,3003,3004,3004,333,3002,3001,3003
+deniedmsg:크르릉! (대화를 이해할 수 없다..)
+alreadymsg:크르르르르릉!
+onebattle:1
+OVER
+
+
+NEWEVENT1:
+FREE:LV>0
+WARP:1006,15,22
+endmsg:퀘스트 오류(1)
+OVER
+
+
+NEWEVENT2:
+FREE:ITEM=21009
+WARP:1006,15,22
+endmsg:공룡교환권의 효과로 '공룡의 상자'를 획득 하셨습니다.
+AddItem:21010
+DelItem:21009*1
+OVER

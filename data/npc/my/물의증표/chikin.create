@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=200
+borncenter=115,1014,1,1
+movecenter=20,20,100,100
+time=0
+createnum=1
+graphicname=16067
+name=소녀
+dir=6
+action=12
+enemy=transman|file:my/물의증표/교환소2
+}

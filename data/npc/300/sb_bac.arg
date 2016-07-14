@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:어? 너 그거 어디서 구했어?
+askbattlemsg2:바꿔가려고 온거니?
+startmsg:어디한번 해볼까?
+dieact:0
+item:2535
+steal:1
+end msg:
+enemyno:1004
+deniedmsg:아르마르의 광산 6층을 출입할려면 출입허가증이 필요하단다!
+time:300
+

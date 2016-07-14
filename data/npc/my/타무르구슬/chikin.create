@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=52000
+borncenter=130,81,1,1
+movecenter=20,20,100,100
+time=0
+createnum=1
+graphicname=16300
+name=구슬의 신녀
+dir=4
+action=12
+enemy=transman|file:my/타무르구슬/교환소2
+}

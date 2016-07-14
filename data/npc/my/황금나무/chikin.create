@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=200
+borncenter=395,933
+time=0
+createnum=1
+graphicname=11131
+name=황금 나무
+dir=4
+enemy=changeevent|file:my/황금나무/교환소1
+}
+

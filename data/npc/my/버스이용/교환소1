@@ -1,0 +1,38 @@
+NomalMainMsg:동생이 지금 마리너스 정류장에서 돈이 없어서 버스를 못타고 있다는 소식을 들었어
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=160
+NomalWindowMsg:\n\n 그때는 정말 감사했습니다!
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21119
+AcceptMsg:\n역시나 무리이신가요?
+ThanksMsg:\n 괜찮습니다! 제가 가보도록 하죠.
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:21119
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:\n혹시 마리너스마을로 갈 예정이신가요? 
+ThanksMsg:\n다행이네요! 그럼 이 스톤을 제 동생 체리에게 전해주시겠나요? 체리가 지금 마리너스마을에서 돈을 잃어버려 버스를 못타고 있다고 해요.\n부탁드릴게요.
+itmeFullMsg:\n아이템창을 비워주세요.
+GetItem:21119
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

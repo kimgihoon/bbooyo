@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:950,1,12
+FREE:LV>79&ENDEV=165
+MONEY:-1
+FreeMsg:\n만타님에게 말씀 잘 들었습니다. \n들어가시겠습니까?
+PayMsg:이곳은 위험한곳이니 물러가십시오.
+PartyMsg:파티상태로 해당 NPC와 대화 하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

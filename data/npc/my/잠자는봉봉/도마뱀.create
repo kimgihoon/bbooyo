@@ -1,0 +1,26 @@
+NPCCREATE
+
+{
+floorid=200
+borncenter=487,972,1,1
+movecenter=20,20,100,100
+createnum=1
+time=
+dir=6
+graphicname=110136
+name=ÀáÀÚ´Â ºÀºÀ
+enemy=sb_muge1|file:my/ÀáÀÚ´ÂºÀºÀ/µµ¸¶¹ì
+}
+
+
+{
+floorid=200
+borncenter=482,975,1,1
+movecenter=20,20,100,100
+createnum=1
+time=
+dir=4
+graphicname=110315
+name=ÇÃ·Ô µµµÏ
+enemy=sb_muge1|file:my/ÀáÀÚ´ÂºÀºÀ/µµ¸¶¹ì2
+}

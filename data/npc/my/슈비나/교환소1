@@ -1,0 +1,56 @@
+NomalMainMsg:락앤롤~!
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=193
+NomalWindowMsg:\n\n지난번 내 공연는 재밋었어?
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21339
+AcceptMsg:\n 이 티켓은 내 공연을 볼 수 있는 티켓이야 옆에 매니저에게 대화하면 공연장으로 안내해줄거야
+ThanksMsg:\n 난 공연이 있으니 먼저 이만!
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21338
+AcceptMsg:\n앗! 내 마이크를 녀석에게서 빼앗아왔구나
+ThanksMsg:\n 고마워! 덕분에 공연을 할 수 있게 되었어. 시간이 된다면 내 공연을 보고가지않겠어? 이 VIP 초대티켓만 있으면 내 옆에 매니저가 안내해줄거야
+itmeFullMsg:아이템창을 비워줘!!
+GetItem:21339
+DelItem:21338
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21337
+AcceptMsg:\n\n  우리는 쟈쟈 채팅룸쪽으로 가는것같았어!
+ThanksMsg:\n\n 어서 내 마이크를 찾아다줘..
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>9
+AcceptMsg:\n나쁜 돼지녀석!! 내 마이크를 가져가버렸어! \n안녕! 나는 니스의 최고 아이돌 슈비나라고해! 곧 나의 콘서트가 열릴텐데 우리녀석이 내 마이크를 가져가버렸지 뭐야~
+ThanksMsg:\n바쁘지만않다면 우리에게 내 마이크를 다시 가져와주지않겠어? 우리는 쟈쟈 채팅룸쪽으로 가는것같았어!
+GetItem:21337
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

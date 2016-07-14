@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=900
+borncorner=52,643,52,643
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16087
+name=萍南 档快固
+enemy=npcgen_shop|file:my/级萍南/篮驱
+action=0
+}

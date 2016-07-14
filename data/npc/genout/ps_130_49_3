@@ -1,0 +1,13 @@
+nomal_rate:1.0
+main_msg:나는 투기장 페트상인이야．\n어떤걸루할래？
+realy_msg:정말 이페트를 팔려구?、후회안할꺼지？！
+over_msg:그만하려구？\n다음에 또보자구。
+thanks_msg:땡큐。\n다음에 또와^^。
+cost_msg:헝疼똑밟줄。
+pooltanks_msg:고마워。
+poolfull_msg:올레~~+_+。
+getfull_msg:자리가 없는거같은데。
+pool_flg:1
+pool_cost:200
+special_rate:1.5
+special_pet:

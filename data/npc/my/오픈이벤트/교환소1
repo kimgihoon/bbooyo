@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:6644,7,20
+FREE:LV>0
+MONEY:-1
+FreeMsg:\n안녕하세요. 드디어 서버가 오픈되었습니다!\n오픈을 축하하기위해 작은 연회장을 열었는데 입장하시겠나요?
+PayMsg:서버 오픈을 축하합니다!!!
+PartyMsg:파티상태로 해당 NPC와 대화 하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

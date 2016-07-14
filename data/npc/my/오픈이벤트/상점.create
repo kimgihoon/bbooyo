@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=6644
+borncorner=13,18,13,18
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16097
+name=판매원
+enemy=npcgen_shop|file:my/오픈이벤트/은혜
+action=0
+}

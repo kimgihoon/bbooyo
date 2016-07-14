@@ -1,0 +1,45 @@
+#霉篑奶矛件玄﹋霉篑础﹌
+NomalMainMsg:抄 夯靛扼匙。练厘捞瘤！
+
+EventNo:12
+TYPE:ACCEPT
+EVENT:NOWEV=9&NOWEV=10&NOWEV=11&ITEM!=2419&ITEM!=2420
+AcceptMsg:侩扒篮 倒俊 包茄 巴捞瘤?
+ThanksMsg:捞 倒捞 弊犯霸 吝夸茄 巴牢瘤绰\n厕俊档 积阿 给沁焙.\n窜瘤 蔼绢摹 乐绰 倒捞扼绊父 积阿沁匙.\n郴 何窍甸捞 角肥甫 沁焙.
+ItemFullMsg:酒捞袍捞 啊垫 谩绢!
+GetItem:2419,2420
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=12&ITEM=2736,ENDEV=42&ITEM=2736,ENDEV=41&ITEM=2736
+NomalWindowMsg:\n\n\n快府绰 胶胶肺甫 狼利捞扼 何福瘤\n巢甸篮 档利捞扼 何福瘤父 窍窍\n构 绢恫啊 亮篮 吧 啊瘤绰 巴牢单
+EventEnd
+ 
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=41&ITEM!=2736&ENDEV=4&NOWEV=42
+AcceptMsg:\n\n那就是风之竖琴的事。
+ThanksMsg:对了，打倒那边的刚跟丹的人\n是你吧。既然如此也无可奈何。\n算了，跟把这偷走的他们两笔起来\n好像你比较会活用这个啊\n你还真是挺厉害的啊。
+ItemFullMsg:你身上东西全满了，把什么给丢掉吧。
+GetItem:2736
+EventEnd
+
+EventNo:41
+TYPE:ACCEPT
+EVENT:LV>0&NOWEV=41&ENDEV=4&NOWEV=42
+AcceptMsg:\n\n\n侩扒篮 "官恩狼 窍橇"捞瘤?
+ThanksMsg:绊快客 窜阑 捞扁促聪 措窜秦, 弊繁单 快府 夯靛练捞 官恩狼 窍橇俊 颊 错扒 绢痘霸 舅疽瘤? 弊扒 弊犯绊 捞吧 茫栏矾 坷促聪 硅炉捞 亮备父, 快赴 掘篮 吧 倒妨林绰 版快绰 绝菌瘤父, 捞锅浚 抗寇促, 快府 夯靛练 焊促 磊匙啊 歹 肋 劝侩且 巴 鞍焙, 磊 罐霸
+ItemFullMsg:你身上东西太多了，请你把什么东西给丢了吧。
+GetItem:2736
+Charm:1
+EndSetFlg:41
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=12,ENDEV=41
+NomalWindowMsg:怎么说好呢…像你这样好身手的人可以加入梦德一族啊！,不过，我想你也不是邀你加入就会加入的人吧！
+EventEnd
+

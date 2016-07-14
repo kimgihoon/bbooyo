@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:20층에 올라가려고 왔니？
+askbattlemsg2:쉽진 않을꺼야！
+askbattlemsg3:우리는 강하니까。
+start msg:
+dieact:1
+warpfl:32011
+warpx:56
+warpy:36
+end msg:
+enemyno:1399,1401,1402,1400,1403
+deniedmsg: 20층에서 우리보스는 널 가만히 두지않을꺼야。
+onebattle:0

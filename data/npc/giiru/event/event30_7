@@ -1,0 +1,13 @@
+NEWWARPMAN
+
+NOFREE
+FREE:LV>0
+NomalMsg:.........
+PartyMsg:파티로는 들어갈 수 없다.
+OVER
+
+TALKEVENT1
+WARP:31910,10,14
+FREE:ENDEV=4&NOWEV=29&ENDEV=30&NOWEV=54&ITEM=2548
+FreeMsg:\n[진실의 방]으로 안내하지.
+OVER

@@ -1,0 +1,39 @@
+NomalMainMsg:我的孙女怎么会遇到这种事呢？
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n听说要去尼斯大陆！\n希望我的孙女在那边可以过好日子！
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:傣盒俊 郴 颊赤甫 茫疽绢!\n绊缚匙! 激扁福客 磊匙 傣盒捞具.
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63
+NomalWindowMsg:快府 盔林刮甸篮 傍锋狼 嚼拜阑 乔秦 捞镑栏肺 吭绢\n郴 颊赤甫 备秦林霸.
+EventEnd
+
+
+
+EventNo:63
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:郴 颊赤啊 傍锋俊霸 棱囚艾绢.\n激扁福啊 郴 颊赤甫 备且 荐 乐阑鳖...\n捌沥蹬!!\n激扁福啊 瘤陛 绢恫 惑炔牢瘤 唱俊霸 焊咯临 荐 乐绢? 弊档 酒流篮 绢妨!\n弊甫 父唱霸 登搁 档客林辨 官贰.
+StopMsg:你不帮我啊！\n我的孙女真是命苦啊.....
+NoStopMsg:我的孙女怎么会遇到这种事呢？
+EndStopMsg:唉～～我不想看到你了.....
+ThanksMsg:绊缚匙! 激扁福甫 档客辑 郴 颊赤甫 备秦拎.\n弊繁单 寸脚篮 穿备瘤?\n贸澜 焊绰 荤恩捞焙.
+EventEnd
+
+
+

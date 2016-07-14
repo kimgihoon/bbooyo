@@ -1,0 +1,20 @@
+#질裂남氣돨힛튈질慤숭
+NomalMainMsg:나는 민첩을 다스리는 용. 그대는 자격을 갖추고 오라.
+
+EventNo:17
+TYPE:ACCEPT
+EVENT:NOWEV=17&ITEM=2457&ITEM=2458&ITEM=2459&ITEM=2505
+AcceptMsg:나는 민첩을 다스리는 존재\n그대는 용의 옷을 가지고 싶어하는 군.
+ThanksMsg:이 옷을 입으라, 그럼 민첩을 지배할 것이다.
+ItemFullMsg:아이템 칸을 비우고 오라.
+GetItem:2462
+DelItem:2457,2458,2459,2505
+EndSetFlg:17
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=17
+NomalMsg:그대는 이미 민첩의 영역에 도달해있군.
+EventEnd

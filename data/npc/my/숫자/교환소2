@@ -1,0 +1,21 @@
+NomalMainMsg:너는 누구냐!!
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29
+AcceptMsg:\n숫자 2를 가져가겠나?
+ThanksMsg:\n 어서 연구에 힘을 써주게!
+itmeFullMsg:아이템창을 비워줄래?
+GetItem:21262
+EventEnd
+
+
+
+
+
+
+
+
+
+

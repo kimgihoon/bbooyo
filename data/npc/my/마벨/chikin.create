@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=3000
+borncenter=107,78
+time=0
+createnum=1
+graphicname=16010
+name=마벨
+dir=6
+enemy=changeevent|file:my/마벨/교환소1
+}
+

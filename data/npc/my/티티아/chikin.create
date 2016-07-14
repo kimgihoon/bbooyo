@@ -1,0 +1,22 @@
+NPCCREATE
+{
+floorid=1000
+borncenter=91,72
+time=0
+createnum=1
+graphicname=16099
+name=포타화폐 관리자
+dir=6
+enemy=changeevent|file:my/티티아/교환소1
+}
+
+{
+floorid=3000
+borncenter=88,83
+time=0
+createnum=1
+graphicname=16099
+name=포타화폐 관리자
+dir=6
+enemy=changeevent|file:my/티티아/교환소1
+}

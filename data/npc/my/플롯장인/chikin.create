@@ -1,0 +1,25 @@
+NPCCREATE
+{
+floorid=200
+borncenter=450,976
+time=0
+createnum=1
+graphicname=16064
+name=플롯 장인
+dir=6
+enemy=changeevent|file:my/플롯장인/교환소1
+}
+
+
+{
+floorid=14440
+borncenter=12,12,1,1
+movecenter=20,20,100,100
+time=0
+createnum=1
+graphicname=16097
+name=꿈을 사는 소녀
+dir=4
+action=12
+enemy=transman|file:my/플롯장인/교환소2
+}

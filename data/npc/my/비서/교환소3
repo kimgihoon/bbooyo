@@ -1,0 +1,23 @@
+NomalMainMsg:...
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=190
+AcceptMsg:\n뱃조각을 주우시겠습니까?
+ThanksMsg:\n [단서 획득!]
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21259
+EventEnd
+
+
+
+
+
+
+
+
+
+
+
+

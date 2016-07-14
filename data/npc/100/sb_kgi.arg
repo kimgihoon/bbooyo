@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:여길지나가려면, 나를 이겨야한다.
+startmsg:어디한번 해보자! 이얍!。
+dieact:1
+warpfl:11215
+warpx:9
+warpy:16
+end msg:
+enemyno:1271,1274,1274,1281,1281,1276,1279,1279,1276,1276
+deniedmsg:강하구나.. 더욱더 강해져라..
+onebattle:0

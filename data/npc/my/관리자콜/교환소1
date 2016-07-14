@@ -1,0 +1,61 @@
+NomalMainMsg:무서운 공룡이 나오는데 잘도 지나다니는구나!!!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&ENDEV=184
+AcceptMsg:\n마르모스에서는 거대한 공룡들이 출몰하니 주의하는게 좋아
+ThanksMsg:\n또한 마르모스는 사람이 거의 살지 않는 대륙이라서 마을이 없어 관리소에서 모든걸 해결해야 하니 주의해
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=183&PET=1-1409*3
+AcceptMsg:\n약속대로 밍코 레벨 1짜리 3마리를 포획해줬구나! 정말 고마워.
+ThanksMsg:\n 저번엔 너무 약소하게 보상을 해줬는데... 이번엔 제대로 보상 해줄게!
+itmeFullMsg:아이템창을 비워줄래?
+PetFullMsg:\n 페트창을 비워줄래?
+GetItem:21225
+GetPet:3291
+DelPet:PET=1-1409*3
+EndSetFlg:184
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=183
+AcceptMsg:\n어 저번에 그 모험가 아닌가요? 맞네 맞아!
+ThanksMsg:\n저번에는 고마웠어. 하지만 요즘 다시 밍코들이 말썽이야. 이번엔 밍코 lv1 3마리만 포획해와 줄 수 있어? 뿌리부터 뽑아버려야겠어!!!
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21245*20&ENDEV=4
+AcceptMsg:\n 밍코의 이빨 20개를 가져왔구나! 
+ThanksMsg:\n고마워. 덕분에 서식수가 좀 줄어들거야. 이건 퇴치에 힘써준 대가라고 생각해줘. 
+itmeFullMsg:아이템창을 비워줘.
+PetFullMsg:\n 페트창을 비워줄래요?
+GetItem:21231
+GetPet:3290
+DelItem:21245*20
+EndSetFlg:183
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4
+AcceptMsg:\n나는 이 곳 해저통로를 관리하는 콜이라고해! 요즘 밍코 녀석들이 마르모스 관리사무소의 식량을 훔쳐가고 동굴에 숨어버리고 있어
+ThanksMsg:\n그 덕분에 밍코 서식수가 너무 늘어나버렸지! 퇴치를 좀 해야겠어. 너도 퇴치를 찬성한다면 밍코의 이빨 20개만 가져다 주겠어?
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

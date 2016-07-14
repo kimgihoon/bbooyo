@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=31401
+borncenter=29,23
+time=0
+createnum=1
+graphicname=16092
+name=어부 잔코
+dir=4
+enemy=changeevent|file:my/무이가죽/교환소1
+}
+

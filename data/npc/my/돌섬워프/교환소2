@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:300,478,458
+FREE:LV>29&ENDEV=158
+MONEY:-1
+FreeMsg:다시 가우린으로 돌아가시겠나요?
+PayMsg:다나마을 채광에서 무서운 짐승이 나타나 마을사람들이 불편함을 겪고있다는군요.
+PartyMsg:파티로 대화하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

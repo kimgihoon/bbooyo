@@ -1,0 +1,118 @@
+
+NomalMainMsg:나는 무엇이든 다 잘 만들지.,특히 낚싯대 말이야!! 하하!,낚시는 곧 자연과 하나가 되는거야!
+
+#############################################################################
+#檀拍섟鷺
+#############################################################################
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2569*1&ITEM=2572*1&TIME!=0
+AcceptMsg:\n무슨 일이지?\n뭐? 그 재료를 사용해서 낚싯대를\n만들어 달라고?
+ThanksMsg:\n음! 조금 기다려주게!\n이렇게 나무를 깍아내야 해\n샥.샥.샥!\n나무의 끝을 끈으로 묶어서...\n봐라! 다 되었다.!
+ItemFullMsg:아이템 칸을 비우고 와.
+GetItem:2432
+DelItem:2569*1,2572*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2569*1&ITEM=2573*1&TIME!=0
+AcceptMsg:\n무슨 일이지?\n뭐? 그 재료를 사용해서 낚싯대를\n만들어 달라고?
+ThanksMsg:\n음! 조금 기다려주게!\n이렇게 나무를 깍아내야 해\n샥.샥.샥!\n나무의 끝을 끈으로 묶어서...\n봐라! 다 되었다.!
+ItemFullMsg:아이템 칸을 비우고 와.
+GetItem:2432
+DelItem:2569*1,2573*1
+EventEnd
+
+
+
+#############################################################################
+#剃섟鷺
+#############################################################################
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2569*1&ITEM=2574*1&TIME!=0
+AcceptMsg:\n무슨 일이지?\n뭐? 그 재료를 사용해서 낚싯대를\n만들어 달라고?
+ThanksMsg:\n음! 조금 기다려주게!\n이렇게 나무를 깍아내야 해\n샥.샥.샥!\n나무의 끝을 끈으로 묶어서...\n봐라! 다 되었다.!
+ItemFullMsg:아이템 칸을 비우고 와.
+GetItem:2433
+DelItem:2569*1,2574*1
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2570*1&ITEM=2572*1&TIME!=0
+AcceptMsg:\n무슨 일이지?\n뭐? 그 재료를 사용해서 낚싯대를\n만들어 달라고?
+ThanksMsg:\n음! 조금 기다려주게!\n이렇게 나무를 깍아내야 해\n샥.샥.샥!\n나무의 끝을 끈으로 묶어서...\n봐라! 다 되었다.!
+ItemFullMsg:아이템 칸을 비우고 와.
+GetItem:2433
+DelItem:2570*1,2572*1
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2570*1&ITEM=2573*1&TIME!=0
+AcceptMsg:\n무슨 일이지?\n뭐? 그 재료를 사용해서 낚싯대를\n만들어 달라고?
+ThanksMsg:\n음! 조금 기다려주게!\n이렇게 나무를 깍아내야 해\n샥.샥.샥!\n나무의 끝을 끈으로 묶어서...\n봐라! 다 되었다.!
+ItemFullMsg:아이템 칸을 비우고 와.
+GetItem:2433
+DelItem:2570*1,2573*1
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2571*1&ITEM=2572*1&TIME!=0
+AcceptMsg:\n무슨 일이지?\n뭐? 그 재료를 사용해서 낚싯대를\n만들어 달라고?
+ThanksMsg:\n음! 조금 기다려주게!\n이렇게 나무를 깍아내야 해\n샥.샥.샥!\n나무의 끝을 끈으로 묶어서...\n봐라! 다 되었다.!
+ItemFullMsg:아이템 칸을 비우고 와.
+GetItem:2433
+DelItem:2571*1,2572*1
+EventEnd
+
+
+
+
+#############################################################################
+#뭥拍섟鷺
+#############################################################################
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2570*1&ITEM=2574*1&TIME!=0
+AcceptMsg:\n무슨 일이지?\n뭐? 그 재료를 사용해서 낚싯대를\n만들어 달라고?
+ThanksMsg:\n음! 조금 기다려주게!\n이렇게 나무를 깍아내야 해\n샥.샥.샥!\n나무의 끝을 끈으로 묶어서...\n봐라! 다 되었다.!
+ItemFullMsg:아이템 칸을 비우고 와.
+GetItem:2434
+DelItem:2570*1,2574*1
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2571*1&ITEM=2573*1&TIME!=0
+AcceptMsg:\n무슨 일이지?\n뭐? 그 재료를 사용해서 낚싯대를\n만들어 달라고?
+ThanksMsg:\n음! 조금 기다려주게!\n이렇게 나무를 깍아내야 해\n샥.샥.샥!\n나무의 끝을 끈으로 묶어서...\n봐라! 다 되었다.!
+ItemFullMsg:아이템 칸을 비우고 와.
+GetItem:2434
+DelItem:2571*1,2573*1
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2571*1&ITEM=2574*1&TIME!=0
+AcceptMsg:\n무슨 일이지?\n뭐? 그 재료를 사용해서 낚싯대를\n만들어 달라고?
+ThanksMsg:\n음! 조금 기다려주게!\n이렇게 나무를 깍아내야 해\n샥.샥.샥!\n나무의 끝을 끈으로 묶어서...\n봐라! 다 되었다.!
+ItemFullMsg:아이템 칸을 비우고 와.
+GetItem:2434
+DelItem:2571*1,2574*1
+EventEnd
+
+

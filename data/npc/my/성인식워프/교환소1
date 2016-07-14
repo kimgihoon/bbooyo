@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:10204,14,7
+FREE:LV>29&ITEM=21002
+MONEY:-1
+FreeMsg:대리인님에게 말씀 잘 들었습니다. 성인식을 진행 할 수 있는 해저통로 지하로 안내해드리겠습니다.
+PayMsg:저는 대리인님의 호위병 수하 입니다.
+PartyMsg:파티상태로 해당 NPC와 대화 하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

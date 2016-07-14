@@ -1,0 +1,54 @@
+NomalMainMsg:우리 연구소에서 실험중이였던 생명체들이 탈출했어.. 이거 큰일이야
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79&ENDEV=181
+NomalWindowMsg:\n 사이너스에서만 활동하던 본드족이 라케시스로 건너와 라케시스에 사는 신종 페트들를 모조리 잡아가고 있습니다.
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21197&ITEM=21194&ITEM=21195&ITEM=21196
+AcceptMsg:\n[야크노][키파][흑귀] 모두 물리치고 오셨군요. 다행입니다. 인명피해가 나진않을까 노심초사했는데 덕분에 안심하게 되었네요
+ThanksMsg:\n당신의 공을 위해 우리 연구원 일동이 준비한 선물이 있습니다. 라케시스에서 발견된 페트의 알 3개인데요. 당신에게 모두 드리겠습니다. 무슨 페트의 알인지는 저희도 정확히는 모르겠습니다.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21198*3
+DelItem:21197,21194,21195,21196
+EndSetFlg:181
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21197
+AcceptMsg:\n\n제 부탁을 거절 하실건가요?
+ThanksMsg:\n\n어쩔수없군요! 다른 파견단에게 부탁해야겠어요.
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:21197
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79
+AcceptMsg:\n안녕? 나는 이 연구소에서 근무하는 제이지라고 해. 지금 라케시스는 조사중인 대륙인것은 너도 알고 있을테지? 아직 발견되지 않은 생명체가 많아.
+ThanksMsg:\n지난번 라케시스에서 발견된 신종 3종을 연구소에서 조사중이였지만 본드족의 습격으로 생명체들이 모두 도망가버렸어. 포획하기에는 그 녀석들이 너무 쌔니 사살하여 녀석들의 전리품을 가져다주겠어? 힘이 쌔서 여러번 죽을때까지 물리쳐야 전리품을 얻을 수 있을거야
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21197
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

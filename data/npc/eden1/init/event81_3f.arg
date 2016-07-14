@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:
+askbattlemsg2:나는 PC단대장. 여기까지 온 것을 보면 너는 상당히 강하군. 그러나 나는 쉽지 않을 것이다.
+startmsg:가라! 내 부하들이여!
+dieact:1
+warpfl:5580
+warpx:58
+warpy:20
+end msg:
+enemyno:1705,1704,1704,1704,1704,1704,1704,1704,1704,1704
+deniedmsg:
+

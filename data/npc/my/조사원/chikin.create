@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=200
+borncenter=564,382
+time=0
+createnum=1
+graphicname=16648
+name=조사원 A
+dir=6
+enemy=changeevent|file:my/조사원/교환소1
+}
+

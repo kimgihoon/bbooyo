@@ -1,0 +1,19 @@
+buy_rate:1.0
+sell_rate:0.5
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_msg:卖东西,卖,sell,uru
+other_msg:最近生意如何？
+hint_msg:嗯─、物价上涨了耶。
+sellonly_msg:并不是专门收买东西的
+main_msg:傈府前魄概
+buy_main:傈府前 酒捞袍阑 魄概窍绊 乐嚼聪促! 榜扼焊技夸.
+sell_main:公均阑 颇矫摆嚼聪鳖?
+what_msg:荐樊阑 沥秦林技夸
+stone_msg:捣捞 何练钦聪促.
+level_msg:饭骇捞 何练钦聪促.
+realy_msg:沥富 荤矫摆嚼聪鳖?
+itemfull_msg:酒捞袍芒阑 厚况林技夸!
+ItemList:21012,21013,21014,21015
+LimitItemNo:21012,21013,21014,21015,21016,21017,21018,21019,21020,21021,21022,21023,21024,21025,21026,21027,21028,21029,21030,21031,21032
+special_rate:1.5
+

@@ -1,0 +1,65 @@
+NomalMainMsg:唱绰 厕狼 脚飞捞匙,捻福 付阑俊辑 傈崔磊啊 坷瘤臼绰焙.
+
+EventNo:173
+TYPE:REQUEST
+EVENT:ENDEV=4&ENDEV=34&ENDEV=33&ENDEV=32&ENDEV=105&NOWEV=172&ITEM=19550
+RequestMsg:\n嘿！年轻人，你来找我有什么事啊？疑？这一块石头不是以前我设计的吗？这应该留在伊甸大陆，怎么会在你身上出现？\n\n........................
+RequestMsg2:\n原来你经历过那么多考验啊！那我相信地精灵会很愿意见到你，不过想要见到他就要看你自己是否有那份能耐可以通过我所设计的机关了！\n\n你想挑战吗？
+ThanksMsg:\n很好，你仔细观察伊甸大陆南方海边的石阵，特别注意石头的大小以及数量！\n这可攸关你通过的顺序！
+StopMsg:\n\n你不想去啊？是不是觉得又远又难？
+EndStopMsg:\n\n原来你也不是那么有耐性与智慧！
+NoStopMsg:\n那就赶快去啊，怎么还在这里磨蹭。
+EventEnd
+
+EventNo:34
+TYPE:ACCEPT
+EVENT:ENDEV=4&ITEM=2603&ENDEV=33&ENDEV=32
+AcceptMsg:[急斑狼 蝴]阑 啊瘤绊 客 林菌焙.\n捞巴栏肺 菊栏肺 积辨 老甸阑 促矫\n厕阑 烹秦 杭 荐啊 乐绢.\n历率俊 乐绰 滴付府狼 傍锋篮\n唱狼 亮篮 富 惑措瘤.\n唱 捞寇狼 牢埃俊霸绰 富阑 扒匙瘤 臼绊\n傍拜阑 窍瘤. 固救窍匙...
+AcceptMsg2:捻福 付阑俊 皑荤窍匙. 拱沸 磊匙俊霸档.\n弊 [急斑狼 蝴]阑 郴霸 林摆唱?
+ThanksMsg:绊缚焙. 磊匙俊罢 根券狼 厘厚甫 林摆匙
+ItemFullMsg: 酒捞袍捞 啊垫 谩焙.
+DelItem:2603
+GetItem:2604
+EndSetFlg:34
+EventEnd
+
+EventNo:33
+TYPE:ACCEPT
+EVENT:ENDEV=4&ITEM=2603&ENDEV=32
+AcceptMsg:[急斑狼 蝴]阑 啊瘤绊 客 林菌焙.\n捞巴栏肺 菊栏肺 积辨 老甸阑 促矫\n厕阑 烹秦 杭 荐啊 乐绢.\n历率俊 乐绰 滴付府狼 傍锋篮\n唱狼 亮篮 富 惑措瘤.\n唱 捞寇狼 牢埃俊霸绰 富阑 扒匙瘤 臼绊\n傍拜阑 窍瘤. 固救窍匙...
+AcceptMsg2:捻福 付阑俊 皑荤窍匙. 拱沸 磊匙俊霸档.\n弊 [急斑狼 蝴]阑 郴霸 林摆唱?
+ThanksMsg:绊缚焙. 磊匙俊罢 根券狼 厘厚甫 林摆匙
+ItemFullMsg: 酒捞袍捞 啊垫 谩焙.
+DelItem:2603
+GetItem:2605
+EndSetFlg:33
+EventEnd
+
+EventNo:32
+TYPE:ACCEPT
+EVENT:ENDEV=4&ITEM=2603
+AcceptMsg:[急斑狼 蝴]阑 啊瘤绊 客 林菌焙.\n捞巴栏肺 菊栏肺 积辨 老甸阑 促矫\n厕阑 烹秦 杭 荐啊 乐绢.\n历率俊 乐绰 滴付府狼 傍锋篮\n唱狼 亮篮 富 惑措瘤.\n唱 捞寇狼 牢埃俊霸绰 富阑 扒匙瘤 臼绊\n傍拜阑 窍瘤. 固救窍匙...
+AcceptMsg2:捻福 付阑俊 皑荤窍匙. 拱沸 磊匙俊霸档.\n弊 [急斑狼 蝴]阑 郴霸 林摆唱?
+ThanksMsg:绊缚焙. 磊匙俊罢 根券狼 厘厚甫 林摆匙
+ItemFullMsg: 酒捞袍捞 啊垫 谩焙.
+DelItem:2603
+GetItem:2606
+EndSetFlg:32
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&ITEM=2603&ENDEV=34&ENDEV=33&ENDEV=32,LV>34&ITEM=2603
+AcceptMsg:[急斑狼 蝴]阑 啊瘤绊 客 林菌焙.\n捞巴栏肺 菊栏肺 积辨 老甸阑 促矫\n厕阑 烹秦 杭 荐啊 乐绢.\n历率俊 乐绰 滴付府狼 傍锋篮\n唱狼 亮篮 富 惑措瘤.\n唱 捞寇狼 牢埃俊霸绰 富阑 扒匙瘤 臼绊\n傍拜阑 窍瘤. 固救窍匙...
+AcceptMsg2:捻福 付阑俊 皑荤窍匙. 拱沸 磊匙俊霸档.\n弊 [急斑狼 蝴]阑 郴霸 林摆唱?
+ThanksMsg:绊缚焙. 磊匙俊罢 根券狼 厘厚甫 林摆匙
+ItemFullMsg: 酒捞袍捞 啊垫 谩焙.
+DelItem:2603
+GetRandItem:450,451,449,549,552,543,653,646,12623,12648,11895,11926,11936,12052,11803,11814,11824,11833,11843,11853
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0,ENDEV=4&ITEM!=2603&ITEM!=19550
+NomalWindowMsg:[急斑狼 蝴]篮 厕阑 烹秦 杭 荐 乐绰 瓷仿捞 乐绢.
+EventEnd

@@ -1,0 +1,27 @@
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=40
+NomalWindowMsg:\n자네는 나에게 인정 받았으니 모든사람들에게 인정받게 될거야.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=40&ITEM!=2706
+AcceptMsg:\n정령의 의식에 참가하고 싶니?\n내 깃털을 바쳐서 사람들에게 인정 받고 싶은가 보구나?
+ThanksMsg:\n그래 나의 깃털을 줄테니 한번 정령의 의식에 참가해봐. 이모든것을 무사히 끝내면 모든사람들에게 인정을 받을수 있을꺼야.
+ItemFullMsg:아이템창이 가득찬거 같은데?!
+NpcWarp:20309.18.13,20309.55.49,20309.32.28,20309.46.45
+GetItem:2706
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=40&ITEM=2706
+NomalWindowMsg:\n어서 가서 정령의 의식에 참가해!!!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n넌 뭐하는녀석이냐?\n애송이는 어서 집에돌아가\n의식좋아하는군...
+EventEnd

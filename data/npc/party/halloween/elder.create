@@ -1,0 +1,12 @@
+NPCCREATE
+##万圣节塞尔特族老人##
+{
+name=塞尔特族老人
+floorid=4000
+borncenter=52,105,1,1
+dir=5
+createnum=1
+time=0
+graphicname=16057
+enemy=elder|file:party/halloween1/elder.arg
+}

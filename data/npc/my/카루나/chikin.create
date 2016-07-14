@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=1400
+borncenter=79,110
+time=0
+createnum=1
+graphicname=16101
+name=카루나
+dir=6
+enemy=changeevent|file:my/카루나/교환소1
+}
+

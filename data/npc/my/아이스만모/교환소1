@@ -1,0 +1,33 @@
+NomalMainMsg:...
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79&ENDEV=166
+NomalWindowMsg:\n\n ...
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=4&ENDEV=165&ITEM=2414&ITEM=21146
+AcceptMsg:\n\n 이 곳은 어딘가요? 당신이 절 얼음속에서 깨우셨나요?
+ThanksMsg:\n\n 감사합니다. 천년만에 이 세상에 나온것 같습니다. 비록 잠시동안 이상한 조개로 대화를 할 수 있지만 당신과 여행을 함께해도 괜찮습니까?
+PetFullMsg:\n 페트창을 비워주지 않겠나...?
+GetPet:3109
+EndSetFlg:166
+DelItem:2414*1,21146
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

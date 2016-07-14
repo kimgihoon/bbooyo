@@ -1,0 +1,13 @@
+NPCCREATE
+
+{
+floorid=3004
+borncenter=11,14,1,1
+movecenter=20,20,100,100
+createnum=1
+time=
+dir=2
+graphicname=100830
+name=마벨의 페트
+enemy=sb_muge1|file:my/포미/도마뱀
+}

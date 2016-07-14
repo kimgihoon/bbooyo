@@ -1,0 +1,61 @@
+NPCCREATE
+
+{
+floorid=1000
+borncorner=79,80,79,80
+time=0
+createnum=1
+graphicname=16027
+name=쿠폰관리자 아르
+dir=4
+ignoreinvincible=1
+enemy=changeevent|file:my/쿠폰/교환소1
+}
+
+{
+floorid=2000
+borncorner=65,63,65,63
+time=0
+createnum=1
+graphicname=16027
+name=쿠폰관리자 아르
+dir=4
+ignoreinvincible=1
+enemy=changeevent|file:my/쿠폰/교환소1
+}
+
+{
+floorid=3000
+borncorner=95,61,95,61
+time=0
+createnum=1
+graphicname=16027
+name=쿠폰관리자 아르
+dir=4
+ignoreinvincible=1
+enemy=changeevent|file:my/쿠폰/교환소1
+}
+
+{
+floorid=4000
+borncorner=82,58,82,58
+time=0
+createnum=1
+graphicname=16027
+name=쿠폰관리자 아르
+dir=4
+ignoreinvincible=1
+enemy=changeevent|file:my/쿠폰/교환소1
+}
+
+{
+floorid=5000
+borncorner=54,22,54,22
+time=0
+createnum=1
+graphicname=16027
+name=쿠폰관리자 아르
+dir=4
+ignoreinvincible=1
+enemy=changeevent|file:my/쿠폰/교환소1
+}

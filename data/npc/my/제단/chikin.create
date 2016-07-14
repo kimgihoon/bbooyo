@@ -1,0 +1,107 @@
+NPCCREATE
+{
+floorid=1200
+borncenter=52,39
+time=0
+createnum=1
+graphicname=10314
+name=쿠링 제단
+dir=5
+enemy=changeevent|file:my/제단/교환소1
+}
+
+{
+floorid=1100
+borncenter=44,35
+time=0
+createnum=1
+graphicname=10404
+name=쿠오 제단
+dir=4
+enemy=changeevent|file:my/제단/교환소2
+}
+
+{
+floorid=1300
+borncenter=43,56
+time=0
+createnum=1
+graphicname=10313
+name=호토르 제단
+dir=5
+enemy=changeevent|file:my/제단/교환소3
+}
+
+{
+floorid=1400
+borncenter=92,107
+time=0
+createnum=1
+graphicname=10178
+name=카탄 제단
+dir=6
+enemy=changeevent|file:my/제단/교환소4
+}
+
+{
+floorid=6000
+borncenter=46,83
+time=0
+createnum=1
+graphicname=10205
+name=쿠르 제단
+dir=6
+enemy=changeevent|file:my/제단/교환소5
+}
+
+
+{
+floorid=3300
+borncenter=62,68
+time=0
+createnum=1
+graphicname=10626
+name=우루리 제단
+dir=6
+enemy=changeevent|file:my/제단/교환소6
+}
+
+
+{
+floorid=3200
+borncenter=46,77
+time=0
+createnum=1
+graphicname=10404
+name=토토 제단
+dir=4
+enemy=changeevent|file:my/제단/교환소7
+}
+
+{
+floorid=3100
+borncenter=67,47
+time=0
+createnum=1
+graphicname=10120
+name=타무타무 제단
+dir=6
+enemy=changeevent|file:my/제단/교환소8
+}
+
+
+{
+floorid=3400
+borncenter=65,89
+time=0
+createnum=1
+graphicname=10131
+name=쿠키 제단
+dir=6
+enemy=changeevent|file:my/제단/교환소9
+}
+
+
+
+
+

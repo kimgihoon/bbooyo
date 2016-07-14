@@ -1,0 +1,27 @@
+NPCCREATE
+{
+floorid=300
+borncenter=532,133
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16124
+name=다나 관리병
+enemy=npcgen_warpman|file:my/채광워프/교환소1
+}
+
+{
+floorid=15080
+borncenter=19,28
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16029
+name=여 조수
+enemy=npcgen_warpman|file:my/채광워프/교환소2
+}
+
+
+

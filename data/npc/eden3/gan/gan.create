@@ -1,0 +1,17 @@
+NPCCREATE
+
+
+
+
+###### ×¯¶­ ######
+{
+name=×¯¶­
+floorid=3016
+borncenter=31,49
+dir=6
+ignoreinvincible=1
+createnum=1
+enemy=changeevent|file:eden3/gan/wuwan
+graphicname=16946
+}
+

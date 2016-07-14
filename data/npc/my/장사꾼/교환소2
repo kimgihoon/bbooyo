@@ -1,0 +1,50 @@
+NomalMainMsg:샴기르 마을은 넓고 깨끗한 마을로 유명하다네
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=159
+NomalWindowMsg:\n 어서 이 광석들를 줍고 무기상점에 운반해줘야겠어요.
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21114&ITEM=21117
+AcceptMsg:\n 고맙습니다!\n 덕분에 빨리 주울 수 있을것 같아요!
+ThanksMsg:\n 앞으로도 이런 선행 많이 하셨으면 좋겠습니다. 
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21115,21116,21118
+DelItem:21114,21117
+EndSetFlg:159
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21117
+AcceptMsg:\n역시 무리시겠죠...?
+ThanksMsg:\n괜찮습니다! 광부와 열심히 옮겨보겠습니다.
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:21117
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:\n저에게 무슨 볼일이 있습니까?
+ThanksMsg:\n광석을 줍는걸 도와주실려구요?\n감사합니다! 그럼 저기 밑에 무거워 보이는 광석 하나를 옮겨와주세요! 손 보호를 위해 장갑도 드릴게요
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21117
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

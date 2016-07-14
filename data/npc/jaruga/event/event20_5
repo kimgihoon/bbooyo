@@ -1,0 +1,30 @@
+#山贼的事件........强恩的老婆
+
+NomalMainMsg:唱绰 捞镑俊 林牢牢 莉狼 何牢捞具. 龋龋龋!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=20&ITEM=2487
+AcceptMsg:构? 咯磊 酒捞?\n...\n贾流洒 唱档 咯磊局啊 乐绢辑 濒娄 愁耳绢.\n快府 何何 荤捞浚 酒捞档 绝绊 秦辑\n郴啊 虐快绊 酵促绊 富沁带 芭具.\n趣矫 捞 赣府 操固俺绰..\n荤扼狼 决付波具?
+ThanksMsg:弊犯焙..\n弊贰, 16斥悼救捞唱 模何葛甫 给好栏聪..\n弊府匡瘤档 隔扼!\n荤扼俊霸 啊辑 娟扁 秦毫.
+ItemFullMsg:\n酒捞袍捞 啊垫 谩绢.
+EventEnd
+
+
+
+#和女儿说完话后。
+EventNo:21
+TYPE:ACCEPT
+EVENT:ENDEV=20&NOWEV=21
+AcceptMsg:\n荤扼啊 积阿且 矫埃阑..??\n荤扼啊 绝促搁 唱绰 寇肺况龙芭具.
+ThanksMsg:\n窍瘤父 荤扼啊 盔茄促搁 快府绰\n荤扼甫 焊郴临 荐 乐绢.\n弊霸 郴 叠阑 困茄 老捞聪鳖.
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21
+NomalMsg:好久不见！你快去看看沙拉吧！
+EventEnd

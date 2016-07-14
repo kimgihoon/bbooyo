@@ -1,0 +1,110 @@
+NomalMainMsg:绕访!! 绕访!!!! 弊府绊 肚 绕访!!!!!!
+ 
+EventNo:-1 
+TYPE:MESSAGE 
+EVENT:ENDEV=81&ITEM=19699&ITEM!=2745&ITEM!=2746 
+NomalWindowMsg:\n咯扁绰 档扼厚胶 亲傍!
+EventEnd 
+ 
+EventNo:-1 
+TYPE:MESSAGE 
+EVENT:ENDEV=81&ITEM!=2745&ITEM!=2746 
+NomalWindowMsg:\n咯扁绰 档扼厚胶 亲傍!
+EventEnd 
+ 
+EventNo:-1 
+TYPE:REQUEST 
+EVENT:NOWEV=81&ITEM=19698 
+RequestMsg:\n毫毫,唱狼 橇鄂捞 倒酒吭绢.\n巢祸 官瘤甫 涝绊 赣府啊 请努绢柳 荤恩捞\n规陛 唱俊霸 焊郴霖芭具.\n聪啊 啊瘤绊 乐绰 祈瘤绰 唱俊霸 林绰芭聪?
+ThanksMsg1:\n弊犯焙.\n橇鄂篮 开矫 档利措厘捞 单府绊 艾菌绢.\n呈啊 绝菌栏搁 橇鄂阑 茫阑 荐 绝菌阑芭具.\n绊付况, 橇鄂篮 郴 家吝茄 模备具.
+ThanksMsg2:\n呈绰 郴 家吝茄 篮牢捞具.\n捞 缔祈栏肺 啊毫.\n匙霸 盒疙 档框捞 瞪芭具.
+ItemFullMsg:酒捞袍 沫捞 啊垫 谩焙.
+GetItem:19699
+DelItem:19698
+EndSetFlg:81
+EventEnd 
+ 
+ 
+EventNo:-1 
+TYPE:REQUEST 
+EVENT:NOWEV=81&ITEM=19698&ITEM=2745 
+RequestMsg:你看看，我的布兰恩002回来了...\n刚刚有一个穿蓝裤子头发还蓬蓬的人送来的..\n你手上拿的信是要给我啊？ 
+ThanksMsg1:我看看...\n信上写了布兰恩002是被PC团盗贼所捡去，\n而因为你的帮忙证明了这一只布兰恩002是我的，所以就派专人送还给我... 
+ThanksMsg2:……原来布兰恩002是你找回来的，\n你真是我的救命恩人，\n我就告诉你我的秘密吧，我来自伊甸大陆，我到尼斯是因为我们伊甸一直传说尼斯是伊甸的故乡，所以我们开始找寻这一切历史的根源，没想到真被我们找到了尼斯这地方… 
+ThanksMsg3:我搭乘布兰恩历经长时间的考验终于来到尼斯大陆…\n不过我的布兰恩因为长时间飞行而累坏了，没办法载我回伊甸大陆，\n幸好我发现尼斯的朵拉比斯的体质非常好，\n可以经得起长时间长距离的飞行…\n看在你帮助我的份上，就让你参观我的故乡伊甸大陆吧… 
+ThanksMsg4:你去找我的助手，他会叫朵拉比斯载你到伊甸大陆去的\n这一趟绝对是值回票价。\n最后麻烦请你帮我最后一个忙，带这一份研究报告给我的总教练，\n总教练看到这份报告后，就会给你不错的奖赏。 
+ThanksMsg5:对了，要去伊甸大陆需要的旅费是1万石币，因为这一次的航线非常长，朵拉比斯的食物费开销实在太大了，我们需要最基本的收入，不然就无法载你去伊甸了...\n最后祝你旅途愉快 
+ItemFullMsg:你的包包已经满了，我的报告书没办法给你…… 
+GetItem:19699 
+DelItem:19698*1 
+EndSetFlg:81 
+EventEnd 
+ 
+ 
+EventNo:81 
+TYPE:ACCEPT 
+EVENT:PET>0-271*1&ITEM=19697 
+AcceptMsg:\n厚锋阑 棱酒吭焙!!\n呈扼搁 秦尘 巴捞扼 积阿沁绢.\n亮酒! 捞吧肺 拌裙俊 茄摸 歹 唱酒艾焙.
+ThanksMsg1:\n绊付况 捞 厚锋苞 巩辑绰 啊廉哎霸.\n窍瘤父 酒流 促 场抄 霸 酒聪具.\n快府 拌裙篮 捞力 矫累捞聪鳖.
+ThanksMsg2:\n炼陛 饶俊 促矫 郴霸 富阑 秦临贰?\n呈俊霸 何殴且 老捞 乐绢.
+DelItem:19697*1 
+DelPet:PET>0-271*1 
+EndSetFlg:0 
+EventEnd 
+ 
+EventNo:81 
+TYPE:ACCEPT 
+EVENT:PET>0-272*1&ITEM=19697 
+AcceptMsg:\n厚锋阑 棱酒吭焙!!\n呈扼搁 秦尘 巴捞扼 积阿沁绢.\n亮酒! 捞吧肺 拌裙俊 茄摸 歹 唱酒艾焙.
+ThanksMsg1:\n绊付况 捞 厚锋苞 巩辑绰 啊廉哎霸.\n窍瘤父 酒流 促 场抄 霸 酒聪具.\n快府 拌裙篮 捞力 矫累捞聪鳖.
+ThanksMsg2:\n炼陛 饶俊 促矫 郴霸 富阑 秦临贰?\n呈俊霸 何殴且 老捞 乐绢.
+DelPet:PET>0-272*1 
+DelItem:19697*1 
+EndSetFlg:0 
+EventEnd 
+ 
+EventNo:81 
+TYPE:ACCEPT 
+EVENT:PET>0-273*1&ITEM=19697 
+AcceptMsg:\n厚锋阑 棱酒吭焙!!\n呈扼搁 秦尘 巴捞扼 积阿沁绢.\n亮酒! 捞吧肺 拌裙俊 茄摸 歹 唱酒艾焙.
+ThanksMsg1:\n绊付况 捞 厚锋苞 巩辑绰 啊廉哎霸.\n窍瘤父 酒流 促 场抄 霸 酒聪具.\n快府 拌裙篮 捞力 矫累捞聪鳖.
+ThanksMsg2:\n炼陛 饶俊 促矫 郴霸 富阑 秦临贰?\n呈俊霸 何殴且 老捞 乐绢.
+DelPet:PET>0-273*1 
+DelItem:19697*1 
+EndSetFlg:0 
+EventEnd 
+ 
+EventNo:81 
+TYPE:ACCEPT 
+EVENT:PET>0-274*1&ITEM=19697 
+AcceptMsg:\n厚锋阑 棱酒吭焙!!\n呈扼搁 秦尘 巴捞扼 积阿沁绢.\n亮酒! 捞吧肺 拌裙俊 茄摸 歹 唱酒艾焙.
+ThanksMsg1:\n绊付况 捞 厚锋苞 巩辑绰 啊廉哎霸.\n窍瘤父 酒流 促 场抄 霸 酒聪具.\n快府 拌裙篮 捞力 矫累捞聪鳖.
+ThanksMsg2:\n炼陛 饶俊 促矫 郴霸 富阑 秦临贰?\n呈俊霸 何殴且 老捞 乐绢.
+DelPet:PET>0-274*1 
+DelItem:19697*1 
+EndSetFlg:0 
+EventEnd 
+ 
+EventNo:-1 
+TYPE:MESSAGE 
+EVENT:ITEM=19697 
+NomalWindowMsg:\n档扼厚胶, 器捞厚胶, 抛扼帮, 墨福帮\n捞 匙 付府 吝 茄付府甫 棱酒客拎.
+EventEnd 
+ 
+EventNo:-1 
+TYPE:REQUEST 
+EVENT:ITEM=19696 
+RequestMsg:\n俊掸狼 辟盔阑 茫绰 拌裙阑 氓烙阑 瘤绊\n乐绰 荤恩甸阑 困秦辑, 唱绰 变 亲傍肺俊\n利钦茄 其飘甫 茫绰单 畴仿窍绊 乐绢.\n唱绰 郴啊 且 荐 乐阑芭扼绊 瓜绢.\n绢? 呈档 档扼厚胶 拌裙狼 焊面 牢盔捞聪?
+ThanksMsg1:\n弊贰?\n呈绰 碍秦焊捞聪 沥富 档框捞 瞪 巴 鞍焙.\n磊, 捞巴阑 罐酒.\n厚锋阑 棱绰 刘疙辑促.\n弊 厚锋甸捞 公郊 其飘牢瘤绰 舅绊 乐聪?
+ThanksMsg2:\n档扼厚胶, 器捞厚胶, 抛扼帮, 墨福帮\n捞 匙付府 吝 茄付府甫 棱酒坷搁 登.\n拱沸 面己档啊 臭栏搁 亮摆瘤父..\被捞 臭瘤绰 臼酒档 登.
+DelItem:19696*1 
+ItemFullMsg:酒捞袍 沫捞 菜 谩绢.
+GetItem:19697*1 
+EventEnd 
+ 
+ 
+EventNo:-1 
+TYPE:MESSAGE 
+EVENT:NOWEV=81 
+NomalWindowMsg:\n朝 档客拎..\n橇鄂捞 绝绢脸绢. 橇鄂阑 粱 茫酒临贰?\n档迪狼 悼奔狼 档迪甸捞 啊廉艾绢!\n器风级 599,469俊 乐阑芭具!\n档客拎!
+EventEnd

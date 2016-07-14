@@ -1,0 +1,12 @@
+NPCCREATE
+##ΝςΚ₯½Ϊίδίδ##
+{
+name=ίδίδ
+floorid=3100
+borncenter=36,55,1,1
+dir=5
+createnum=1
+time=0
+graphicname=16036
+enemy=mimi|file:party/halloween/mimi.arg
+}

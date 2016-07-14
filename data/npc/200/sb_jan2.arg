@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:넌 뭐야?! 시비거는 거냐!?
+startmsg:어디 실력을 보여봐라!
+dieact:1
+warpfl:20607
+warpx:36
+warpy:31
+end msg:
+enemyno:961,963,962
+deniedmsg:..큭.. 지나가도 좋다.
+

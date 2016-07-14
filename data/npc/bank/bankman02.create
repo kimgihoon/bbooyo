@@ -1,0 +1,24 @@
+NPCCREATE
+{
+floorid=1006
+borncorner=19,24,19,24
+time=0
+createnum=1
+graphicname=16096
+name=¼¤±â¸£ ÀºÇà¿ø
+dir=6
+ignoreinvincible=1
+enemy=GambleBank|file:bank/bankman02.arg
+}
+
+{
+floorid=3006
+borncorner=22,12,22,12
+time=0
+createnum=1
+graphicname=16068
+name=ÀðÀð ÀºÇà¿ø
+dir=4
+ignoreinvincible=1
+enemy=GambleBank|file:bank/bankman02.arg
+}

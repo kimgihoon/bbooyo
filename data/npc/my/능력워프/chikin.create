@@ -1,0 +1,25 @@
+NPCCREATE
+{
+floorid=400
+borncenter=128,101
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16666
+name=시험장 문지기
+enemy=npcgen_warpman|file:my/능력워프/교환소1
+}
+
+{
+floorid=19331
+borncenter=28,28
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16064
+name=문지기
+enemy=npcgen_warpman|file:my/능력워프/교환소2
+}
+

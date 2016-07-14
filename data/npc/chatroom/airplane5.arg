@@ -1,0 +1,15 @@
+routenum:1
+routeto1:5000,43,59;5000,43,70;5000,24,70;999,162,123;999,142,123;999,142,74;999,170,74;300,79,94;300,166,94
+routename1:후르도∥서가우린
+denieditem:2402,403,2404,2405,2406,2407,2408,2409,2410,2411,2412,2413
+needstone:10000
+pickupitem:0
+waittime:180
+msg_gettingon:꼬미꼬미!
+msg_notparty:출발합니다!
+msg_overparty:더이상자리가없어요!
+msg_denieditem:아이템이 끝났어요!
+msg_stone:차비를 지불해주세요
+msg_start:출발합니다.꼬미꼬미!
+msg_end:목적지에 도착했습니다.
+oneway:1

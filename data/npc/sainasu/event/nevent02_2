@@ -1,0 +1,31 @@
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2446*10
+AcceptMsg:\n오오! 이걸로 특효약을 만들라고 하는거지?
+ThanksMsg:\n그래 좋아!\n이 만큼의 양만 있으면 충분 할꺼야!\n샥샥샥샥... 자! 됐다!\n마비특효약 [마비제거]야!!
+ItemFullMsg:아이템 칸이 가득 찼군.
+DelItem:2446
+GetItem:2449
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2446
+NomalWindowMsg:\n오 그것은 도주 후바바의 뼈!?\n그것을 필요한 양만큼 구해오면\n약을 만들 수 있을거야!\n10개정도만 구해다줘!! 어서!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n나는 이 마을의 약제사야!\n마비의 특효약을 만드려면 도주 후바바라고\n하는 희귀한 짐승의 뼈가 필요하지!\n요즘은 손에 넣기가 힘들게 되었어!\n그래서 빨리는 제조할 수 없어!
+EventEnd
+
+
+
+
+
+

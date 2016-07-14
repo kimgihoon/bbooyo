@@ -1,0 +1,526 @@
+#ChangeRunLevel
+#운행레벨 범위는-20~19 -20이 설정중 최고레벨
+runlevel=0
+
+#CPU 사용 지정
+#성능조절，CPU의 사용량이 높아지게 하려면 높히세요
+CPUUSE=0
+
+#recvbuffer유저를 접수하는 버퍼링 크기 범위0K-128K
+recvbuffer=64
+
+#recvbuffer유저들이 보내는 버퍼링 크기 범위0K-128K
+sendbuffer=64
+
+#readbuffer유저를 접수하는 버퍼링 크기 범위128-1024
+recvlowatbuffer=128
+
+#debug 사용 레벨
+#0: 스탭
+#1: 부매니저
+#3: 매니저
+debuglevel=3
+
+#미숙련자 페트 탑승 레벨
+RIDEPETLEVEL=800
+
+#가족 재가입 시간 지정
+JOINFAMILYTIME=0.5
+
+#QQ인증
+QQ=12991604
+
+#불법 페트 체크
+#불법펫 검사(1 검사,0 검사안함)
+CHECKPEPEAT=0
+
+#퓨전페트의 환생 가능여부
+#0 (불가능), 1 (1환), 2 (2환)
+FUSIONBEIT=1
+
+#동일한 IP는 회수를 로그인 합니다.
+SAMEIPLOGIN=3
+
+#플레이어가 걸을때 적 만날확률 줄이기
+#높으면 적을 만나기가 더 힘듬
+#유저가 보행중 몹이 걸리는 엔카운터률 배수
+ENEMYACTION=1
+
+#1 가족간의 싸움 가능
+#0 가족간의 싸움 불가능
+#부락가족 부락뺏기 모드
+FMPOINTPK=1
+
+#탑승 모드 관련
+#[0]8.0버전의 탑승 방식
+#[2]2.0버전의 탑승 방식
+RIDEMODE=0
+
+#가짜유저를 추가한다(세이브포인트 확인시:가짜유저+온라인유저+랜덤유저)
+PLAYERNUM=0
+
+#케릭터 생산시 VIP 포인트
+#초기에 케릭생성시 주어지는 포인트수
+GIVEVIPPOINT=5
+
+#천사 소환 시간
+#정령소환 시간거리(ANGELPLAYERTIME/온라인유저수)분중
+ANGELPLAYERTIME=500
+
+#천사를 소환하려면 온라인 유저가 있어야합니다. 적어도 2명
+#정령소환이 가능한 최소유저수(최소2까지 가능)
+ANGELPLAYERMUN=50
+
+#배틀이 끝나면 레벨*n 만큼의 골드를 받습니다
+#전투후 받는돈(케릭렙의 배수)
+BATTLEGOLD=1
+
+#VIP표시 방법
+#0 VIP표시안함
+#1 가족에 VIP표시
+#2 이름에 VIP표시
+SHOWVIP=2
+
+#유저가 순간이동 사용시 소모되는 포인트량(-1 꺼짐)
+#많이 걸을때마다 멤버포인트? 
+PMOVE=-1
+
+#유저가 전체나팔 사용시 소모되는 포인트량(-1 꺼짐)
+#/gg 입력내용 포인트 사용 포인트 
+PANNOUNCE=-1
+
+#악구 엔카운터 스피드(엔카운터시간0.1초*배수)
+#페트와 베틀하는 시간 (아이템 사용)
+CHARLOOPS=1
+
+#펫타기 가능한 레벨 차이
+#탑승 페트 최대 (페트레벨 - 케릭레벨)
+RIDELEVEL=5
+
+#레벨업당 포인트
+SKILLUPPOINT=3
+
+#금지점수 상한점(POINT=0일시,매번 환생시 효과있음)
+#포인트 초기화 (전체)
+POINT=0
+
+#정상점수 초과(지적한것은 축복(샴길등)의 숫자)
+TRANS0=50
+TRANS1=50
+TRANS2=50
+TRANS3=50
+TRANS4=50
+TRANS5=50
+TRANS6=50
+TRANS7=50
+
+#GM 자동공지 (분단위)
+ANNOUNCETIME=5
+
+#GM 자동공지 텍스트
+ANNOUNCEPATH=loopannounce.txt
+
+#모든 맵에서 강제전투 가능여부(1 가능0 불가)
+BATTLEFLOOR=0
+
+#강제전투가능한맵(광란 투기장등)
+BATTLEFLOOR1=130
+BATTLEFLOOR2=
+BATTLEFLOOR3=
+BATTLEFLOOR4=
+BATTLEFLOOR5=
+
+#모든 맵에서 관전 가능여부(위와 동일)
+WATCHFLOOR=0
+
+#지정한 관전가능지역
+WATCHFLOOR1=
+WATCHFLOOR2=
+WATCHFLOOR3=
+WATCHFLOOR4=
+WATCHFLOOR5=
+
+#서버가 회원전용인가.(1 그렇다.0 아니다.)
+VIPSERVER=0
+
+#만일 회원전용일시 분당 소비되는 점수
+VIPPOINT=0
+
+#회원정용 맵 점수 뺏어가는곳(VIPSERVER=0일시 효과는곳 예:유료사냥터)
+VIPMAP0=1000
+VIPMAP1=2000
+VIPMAP2=3000
+VIPMAP3=4000
+VIPMAP4=5000
+VIPMAP5=6000
+VIPMAP6=7000
+VIPMAP7=8000
+VIPMAP8=20000
+VIPMAP9=
+
+#버린펫 다른사람이 주울수있는가.(1 그렇다.0 아니다.)
+PETUP=1
+
+#금지된 사용자 IP 목록
+LOCKIP=lockip.txt
+
+#텔레포트 불가능지역(텔레반지 불가.)
+FLOOR1=32021
+FLOOR2=8213
+FLOOR3=850
+FLOOR4=30695
+FLOOR5=60034
+
+#금지된 아이디 생산 금지
+NAME1=GM
+NAME2=운영자
+NAME3=
+NAME4=
+NAME5=
+
+#레벨업시 필요한 경험치 설정 목록
+USEREXP=data/exp.txt
+
+#케릭터 환생
+#몇번환하면 원래보다 더높은 레벨에 도달할수 있는가 설정(이전 버전엔 160렙까지개방)
+CHARTRANS=6
+
+#펫 환수(이걸설정하믄 융합펫도 만렙 초과가능)(설정안할시 -1)
+PETTRANS=-1
+
+#유저가 최대렙을 뛰어넘었을시 최대레벨로 바꿔버린다.
+REVLEVEL=1
+
+#최대 레벨 설정
+MAXLEVEL=180
+
+#일반 최고렙 설정
+LEVEL=140
+
+#경험치 배율
+battleexp=500
+
+#케릭터 생산시 환생
+TRANS=0
+
+#케릭터 생산시 레벨
+LV=1
+
+#케릭터 생산시 탑승 페트 지급(1 베르가종류，2 프라키종류, 3 베르가,프라키 종류)
+NPRIDE=0
+
+# 케릭터 생산시 페트 
+PET1=
+PET2=
+PET3=
+PET4=
+
+#케릭터 생산시 아이템
+ITEM1=
+ITEM2=
+ITEM3=
+ITEM4=
+ITEM5=
+ITEM6=
+ITEM7=
+ITEM8=
+ITEM9=
+ITEM10=
+ITEM11=
+ITEM12=
+ITEM13=
+ITEM14=
+ITEM15=
+
+#초기페트 레벨
+PETLV=1
+
+#케릭터 생산시 돈
+GOLD=100000
+
+#메모리의 매 단원 단위：바이트
+usememoryunit=128
+
+#메모리의 매 단원 단위：바이트
+usememoryunitnum=2500000
+
+#GMSV기동후 CPU점유율은 (usememoryunit*usememoryunitnum)/(1024*1024) 메가
+
+# 계정서버 SAAC서버의 IP주소 
+acserv=localhost
+
+# 계정서버 SAAC서버의 포트
+acservport=9399
+
+# 계정서버 접속시 비번
+acpasswd=test
+
+# 서버 이름
+gameservname=스톤에이지
+
+# 서버 ID
+gameservid=스톤에이지
+
+==================================================
+# 밑에 내용은 수정하지 않는걸 권장합니다.
+#ifdef _SERVICE
+#config.apid, sizeof(config.apid), NULL, 0},
+apid=
+#NULL ,0 ,(void*)&config.apport ,SHORT},
+apport=
+#NULL,0,(void*)&config.looptime,INT},
+looptime=
+#NULL,0,(void*)&config.enableservice,INT},
+enableservice=
+#endif
+==================================================
+# 가족전 가능여부
+allowmanorpk=1
+
+# 서버 접속 포트
+port=9065
+
+# 서버 번호
+servernumber=1
+
+# Re-use addr
+# 중복 사용 socket 주소
+# 9065포트가 점유당할시 계속 시도합니다.
+reuseaddr=1
+
+# socket 받기 연차 TCP_NODELAY 열지 않길 추천(1.열기)
+nodelay=0
+
+==================================================
+
+# How long should logfile be wrote? In seconds?
+
+log_write_time=0
+log_io_time=0
+log_game_time=0
+
+==================================================
+
+log_netloop_faster=0
+
+# 매번SAAC을 읽는 수
+saacwritenum=10000
+
+# 매번SAAC을 쓰는 수
+saacreadnum=10000
+
+# 최대접속인원
+fdnum=200
+
+# 최대페트
+petnum=2000
+
+# 기타 최대 숫자. NPC의 숫자포함+유저수
+othercharnum=10000
+
+# 최대 오브젝트 수
+objnum=12000
+
+# 최대 아이템 수
+itemnum=10000
+
+#최대 배틀 수
+battlenum=200
+
+#최고 전화번호부(최상위층 폴더)
+topdir=. 
+
+#맵 폴더 경로
+mapdir=data/map
+
+#맵 타일 설정
+maptilefile=data/map/mapset.txt
+
+#배틀 맵 경로
+battlemapfile=data/map/battlemap.txt
+
+#itemset.txt (단계별 문서)
+itemset6file=data/itemset6.txt
+itemset5file=data/itemset5.txt
+itemset4file=data/itemset4.txt
+itemset3file=data/itemset3.txt
+
+========================================================
+#ifdef _ITEMSET5_TXT
+#      { "itemset5file",      config.itemfile,      sizeof(config.invfile),      NULL,      0},
+#그외
+#ifdef _ITEMSET4_TXT
+#      { "itemset4file" , config.itemfile,sizeof(config.invfile),NULL,0},
+#그외
+#ifdef _ITEMSET3_ITEM
+#      { "itemset3file" , config.itemfile,sizeof(config.invfile),NULL,0},
+#endif
+#endif
+#endif
+#endif
+========================================================
+
+#대전이 불가능한 NPC 설정(?)
+invinciblefile=data/inv.txt
+
+#투기장 문서 파일
+appearpositionfile=data/appear.txt
+
+#보조 아이템 문서
+titlenamefile=data/titlename.txt
+
+#캐릭터 능력치 정보
+titleconfigfile=./data/titleconfig.txt
+
+#맵에서 몹을 만나도록 설정하는 파일
+encountfile=./data/encount.txt
+
+#페트 생성 파일(페트제작)
+enemyfile=./data/enemy1.txt
+
+#페트 세부설정 파일(능력치,성장률,이미지등)
+enemybasefile=./data/enemybase1.txt
+
+#맵 그룹 파일
+groupfile=./data/group1.txt
+
+#주술문서(캐릭터아이템)
+magicfile=./data/magic.txt
+
+#이미지디렉토리
+attmagicfile=./data/attmagic.bin
+
+#페트 스킬 문서
+petskillfile2=./data/petskill2.txt
+
+#그 외 페트 기술 문서
+petskillfile1=./data/petskill.txt
+
+#아이템 속성 파일
+itematomfile=./data/itematom.txt
+
+#이펙트(효과문서)
+effectfile=data/effect.txt
+
+#이벤트 디렉터리
+quizfile=data/question.txt
+
+#로그 파일
+lsgenlogfilename=log.cf
+
+#운영자 권한 설정파일
+gmsetfile=./data/gmset.txt
+
+#캐릭터 데이터 값 저장 장소
+storedir=../saac/char
+
+#NPC 목차
+npcdir=data/npc
+
+#로그 위치
+logdir=./log
+
+#캐릭터 로그 설정 파일
+logconfname=log.cf
+
+#GM 암호 설정
+chatmagicpasswd=gm
+
+#ifdef _STORECHAR
+#{ "storechar", config.storechar, sizeof( config.storechar),NULL,0},
+#endif
+
+# 모든사람이 GM권한을 사용한다(?)
+chatmagiccdkeycheck=1
+
+# NPC아래 최대사용 파일총수
+filesearchnum=8192
+
+# NPC_fuction에 적을 파일 종류의최대수
+npctemplatenum=256
+
+# NPC최대수
+npccreatenum=8192
+
+# 걷기시간간격. (GMSV에서 MUTLITHREAD를 안켯을시 모드 "쓸데없다.")
+walkinterval=60
+
+# CleanAll간격 (GMSV에서 MUTLITHREAD를 안켯을시 모드 "쓸데없다.")
+CAinterval=60
+
+# CleanDest간격 (GMSV에서 MUTLITHREAD를 안켯을시 모드 "쓸데없다.")
+CDinterval=60
+
+#케릭터 데이터 저장 간격(자료 기억 장치 간격)
+CharSaveinterval=60
+
+#시간 netloop_faster를 시간을 소모하기 위하여 실행한다.(?)
+Onelooptime=6
+
+# 버려진 페트가 자동으로 서버에서 없어지는 시간 (초단위) 
+Petdeletetime=500
+
+# 버려진 아이템이 자동으로 서버에서 없어지는 시간 (초단위) 
+Itemdeletetime=500
+
+# 버려진 스톤이 자동으로 서버에서 없어지는 시간 (초단위) 
+Golddeletetime=300
+
+# 명함과 상관있는기능 아마도 명함 발송시 최대한계
+addressbookoffmesgnum=1000
+
+# 포트빈도 조정 수치가 높을수록 빈도율이 느려지며 씨퓨자원
+protocolreadfrequency=2000
+
+# 매번 연결 오류상한 이상한선을 넘을시 킥
+allowerrornum=100
+
+# 24
+loghour=1
+
+battledebugmsg=0
+
+# 클라 인증 번호
+encodekey=1
+
+# writebuffer 버퍼링 데이터 크기 단위:바이트
+acwritesize=100000
+acwbsize=5000000
+
+# 불법 패킷 감옥
+erruser_down=1
+
+====================================================================
+
+#뒤에 오는 것은 줄여쓸지도 모른다.
+#ifdef _AUCTIONEER
+#   { "auctiondir" , config.auctiondir, sizeof(config.auctiondir),NULL,0},
+#endif
+
+#ifdef _BLACK_MARKET
+#      { "blackmarketfile", config.blackmarketfile, sizeof(config.blackmarketfile), NULL, 0},
+#endif
+
+#ifdef _M_SERVER
+#   { "msname",            config.msname,sizeof(config.msname) ,NULL , 0},
+#   { "msport",            NULL ,0 , (void*)&config.msport   ,SHORT},
+#endif
+
+#ifdef _NPCSERVER_NEW
+#   { "npcaddress",            config.nsaddress, sizeof(config.nsaddress) ,NULL , 0},
+#   { "nsport",            NULL, 0 , (void*)&config.nsport   ,SHORT},
+#endif
+
+====================================================================
+
+#캐릭터 직업스킬 문서
+profession=./data/profession.txt
+#endif
+
+#아이템 퀄리티 파일
+itemquitparty=./data/itemquitparty.txt
+#endif
+
+#ifdef _MUSEUM
+#   { "museum",            NULL , 0 , (void*)&config.museum ,            INT},
+#endif

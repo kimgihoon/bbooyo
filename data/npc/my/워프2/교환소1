@@ -1,0 +1,37 @@
+START_MSG:\n\n\n°¡°í½ÍÀº°÷ÀÌ ¾îµð´Ï?
+MenuHead:»ç³ÉÅÍ ±îÁö ½±°Ô ÀÌµ¿ ½ÃÄÑÁÖ¸¶...
+{
+MenuStr:¾ÆºÎ±¼
+FREE:LV>0
+WARPPOINT:10001,40,10
+}
+{
+MenuStr:¹«ÀÌ±¼
+FREE:LV>0
+WARPPOINT:31401,106,13
+}
+{
+MenuStr:Ã¤¼®Àå
+FREE:LV>0
+WARPPOINT:31907,38,10
+}
+{
+MenuStr:²É¹ç
+FREE:LV>0
+WARPPOINT:300,163,237
+}
+{
+MenuStr:Ä¥Èë20Ãþ
+FREE:LV>0
+WARPPOINT:32020,34,27
+}
+{
+MenuStr:ºûÀ» ºÀÀÎÇÑ ½£¼Ó
+FREE:LV>0
+WARPPOINT:27051,50,50
+}
+{
+MenuStr:¶óÄÉ½Ã½º ÁöÇÏ Ã¤¼®Àå
+FREE:LV>0
+WARPPOINT:27050,50,50
+}

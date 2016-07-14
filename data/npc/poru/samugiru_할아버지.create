@@ -1,0 +1,30 @@
+NPCCREATE
+
+
+###### 说故事的老爷爷 ######
+{
+name=且酒滚瘤
+floorid=1000
+borncenter=74,52,1,1
+dir=4
+createnum=1
+enemy=changeevent|file:poru/samugiru_grandfather
+graphicname=16001
+}
+
+
+
+
+###### 黑乌力 ######
+{
+name=角滚快府
+floorid=1000
+borncenter=75,52,1,1
+dir=4
+createnum=1
+enemy=npcgen_warpman|file:poru/wpm_500_470_470
+time=0
+graphicname=100388
+borncorner=71,48,71,48
+ignoreinvincible=1
+}

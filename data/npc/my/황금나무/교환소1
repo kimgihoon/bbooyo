@@ -1,0 +1,22 @@
+NomalMainMsg:...
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21140
+AcceptMsg:\n 황금나무의 열매를 채취하시겠습니까?
+ThanksMsg:\n\n 채취완료 하였습니다.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21141
+DelItem:
+EventEnd
+
+
+
+
+
+
+
+
+
+

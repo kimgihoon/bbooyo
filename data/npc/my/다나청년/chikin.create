@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=5100
+borncenter=42,42
+time=0
+createnum=1
+graphicname=16119
+name=다나 청년
+dir=6
+enemy=changeevent|file:my/다나청년/교환소1
+}
+

@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=3000
+borncenter=70,87
+time=0
+createnum=1
+graphicname=16215
+name=우루리에서 온 여행자
+dir=4
+enemy=changeevent|file:my/꼬미잡기/교환소1
+}
+

@@ -1,0 +1,72 @@
+NPCCREATE
+{
+floorid=6677
+borncenter=15,7
+time=0
+createnum=1
+graphicname=24763
+name=희망의 정령
+dir=4
+enemy=changeevent|file:my/전당보상/교환소1
+}
+
+{
+floorid=6677
+borncenter=17,7
+time=0
+createnum=1
+graphicname=24764
+name=성실의 정령
+dir=4
+enemy=changeevent|file:my/전당보상/교환소2
+}
+
+{
+floorid=6677
+borncenter=19,7
+time=0
+createnum=1
+graphicname=24766
+name=용기의 정령
+dir=4
+enemy=changeevent|file:my/전당보상/교환소3
+}
+
+{
+floorid=6677
+borncenter=21,7
+time=0
+createnum=1
+graphicname=24769
+name=순수의 정령
+dir=4
+enemy=changeevent|file:my/전당보상/교환소4
+}
+
+{
+floorid=6677
+borncenter=23,7
+time=0
+createnum=1
+graphicname=24771
+name=애정의 정령
+dir=4
+enemy=changeevent|file:my/전당보상/교환소5
+}
+
+{
+floorid=6677
+borncenter=25,7
+time=0
+createnum=1
+graphicname=24776
+name=지식의 정령
+dir=4
+enemy=changeevent|file:my/전당보상/교환소6
+}
+
+
+
+
+
+

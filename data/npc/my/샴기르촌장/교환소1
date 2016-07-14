@@ -1,0 +1,69 @@
+NomalMainMsg:샴기르 마을은 넓고 깨끗한 마을로 유명하다네
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&ENDEV=151&ENDEV=4&ENDEV=152
+NomalWindowMsg:\n\n 얼마전 사이너스에 지진으로 생긴 동굴 떼문에 탐험대를 보냈는데 심상치 않네
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&ENDEV=151
+AcceptMsg:\n\n 안전하게 성인이 되어 마을로 돌아왔군 \n\n  성인이 된걸 축하하네
+ThanksMsg:\n\n 이건 자네가 진정한 성인 모험가가 되었으니 축하하는 의미로 주는 걸세. 이 페트를 받고 더욱 더 강해지게나
+PetFullMsg:\n 페트창을 비워주지 않겠나...?
+GetPet:414
+EndSetFlg:152
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=151
+AcceptMsg:\n레벨 30이 되었군. \n이제 자네는 성인이 되어야 할 길를 가야하다네. 
+ThanksMsg:\n 이 초대장을 받고 내 근처에 나를 수호하는 수하에게 대화를 걸어주게나. 그럼 성인식을 할 수 있는 곳까지 안전히 안내해줄것이야\n 난 먼저 해저통로에서 기다리고 있겠어\n 아 맞다! 거기전 아이템창 15칸을 비워두게
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21002
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=151
+NomalWindowMsg:\n 레벨 30이 되면 다시 나에게 돌아오거라!\n 중요한 의식을 치뤄야하니...
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21191*2&ITEM=21190*3
+AcceptMsg:\n 오우! 대단한걸? \n 기본적인 모험가의 정신는 갖춰진것 같군. \n 이번 시험을 합격일세 
+ThanksMsg:\n 약속대로 쟈쟈의 명예를 걸고 쟈쟈 모험가의 칭호를 주겠네. \n 또한 앞으로도 쟈쟈마을은 너에게 많은 지원을 해줄것이야.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21003
+DelItem:21191*2,21190*3
+EndSetFlg:151
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:\n자네도 모험가인가? 하지만 자네가 이 마을에서 벗어나면 그 무서운 공룡들에게서 버틸 수 있을지 참 모르겠네. \n 그래서 시험을 해봐야겠어.
+ThanksMsg:쟈쟈 마을 밖으로 나가서 우푸의 고기 2개와 푸푸의 고기 3개를 구해와주게나!
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

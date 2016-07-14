@@ -1,0 +1,41 @@
+NomalMainMsg:나는 늘 먹어도 먹어도 배가 고프다고!
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=153
+NomalWindowMsg:\n\n 지난 번에 육포 잘 먹었어!  \n 내가 선물해준 공룡은 잘 지내?
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2345
+AcceptMsg:\n\n 약속대로 육포 하나를 가져왔구나? 
+ThanksMsg:\n (우걱..우걱..우걱....)\n\n캬아! 바로 이맛이 내가 원하는 고기 맛! 약속대로 지난 생일에 받은 공룡과 물건을 선물로 줄게! \n 난 필요기 없거든~
+itmeFullMsg:아이템창을 비워줘!!
+PetFullMsg:\n 페트창을 비워주지 않겠어?
+GetPet:30
+GetItem:21004
+DelItem:2345*1
+EndSetFlg:153
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>9
+AcceptMsg:\n\n안녕? 이 마을에서 내가 8년을 살았지만 형(누나) 같은 놈은 처음보는데..? \n그것보다  형(누나)야! 나 배고픈데... 배고프다고!
+ThanksMsg:\n\n지금 당장 샴기르 정육점에서 육포 하나를 사다줘! \n육포를 사다주면 지난 생일에 선물받은 공룡과 물건을 줄게! 어때 괜찮지?
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

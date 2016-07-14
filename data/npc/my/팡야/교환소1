@@ -1,0 +1,51 @@
+NomalMainMsg:얼마전 라케시스를 탐험하는데. 얼음에 갇혀 얼어버린 맘모스 한마리가 있었어
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79&ENDEV=165&ENDEV=166
+NomalWindowMsg:\n그 맘모스를 너가 깨웠나보구나! 
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21146
+AcceptMsg:\n비밀를 알려줄게! 라케시스 좌표 514 581 로 이동하면 얼어버린 동굴 하나가 보일거야! 그 동굴 깊숙히 들어가면 새로 발견된 얼어붙은 맘모스가 있더라고! 그땐 불이 없어 그 맘모스를 깨울 순 없었지만! 이 꺼지지않는 횃불를 들고가봐!
+ThanksMsg:\n그 동굴은 무척 좋으니 살아서 돌아오라구 친구!
+itmeFullMsg:아이템창을 비워주세요.
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=165&PET=1-264*1
+AcceptMsg:\n오! 약속대로 만모로스 LV1 짜리를 포획해왔구나!
+ThanksMsg:비밀를 알려줄게! 라케시스 좌표 514 581 로 이동하면 얼어버린 동굴 하나가 보일거야! 그 동굴 깊숙히 들어가면 새로 발견된 얼어붙은 맘모스가 있더라고! 그땐 불이 없어 그 맘모스를 깨울 순 없었지만! 이 꺼지지않는 횃불를 들고가봐!
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21146
+DelPet:PET=1-264*1
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=165
+AcceptMsg:\n너도 라케시스에 한번 가보았구나? 나는 거기를 탐험하며 많은 것을 보았지만 어느한 동굴에서 놀라운 광경을 보았어!
+ThanksMsg:\n하지만 이 비밀를 그냥 알려주기엔 아깝잖아! 내 부탁을 들어주면 그 비밀를 알려주겠어! 가우린에서 만모로스 LV1 짜리 한마리 포획해와 줄수 있어? 부탁할게
+itmeFullMsg:아이템창을 비워주세요.
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

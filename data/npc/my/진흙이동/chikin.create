@@ -1,0 +1,15 @@
+NPCCREATE
+{
+floorid=52000
+borncenter=42,38
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16124
+name=경비병
+enemy=npcgen_warpman|file:my/진흙이동/교환소1
+}
+
+
+

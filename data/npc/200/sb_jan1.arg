@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:어머, 이런 곳에서 만나다니!
+askbattlemsg2:우리들과 승부를 겨뤄볼까요?
+startmsg:자! 그럼 실력을 한번 볼까요?
+dieact:1
+warpfl:20607
+warpx:36
+warpy:31
+end msg:
+enemyno:961,963,962
+deniedmsg:역시.. 강하군요.
+

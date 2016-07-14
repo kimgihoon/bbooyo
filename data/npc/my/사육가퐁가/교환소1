@@ -1,0 +1,41 @@
+NomalMainMsg:대륙의 기후가 높아지니 판그들이 육지로 올라오고 있군 무슨 방법이 없을까?
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=177
+NomalWindowMsg:\n 으악! 더워! 왜 이렇게 더워진거야?
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21173*8
+AcceptMsg:\n판그의 고기 8개를 가져오다니\n판그를 소탕하였구나 정말 고맙다!! 나를 도와준 만큼 너에게도 작은 보상을 주고 싶어. 
+ThanksMsg:\n 일단 고기의 시세만큼 쳐줘서 개당 1만스톤으로 하여 총 8만 스톤을 너에게 줄게. 그리고 이건 우리 부족에서 얼마전에 데려온 아이인데 받아둬 모험에 힘이 될거야
+itmeFullMsg:아이템창을 비워줘!!
+PetFullMsg:\n 페트창을 비워주지 않겠어?
+GetPet:3081
+GetItem:21174
+DelItem:21173*8
+EndSetFlg:177
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79
+AcceptMsg:\n너는 이 곳을 오면서 판그들를 못봤니? 요즘 대륙 기후가 너무 높아져서 판그들이 육지로 올라오기 시작했어. 그 녀석들이 지상의 약한 페트들를 모두 때려잡고 있으니 생태계가 파괴 되는군. 나좀 도와줄수있어?
+ThanksMsg:\n\n고맙다! 지금 지상에 올라온 판그들를 물리쳐서 판그의 고기 8개만 가져다줘 부탁할게
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

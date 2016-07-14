@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:불사조의깃털을 얻으려구?
+askbattlemsg2:나와 나의 친구들을 이겨야만 
+askbattlemsg3:이곳을 지나갈수있어!
+star tmsg:
+dieact:0
+end msg:
+enemyno:1247,1245,1245,1244,1244,1245,1247,1247,1246,1246
+deniedmsg:으윽....너강하구나...
+time=300
+

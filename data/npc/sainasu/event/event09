@@ -1,0 +1,31 @@
+#마을 처녀 쿠링 이벤트
+NomalMainMsg:큰일이군! 큰일이야!,내 친구들이 위험해..!,레벨 50의 누군가가 도와주었으면..,나는 바쁘니 저리가시오!
+EventNo:9
+TYPE:ACCEPT
+EVENT:ENDEV=12&ENDEV=10&ENDEV=11
+AcceptMsg:두 사람을 도와줬다면서요!\n정말로 감사합니다.
+ThanksMsg:정말 마음 고생이 많았는데 감사합니다.\n답례로 제 아끼는 목걸이를 드릴게요.\n감사합니다.
+ItemFullMsg:아이템이 가득 찼어요!
+GetItem:1357
+EndSetFlg:9
+EventEnd
+
+
+EventNo:9
+TYPE:REQUEST
+EVENT:LV>29&ENDEV=4
+RequestMsg:친구 두명이 카탄의 사막에서\n도적에게 피해를 당했습니다.\n누군가 도와주시기 않겠습니까?
+ThanksMsg:도와주실 수 있으시겠습니까? 고맙습니다!\n자세한 것은 카탄과 호토르에 제 친구가\n있으니 거기서 설명을 들으십시오.
+StopMsg:역시.. 힘드시겠습니까?
+EndStopMsg:그럴수가.. 유감이군요. 제 친구들은.. 큭.
+NoStopMsg:감사합니다! 자세한 것은 카탄과 호토르에\n제 친구에게 들으십시오!
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=9
+NomalMsg:쿠링 마을에 오신 것을 환영합니다.
+EventEnd

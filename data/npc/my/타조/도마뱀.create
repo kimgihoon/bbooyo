@@ -1,0 +1,49 @@
+NPCCREATE
+
+{
+floorid=1400
+borncenter=79,108,1,1
+movecenter=20,20,100,100
+createnum=1
+time=
+dir=4
+graphicname=100370
+name=카루나의 카키
+enemy=sb_muge1|file:my/타조/도마뱀
+}
+
+{
+floorid=1400
+borncenter=78,108,1,1
+movecenter=20,20,100,100
+createnum=1
+time=
+dir=4
+graphicname=100369
+name=카루나의 호르쿠
+enemy=sb_muge1|file:my/타조/도마뱀
+}
+
+{
+floorid=1400
+borncenter=77,108,1,1
+movecenter=20,20,100,100
+createnum=1
+time=
+dir=4
+graphicname=100368
+name=카루나의 쿠쿠
+enemy=sb_muge1|file:my/타조/도마뱀
+}
+
+{
+floorid=1400
+borncenter=76,108,1,1
+movecenter=20,20,100,100
+createnum=1
+time=
+dir=4
+graphicname=100367
+name=카루나의 타키
+enemy=sb_muge1|file:my/타조/도마뱀
+}

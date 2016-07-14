@@ -1,0 +1,15 @@
+NPCCREATE
+{
+floorid=27051
+borncenter=145,134
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16090
+name=숲 조사원
+enemy=npcgen_warpman|file:my/숲이동/교환소1
+}
+
+
+

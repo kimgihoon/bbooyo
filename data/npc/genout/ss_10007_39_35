@@ -1,0 +1,23 @@
+buy_rate:1.0
+sell_rate:0.15
+buy_msg:콱봤,剋剋,찜,찜,찜,剋剋,찜,찜,拳狼,kau,buy,헝
+sell_msg:찡,찡,찡,찡,찡,sell,uru
+other_msg:각웡薑
+hint_msg:각웡薑랙밟돨珂빅
+sellonly_msg:
+main_msg:어서오세요！
+buy_main:물건을 구매하시려구요？
+sell_main:물건을 판매하시려구요？
+what_msg:이것을 사려구？
+stone_msg:돈이부족한거같은데！
+level_msg:레벨이 부족한데 괜찮아?!。
+realy_msg:정말살거지？！
+itemfull_msg:아이템창이 가득찼는데。
+ItemList:52,54,251,254,652,752,430,852,954,1052,1152,1209,1265,1361
+LimitItemType:OFFENCE
+DEFENCE
+ACCESSORY
+LimitItemNo:
+special_rate:1.5
+special_item:
+

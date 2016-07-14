@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:나는 불의 수호짐승이다！나를 이겨야 지나갈수있다！
+startmsg:뜨거운 맛을 보게 될것이다。
+dieact:1
+warpfl:30008
+warpx:79
+warpy:77
+end msg:
+enemyno:1232,1232,1232,1232,1232,1232,1232,1232,1232,1232
+deniedmsg:강하군..다음에 또보자...
+onebattle:0

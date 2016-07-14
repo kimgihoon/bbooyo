@@ -1,0 +1,16 @@
+NPCCREATE
+
+
+###### ÈýÜ¯´óÉß######
+
+
+{
+floorid=5106
+borncorner=28,4,28,4
+time=0
+createnum=1
+graphicname=16121
+name=¸¶À» °æºñ¿ø
+dir=6
+ignoreinvincible=1
+enemy=npcgen_warpman|file:sa70/snake/snake_2

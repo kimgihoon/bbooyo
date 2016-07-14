@@ -1,0 +1,15 @@
+
+
+entype:2
+askbattlemsg1:이 곳은 암흑정령왕님의 안식처이다.
+askbattlemsg2:정령들도 함부로 들어갈 수 없는 이 신성한 곳을 너희 인간들이
+askbattlemsg3:들어가겠다고? 웃기지도않는군. 이 곳을 들어가기위해서는 날 쓰러트려야 될것이다.
+start msg:
+dieact:1
+warpfl:32021
+warpx:29
+warpy:57
+end msg:
+enemyno:1404,1406,1407,1405,1408
+deniedmsg: 정령을 쓰러트릴 수 있는 인간들이여.. 암흑정령왕님의 축복을 받거라
+onebattle:0

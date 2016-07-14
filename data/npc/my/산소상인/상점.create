@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=200
+borncorner=115,1013,115,1013
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16194
+name=물품 거래인
+enemy=npcgen_shop|file:my/산소상인/은혜
+action=0
+}

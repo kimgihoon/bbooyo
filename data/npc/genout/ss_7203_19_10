@@ -1,0 +1,23 @@
+buy_rate:1.0
+sell_rate:10.0
+buy_msg:你好,谢谢,打工,工作,帮忙,baito,work,hataraku
+sell_msg:送货,送货,行李货物,行李货物,nimotu,todoke
+other_msg:最近如何啊？
+hint_msg:哎呀！人手不够，真是辛苦啊！
+sellonly_msg:我们这边不只是买唷！
+main_msg:琶硅老阑 窍妨备 吭聪？\n规过篮 舅瘤？
+buy_main:琶硅老阑 窍妨搁 快急 酒贰狼 酒捞袍阑 荤具秦!
+sell_main:迫妨备? 沥富?
+what_msg:沥富 备概窍矫摆嚼聪鳖？
+stone_msg:沛捞葛磊扼垒酒。
+level_msg:饭骇捞 何练茄芭鞍酒！
+realy_msg:沥富混波瘤？！
+exrealy_msg:饶窍 绊积沁绢！
+itemfull_msg:酒捞袍芒捞 啊垫蛮芭鞍酒....。
+ItemList:1544,1529
+LimitItemNo:1534,1535
+special_rate:1.0
+special_item:0
+EXPRESSMAN
+
+

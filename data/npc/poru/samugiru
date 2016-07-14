@@ -1,0 +1,105 @@
+NomalMainMsg:硅绊颇 磷摆促......！！
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63&ITEM=18542
+NomalWindowMsg:硅啊 绊橇焙.. 捞矾促 静矾瘤摆绢.
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=63&ITEM=1501&ITEM!=18538
+StopMsg:不给我，好吧！我自己想办法好了！
+NoStopMsg:嗯～你愿意给我耐久力力回复药了吗？
+EndStopMsg:那就这样啦！再会～
+AcceptMsg:郴备仿 雀汗距(200)阑 硅绊锹 激扁福俊霸 临鳖夸?
+ThanksMsg:澜~眉仿捞 腹捞 雀汗登菌焙. 皑荤狼 钎矫肺\n哎绊府 葛剧狼 苛阑 呈俊霸 临膊.\n呈俊霸 腹篮 档框捞 瞪芭具.\n抄 捞力 颊赤甫 茫栏矾 啊毫具秦\n趣矫 扁仿 雀汗距(60)捞 乐绢?\n促澜俊 焊搁 郴霸 林瘤 臼阑贰?\n扁仿捞 倔付 巢瘤 臼疽绢...
+ItemFullMsg:酒捞袍 沫捞 促 谩焙.
+NpcWarp:5501.43.5,5502.10.7,5503.18.13,5503.48.77,5505.16.27,5505.46.73,5506.54.5,5506.7.38,5507.89.12,5507.49.25,5508.29.5
+GetItem:18538
+DelItem:1501*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=1512&NOWEV=63&ITEM!=18539&ITEM=18538
+StopMsg:不给我，好吧！我自己想办法好了！
+NoStopMsg:嗯～你愿意给我气力力回复药了吗？
+EndStopMsg:那就这样啦！再会～
+AcceptMsg:扁仿 雀汗距(60)阑 硅绊锹 激扁福俊霸 临鳖夸?
+ThanksMsg:澜~扁仿捞 腹捞 雀汗登菌焙. 皑荤狼 钎矫肺\n捞 苛阑 匙霸 临霸.\n呈俊霸 腹篮 档框捞 瞪芭具.\n抄 促矫 颊赤甫 茫栏矾 啊毫具秦.\n趣矫 固飘 肺橇啊 乐绢?\n促澜俊 焊搁 郴霸 林瘤 臼阑贰?\n绊扁甫 冈瘤 臼栏搁 塞捞 唱龙 臼酒. 
+ItemFullMsg:酒捞袍 沫捞 促 谩焙.
+NpcWarp:5501.43.5,5502.10.7,5503.18.13,5503.48.77,5505.16.27,5505.46.73,5506.54.5,5506.7.38,5507.89.12,5507.49.25,5508.29.5
+GetItem:18539
+DelItem:1512*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=18539*1&ITEM=12667&NOWEV=63&ITEM!=18540
+StopMsg:不给我，好吧！我自己想办法好了！
+NoStopMsg:嗯～你愿意给我烤猪排了吗？
+EndStopMsg:那就这样啦！再会～
+AcceptMsg:固飘 肺橇甫 硅绊锹 激扁福俊霸 临鳖夸?
+ThanksMsg:绊付况 傣盒俊 塞捞 唱绰 焙!!\n磊, 捞 苛阑 罐酒.\n呈俊霸 腹篮 档框捞 瞪芭具.\n抄 促矫 颊赤甫 茫栏矾 啊毫具秦.\n趣矫 淬归茄 绊扁 胶橇啊 乐促搁 郴霸 林瘤\n臼阑贰?
+ItemFullMsg:酒捞袍 沫捞 促 谩焙.
+NpcWarp:5501.43.5,5502.10.7,5503.18.13,5503.48.77,5505.16.27,5505.46.73,5506.54.5,5506.7.38,5507.89.12,5507.49.25,5508.29.5
+GetItem:18540
+DelItem:12667*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=18540*1&ITEM=12507&NOWEV=63&ITEM!=18541
+StopMsg:不给我，好吧！我自己想办法好了！
+NoStopMsg:嗯～你愿意给我味道爽口的肉汤了吗？
+EndStopMsg:那就这样啦！再会～
+AcceptMsg:淬归茄 绊扁 胶橇甫 硅绊锹 激扁福俊霸 临鳖夸?
+ThanksMsg:绊付况 傣盒俊 硅啊 啊垫 谩绢.\n捞扒 郴 焊翠捞具!\n捞力 巢篮 扒 傍锋苞狼 傈捧 挥捞具\n捞凡 锭 颇况诀 滚几捞 乐菌歹扼搁..\趣矫 啊瘤绊 乐促搁 郴霸 林瘤 臼阑贰?
+ItemFullMsg:酒捞袍 沫捞 促 谩焙.
+NpcWarp:5501.43.5,5502.10.7,5503.18.13,5503.48.77,5505.16.27,5505.46.73,5506.54.5,5506.7.38,5507.89.12,5507.49.25,5508.29.5
+GetItem:18541
+DelItem:12507*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=18541*1&ITEM=12849&NOWEV=63&ITEM!=18542
+StopMsg:不给我，好吧！我自己想办法好了！
+NoStopMsg:嗯～你愿意给我威力上升的蘑菇了吗？
+EndStopMsg:那就这样啦！再会～
+AcceptMsg:颇况诀 滚几阑 硅绊锹 激扁福俊霸 临鳖夸?
+ThanksMsg:绊付况! 捞力 葛电 霖厚绰 场车绢.\n抄 捞力 且酒滚瘤狼 颊赤甫 茫扁 困秦 傍锋甸苞 轿框阑 秦具秦.\n呈绰 绢辑 倒酒啊! 呈公 困氰秦!
+ItemFullMsg:酒捞袍 沫捞 促 谩焙.
+NpcWarp:5501.43.5,5502.10.7,5503.18.13,5503.48.77,5505.16.27,5505.46.73,5506.54.5,5506.7.38,5507.89.12,5507.49.25,5508.29.5
+GetItem:18542
+DelItem:12849*1
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63&ITEM=18541
+NomalWindowMsg:硅啊 绊橇焙.. 捞矾促 静矾瘤摆绢.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63&ITEM=18540
+NomalWindowMsg:硅啊 绊橇焙.. 捞矾促 静矾瘤摆绢.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=18539&ITEM=18538
+NomalWindowMsg:硅啊 绊橇焙.. 捞矾促 静矾瘤摆绢.
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63
+NomalWindowMsg:\n呈公 腹篮 傍锋甸苞 措搁沁绢.\n硅啊 呈公 绊橇焙\n郴备仿 雀汗距(200)阑 临 荐 乐聪..\n郴 郴备仿捞 何练秦辑 斑掉 荐 绝绢..
+EventEnd

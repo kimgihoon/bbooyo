@@ -1,0 +1,56 @@
+NEWNPCENEMY
+
+START_MSG:\n대지의 증표로 아이템을 판매하고 있어요! 구경하지않을래요?
+MenuHead:목록：
+
+#怒들鏤蹈돨폄넉欺構谿雷蝎
+{
+MenuStr:그린고르 페트알 - 증표 10개
+FREE:ITEM=21309*10
+AddItem:21310
+DelItem:21309*10
+}
+
+{
+MenuStr:판다 페트알 - 증표 10개
+FREE:ITEM=21309*10
+AddItem:21311
+DelItem:21309*10
+}
+
+{
+MenuStr:코로리스 페트알 - 증표 10개
+FREE:ITEM=21309*10
+AddItem:21312
+DelItem:21309*10
+}
+
+
+{
+MenuStr:경험치 400% 3시간 - 증표 25개
+FREE:ITEM=21309*25
+AddItem:21313
+DelItem:21309*25
+}
+
+{
+MenuStr:포타 보물상자 - 증표 35개
+FREE:ITEM=21309*35
+AddItem:21315
+DelItem:21309*35
+}
+
+{
+MenuStr:늪지의 축복상자 - 증표 40개
+FREE:ITEM=21309*40
+AddItem:21316
+DelItem:21309*40
+}
+
+{
+MenuStr:세계수의 심장 - 증표 45개
+FREE:ITEM=21309*45
+AddItem:21317
+DelItem:21309*45
+}
+

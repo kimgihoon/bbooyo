@@ -1,0 +1,23 @@
+buy_rate:2.0
+sell_rate:0.2
+buy_msg:你好,谢谢,买,买,买,谢谢,买,买,想要,kau,buy,请给我
+sell_msg:卖,卖,卖,卖,卖,sell,uru
+other_msg:最近如何啊？
+hint_msg:普普通通啦。
+sellonly_msg:这边不止买取而已喔
+main_msg:绢辑坷技夸！
+buy_main:拱扒阑 备概窍矫妨备夸？
+sell_main:拱扒阑 魄概窍矫妨备夸？
+what_msg:捞巴阑 荤妨备？
+stone_msg:捣捞何练茄芭鞍篮单！
+level_msg:饭骇捞 何练茄单 宝满酒?!。
+realy_msg:沥富混芭瘤？！
+itemfull_msg:酒捞袍芒捞 啊垫谩绰单。
+ItemList:1500,1501,1510,1511,1512,1530,1531,1540,1541,1542,1543,1545
+LimitItemType:
+LimitItemNo:1500-1550
+special_rate:1.5
+special_item:
+
+
+

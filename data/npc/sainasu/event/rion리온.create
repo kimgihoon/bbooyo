@@ -1,0 +1,13 @@
+NPCCREATE
+
+{
+floorid=100
+borncorner=167,398,167,398
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100015
+name=¸®¿Â
+enemy=changeevent|file:sainasu/event/rion
+}

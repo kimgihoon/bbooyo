@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:지나가려면 나를 이겨야해!
+startmsg:히히. 쉽진 않을거야!
+dieact:1
+warpfl:10007
+warpx:29
+warpy:37
+end msg:
+enemyno:294,295,296,297,298,3206
+deniedmsg:이런..
+

@@ -1,0 +1,41 @@
+NPCCREATE
+
+###### 침珙鯨濫관돨침珙 ######
+{
+floorid=3000
+borncenter=93,94
+time=0
+createnum=1
+graphicname=100400
+name=포타 스페셜상점
+dir=4
+enemy=cash|file:my\캐쉬상점\cashitem.arg
+}
+
+NPCCREATE
+
+###### 침珙鯨濫관돨침珙 ######
+{
+floorid=3000
+borncenter=92,94
+time=0
+createnum=1
+graphicname=110078
+name=레드데블로스의 포타상점
+dir=4
+enemy=cash|file:my\캐쉬상점\cashpet.arg
+}
+
+NPCCREATE
+
+###### 침珙鯨濫관돨침珙 ######
+{
+floorid=8126
+borncenter=73,48
+time=0
+createnum=1
+graphicname=41261
+name=캐쉬 얼음아이템
+dir=6
+enemy=cash|file:my\캐쉬상점1\cashitem1.arg
+}

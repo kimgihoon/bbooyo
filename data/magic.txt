@@ -1,0 +1,185 @@
+摹蜡狼 沥飞 Lv1,郴备仿雀汗 80 (磊扁磊脚),MAGIC_Recovery,80,0,0,0,0,
+摹蜡狼 沥飞 Lv2,郴备仿雀汗 160 (磊扁磊脚),MAGIC_Recovery,160,1,0,0,0,
+摹蜡狼 沥飞 Lv3,郴备仿雀汗 320 (磊扁磊脚),MAGIC_Recovery,320,2,0,0,0,
+摹蜡狼 沥飞 Lv4,郴备仿雀汗 480 (磊扁磊脚),MAGIC_Recovery,480,3,0,0,0,
+摹蜡狼 沥飞 Lv5,郴备仿雀汗 800 (磊扁磊脚),MAGIC_Recovery,800,4,0,0,0,
+摹蜡狼 沥飞 Lv6,郴备仿雀汗 1160 (磊扁磊脚),MAGIC_Recovery,1160,5,0,0,0,
+辣琶狼 沥飞 Lv1,郴备仿雀汗 65 (茄 个),MAGIC_OtherRecovery,65,10,0,1,0,
+辣琶狼 沥飞 Lv2,郴备仿雀汗 130 (茄 个),MAGIC_OtherRecovery,130,11,0,1,0,
+辣琶狼 沥飞 Lv3,郴备仿雀汗 260 (茄 个),MAGIC_OtherRecovery,260,12,0,1,0,
+辣琶狼 沥飞 Lv4,郴备仿雀汗 390 (茄 个),MAGIC_OtherRecovery,390,13,0,1,0,
+辣琶狼 沥飞 Lv5,郴备仿雀汗 650 (茄 个),MAGIC_OtherRecovery,650,14,0,1,0,
+辣琶狼 沥飞 Lv6,郴备仿雀汗 880 (茄 个),MAGIC_OtherRecovery,880,15,0,1,0,
+辣琶狼 沥飞 Lv7,郴备仿雀汗 1500 (茄 个),MAGIC_OtherRecovery,1500,16,0,1,0,
+辣琶狼 沥飞 Lv8,郴备仿雀汗 2500 (茄 个),MAGIC_OtherRecovery,2500,17,0,1,0,
+辣琶狼 沥飞 Lv10,郴备仿雀汗 3500 (茄 个),MAGIC_OtherRecovery,3500,18,0,1,0,
+辣琶狼 沥飞 Lv11,郴备仿雀汗 4000 (茄 个),MAGIC_OtherRecovery,4000,19,0,1,0,
+篮驱狼 沥飞 Lv1,郴备仿雀汗 50 (傈眉),MAGIC_Recovery,50,20,1,8,0,
+篮驱狼 沥飞 Lv2,郴备仿雀汗 100 (傈眉),MAGIC_Recovery,100,21,1,8,0,
+篮驱狼 沥飞 Lv3,郴备仿雀汗 200 (傈眉),MAGIC_Recovery,200,22,1,8,0,
+篮驱狼 沥飞 Lv4,郴备仿雀汗 300 (傈眉),MAGIC_Recovery,300,23,1,8,0,
+篮驱狼 沥飞 Lv5,郴备仿雀汗 500 (傈眉),MAGIC_Recovery,500,24,1,8,0,
+篮驱狼 沥飞 Lv6,郴备仿雀汗 600 (傈眉),MAGIC_Recovery,600,25,1,8,0,
+篮驱狼 沥飞 Lv100,郴备仿 1000000 (傈眉),MAGIC_Recovery,1000000,26,1,8,0,
+何劝狼 沥飞 Lv1,扁例沁阑 锭 促矫 混妨霖促,MAGIC_Ressurect,100,50,1,1,1,
+何劝狼 沥飞 Lv2,扁例沁阑 锭 促矫 混妨霖促,MAGIC_Ressurect,300,51,1,1,1,
+何劝狼 沥飞 Lv3,扁例沁阑 锭 促矫 混妨霖促,MAGIC_Ressurect,500,52,1,1,1,
+何劝狼 沥飞 Lv4,扁例沁阑 锭 促矫 混妨霖促,MAGIC_Ressurect,700,53,1,1,1,
+高等净化精灵Lv1,全部状态异常回复 (茄 个),MAGIC_StatusRecovery,全,60,1,1,0,
+高等净化精灵Lv2,全部状态异常回复 (傈眉),MAGIC_StatusRecovery,全,61,1,8,0,
+沥拳狼 沥飞(刀)Lv1,某腐磐 窍唱狼 刀惑怕 雀汗 (茄 个),MAGIC_StatusRecovery,毒,70,1,1,0,
+沥拳狼 沥飞(刀)Lv2,弊缝 傈眉狼 刀惑怕 雀汗 (傈眉),MAGIC_StatusRecovery,毒,71,1,8,0,
+沥拳狼 沥飞(麻痹)Lv1,回复一人麻痹状态,MAGIC_StatusRecovery,麻,80,1,1,0,
+沥拳狼 沥飞(麻痹)Lv2,回复全体麻痹状态,MAGIC_StatusRecovery,麻,81,1,8,0,
+沥拳狼 沥飞(籍拳)Lv1,某腐磐 窍唱狼 籍拳惑怕 雀汗 (茄 个),MAGIC_StatusRecovery,石,90,1,1,0,
+沥拳狼 沥飞(籍拳)Lv2,弊缝 傈眉狼 籍拳惑怕 雀汗 (傈眉),MAGIC_StatusRecovery,石,91,1,8,0,
+沥拳狼 沥飞(去鄂)Lv1,某腐磐 窍唱狼 去鄂惑怕 雀汗 (茄 个),MAGIC_StatusRecovery,乱,100,1,1,0,
+沥拳狼 沥飞(去鄂)Lv2,弊缝 傈眉狼 去鄂惑怕 雀汗 (傈眉),MAGIC_StatusRecovery,乱,101,1,8,0,
+沥拳狼 沥飞(父秒)Lv1,某腐磐 窍唱狼 父秒惑怕 雀汗 (茄 个),MAGIC_StatusRecovery,醉,110,1,1,0,
+沥拳狼 沥飞(父秒)Lv2,弊缝 傈眉狼 父秒惑怕 雀汗 (傈眉),MAGIC_StatusRecovery,醉,111,1,8,0,
+沥拳狼 沥飞(泪)Lv1,某腐磐 窍唱狼 泪惑怕 雀汗 (茄 个),MAGIC_StatusRecovery,眠,120,1,1,0,
+沥拳狼 沥飞(泪)Lv2,弊缝 傈眉狼 泪惑怕 雀汗 (傈眉),MAGIC_StatusRecovery,眠,121,1,8,0,
+竿刀狼 沥飞 Lv1,3畔 傈饶 利阑 刀惑怕肺 父电促.,MAGIC_StatusChange,毒 turn 3 成 20,130,1,1,0,
+竿刀狼 沥飞 Lv2,3畔 傈饶 利阑 刀惑怕肺 父电促.,MAGIC_StatusChange,毒 turn 3 成 25,131,1,1,0,
+竿刀狼 沥飞 Lv3,4畔 傈饶 利阑 刀惑怕肺 父电促.,MAGIC_StatusChange,毒 turn 4  成 25,132,1,1,0,
+竿刀狼 沥飞 Lv4,4畔 傈饶 利阑 刀惑怕肺 父电促.,MAGIC_StatusChange,毒 turn 4  成 30,133,1,1,0,
+竿刀狼 沥飞 Lv5,5畔 傈饶 利阑 刀惑怕肺 父电促.,MAGIC_StatusChange,毒 turn 5 成 25,134,1,1,0,
+刀救俺狼 沥飞 Lv1,3畔 傈饶 弊缝盔 傈眉俊霸 刀惑怕甫 父电促. (傈眉),MAGIC_StatusChange,毒 turn 3 成 20,135,1,8,0,
+刀救俺狼 沥飞 Lv2,3畔 傈饶 弊缝盔 傈眉俊霸 刀惑怕甫 父电促. (傈眉),MAGIC_StatusChange,毒 turn 3 成 25,136,1,8,0,
+刀救俺狼 沥飞 Lv3,4畔 傈饶 弊缝盔 傈眉俊霸 刀惑怕甫 父电促. (傈眉),MAGIC_StatusChange,毒 turn 4 成 25,137,1,8,0,
+刀救俺狼 沥飞 Lv4,4畔 傈饶 弊缝盔 傈眉俊霸 刀惑怕甫 父电促. (傈眉),MAGIC_StatusChange,毒 turn 4 成 30,138,1,8,0,
+刀救俺狼 沥飞 Lv5,5畔 傈饶 弊缝盔 傈眉俊霸 刀惑怕甫 父电促. (傈眉),MAGIC_StatusChange,毒 turn 5 成 25,139,1,8,0,
+籍拳狼 沥飞 Lv1,3畔 傈饶 利阑 籍拳惑怕肺 父电促. (茄 个),MAGIC_StatusChange,石 turn 3 成 15,150,1,1,0,
+籍拳狼 沥飞 Lv2,3畔 傈饶 利阑 籍拳惑怕肺 父电促. (茄 个),MAGIC_StatusChange,石 turn 3 成 20,151,1,1,0,
+籍拳狼 沥飞 Lv3,4畔 傈饶 利阑 籍拳惑怕肺 父电促. (茄 个),MAGIC_StatusChange,石 turn 4 成 25,152,1,1,0,
+籍拳狼 沥飞 Lv4,4畔 傈饶 利阑 籍拳惑怕肺 父电促. (茄 个),MAGIC_StatusChange,石 turn 4 成 30,153,1,1,0,
+籍拳狼 沥飞 Lv5,5畔 傈饶 利阑 籍拳惑怕肺 父电促. (茄 个),MAGIC_StatusChange,石 turn 5 成 25,154,1,1,0,
+籍拳狼 沥飞 Lv1,3畔 傈饶 弊缝盔 傈眉俊霸 籍拳惑怕甫 父电促. (傈眉),MAGIC_StatusChange,石 turn 3 成 15,155,1,8,0,
+籍拳狼 沥飞 Lv2,3畔 傈饶 弊缝盔 傈眉俊霸 籍拳惑怕甫 父电促. (傈眉),MAGIC_StatusChange,石 turn 3 成 20,156,1,8,0,
+籍拳狼 沥飞 Lv3,4畔 傈饶 弊缝盔 傈眉俊霸 籍拳惑怕甫 父电促. (傈眉),MAGIC_StatusChange,石 turn 4 成 25,157,1,8,0,
+籍拳狼 沥飞 Lv4,4畔 傈饶 弊缝盔 傈眉俊霸 籍拳惑怕甫 父电促. (傈眉),MAGIC_StatusChange,石 turn 4 成 30,158,1,8,0,
+籍拳狼 沥飞 Lv5,5畔 傈饶 弊缝盔 傈眉俊霸 籍拳惑怕甫 父电促. (傈眉),MAGIC_StatusChange,石 turn 5 成 25,159,1,8,0,
+去鄂狼 沥飞 Lv1,3畔 傈饶 利阑 去鄂惑怕肺 父电促. (茄 个),MAGIC_StatusChange,乱 turn 3 成 20,160,1,1,0,
+去鄂狼 沥飞 Lv2,3畔 傈饶 利阑 去鄂惑怕肺 父电促. (茄 个),MAGIC_StatusChange,乱 turn 3 成 25,161,1,1,0,
+去鄂狼 沥飞 Lv3,4畔 傈饶 利阑 去鄂惑怕肺 父电促. (茄 个),MAGIC_StatusChange,乱 turn 4 成 25,162,1,1,0,
+去鄂狼 沥飞 Lv4,4畔 傈饶 利阑 去鄂惑怕肺 父电促. (茄 个),MAGIC_StatusChange,乱 turn 4 成 30,163,1,1,0,
+去鄂狼 沥飞 Lv5,5畔 傈饶 利阑 去鄂惑怕肺 父电促. (茄 个),MAGIC_StatusChange,乱 turn 5 成 25,164,1,1,0,
+去固狼 沥飞 Lv1,3畔 傈饶 弊缝盔 傈眉俊霸 去鄂惑怕甫 父电促. (傈眉),MAGIC_StatusChange,乱 turn 3 成 20,165,1,8,0,
+去固狼 沥飞 Lv2,3畔 傈饶 弊缝盔 傈眉俊霸 去鄂惑怕甫 父电促. (傈眉),MAGIC_StatusChange,乱 turn 3 成 25,166,1,8,0,
+去固狼 沥飞 Lv3,4畔 傈饶 弊缝盔 傈眉俊霸 去鄂惑怕甫 父电促. (傈眉),MAGIC_StatusChange,乱 turn 4 成 25,167,1,8,0,
+去固狼 沥飞 Lv4,4畔 傈饶 弊缝盔 傈眉俊霸 去鄂惑怕甫 父电促. (傈眉),MAGIC_StatusChange,乱 turn 4 成 30,168,1,8,0,
+去固狼 沥飞 Lv5,5畔 傈饶 弊缝盔 傈眉俊霸 去鄂惑怕甫 父电促. (傈眉),MAGIC_StatusChange,乱 turn 5 成 25,169,1,8,0,
+贱狼 沥飞 Lv1,3畔 傈饶 利阑 父秒惑怕肺 父电促. (茄 个),MAGIC_StatusChange,醉 turn 3 成 20,170,1,1,0,
+贱狼 沥飞 Lv2,3畔 傈饶 利阑 父秒惑怕肺 父电促. (茄 个),MAGIC_StatusChange,醉 turn 3 成 25,171,1,1,0,
+贱狼 沥飞 Lv3,4畔 傈饶 利阑 父秒惑怕肺 父电促. (茄 个),MAGIC_StatusChange,醉 turn 4 成 25,172,1,1,0,
+贱狼 沥飞 Lv4,4畔 傈饶 利阑 父秒惑怕肺 父电促. (茄 个),MAGIC_StatusChange,醉 turn 4 成 30,173,1,1,0,
+贱狼 沥飞 Lv5,5畔 傈饶 利阑 父秒惑怕肺 父电促. (茄 个),MAGIC_StatusChange,醉 turn 5 成 25,174,1,1,0,
+父秒狼 沥飞 Lv1,3畔 傈饶 弊缝盔 傈眉俊霸 父秒惑怕甫 父电促. (傈眉),MAGIC_StatusChange,醉 turn 3 成 20,175,1,8,0,
+父秒狼 沥飞 Lv2,3畔 傈饶 弊缝盔 傈眉俊霸 父秒惑怕甫 父电促. (傈眉),MAGIC_StatusChange,醉 turn 3 成 25,176,1,8,0,
+父秒狼 沥飞 Lv3,4畔 傈饶 弊缝盔 傈眉俊霸 父秒惑怕甫 父电促. (傈眉),MAGIC_StatusChange,醉 turn 4 成 25,177,1,8,0,
+父秒狼 沥飞 Lv4,4畔 傈饶 弊缝盔 傈眉俊霸 父秒惑怕甫 父电促. (傈眉),MAGIC_StatusChange,醉 turn 4 成 30,178,1,8,0,
+父秒狼 沥飞 Lv5,5畔 傈饶 弊缝盔 傈眉俊霸 父秒惑怕甫 父电促. (傈眉),MAGIC_StatusChange,醉 turn 5 成 25,179,1,8,0,
+泪狼 沥飞 Lv1,3畔 傈饶 利阑 荐搁惑怕肺 父电促. (茄 个),MAGIC_StatusChange,眠 turn 3 成 20,180,1,1,0,
+泪狼 沥飞 Lv2,3畔 傈饶 利阑 荐搁惑怕肺 父电促. (茄 个),MAGIC_StatusChange,眠 turn 3 成 25,181,1,1,0,
+泪狼 沥飞 Lv3,4畔 傈饶 利阑 荐搁惑怕肺 父电促. (茄 个),MAGIC_StatusChange,眠 turn 4 成 25,182,1,1,0,
+泪狼 沥飞 Lv4,4畔 傈饶 利阑 荐搁惑怕肺 父电促. (茄 个),MAGIC_StatusChange,眠 turn 4 成 30,183,1,1,0,
+泪狼 沥飞 Lv5,5畔 傈饶 利阑 荐搁惑怕肺 父电促. (茄 个),MAGIC_StatusChange,眠 turn 5 成 25,184,1,1,0,
+去荐狼 沥飞 Lv1,3畔 傈饶 弊缝盔 傈眉俊霸 荐搁惑怕甫 父电促. (傈眉),MAGIC_StatusChange,眠 turn 3 成 20,185,1,8,0,
+去荐狼 沥飞 Lv2,3畔 傈饶 弊缝盔 傈眉俊霸 荐搁惑怕甫 父电促. (傈眉),MAGIC_StatusChange,眠 turn 3 成 25,186,1,8,0,
+去荐狼 沥飞 Lv3,4畔 傈饶 弊缝盔 傈眉俊霸 荐搁惑怕甫 父电促. (傈眉),MAGIC_StatusChange,眠 turn 4 成 25,187,1,8,0,
+去荐狼 沥飞 Lv4,4畔 傈饶 弊缝盔 傈眉俊霸 荐搁惑怕甫 父电促. (傈眉),MAGIC_StatusChange,眠 turn 4 成 30,188,1,8,0,
+去荐狼 沥飞 Lv5,5畔 傈饶 弊缝盔 傈眉俊霸 荐搁惑怕甫 父电促. (傈眉),MAGIC_StatusChange,眠 turn 5 成 25,189,1,8,0,
+措瘤狼 沥飞 Lv1,3畔悼救 瘤加己阑 30% 快措茄促. (傈眉),MAGIC_FieldAttChange,地 60  turn 3,190,1,4,0,
+措瘤狼 沥飞 Lv2,3畔悼救 瘤加己阑 70% 快措茄促. (傈眉),MAGIC_FieldAttChange,地 70  turn 3,191,1,4,0,
+措瘤狼 沥飞 Lv3,4畔悼救 瘤加己阑 80% 快措茄促. (傈眉),MAGIC_FieldAttChange,地 80  turn 4,192,1,4,0,
+措瘤狼 沥飞 Lv4,4畔悼救 瘤加己阑 90% 快措茄促. (傈眉),MAGIC_FieldAttChange,地 90  turn 4,193,1,4,0,
+措瘤狼 沥飞 Lv5,5畔悼救 瘤加己阑 100% 快措茄促.(傈眉),MAGIC_FieldAttChange,地 100 turn 5,194,1,4,0,
+拱狼 沥飞 Lv1,3畔悼救 荐加己阑 30% 快措茄促. (傈眉),MAGIC_FieldAttChange,水 60  turn 3,200,1,4,0,
+拱狼 沥飞 Lv2,3畔悼救 荐加己阑 70% 快措茄促. (傈眉),MAGIC_FieldAttChange,水 70  turn 3,201,1,4,0,
+拱狼 沥飞 Lv3,4畔悼救 荐加己阑 80% 快措茄促. (傈眉),MAGIC_FieldAttChange,水 80  turn 4,202,1,4,0,
+拱狼 沥飞 Lv4,4畔悼救 荐加己阑 90% 快措茄促. (傈眉),MAGIC_FieldAttChange,水 90  turn 4,203,1,4,0,
+拱狼 沥飞 Lv5,5畔悼救 荐加己阑 100% 快措茄促. (傈眉),MAGIC_FieldAttChange,水 100  turn 5,204,1,4,0,
+拳犁狼 沥飞 Lv1,3畔悼救 拳加己阑 30% 快措茄促. (傈眉),MAGIC_FieldAttChange,火 60  turn 3,210,1,4,0,
+拳犁狼 沥飞 Lv2,3畔悼救 拳加己阑 70% 快措茄促. (傈眉),MAGIC_FieldAttChange,火 70  turn 3,211,1,4,0,
+拳犁狼 沥飞 Lv3,4畔悼救 拳加己阑 80% 快措茄促. (傈眉),MAGIC_FieldAttChange,火 80  turn 4,212,1,4,0,
+拳犁狼 沥飞 Lv4,4畔悼救 拳加己阑 90% 快措茄促. (傈眉),MAGIC_FieldAttChange,火 90  turn 4,213,1,4,0,
+拳犁狼 沥飞 Lv5,5畔悼救 拳加己阑 100% 快措茄促. (傈眉),MAGIC_FieldAttChange,火 100  turn 5,214,1,4,0,
+龙浅狼 沥飞 Lv1,3畔悼救 浅加己阑 30% 快措茄促. (傈眉),MAGIC_FieldAttChange,风 60  turn 3,220,1,4,0,
+龙浅狼 沥飞 Lv2,3畔悼救 浅加己阑 70% 快措茄促. (傈眉),MAGIC_FieldAttChange,风 70  turn 3,221,1,4,0,
+龙浅狼 沥飞 Lv3,4畔悼救 浅加己阑 80% 快措茄促. (傈眉),MAGIC_FieldAttChange,风 80  turn 4,222,1,4,0,
+龙浅狼 沥飞 Lv4,4畔悼救 浅加己阑 90% 快措茄促. (傈眉),MAGIC_FieldAttChange,风 90  turn 4,223,1,4,0,
+龙浅狼 沥飞 Lv5,5畔悼救 浅加己阑 100% 快措茄促. (傈眉),MAGIC_FieldAttChange,风 100  turn 5,224,1,4,0,
+调和的精灵,回复成无属性 (傈眉),MAGIC_FieldAttChange,无,230,1,4,0,
+彩虹的精灵,属性反转 (茄 个),MAGIC_AttReverse,,240,1,1,0,
+极光的精灵,属性反转 (傈眉),MAGIC_AttReverse,,241,1,8,0,
+蝴狼沥飞,傍拜仿 软荐1雀 (茄 个),MAGIC_MagicDef,吸  turn 1,250,1,1,0,
+芭匡狼沥飞,傍拜阑 馆荤1雀 (茄 个),MAGIC_MagicDef,反  turn 1,260,1,1,0,
+荐龋狼沥飞,傍拜阑 荐龋2雀 (茄 个),MAGIC_MagicDef,无  turn 2,270,1,1,0,
+何劝 蝴狼 沥飞 Lv1,何劝矫虐绊 蝴 100　　　攻击吸收 1次 (茄 个),MAGIC_ResAndDef,100 吸 turn 1,280,1,1,1,
+何劝 芭匡狼 沥飞 Lv1,秦寸 酒焙阑 眉仿 100 雀汗苞 悼矫俊 何劝登绢 芭匡 (茄 个),MAGIC_ResAndDef,100 反 turn 1,290,1,1,1,
+何劝 荐龋狼 沥飞 Lv1,何劝矫虐绊 荐龋 100　　　攻击无效 2次 (茄 个),MAGIC_ResAndDef,100 无 turn 2,300,1,1,1,
+倡籍,顶付过LV1,MAGIC_AttMagic,地|100|1,301,1,1,0,8
+玫倡籍,顶付过LV2,MAGIC_AttMagic,地|150|2,302,1,9,0,9
+配幅,顶付过LV3-1,MAGIC_AttMagic,地|165|3,303,1,10,0,10
+措款籍,顶付过LV3-2,MAGIC_AttMagic,地|185|3,304,1,9,0,11
+瘤柳,顶付过LV3-3,MAGIC_AttMagic,地|200|3,305,1,11,0,12
+玫拳倡,顶付过LV4,MAGIC_AttMagic,地|250|4,306,1,11,0,13
+荐己,拱付过LV1,MAGIC_AttMagic,水|100|1,307,1,9,0,14
+气快,拱付过LV2,MAGIC_AttMagic,水|150|2,308,1,9,0,15
+葫籍,拱付过LV3-1,MAGIC_AttMagic,水|165|3,309,1,9,0,16
+汲浅,拱付过LV3-2,MAGIC_AttMagic,水|185|3,310,1,9,0,17
+荐刘扁,拱付过LV3-3,MAGIC_AttMagic,水|200|3,311,1,9,0,18
+葫汲气快,拱付过LV4,MAGIC_AttMagic,水|250|4,312,1,11,0,19
+拳堪,阂付过LV1,MAGIC_AttMagic,火|100|1,313,1,9,0,2
+措拳堪,阂付过LV2,MAGIC_AttMagic,火|150|2,314,1,9,0,3
+拳刘扁,阂付过LV3-1,MAGIC_AttMagic,火|165|3,315,1,9,0,4
+拳急浅,阂付过LV3-2,MAGIC_AttMagic,火|185|3,316,1,9,0,5
+气拳扁嫡,阂付过LV3-3,MAGIC_AttMagic,火|200|3,317,1,11,0,6
+气楷惯,阂付过LV4,MAGIC_AttMagic,火|200|4,318,1,11,0,7
+距浅,官恩付过LV1,MAGIC_AttMagic,风|100|1,319,1,9,0,20
+急浅,官恩付过LV2,MAGIC_AttMagic,风|150|2,320,1,9,0,21
+浅快,官恩付过LV3-1,MAGIC_AttMagic,风|165|3,321,1,10,0,22
+魂浅,官恩付过LV3-2,MAGIC_AttMagic,风|165|3,322,1,9,0,23
+葫魂浅,官恩付过LV3-3,MAGIC_AttMagic,风|200|3,323,1,11,0,24
+葫汲气快,官恩付过LV4,MAGIC_AttMagic,风|250|4,324,1,11,0,25
+拳堪采,付过LV5,MAGIC_AttMagic,火|350|5,325,1,11,0,26
+啊靛宏饭捞农,对采取防敌人攻击可能,MAGIC_AttSkill,PETSKILL_GuardBreak;3,326,1,1,0,0
+葛酒摹扁,1畔疆第 弊促澜畔俊 碍仿茄 单固瘤肺 傍拜,MAGIC_AttSkill,PETSKILL_ChargeAttack;30,327,1,1,0,0
+老拜鞘混,疙吝伏捞 冻绢瘤瘤父 碍仿茄 单固瘤肺 傍拜,MAGIC_AttSkill,PETSKILL_Mighty;40,328,1,1,0,0
+硅荐狼 柳１,规绢仿窍碍-30%　　傍拜仿惑铰+30%,MAGIC_AttSkill,PETSKILL_PowerBalance;50,329,1,1,0,0
+畴啊靛傈过,傍拜窍瘤 臼栏唱 雀乔啦苞 馆拜伏阑 惑铰,MAGIC_AttSkill,PETSKILL_NoGuard;150,330,1,1,0,0
+函脚狼 沥飞 Lv1,磊扁 磊脚狼 其飘肺 函脚茄促 (1盒),MAGIC_Metamo,60,350,0,1,0,0
+函脚狼 沥飞 Lv2,磊扁 磊脚狼 其飘肺 函脚茄促 (2盒),MAGIC_Metamo,120,351,0,1,0,0
+函脚狼 沥飞 Lv3,磊扁 磊脚狼 其飘肺 函脚茄促 (3盒) ,MAGIC_Metamo,180,352,0,1,0,0
+倾距贱,被攻击者三回合内防御跟敏捷下降20%,MAGIC_Weaken,虚 turn 3 成 50,390,1,1,0,0
+傈眉倾距贱,敌全体三回合内防御跟敏捷下降20%,MAGIC_Weaken,虚 turn 3 成 50,391,1,8,0,0
+魔法防御 Lv1,提升全魔法抗性+20%三回合我方单体,MAGIC_MagicStatusChange,魔抗|3|20|单,392,1,1,0,0
+魔法防御 Lv2,提升全魔法抗性+20%三回合我方全体,MAGIC_MagicStatusChange,魔抗|3|20|全,393,1,8,0,0
+龋阿贱,葛啊肺胶甫 家券,MAGIC_ToCallDragon,100373|300,394,1,9,0,0
+龋阿贱2,没锋阑 家券,MAGIC_ToCallDragon,100401|300,395,1,10,0,1
+龋阿贱3,脐飘甫 家券窍咯 傍拜,MAGIC_ToCallDragon,101422|400,396,1,11,0,2
+魔障,使敌全体一回合无法行动,MAGIC_Barrier,障 turn 1 成 50,397,1,3,0,0
+魔宫,林贱阑 荤侩且 荐 绝澜3畔,MAGIC_Nocast,默 turn 3 成 50,398,1,3,0,0
+沥拳狼 沥飞(剧毒)Lv1,某腐磐 窍唱狼 剧毒惑怕 雀汗 (茄 个),MAGIC_StatusRecovery,剧,402,1,1,0,
+沥拳狼 沥飞(剧毒)Lv2,弊缝 傈眉狼 剧毒惑怕 雀汗 (傈眉),MAGIC_StatusRecovery,剧,403,1,8,0,
+沥拳狼 沥飞(魔障)Lv1,某腐磐 窍唱狼 魔障惑怕 雀汗 (茄 个),MAGIC_StatusRecovery,障,404,1,1,0,
+沥拳狼 沥飞(魔障)Lv2,弊缝 傈眉狼 魔障惑怕 雀汗 (傈眉),MAGIC_StatusRecovery,障,405,1,8,0,
+沥拳狼 沥飞(沉默)Lv1,某腐磐 窍唱狼 沉默惑怕 雀汗 (茄 个),MAGIC_StatusRecovery,默,406,1,1,0,
+沥拳狼 沥飞(沉默)Lv2,弊缝 傈眉狼 沉默惑怕 雀汗 (傈眉),MAGIC_StatusRecovery,默,407,1,8,0,
+沥拳狼 沥飞(倾距贱)Lv1,某腐磐 窍唱狼 倾距贱惑怕 雀汗 (茄 个),MAGIC_StatusRecovery,虚,408,1,1,0,
+沥拳狼 沥飞(倾距贱)Lv2,弊缝 傈眉狼 倾距贱惑怕 雀汗 (傈眉),MAGIC_StatusRecovery,虚,409,1,8,0,
+函脚狼 沥飞 Lv4,磊扁 磊脚狼 其飘肺 函脚茄促 (4盒),MAGIC_Metamo,600,410,0,1,0,0
+魔宫秦力,魔宫 惑怕甫 乾促,MAGIC_StatusRecovery,默,411,1,8,0,0
+刀救俺狼 沥飞 Lv6,6畔 傈饶 弊缝盔 傈眉俊霸 刀惑怕甫 父电促. (傈眉),MAGIC_StatusChange,毒 turn 6 成 25,412,1,8,0,
+籍拳狼 沥飞 Lv6,6畔 傈饶 弊缝盔 傈眉俊霸 籍拳惑怕甫 父电促. (傈眉),MAGIC_StatusChange,石 turn 6 成 25,413,1,8,0,
+去荐狼 沥飞 Lv6,6畔 傈饶 弊缝盔 傈眉俊霸 去鄂惑怕甫 父电促. (傈眉),MAGIC_StatusChange,乱 turn 6 成 25,414,1,8,0,
+父秒狼 沥飞 Lv6,6畔 傈饶 弊缝盔 傈眉俊霸 父秒惑怕甫 父电促. (傈眉),MAGIC_StatusChange,醉 turn 6 成 25,415,1,8,0,
+去荐狼 沥飞 Lv6,6畔 傈饶 弊缝盔 傈眉俊霸 荐搁惑怕甫 父电促. (傈眉),MAGIC_StatusChange,眠 turn 6 成 25,416,1,8,0,
+倔澜狼 沥飞Lv1,冰抗性提升10  3回合(茄 个),MAGIC_MagicStatusChange,冰抗|3|10|单,417,1,1,0,0
+电之精灵Lv1,电抗性提升10  3回合(茄 个),MAGIC_MagicStatusChange,电抗|3|10|单,418,1,1,0,0
+阂狼 沥飞Lv1,火抗性提升10  3回合(茄 个),MAGIC_MagicStatusChange,火抗|3|10|单,419,1,1,0,0
+倔澜狼 沥飞Lv2,冰抗性提升10  3回合(傈眉),MAGIC_MagicStatusChange,冰抗|3|10|全,420,1,8,0,0
+电之精灵Lv2,电抗性提升10  3回合(傈眉),MAGIC_MagicStatusChange,电抗|3|10|全,421,1,8,0,0
+阂狼 沥飞Lv2,火抗性提升10  3回合(傈眉),MAGIC_MagicStatusChange,火抗|3|10|全,422,1,8,0,0
+老级1,盒脚贱阑 荤侩窍咯 利俊霸 鉴埃利牢 老拜阑 啊茄促.,MAGIC_ToCallDragon,101994|1,423,1,11,0,2
+老级2,盒脚贱阑 荤侩窍咯 利俊霸 鉴埃利牢 老拜阑 啊茄促.,MAGIC_ToCallDragon,101994|3000,424,1,11,0,2

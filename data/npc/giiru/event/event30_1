@@ -1,0 +1,76 @@
+NomalMainMsg:我是吉鲁采石场的管理人因为很危险请不要乱碰石头。,因为很危险请多多小心。
+
+#确认任务挡束，玩家有钥匙
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&ITEM!=2391&ITEM!=2392
+AcceptMsg1:弊犯嚼聪鳖?\n盲籍厘俊 沥飞甸捞 腹捞 乐窜 富捞烈...\n捞镑篮 烹肺扼辑 鉴档啊 臭篮 剧龙狼 啊快赴 倒阑 亩荐乐促绊 积阿沁嚼聪促. 弊烦 歹捞惑 盲籍窍瘤 臼绰巴捞 亮摆焙夸.
+AcceptMsg2:舅摆嚼聪促. 历锐甸档 沥飞阑 公矫茄 盲 盲籍 且 荐绰 绝栏聪 歹 捞惑 盲奔窍瘤 臼档废 窍摆嚼聪促.
+ThanksMsg:皑荤钦聪促. 拌加沁促搁 沥飞甸阑 拳唱霸 且 环 沁焙夸. 磊! 缔沥府扼档且鳖夸?
+EventEnd
+#玩家有阿斯玛鲁团长协议书
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&ITEM=2391&ITEM=2394
+AcceptMsg:谅谅你以前跃我们秆决与精灵之间的问题，我们已经很久没有在这里采撷矿石了，所以你需要协议书我就写一份给你吧！
+ThanksMsg:那这协议书交给你了！
+ItemFullMsg:真是抱歉，你身上的道具太多了。
+DelItem:2391*1
+GetItem:2392*1
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79&ENDEV=4ENDEV=29&ENDEV=30&ITEM=2392
+NomalMsg:既然已经拿到协议书了就话快烯开吧！
+EventEnd
+
+#玩家没有阿斯玛鲁团长协议书
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&ITEM=2391&ITEM!=2394
+AcceptMsg:谅谅你以前跃我们秆决与精灵之间的问题，我们已经很久没有在这里采撷矿石了。
+ThanksMsg:你想要协议书我可以给你，不过我蛮担心激进的帖尼姆团长的看法，你先去问问他的看法好了！
+EventEnd
+
+#确认任务挡束
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&ITEM!=2392&ITEM!=2391
+AcceptMsg:原来是我们打扰到精灵们的生活了摆？\n我霹想说这里可以采到很多纯度很坨的吉鲁石呢……那就是不太适合在这里采石的意思啰？
+ThanksMsg:我知道了，我们也不渧无视于精灵来进行采石呢。\n真是谅谅你告诉我事情的真相，要是再这么下去精灵们一定会发怒的。\n对了，采石场的钥匙就交给你保管吧，我们已经不需要了。
+ItemFullMsg:真是抱歉，你身上的道具太多了，钥匙不能给你了。
+GetItem:2549
+EventEnd
+
+#催促玩家调查
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&NOWEV=30&ITEM=2549,ENDEV=4&ENDEV=30&ITEM=2549,ENDEV=4&NOWEV=29&NOWEV=30&ITEM=2549
+NomalWindowMsg:公郊 老捞瘤?
+EventEnd
+
+#再给钥匙
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&NOWEV=30,ENDEV=4&ENDEV=30,ENDEV=4&NOWEV=29&NOWEV=30
+AcceptMsg:唱绰 盲籍厘 包府牢捞坷.\n凯艰啊 鞘夸钦聪鳖?
+ThanksMsg:咯扁 凯艰甫 靛府摆家.\n酪绢滚府搁 促矫 例 茫酒坷矫坷.
+ItemFullMsg:酒捞袍 沫阑 厚快绊 坷矫坷.
+GetItem:2549
+EventEnd
+
+#委托玩家调查吉鲁采石场
+EventNo:30
+TYPE:REQUEST
+EVENT:ENDEV=4&ENDEV!=30
+RequestMsg1:夸硫 盲籍厘俊辑 盲籍阑 且锭付促 捞惑茄 泅惑捞 老绢唱绊 乐家. 俺汲茄瘤 1斥捞 等 瘤陛 富捞坷.
+RequestMsg2:官恩捞 烹窍瘤 臼绰单 榷阂捞 波瘤芭唱 瘤柳捞 老绢唱辑 悼奔 观栏肺 唱啊焊搁 酒公 老 绝促芭唱..
+RequestMsg3:捞繁 老捞 乐促焊聪 流盔甸篮 葛滴 弊父滴绊 乐家 弊矾聪 盲籍厘阑 粱 炼荤秦林矫摆家?
+ThanksMsg:肋 何殴靛府摆家. 咯扁 盲籍厘狼 凯艰坷.
+StopMsg:力 何殴捞 绢妨款啊焊焙.
+EndStopMsg:...
+NoStopMsg:...
+ItemFullMsg:酒捞袍 沫阑 厚快绊 坷矫坷.
+GetItem:2549
+EventEnd

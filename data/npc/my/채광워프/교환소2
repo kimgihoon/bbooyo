@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:15080,17,32
+FREE:LV>0
+MONEY:-1
+FreeMsg:당신 덕분에 살았습니다! 울타리 밖으로 다시 나가시겠습니까?
+PayMsg:오류 NO5 운영자에게 오류 보고서가 접수됩니다.
+PartyMsg:파티상태로 해당 NPC와 대화 하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

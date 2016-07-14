@@ -1,0 +1,15 @@
+NPCCREATE
+{
+floorid=14451
+borncenter=15,29
+time=0
+createnum=1
+dir=8
+ignoreinvincible=1
+graphicname=100405
+name=본드족 대리인
+enemy=npcgen_warpman|file:my/유적워프/교환소1
+}
+
+
+

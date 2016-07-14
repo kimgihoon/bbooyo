@@ -1,0 +1,47 @@
+############################################
+#껫謬徑浬돨옵갖녘膠慤숭#
+#쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺덫훨諒：訶儺#
+############################################
+
+NomalMainMsg:카토리누야~ 내 카토리누야~
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>14-524
+AcceptMsg:\n와아! 카토리누다! 고마워!\n카토리누를 빨리 줘!
+ThanksMsg:\n이건 내가 숲에서 모은 과일이야!\n보답으로 줄께!
+GetRandItem:2451,2452,2453,2454
+DelItem:2456
+DelPet:PET>14-524
+Pet_Name:카토리누
+ItemFullMsg:아이템이 가득 찼어.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>14-524
+AcceptMsg:\n와아! 카토리누다! 고마워!\n카토리누를 빨리 줘!\n어라? 이름이.. 어서 줘!
+ThanksMsg:\n이건 내가 숲에서 모은 과일이야!\n보답으로 줄께!
+GetItem:2455
+DelItem:2456
+DelPet:PET>14-524
+ItemFullMsg:아이템이 가득 찼어.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2456
+NomalWindowMsg:내 카토리누는..?
+EventEnd
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:\n이이잉잉！\n내 소중한 카토리누가 도망가버렸어！\n에구..！에구..！\n카토리누를 잡아와 주지 않을래？
+ThanksMsg:\n고마워!\n여기서 우루리 마을로 가는 도중에\n바위산 사이에 있는 꽃밭이 카토리누가\n좋아하는 곳이니까 아마도\n거기에 있지 않을까..\n카토리누가 좋아하는 이것을 가지고 가!
+StopMsg:\n나를 안도와 줄꺼야？
+EndStopMsg:이이잉잉이이잉잉이이잉！
+NoStopMsg:\n헤헤！\n빨리 나의 소중한 카토리누를 찾아줘！
+GetItem:2456*1
+ItemFullMsg:아이템 칸이 가득찼어！
+EventEnd

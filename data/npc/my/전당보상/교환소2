@@ -1,0 +1,34 @@
+NomalMainMsg:저는 레벨 30을 달성한 자에게 힘을 주고 있습니다.
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&ENDEV=172
+NomalWindowMsg:\n\n 신의 가호가 있기를...
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29
+AcceptMsg:\n저는 성실함을 나눠주는 정령 가르메입니다. '레벨 30' 이상을 달성하신 모험가님에게 힘을 주고 있지요. 그 힘을 받으시겠습니까?
+ThanksMsg:\n 많은 모험을 하여 힘을 기르시길 바랍니다.
+itmeFullMsg:아이템창을 비워주세요.
+PetFullMsg:\n 페트창을 비워줄래요?
+GetItem:21156,21157
+GetPet:3121
+EndSetFlg:172
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

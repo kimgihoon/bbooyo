@@ -1,0 +1,40 @@
+NomalMainMsg:沥飞狼 倒篮 仟弗 堡盲甫 蝴郴绊 乐促.
+
+#确认玩家见到扬恩或任务挡束
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&NOWEV=54,ENDEV=4&ENDEV=29&ENDEV=30&ENDEV=54
+NomalWindowMsg:我们深深体会到你的心情了，我们将加护精灵的力量于你之身……
+EventEnd
+
+#催促玩家去真知之间
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&NOWEV=29&ENDEV=30&NOWEV=54
+NomalWindowMsg:沥飞狼 倒篮 仟弗 堡盲甫 蝴郴绊 乐促.
+EventEnd
+
+#确认玩家得到真龟之眼
+EventNo:29
+TYPE:REQUEST
+EVENT:ENDEV=4&ENDEV=30&NOWEV=54&ITEM=2548
+RequestMsg:仟弗 蝴捞 蝴唱绊 格家府啊 甸妨柯促.
+ThanksMsg1:角付府绰 棱篮 巴 鞍焙夸.\n弊烦 弊 荤侩过阑 舅绊 酵促绰 芭焙夸.
+ThanksMsg2:[柳角狼 救版]阑 颊俊 持篮 寸脚捞扼搁\n公均捞 柳角牢瘤 舅疤聪促.
+EventEnd
+
+#催促玩家找线索
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&NOWEV=30&NOWEV=54,ENDEV=4&ENDEV=30&NOWEV=54
+NomalWindowMsg:沥飞狼 倒篮 仟弗 堡盲甫 蝴郴绊 乐促.
+EventEnd
+
+#委托玩家找真龟之眼
+EventNo:54
+TYPE:REQUEST
+EVENT:ENDEV=4&NOWEV=30
+RequestMsg1:肋 坷继焙夸. 历绰 沥飞 \n茄·肺快 倒狼 沥飞林涝聪促.\n寸脚篮 公均阑 茫酒 捞 镑栏肺 坷继嚼聪鳖?
+RequestMsg2:寸脚捞 茫绊 乐绰 翠阑 舅绊 酵促搁 [柳角狼 救版]阑 颊俊 持栏绞矫坷.\n[柳角狼 救版]篮 拱扒老 荐档 酒匆荐档.. 瘤陛 弊 荤角阑 酒绰 荤恩篮 喊肺 绝阑 疤聪促. 寸脚篮 [柳角狼 救版]阑 颊俊 持阑 磊脚捞 乐嚼聪鳖?
+ThanksMsg:舅摆嚼聪促. 傈秦靛府烈. [柳角狼 救版]阑 备窍扁 困茄 咯青篮 窜鉴窍柳 臼瘤父 寸脚捞扼搁 且 荐 乐阑 疤聪促.
+EventEnd

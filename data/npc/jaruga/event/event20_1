@@ -1,0 +1,49 @@
+#É½ÔôµÄÊÂ¼þ......................¼ªµÂµÄÅóÓÑ¿­ÒÁ
+
+NomalMainMsg:³ª´Â µþÀ» Ã£°í ÀÖ¾î.
+
+
+#Ã»ÓÐ»¨µÄ×´¿ö
+EventNo:21
+TYPE:ACCEPT
+EVENT:ENDEV=20&ENDEV=22&NOWEV=21&ITEM=2488
+AcceptMsg:\nÁ¦ Ä£±¸ÀÇ µþÀ» ¸¸³ª°í ¿Ô³ª¿ä?\n¾ê±â¸¦ µé·ÁÁÖ½Ç·¡¿ä?
+ThanksMsg:\n±×·¸±º¿ä..\n±×Ä¡¸¸ °Ç°­ÇØ¼­ ´ÙÇàÀÌ³×¿ä!\n¾î¼­ Áöµµ¿¡°Ô °¡º¸¼¼¿ä!
+ItemFullMsg:¾ÆÀÌÅÛ Ä­ÀÌ °¡µæ Ã¡¾î¿ä.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=20&ENDEV=22&ENDEV=21
+AcceptMsg:\n°í¸¶¿ö¿ä!\n´öºÐ¿¡ Á¦ Ä£±¸°¡ ±â¿îÀ» Â÷·È½À´Ï´Ù.
+ThanksMsg:\n´ç½ÅÀº Á¤¸» Ä£ÀýÇÑ »ç¶÷ÀÌ±º¿ä.
+ItemFullMsg:ÕæÊÇ¶Ô²»Æð¡­
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=2486
+AcceptMsg:\n³ª´Â ÁöµµÀÇ Ä£±¸ÀÎ ÄÉÀÌ¶ó°í ÇÕ´Ï´Ù.\nÁöµµ´Â 16³â Àü¿¡ À¯±«µÇ¾ú´ø µþÀÌ\nµ¹¾Æ¿ÀÁö³ª ¾ÊÀ»±î ´Ã ±â´Ù¸®°í ÀÖ½À´Ï´Ù.\nÇÑ¹ø ¸¸³ª º¸½ÃÁö ¾Ê°Ú½À´Ï±î?\nÃÌÀåÁý¿¡ ÀÖÀ¸´Ï±î¿ä.
+ThanksMsg:\nÀÌ°ÍÀ» °¡Áö°í °¡º¸¼¼¿ä.\n±×·³ ¾ê±â¸¦ µé·Á ÁÙ °Ì´Ï´Ù.
+ItemFullMsg:\n¾ÆÀÌÅÛÀÌ °¡µæ Ã¡±º¿ä.
+GetItem:2486
+EventEnd
+
+#´÷×Å»¨µÄ×´¿ö
+EventNo:21
+TYPE:ACCEPT
+EVENT:ITEM=2486
+AcceptMsg:¾ê±â¸¦ µèÁö ¾ÊÀ¸½Ç°Ì´Ï±î?
+ThanksMsg:¾Ë°Ú½À´Ï´Ù.\n±×·³ ²ÉÀº ´Ù½Ã °¡Á®°¡°Ú½À´Ï´Ù.
+ItemFullMsg:¾ÆÀÌÅÛÀÌ °¡µæ Ã¡±º¿ä.
+DelItem:2486
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21
+NomalMsg:°í¸¶¿ö¿ä!!
+EventEnd
+
+
+

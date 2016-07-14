@@ -1,0 +1,43 @@
+NomalMainMsg:쟈루는 오늘도 평화롭군요.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21145&ITEM=21142
+AcceptMsg:\n이것이 말로만 듣던 그 수장룡의 뼈이군요! 잠시만 기다려주십시오. 일단 황금 팬던트의 모형은 잡혔습니다. 하지만 한가지가 빠졌는데요. 
+ThanksMsg:\n일단 설계에 따라 제작하였는데요. 한가지 빠진게 바로 사이너스의 황금입니다. 탐험가 만타에게 다시 가셔서 물어보십시오. 사이너스 황금은 사이너스 탐험단 권하에 거래되니깐요.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21143
+DelItem:21145,21142
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21140&ITEM=21141
+AcceptMsg:\n황금 열매를 채취해오셨군요! 다음 설계도에 따르면 저도 처음 보는 수장룡의 뼈인데요.. 
+ThanksMsg:\n이 설계도에 따르면 그 짐승은 오래전부터 가우린 북가우린 지하통로 3층에 서식한다고 합니다! 뼈를 구해와주세요 
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21145
+DelItem:21140,21141
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21139
+AcceptMsg:\n 사이너스 탐험단이 저에게 이 편지를 해석해달라 했다구요? 이것은 쟈루의 옛날 고대 문자이군요. 이 고대문자를 해석하자면 황금열매와 황금물질이 섞인 전설의 신물이 새로운 세계를 열것이라고 합니다.
+ThanksMsg:\n 토토마을에 옛날부터 전해내려오는 설계도와 비슷한것 같습니다! 일단 좌표 395 933로 가셔서 황금나무를 채취해주시겠나요? 채취허가권는 드리겠습니다!
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21140
+DelItem:21139
+EventEnd
+
+
+
+
+
+
+
+
+

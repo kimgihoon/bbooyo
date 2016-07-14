@@ -1,0 +1,53 @@
+NomalMainMsg:얼마전 생긴 지진으로 이상한 통로같은 동굴이 생겼지만 엄청나게 단단한 석상이 가로막고 있어
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79&ENDEV=165
+NomalWindowMsg:\n 동굴에는 처음 보는 페트들이 서식하는걸로 확인했어
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21143*1
+AcceptMsg:\n이것이 석상의 문을 열 수 있는 팬던트라는거야? 아직 미완성이군!\n 걱정마! 난 사이너스 탐험가라고! 사이너스의 황금은 나에게도 있어! 잠시만 기다려봐
+ThanksMsg:\n 완성되었어!! 어서 이 완성된 팬던트를 석상에 빈공간에 꽂아봐!
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21144
+DelItem:21143
+EndSetFlg:165
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21139
+AcceptMsg:\n역시 이 부탁은 무리인가?
+ThanksMsg:하는 수 없지! 다른 조사임원에게 부탁하는 수 밖에!
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:21139
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79
+AcceptMsg:\n안녕? 나는 이 동굴를 조사하는 만타라고해! 너도 알다시피 얼마전 일어난 지진으로 생긴 이 동굴때문에 조사를 나왔지만 석상에 적힌 수수께끼를 풀지 못하고있어 석상에 적힌 문장만 보면 쟈루에 대해 적혀있는것 같아
+ThanksMsg:시간만 된다면 조사에 참여해주겠어? 이 수수께끼 문장이 적힌 편지를 쟈루섬에 있는 쟈루 영웅님에게 전해드려줘! 그 분는 무엇인가 알것같아! 
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21139
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

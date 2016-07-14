@@ -1,0 +1,32 @@
+NomalMainMsg:서버 오픈을 축하해주세요!
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=167
+NomalWindowMsg:\n 서버 오픈을 축하해주세요! 앞으로 더욱 좋은 업데이트를 하겠습니다!
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:\n안녕하세요! 서버 오픈을 기념하여 작은 이벤트를 하나 마련하였습니다!\n지금 서버를 시작하시는 분들에게 '실버라곤 Lv1' 와 서버오픈 초반 사냥의 어려움을 감소시킬 '신세계 도끼'를  수령하시겠습니까?
+ThanksMsg:\n감사합니다. 레벨80을 도달하실때 신세계 도끼를 '도라비스'에게 반납하면 정착금 12만스톤을 획득하실 수 있습니다. 그 외의 다른 한정 서버오픈 이벤트가 준비 되어있으니 많은 참여 바랍니다.  좋은 하루 되십시오!
+itmeFullMsg:아이템창을 비워주세요.
+PetFullMsg:\n 페트창을 비워줄래요?
+GetItem:21147
+GetPet:3112
+DelItem:
+EndSetFlg:167
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

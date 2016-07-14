@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=3006
+borncenter=19,14
+time=0
+createnum=1
+graphicname=100307
+name=ÀğÀğÀÇ ´ë¸®ÀÎ
+dir=4
+enemy=changeevent|file:my/¼¤±â¸£ÃÌÀå/±³È¯¼Ò1
+}
+

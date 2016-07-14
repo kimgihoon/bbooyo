@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1: 여기를 지나려면 나를 이겨야해。
+startmsg: 각오는 단단히 되어 있겠지? 한번 해보자！
+dieact:1
+warpfl:21208
+warpx:26
+warpy:16
+end msg:
+enemyno:1358,1363,1360,1361,1361,1359,1362,1362,1359,1359
+deniedmsg: 어디서 좀 놀았니? 디게 멋지다！
+onebattle:0

@@ -1,0 +1,28 @@
+NomalMainMsg:侶몸各썹긴돤疼冷꼇왜꼭죄걸。,桂綱섈쨀鷺鍋돨돎념찮淪쫄雷∼。
+
+#횅훰鯤소쑹쥣老駕훨蛟써監
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=40
+NomalWindowMsg:당신은 진홍의 정령의식을 마치셨군요! 불의 기운이 느껴지구나..
+EventEnd
+
+#횅훰鯤소돤돕꼇价쿰돨到챘
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&NOWEV=40&ITEM=2706
+NomalWindowMsg:！\n불사조의 깃털을 구해오셨어요?!!\n그럼 진홍의 동굴에 한번 가보세요!!
+EventEnd
+
+#璂狂鯤소角뤠狼쌈肝쑹쥣老駕
+EventNo:40
+TYPE:REQUEST
+EVENT:ENDEV=4
+RequestMsg:\n\n다나마을에 어서오세요!\n정령의 의식을 받으시려구요?
+ThanksMsg1:다나의 땅에서는 이라님에게 인정받기 위해서 [불사조의 깃털]을 봉납합니다.
+ThanksMsg2:불사조의 깃털은 신성한 기운을 가진 불사조님이 정령의 의식을 치루기 위해서 온 자들 중에 시험을 통해 깃털을 준다고 합니다.
+ThanksMsg3:정령의 의식을 하기 위해서는 꼭! [불사조의 깃털]을 구해와야 합니다.
+StopMsg:그만두시려구요？
+EndStopMsg:당신은 자신이 없는거군요,,?
+NoStopMsg:그럼요! 사이너스의 전사인 당신은 충분히 가능성이 있어요!
+EventEnd

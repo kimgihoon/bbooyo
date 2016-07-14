@@ -1,0 +1,45 @@
+NPCCREATE
+
+#########################################################
+#########    Ì´¸¸¤ÎÆ¶·¢¡¡¥¤¥Ù¥ó¥ÈÀßÄê¡¡¡¡################
+#########################################################
+
+
+{
+floorid=41
+borncorner=34,25,34,25
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16024
+name=²ÞÀÇ ½Å·É
+enemy=changeevent|file:seimu/event/event01_2
+}
+
+
+{
+floorid=42
+borncorner=34,25,34,25
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16024
+name=²ÞÀÇ ½Å·É
+enemy=changeevent|file:seimu/event/event01_2
+}
+
+
+{
+floorid=6000
+borncorner=73,54,73,54
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16001
+name=¸¶À» ³ëÀÎ
+enemy=changeevent|file:seimu/event/event01_1
+}
+

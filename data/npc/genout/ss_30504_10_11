@@ -1,0 +1,23 @@
+buy_rate:2.3
+sell_rate:0.15
+buy_msg:授与追求火的人从此地涌出的水的润泽
+sell_msg:授与追求火的人从此地涌出的水的润泽
+other_msg:你好
+hint_msg:请地上的老人帮你装这涌出的水。
+sellonly_msg:请你描述流传在此地的古老传说。
+main_msg:绢辑坷技夸！
+buy_main:拱扒阑 备概窍矫妨备夸？
+sell_main:拱扒阑 魄概窍矫妨备夸？
+what_msg:捞巴阑 荤妨备？
+stone_msg:捣捞何练茄芭鞍篮单！
+level_msg:饭骇捞 何练茄单 宝满酒?!。
+realy_msg:沥富混芭瘤？！
+itemfull_msg:酒捞袍芒捞 啊垫谩绰单。
+ItemList:2708
+LimitItemType:
+LimitItemNo:2708
+special_rate:1.5
+special_item:
+EVENT
+
+

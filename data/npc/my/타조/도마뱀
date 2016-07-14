@@ -1,0 +1,27 @@
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:
+askbattlemsg3:'깃털 정리 작업'을 시작하시겠습니까?
+askbattlemsg4:
+startmsg:꼬꼬댁!! 꼬꼬꼬!!!
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21175
+enemyno:3204,3203,3204,3202,3202,3204,3202,3205,3205,3203
+deniedmsg:크르르릉~! 캬오!!
+alreadymsg:키키키-!
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ITEM=21175
+WARP:
+endmsg:꼬대댁! [타조들의 깃털은 랜덤획득이오니 아이템창이 비었는지 확인 바랍니다.]
+AddItem:
+DelItem:
+OVER

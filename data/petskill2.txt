@@ -1,0 +1,103 @@
+대기,아무것도 하지 않는다.,PETSKILL_None,,,,0,1,5,2,1000,PETSKILL_NONE
+공격,일반적인 공격.,PETSKILL_NormalAttack,,,,1,1,6,2,1500,PETSKILL_NORMALATTACK
+방어,일반적인 방어.,PETSKILL_NormalGuard,,,,2,1,5,2,1500,PETSKILL_NORMALGUARD
+가드브레이크,방어하고 있는 대상에 한하여 데미지가 들어간다.,PETSKILL_GuardBreak,,,,3,1,6,2,2000,PETSKILL_GUARDBREAK
+연속공격,2번 연달아 공격한다.,PETSKILL_ContinuationAttack,2,,,10,1,6,2,2000,PETSKILL_CONTINUATIONATTACK1
+삼단치기,3번 연달아 공격한다.,PETSKILL_ContinuationAttack,3,,,11,1,6,2,5000,PETSKILL_CONTINUATIONATTACK2
+사단치기,4번 연달아 공격한다.,PETSKILL_ContinuationAttack,4,,Te,12,1,6,2,15000,PETSKILL_CONTINUATIONATTACK3
+오단치기,5번 연달아 공격한다.,PETSKILL_ContinuationAttack,5,,Tf,13,1,6,2,25000,PETSKILL_CONTINUATIONATTACK4
+충견 진돗개,적의 근거리 공격으로부터 주인을 보호하면서 50%의 공격력으로 공격한다..,PETSKILL_Guardian,묑%-20  COM:묑샌,,,20,1,7,2,3000,PETSKILL_GUARDIAN
+모아치기,1턴 동안 힘을 모아 2배의 공격력으로 공격한다.,PETSKILL_ChargeAttack,1 묑%+50,,,30,1,6,2,4000,PETSKILL_CHARGE1
+더블모아치기,2턴 동안 힘을 모아 3배의 공격력으로 공격한다.,PETSKILL_ChargeAttack,2 묑%+100,,,31,1,6,2,8000,PETSKILL_CHARGE2
+일격필살,낮은 명중률을 감수하고 두 배의 공격력으로 공격한다.,PETSKILL_Mighty,굡2 쀼긁30,,,40,1,6,2,2500,PETSKILL_MIGHTY1
+T일격필살,낮은 명중률을 감수하고 세 배의 공격력으로 공격한다.,PETSKILL_Mighty,굡3 쀼긁15,,Ta,41,1,6,2,25000,PETSKILL_MIGHTY2
+배수의진1,방어력을 60% 감소 & 공격력을 30% 증가시켜 공격한다.,PETSKILL_PowerBalance,묑%+30 렝%-60,,,50,1,6,2,10000,PETSKILL_POWERBALANCE1
+배수의진2,방어력을 80% 감소 & 공격력을 50% 증가시켜 공격한다.,PETSKILL_PowerBalance,묑%+50 렝%-80,,,51,1,6,2,30000,PETSKILL_POWERBALANCE2
+배수의진3,방어력을 100% 감소 & 공격력을 80% 증가시켜 공격한다.,PETSKILL_PowerBalance,묑%+80 렝%-100,,,52,1,6,2,50000,PETSKILL_POWERBALANCE3
+일반 독공격,공격력을 100% 감소 & 적을 4턴 전후 중독 상태로 만든다.,PETSKILL_StatusChange,뗀 turn 4  묑%-100,,,60,1,6,2,2500,PETSKILL_POISON_ATTACK1
+일반 맹독공격,공격력을 120% 감소 & 적을 5턴 전후 중독 상태로 만든다.,PETSKILL_StatusChange,뗀 turn 5  묑%-120,,,61,1,6,2,4000,PETSKILL_POISON_ATTACK2
+일반 석화공격,공격력을 100% 감소 & 적을 4턴 전후 석화 상태로 만든다.,PETSKILL_StatusChange,柯 turn 4  묑%-100,,,80,1,6,2,2300,PETSKILL_STONE
+일반 혼란공격,공격력을 100% 감소 & 적을 4턴 전후 혼란 상태로 만든다.,PETSKILL_StatusChange,쫘 turn 4 묑%-100,,,90,1,6,2,2000,PETSKILL_CONFUSION_ATTACK
+일반 만취공격,공격력을 100% 감소 & 적을 4턴 전후 만취 상태로 만든다.,PETSKILL_StatusChange,釐 turn 4 묑%-100,,,100,1,6,2,2000,PETSKILL_DRUNK_ATTACK
+일반 수면공격,공격력을 100% 감소 & 적을 4턴 전후 수면 상태로 만든다.,PETSKILL_StatusChange,추 turn 4  묑%-100,,,110,1,6,2,2500,PETSKILL_SLEEP_ATTACK
+지구일주,1턴 동안 반대 방향으로 달려서 두 배의 공격력으로 공격하고 돌아온다. ,PETSKILL_EarthRound,묑%+100,,,120,1,6,2,2000,PETSKILL_EARTHROUND1
+여행의 길동무,적의 페트 한마리를 데리고 전투에서 사라진다.,PETSKILL_Abduct,,,,130,1,7,2,3000,PETSKILL_Abduct
+훔치기,적의 물건을 훔친다.,PETSKILL_Steal,,,,140,1,7,2,0,PETSKILL_STEAL
+노가드전법,공격을 하지 않고 반격과 회피에 집중한다.,PETSKILL_NoGuard,쀼긁%+30 럽샌%+50 삔懃%+20,,,150,1,5,2,3000,PETSKILL_NOGUARD1
+T노가드진법2,공격을 하지 않고 반격과 회피에 집중한다.,PETSKILL_NoGuard,쀼긁%+40 럽샌%+60 삔懃%+30,,Tc,151,1,5,2,15000,PETSKILL_NOGUARD2
+T노가드전법3,공격을 하지 않고 반격과 회피에 집중한다.,PETSKILL_NoGuard,쀼긁%+50 럽샌%+70 삔懃%+40,,Td,152,1,5,2,25000,PETSKILL_NOGUARD3
+가공,합성 소재로 도구를 만든다.,PETSKILL_Merge,,,,200,2,0,1,1500,PETSKILL_MERGE
+
+
+돌진,1턴 동안 힘을 모아 2.5배의 공격력으로 공격한다.,PETSKILL_ChargeAttack,1 묑%+75,,,201,1,6,2,1000,PETSKILL_CHARGE1
+박쥐흡혈,공격력 30% 감소 공격하여　 선택된 상대 적군의 체력을 20% 흡혈한다. ,PETSKILL_DamageToHp,30|20,,,202,1,6,2,1000,PETSKILL_DAMAGETOHP
+흡혈아귀,공격력 20% 감소 공격하여　 선택된 상대 적군의 체력을 25% 흡혈한다. ,PETSKILL_DamageToHp,20|25,,,203,1,6,2,1000,PETSKILL_DAMAGETOHP
+최후의흡혈,공격력 10% 감소 공격하여　 선택된 상대 적군의 체력을 30% 흡혈한다. ,PETSKILL_DamageToHp,10|30,,,204,1,6,2,1000,PETSKILL_DAMAGETOHP
+숲속의자장가,공격력을 10% 상승 & 적을 2턴 전후 수면 상태로 만든다.,PETSKILL_StatusChange,추 turn 2  묑%+10,,,205,1,6,2,2500,PETSKILL_SLEEP_ATTACK
+요정의자장가,공격력을 15% 상승 & 적을 3턴 전후 수면 상태로 만든다.,PETSKILL_StatusChange,추 turn 2  묑%+15,,,206,1,6,2,2500,PETSKILL_SLEEP_ATTACK
+핥기,공격력을 20% 상승 & 적을 3턴 전후 혼란 상태로 만든다.,PETSKILL_StatusChange,쫘 turn 3 묑%+20,,,207,1,6,2,1000,PETSKILL_CONFUSION_ATTACK
+두번핥기,공격력을 30% 상승 & 적을 3턴 전후 혼란 상태로 만든다.,PETSKILL_StatusChange,쫘 turn 3 묑%+30,,,208,1,6,2,1000,PETSKILL_CONFUSION_ATTACK
+거북거북회전,공격력을 10% 감소 & 회전하면서 적군 한 줄의 한명씩을 공격한다.,PETSKILL_Gyrate,묑%-10,,Xa,209,1,1,2,3000,PETSKILL_NONE
+천년거북화,공격력을 30% 상승감소 & 적을 3턴 전후 석화 상태로 만든다.,PETSKILL_StatusChange,柯 turn 3  묑%+30,,,210,1,6,2,2300,PETSKILL_STONE
+보호본능,아군 전체의 방어력을 소폭 상승 시킨다.,PETSKILL_SetMagicPet,5|15|TGH|쀼긁%+50,,,211,1,2,2,1000,PETSKILL_SETMAGICPET
+펀치펀치,공격력을 20% 상승 & 적을 4턴 전후 혼란 상태로 만든다.,PETSKILL_StatusChange,쫘 turn 4 묑%+20,,,212,1,6,2,1000,PETSKILL_CONFUSION_ATTACK
+
+요리,식용 재료로 요리를 만든다.,PETSKILL_Merge,,,,540,2,0,1,1000,PETSKILL_MERGE2
+
+
+# 각성페트
+장애,적을 3턴 전후 장애 상태로 만든다,PETSKILL_Barrier,崍 turn 3 냥 50,,,541,1,6,2,0,PETSKILL_BARRIER
+시한부,적을 10턴 후 맹독 상태로 죽인다.,PETSKILL_Deeppoison,양 turn 10 냥 50,,,542,1,6,2,0,PETSKILL_DEEPPOISON
+혼란술,적을 3턴 전후 혼란 상태로 만든다,PETSKILL_Combined,履북랬|3|164,,,543,1,3,2,0,PETSKILL_NONE
+봉인 해제,봉인 상태를 해제한다.,PETSKILL_Refresh,칵,,Ah,544,1,2,2,2000,PETSKILL_REFRESH
+맹독 해제,맹독 상태를 해제한다.,PETSKILL_Refresh,양,,,545,1,2,2,5000,PETSKILL_REFRESH
+헌혈,자신의 체력을 50% 희생 하여 타인의 체력을 회복 시킨다.,PETSKILL_Sacrifice,,,,546,1,1,2,800000,PETSKILL_SACRIFICE
+봉인,4턴 동안 주술을 사용하지 못하도록 봉인 한다.,PETSKILL_Nocast,칵 turn 4 냥 50,,Ra,547,1,3,2,1000,PETSKILL_NOCAST
+유혹,공격력을 75% 상승 & 적을 5턴 전후 만취 상태로 만든다.,PETSKILL_StatusChange,釐 turn 5 묑%+75,,,548,1,6,2,2000,PETSKILL_DRUNK_ATTACK
+벽청의치유,파티원 전체 내구력 250 회복 합니다.,PETSKILL_SetMagicPet,1|250|HP,,,550,1,2,2,2500,PETSKILL_SETMAGICPET
+죽지않을만큼,적을 공격하고 적의 체력이 1이 되면 더 이상 데미지를 줄 수 없다.,PETSKILL_ShowMercy,,,,551,1,1,2,1000,PETSKILL_NONE
+마지막수단,방어력이 0 이하가 된 상태에서 2.5 배의 공격력으로 공격한다.,PETSKILL_PowerBalance,묑%+150 렝%-180,,,552,1,6,2,500,PETSKILL_NONE
+숲속의울음,파티원 전체 기력 35 회복 합니다.,PETSKILL_SetMagicPet,1|35|MP,,,553,1,2,2,2500,PETSKILL_SETMAGICPET
+심해의소리,공격력을 70% 상승 & 적을 3턴 전후 만취 상태로 만든다.,PETSKILL_StatusChange,釐 turn 3 묑%+70,,,554,1,6,2,1000,PETSKILL_DRUNK_ATTACK
+수리,각종의 소재를 이용하여 도구를 수리한다,PETSKILL_Fixitem,,,,555,2,0,1,300,PETSKILL_FIXITEM
+위협대응,공격력을 60% 상승 & 적을 2턴 전후 혼란 상태로 만든다.,PETSKILL_StatusChange,쫘 turn 2 묑%+60,,,556,1,6,2,1000,PETSKILL_CONFUSION_ATTACK
+정글의왕,공격력 20%를 감소하여 적을 2턴 동안 마비상태로 만든다.,PETSKILL_BattleModel,5|4|쮸|2|10|묑%-20|101728 101727 101726 101725,,As,557,1,3,3,500,PETSKILL_NONE
+기계화,공격력을 70% 상승 & 적을 3턴 전후 석화 상태로 만든다.,PETSKILL_StatusChange,柯 turn 3  묑%+70,,,558,1,6,2,2300,PETSKILL_STONE
+
+분노,아군 전체의 공격력을 대폭 상승 시킨다.,PETSKILL_SetMagicPet,3|55|STR|쀼긁%+75,,,559,1,2,2,50000,PETSKILL_SETMAGICPET
+
+죽지않을만큼,적을 공격하고 적의 체력이 1이 되면 더 이상 데미지를 줄 수 없다.,PETSKILL_ShowMercy,,,,560,1,1,2,1000,PETSKILL_NONE
+
+
+
+
+
+낙석,지속성 마법 Lv1,PETSKILL_AttackMagic,magic 301 item 19647,,,301,1,7,2,0,PETSKILL_AttactMagic
+천낙석,지속성 마법 Lv2,PETSKILL_AttackMagic,magic 302 item 19648,,,302,1,7,2,0,PETSKILL_AttactMagic
+토류,지속성 마법 Lv3-1,PETSKILL_AttackMagic,magic 303 item 19649,,,303,1,7,2,0,PETSKILL_AttactMagic
+대운석,지속성 마법 Lv3-2,PETSKILL_AttackMagic,magic 304 item 19650,,,304,1,7,2,0,PETSKILL_AttactMagic
+지진,지속성 마법 Lv3-3,PETSKILL_AttackMagic,magic 305 item 19651,,,305,1,7,2,0,PETSKILL_AttactMagic
+폭낙,지속성 마법 Lv4,PETSKILL_AttackMagic,magic 306 item 19652,,,306,1,3,3,30000,PETSKILL_AttactMagic
+수성,수속성 마법 Lv1,PETSKILL_AttackMagic,magic 307 item 19653,,,307,1,7,2,0,PETSKILL_AttactMagic
+폭우,수속성 마법 Lv2,PETSKILL_AttackMagic,magic 308 item 19654,,,308,1,7,2,0,PETSKILL_AttactMagic
+빙석,수속성 마법 Lv3-1,PETSKILL_AttackMagic,magic 309 item 19655,,,309,1,7,2,0,PETSKILL_AttactMagic
+설풍,수속성 마법 Lv3-2,PETSKILL_AttackMagic,magic 310 item 19656,,,310,1,7,2,0,PETSKILL_AttactMagic
+수증기,수속성 마법 Lv3-3,PETSKILL_AttackMagic,magic 311 item 19657,,,311,1,7,2,0,PETSKILL_AttactMagic
+폭설,수속성 마법 Lv4,PETSKILL_AttackMagic,magic 312 item 19658,,,312,1,3,3,30000,PETSKILL_AttactMagic
+화염,화속성 마법 Lv1,PETSKILL_AttackMagic,magic 313 item 19659,,,313,1,7,2,0,PETSKILL_AttactMagic
+대화염,화속성 마법 Lv2,PETSKILL_AttackMagic,magic 314 item 19660,,,314,1,7,2,0,PETSKILL_AttactMagic
+화증기,화속성 마법 Lv3-1,PETSKILL_AttackMagic,magic 315 item 19661,,,315,1,7,2,0,PETSKILL_AttactMagic
+화선풍,화속성 마법 Lv3-2,PETSKILL_AttackMagic,magic 316 item 19662,,,316,1,7,2,0,PETSKILL_AttactMagic
+폭화기둥,화속성 마법 Lv3-3,PETSKILL_AttackMagic,magic 317 item 19663,,,317,1,7,2,0,PETSKILL_AttactMagic
+폭발,화속성 마법 Lv4,PETSKILL_AttackMagic,magic 318 item 19664,,,318,1,3,3,30000,PETSKILL_AttactMagic
+약풍,풍속성 마법 Lv1,PETSKILL_AttackMagic,magic 319 item 19665,,,319,1,7,2,0,PETSKILL_AttactMagic
+선풍,풍속성 마법 Lv2,PETSKILL_AttackMagic,magic 320 item 19666,,,320,1,7,2,0,PETSKILL_AttactMagic
+풍우,풍속성 마법 Lv3-1,PETSKILL_AttackMagic,magic 321 item 19667,,,321,1,7,2,0,PETSKILL_AttactMagic
+산풍,풍속성 마법 Lv3-2,PETSKILL_AttackMagic,magic 322 item 19668,,,322,1,7,2,0,PETSKILL_AttactMagic
+빙산풍,풍속성 마법 Lv3-3,PETSKILL_AttackMagic,magic 323 item 19669,,,323,1,7,2,0,PETSKILL_AttactMagic
+폭풍,풍속성 마법 Lv4,PETSKILL_AttackMagic,magic 324 item 19670,,,324,1,3,3,30000,PETSKILL_AttactMagic
+화염꽃,마법 Lv5,PETSKILL_AttackMagic,magic 325 item 19671,,,325,1,7,2,0,PETSKILL_AttactMagic
+
+
+
+손가락 흔들기,일정 하지 않은 확률로 다양한 상태이상 공격을 한다.,PETSKILL_Combined,履북랬|6|541|542|543|558|552|547,,Ag,627,1,3,2,500,PETSKILL_NONE

@@ -1,0 +1,67 @@
+START_MSG:어서오세요! 또 다른 화폐인 '포타' 아이템으로 페트를 구매 가능한 레드데블로스의 포타 페트상점 입니다! 
+END_MSG:정말 구매 하시겠습니까? ^^*
+
+{
+MenuStr:    고라돈 (LV1) [29]
+VipPet:3211,29
+}
+
+{
+MenuStr:기라노 (LV1) [29]
+VipPet:3212,29
+}
+
+{
+MenuStr:판그라 (LV1) [29]
+VipPet:3213,29
+}
+
+{
+MenuStr:페루루 (LV1) [29]
+VipPet:3214,29
+}
+
+{
+MenuStr:석화케스 (LV1) [29]
+VipPet:3215,29
+}
+
+{
+MenuStr:골드테라곤 (LV1) [29]
+VipPet:3216,29
+}
+
+{
+MenuStr:진주토로스 (LV1) [29]
+VipPet:3217,29
+}
+
+{
+MenuStr:노로로크스 (LV1) [29]
+VipPet:3218,29
+}
+
+{
+MenuStr:고루루 (LV1) [29]
+VipPet:3219,29
+}
+
+{
+MenuStr:프로돈 (LV1) [29]
+VipPet:3220,29
+}
+
+{
+MenuStr:푸비토스 (LV1) [29]
+VipPet:3221,29
+}
+
+{
+MenuStr:푸미 (LV1) [29]
+VipPet:3222,29
+}
+
+{
+MenuStr:푸투투 (LV1) [29]
+VipPet:3223,29
+}

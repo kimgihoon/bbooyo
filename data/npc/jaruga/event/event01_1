@@ -1,0 +1,30 @@
+NomalMainMsg:...(기운이 없어보인다.)
+
+EventNo:1
+TYPE:ACCEPT
+EVENT:NOWEV=1&ITEM=2401
+AcceptMsg:\n네, 바로 이 약초에요.\n고맙습니다. 정말로 구해주셨군요.\n이제 아버지도 괜찮아지실 거에요.
+ThanksMsg:\n정말로 감사합니다!\n보답으로 이 부적을 드릴께요.
+ItemFullMsg:\n이런, 아이템 칸이 가득 찼어요.
+GetItem:2427
+DelItem:2401
+EndSetFlg:1
+EventEnd
+
+
+EventNo:1
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:\n안녕하세요!\n좀 도와주시겠어요?\n아버지가 병으로 쓰러지셨어요.\n하로산 정상에 있는 약초가 필요한데\n부탁해도 될까요?
+ThanksMsg:\n고맙습니다.\n약초는 하로산 정상에 있는 의사가\n가지고 있어요.
+StopMsg:\n제 부탁을 거절하실 건가요?
+EndStopMsg:\n알겠습니다. 다른 분을 찾아봐야겠네요..
+NoStopMsg:\n의사는 하로산에 정상에 있어요.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=1
+NomalMsg:어머, 감사해요. 아버지는 많이 좋아지셨어요.
+EventEnd

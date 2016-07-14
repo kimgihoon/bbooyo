@@ -1,0 +1,32 @@
+NomalMainMsg:안녕하신가.
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=81
+NomalWindowMsg:(미수정)
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=81
+NomalWindowMsg:(미수정)
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=19696
+NomalWindowMsg:미란다 마을 위쪽가서 이 추천서를\n내고 도라비스 항공에 가봐!\n그리고 커터를 찾아가.
+EventEnd
+
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:LV>80&ENDEV=4
+RequestMsg:최근에 포루섬에 이상한 옷을 입은\n사람이 와서 하루 종일\n[훈련!!][훈련!!]이라고 외치고 있어.\n근데 그 사람은 도라비스 종류의 페트를\n매우 많이 원했어. 그걸로 나는 적지않은\n돈을 벌었는데 너도 시험해볼래?
+ThanksMsg:그래? 그렇다면 이것을 받아, 아르바이트 추천서야.
+ItemFullMsg:아이템 칸을 비워줘!
+GetItem:19696
+EventEnd
+

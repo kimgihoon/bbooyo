@@ -1,0 +1,13 @@
+NPCCREATE
+{
+floorid=3006
+borncenter=22,20
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16122
+name=대리인의 수하
+enemy=npcgen_warpman|file:my/성인식워프/교환소1
+}
+

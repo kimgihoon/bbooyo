@@ -1,0 +1,11 @@
+NPCCREATE
+{
+floorid=4000
+borncenter=57,61
+time=0
+createnum=1
+graphicname=16100
+name=墨赴
+dir=4
+enemy=changeevent|file:my/海风风/背券家1
+}

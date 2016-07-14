@@ -1,0 +1,15 @@
+routenum:1
+routeto1:5000,45,60;5000,45,70;5000,27,70;999,173,110;999,158,110;999,158,66;300,141,392;300,141,314;300,159,296
+routename1:후르도∥가우린꽃밭
+denieditem:2402,2403,2404,2405,2406,2407,2408,2409,2410,2411,2412,2413
+needstone:10000
+pickupitem:0
+waittime:180
+msg_gettingon:꼬미꼬미!
+msg_notparty:출발합니다!
+msg_overparty:더이상자리가없어요!
+msg_denieditem:아이템이 끝났어요!
+msg_stone:차비를 지불해주세요
+msg_start:출발합니다.꼬미꼬미!
+msg_end:목적지에 도착했습니다.
+oneway:1

@@ -1,0 +1,31 @@
+NomalMainMsg:안녕하세요. 이벤트 기간내에 첫번째 환생을 마치신 유저분들에게 보상을 주고 있습니다.
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=169
+NomalWindowMsg:\n 다섯번째 환생까지 완료해보시는것도 어떠신지요?
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&TRANS>1
+AcceptMsg:\n이벤트 기간내에 첫번째 환생을 완료하셨군요. 약속대로 이벤트 상품을 수령하시겠습니까?
+ThanksMsg:\n감사합니다. 아직 이벤트가 많이 남았으니 많은 참여 바랍니다!
+itmeFullMsg:아이템창을 비워주세요.
+PetFullMsg:\n 페트창을 비워줄래요?
+GetItem:21103,21106
+GetPet:3113
+EndSetFlg:169
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+NomalMainMsg:티-티아!
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=157&ENDEV=4&PET=1-1197*1
+AcceptMsg:\n티..티아?
+ThanksMsg:\n 티이...
+PetFullMsg:\n 페트창을 비워줄래요?
+DelPet:PET=1-1197
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=157&ENDEV=4
+AcceptMsg:\n티-티아!
+ThanksMsg:\n티티티!아-!
+PetFullMsg:\n 티-티아티아! [페트창을 비워줄래요?]
+GetPet:3008
+EventEnd
+
+
+
+
+
+
+
+

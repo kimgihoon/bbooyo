@@ -1,0 +1,15 @@
+NPCCREATE
+
+{
+floorid=7979
+borncorner=26,7,26,7
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16098
+name=기념품 판매원
+enemy=npcgen_shop|file:my/라고고탑승문서/은혜
+action=0
+}
+

@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:1006,15,22
+FREE:LV>0
+MONEY:-1
+FreeMsg:여기는 위험한 지역이랍니다! 어떻게 왔는지는 모르겠지만 샴기르마을까지 안내해드릴까요?
+PayMsg:...
+PartyMsg:파티상태로 해당 NPC와 대화 하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

@@ -1,0 +1,22 @@
+##################################################
+#将乌力斯凯的信件交给乌力美之事件 (哥亚山)#
+# 				       担任者:西竹
+##################################################
+
+NomalMainMsg:曹曹!
+EventNo:7
+TYPE:ACCEPT
+EVENT:NOWEV=7&ITEM=2414&ITEM=2425&ITEM!=2424
+AcceptMsg:\n郴啊 迫绊 乐绰 采篮 捞 悼奔俊辑 蜡疙秦!\n呈档 捞 采阑 啊瘤绊 酵聪?\n构? 快府胶纳狼 何殴捞扼绊?
+ThanksMsg:\n亮酒, 漂喊 辑厚胶! 傍楼肺 临霸!\n快府胶纳绰 郴 模备聪鳖.\n祈瘤客 鞍捞 傈茄促搁 扁坏且芭具.\n肚 扁雀啊 乐栏搁 客!
+ItemFullMsg:酒捞袍捞 啊垫 谩绢!
+GetItem:2424
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=7,ENDEV=8&ITEM=2414
+NomalMsg:曹曹 郴 采篮 蜡疙茄 氢扁啊 亮篮 采.
+EventEnd
+
+

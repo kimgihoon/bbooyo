@@ -1,0 +1,28 @@
+NomalMainMsg:历 傍锋甸篮 馒茄 傍锋捞具.
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n萨姆吉尔大哥哥说要去尼斯大陆耶！真期待～
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64
+NomalWindowMsg:\n萨姆吉尔大哥哥说要带我逛龙洞。
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:朝 备秦林矾客拎辑 绊付况\n窍瘤父 抄 弊成 辨阑 酪菌阑 挥捞具.
+EventEnd
+
+
+

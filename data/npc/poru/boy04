@@ -1,0 +1,29 @@
+NomalMainMsg:캬오!!!!
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63&ITEM!=18544
+ItemFullMsg:아이템 칸을 비우고 오라.
+NomalWindowMsg:이것은 너를 인정한 증표..\n이 구슬이 너를 지켜줄 것이다.
+GetItem:18544*2
+EventEnd
+
+
+EventNo:63
+TYPE:ACCEPT
+EVENT:NOWEV=63
+AcceptMsg:용감한 자\n그리고 다른 세계 사람이여\n자네는 진실을 알고 있는가?
+ThanksMsg1:미수정
+ThanksMsg2:미수정
+ThanksMsg3:미수정
+ThanksMsg4:내 종족의 생존을 위해서.\n어린 아이들을 데리고\n사람들이 없는 곳으로 가주게.\n그리고 가기 전에 내게 한번 더 말을 해주게.
+PetFullMsg:페트 창을 비우고 오라.
+GetPet:351
+EndSetFlg:63
+EventEnd
+
+
+
+
+

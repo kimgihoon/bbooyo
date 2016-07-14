@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=1000
+borncenter=92,79,92,79
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16158
+name=선박 직원
+enemy=npcgen_warpman|file:my/섬워프/교환소1
+}

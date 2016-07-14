@@ -1,0 +1,15 @@
+NEWWARPMAN
+
+NOFREE
+FREE:LV>80&ENDEV=81
+NomalMsg:지하수로에서 나가시겠소?
+PartyMsg:파티로는 나가실 수 없소.
+WARP:9876,50,50
+OVER
+
+#눈箇鯤소쀼돕콩옹薑냘
+TALKEVENT1
+FREE:LV>90&ENDEV=81
+WARP:7200,97,25
+FreeMsg:\n밖으로 나가시겠소?
+OVER

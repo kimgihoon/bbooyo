@@ -1,0 +1,31 @@
+NomalMainMsg:救崇。抄 捧扁厘 萍南魄概盔捞具。
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV<11,DR<11,DR=77,DR=777
+AcceptMsg:捧扁厘俊 涝厘窍妨备? \n您的话免费。\n能够进入斗技场吗？\n\n另外，我要回收其他的票，请原谅。
+ThanksMsg:那么、我就把票交给你啰。还有、这张票若是登出、或是放置于地面都会消失请注意。
+ItemFullMsg:道具已满无法交付给你。
+GetItem:2597
+DelItem:2521,2522,2523,2524,2598,2599,2600,2601,2602
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2597
+NomalMsg:已经有票了喔。
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>10
+AcceptMsg:捧扁厘俊 涝厘窍矫妨备夸? \n涝厘丰绰%8dStone涝聪促。\n榴芭款矫埃登技夸!!
+ThanksMsg:涝厘鼻篮 官蹿俊 滚府矫搁 家戈登坷聪 炼缴洒 荤侩窍技夸!\n涝厘鼻捞 绝栏搁 促矫 唱棵荐 绝绢夸!
+StoneLessMsg:沛捞 何练茄芭鞍匙夸.
+ItemFullMsg:酒捞袍芒捞 何练钦聪促.
+DelStone:LV*3
+GetItem:2597
+DelItem:2521,2522,2523,2524,2598,2599,2600,2601,2602
+EventEnd
+

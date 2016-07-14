@@ -1,0 +1,27 @@
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:저는 제 3의 시험 수호자 중에 하나 입니다. 용케 여기까지 오셨군요. 보통 모험가가 아닌것 같습니다. 
+askbattlemsg3: 당신의 능력을 시험하기위해 오셨습니까?
+askbattlemsg4:
+startmsg:당신의 능력을 시험해보겠습니다. 당신의 능력에 따라 우리 제단는 당신에게 힘을 더불어 넣어드릴겁니다.
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21243
+enemyno:3279,3275,3276,3283,3283,3284,3284,3284
+deniedmsg:능력 시험증서를 소지하고 계시지 않으시군요. 탈락처리하겠습니다.
+alreadymsg: 당신의 능력을 좀 더 기르고 오시는게 어떨지..?
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ITEM=21243
+WARP:19331,34,27
+endmsg:당신의 능력이 테스트되었습니다. 마지막 테스트를 시작하겠습니다.
+AddItem:21244
+DelItem:
+OVER

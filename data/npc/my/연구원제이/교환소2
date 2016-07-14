@@ -1,0 +1,19 @@
+NomalMainMsg:목격에 따르면 현재 도망간 신종 페트들은 '라케시스 지하 채석장' '벚꽃랜드' '라케시스 사막근처'에서 보았다고 하더군.
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79&ENDEV=181
+NomalWindowMsg:\n 각성할 수 있는 기술이 개발되었지만 각 부마을들의 제단 페트들만 현재는 각성이 가능하지
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+
+
+
+
+
+
+
+

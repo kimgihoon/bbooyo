@@ -1,0 +1,23 @@
+buy_rate:1.0
+sell_rate:0.16
+buy_msg:찜,뭔찜,먁剋퀭,kau,buy,menu,剋剋,찜땜鮫
+sell_msg:찡땜鮫,찡,sell,uru
+other_msg:흔부？
+hint_msg:瑄···
+sellonly_msg:···
+main_msg:어서오세요！
+buy_main:물건을 구매하시려구요？
+sell_main:물건을 판매하시려구요？
+what_msg:이것을 사려구？
+stone_msg:돈이부족한거같은데！
+level_msg:레벨이 부족한데 괜찮아?!。
+realy_msg:정말살거지？！
+itemfull_msg:아이템창이 가득찼는데。
+ItemList:790,2443,2444,2445
+LimitItemType:
+LimitItemNo:1400-1599
+special_rate:1.5
+special_item:
+
+
+

@@ -1,0 +1,56 @@
+NEWWARPMAN
+
+
+NOFREE
+FREE:LV>80&ENDEV=81
+NomalMsg:夸硫 拱狼 鲍拱捞 朝顿绊 乐绢.. 狙! 辟公 捞惑 公!
+PartyMsg:颇萍肺绰 捞镑阑 甸绢哎 荐 绝家.
+WARP:9876,50,50
+OVER
+
+TALKEVENT1
+FREE:HERO_I_NOW=2&ENDEV=88&ENDEV=89&ENDEV=224
+WARP:60201,55,52
+FreeMsg:原来水怪也有麻烦阿，那你赶快去帮它吧。
+OVER
+
+TALKEVENT2
+FREE:HERO_I_NOW=2&ENDEV=88&ENDEV=89&NOWEV=224
+WARP:60201,55,52
+FreeMsg:又看到你了，这次又要麻烦你跟水怪沟通一下，让我送你下去吧？
+OVER
+
+#水怪任务完全结束，不传送玩家到地下水路
+TALKEVENT3
+FREE:LV>90&ENDEV=81&ENDEV=89&ENDEV=89
+WARP:0,0,0
+FreeMsg:绊付况夸! 档客拎辑!\n快府绰 寸脚阑 镭瘤 臼阑 疤聪促.
+OVER
+
+#走第一路线的玩家，传送玩家到地下水路去还小水怪
+TALKEVENT4
+FREE:LV>90&ENDEV=81&ENDEV=88&NOWEV=89
+WARP:60201,55,52
+FreeMsg:好久没看到您了，调查如何了呢？您还要去地下水路吗？让我送您去吧！
+OVER
+
+#走第二路线的玩家，传送玩家到地下水路去还小水怪
+TALKEVENT5
+FREE:LV>90&ENDEV=81&NOWEV=88&NOWEV=89
+WARP:60201,55,52
+FreeMsg:\n捞镑篮 拱狼 鲍拱捞 混绊 乐家.\n瘤窍荐肺俊 啊矫摆家?
+OVER
+
+#见过克拉肯的玩家，再传送玩家去地下水路
+TALKEVENT6
+FREE:LV>90&ENDEV=81&ENDEV=88
+WARP:60201,55,52
+FreeMsg:才刚回来不久就又要去地下水路了吗？我知道了，请跟我来吧！
+OVER
+
+#第一次传送玩家到地下水路
+TALKEVENT7
+FREE:LV>90&ENDEV=81&NOWEV=88
+WARP:60201,55,52
+FreeMsg:\n捞镑篮 拱狼 鲍拱捞 混绊 乐家.\n瘤窍荐肺俊 啊矫摆家?
+OVER

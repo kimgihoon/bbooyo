@@ -1,0 +1,23 @@
+NPCCREATE
+{
+floorid=100
+borncenter=625,486
+time=0
+createnum=1
+graphicname=16036
+name=체리 언니
+dir=6
+enemy=changeevent|file:my/버스이용/교환소1
+}
+
+{
+floorid=100
+borncenter=124,659
+time=0
+createnum=1
+graphicname=16037
+name=체리
+dir=5
+enemy=changeevent|file:my/버스이용/교환소2
+}
+

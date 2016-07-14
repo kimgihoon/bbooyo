@@ -1,0 +1,188 @@
+
+#### 꽃웁행쾨 ####
+
+NomalMainMsg:돌북이를 잡으면서 아르바이트를 할 수 있는거 모르지?
+
+
+#### 청唐寧多蝎 ####
+EventNo:-1
+TYPE:REQUEST
+EVENT:LV>29&ENDEV=4&ITEM!=2785&ITEM!=2786
+RequestMsg1:\n쿠오마을에서 밑으로 내려오면 쿠오산소동굴이라는 곳이있어. 거기서 돌북이라는 페트가 나오는데! 그페트를 잡으면 어마어마한 경험치를 준다? 그런데말이지....
+RequestMsg2:\n그녀석들은... 레벨이 70이나되... 어휴...\n그녀석들을 잡으면 돌북이의 돌을줘.. 그돌을 나에게 가져다 줄 수 있겠어?? 가져다 주면 내가 사례는 톡톡히 해줄께!
+ThanksMsg:고마워!!요즘 마리너스에 일이 너무 많아서\n내가 거기까지 신경쓸 시간이 없었거든!!
+StopMsg:그만두려구？
+EndStopMsg:설마 그만두려구 하는거 아니지?
+NoStopMsg:어서 소동굴에 가서 채집을 부탁해！
+ItemFullMsg:\n\n아이템창이가득찼잖아。
+GetItem:2785
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&ENDEV=4&ITEM=2785&ITEM!=2786
+NomalWindowMsg:\n어서 소동굴에 가서 채집을 부탁해！\n나에겐 중요한 일이야！
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*14
+AcceptMsg:우와.....\n너 정말 대단하구나?!이만큼이나 구해오다니ㅎㅎ\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:50000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*13
+AcceptMsg:우와.....\n너 정말 대단하구나?!이만큼이나 구해오다니ㅎㅎ\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:30000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*12
+AcceptMsg:우와.....\n너 정말 대단하구나?!이만큼이나 구해오다니ㅎㅎ\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:20000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*11
+AcceptMsg:우와.....\n너 정말 대단하구나?!이만큼이나 구해오다니ㅎㅎ\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:15000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*10
+AcceptMsg:우와.....\n너 정말 대단하구나?!이만큼이나 구해오다니ㅎㅎ\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:10000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*9
+AcceptMsg:에게게.....\n이거밖에 못구해온거야?!\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:9000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*8
+AcceptMsg:에게게.....\n이거밖에 못구해온거야?!\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:8000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*7
+AcceptMsg:에게게.....\n이거밖에 못구해온거야?!\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:7000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*6
+AcceptMsg:에게게.....\n이거밖에 못구해온거야?!\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:6000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*5
+AcceptMsg:에게게.....\n이거밖에 못구해온거야?!\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:5000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*4
+AcceptMsg:에게게.....\n이거밖에 못구해온거야?!\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:4000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*3
+AcceptMsg:에게게.....\n이거밖에 못구해온거야?!\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:3000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*2
+AcceptMsg:에게게.....\n이거밖에 못구해온거야?!\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:2000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2785&ITEM=2786*1
+AcceptMsg:에게게.....\n이거밖에 못구해온거야?!\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:1000
+DelItem:2785,2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와^^
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=2785&ITEM=2786
+AcceptMsg:에게게.....\n이거밖에 못구해온거야?!\n후후후후....
+ThanksMsg:땡큐\n조금이나마 사례비니 받아둬\n
+GetStone:1000
+DelItem:2786
+StoneFullMsg:더이상 돈을 들 수 없는 거 같군... 입금하구 다시와
+EventEnd

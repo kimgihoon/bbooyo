@@ -1,0 +1,27 @@
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:...
+askbattlemsg3:(처음 보는 페트이다..마치 로봇같고.. 크다)
+askbattlemsg4:
+startmsg:...
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21257
+enemyno:3313
+deniedmsg:...
+alreadymsg:...
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ITEM=21257
+WARP:
+endmsg:...(동공이 검해지면서 동작이 멈췄다) [시스템 다운]
+AddItem:21260
+DelItem:21257
+OVER

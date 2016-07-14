@@ -1,0 +1,52 @@
+NEWWARPMAN
+
+NOFREE
+FREE:LV>90&ENDEV=81
+NomalMsg:捞镑篮 俊掸狼 悼拱盔! 唱绰 何盔厘老技. 唱绰 锐蓖茄 悼拱阑 亮酒窍瘤!
+PartyMsg:颇萍肺绰 柳青捞 救登.
+WARP:9876,50,50
+OVER
+
+#虚拟包对话
+TALKEVENT1
+WARP:7025,143,134
+FREE:ITEM=20646
+FreeMsg:最近动物园内举办了宠物生态之旅，里面展出了许多新奇的宠物，想要进去必须拥有参观券才行，每张参观券只能让你在里面待三分钟喔，请把握时间好好参观。
+OVER
+
+
+#水怪任务完全结束，不传送玩家
+TALKEVENT2
+WARP:0,0,0
+FREE:LV>90&ENDEV=81&ENDEV=88&ENDEV=89
+FreeMsg:听说你已经完成克拉肯委托的任务了，下一个是什么呢？雷尔胖吗？哈哈哈～～
+OVER
+
+#走过第一路线，不传送玩家
+TALKEVENT3
+WARP:60209,6,19
+FREE:LV>90&ENDEV=81&ENDEV=88&NOWEV=89
+FreeMsg:\n公郊 老捞瘤?\n蓖满篮 老牢 巴 鞍备父..\n咯扁辑 娟扁且 巴捞 酒聪扼 炼侩茄 镑俊辑 娟扁秦具且 巴 鞍焙. 蝶扼坷霸.
+OVER
+
+#走过第二路线，不传送玩家
+TALKEVENT4
+WARP:0,0,0
+FREE:LV>90&ENDEV=81&NOWEV=88&NOWEV=89
+FreeMsg:菊栏肺绰 悼拱甸阑 困秦 塞 静绰 何盔厘捞 登摆绢..
+OVER
+
+#第一路线，打过克拉肯的玩家，送到60209
+TALKEVENT5
+WARP:60209,6,19
+FREE:LV>90&ENDEV=81&ENDEV=88
+FreeMsg:\n公郊 老捞瘤?\n蓖满篮 老牢 巴 鞍备父..\n咯扁辑 娟扁且 巴捞 酒聪扼 炼侩茄 镑俊辑 娟扁秦具且 巴 鞍焙. 蝶扼坷霸.
+OVER
+
+#第二路线，玩家没打过克拉肯直接过来，送到60211
+TALKEVENT6
+WARP:60211,6,19
+FREE:LV>90&ENDEV=81&NOWEV=88
+FreeMsg:\n公郊 老捞瘤?\n蓖满篮 老牢 巴 鞍备父..\n咯扁辑 娟扁且 巴捞 酒聪扼 炼侩茄 镑俊辑 娟扁秦具且 巴 鞍焙. 蝶扼坷霸.
+OVER
+

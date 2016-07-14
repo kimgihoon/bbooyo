@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=19331
+borncorner=23,25,23,25
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16100
+name=신청서 도우미
+enemy=npcgen_shop|file:my/능력티켓/은혜
+action=0
+}

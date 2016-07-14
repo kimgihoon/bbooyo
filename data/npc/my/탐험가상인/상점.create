@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=950
+borncorner=37,7,37,7
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16200
+name=사이너스 탐험원
+enemy=npcgen_shop|file:my/탐험가상인/은혜
+action=0
+}

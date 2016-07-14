@@ -1,0 +1,31 @@
+NomalMainMsg:...
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=193
+NomalWindowMsg:\n\n락앤롤~!!
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21339
+AcceptMsg:\n여러분! 이 분이 공연전 저의 마이크를 찾아준 그분입니다! 이분이 없었더라면 저는 아직 이 자리에 없었을거에요!
+ThanksMsg:\n여러분 이 고마운 분에게 답례를 해도 괜찮을까요? 저희 팬클럽에서 준 공룡알를 이 분에게 드리겠습니다! \n고마워요~ 친구\n자 이제 다음곡 시작하겠습니다!
+itmeFullMsg:아이템창을 비워줘!!
+GetItem:21340,21155,21290
+DelItem:21339
+EndSetFlg:193
+EventEnd
+
+
+
+
+
+
+
+
+
+

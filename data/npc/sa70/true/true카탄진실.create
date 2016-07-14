@@ -1,0 +1,12 @@
+NPCCREATE
+########µÏ¿Ë#########
+{
+name=Ä«Åº Ã»³â
+floorid=1400
+borncenter=94,73
+dir=6
+ignoreinvincible=1
+createnum=1
+graphicname=16047
+enemy=changeevent|file:sa70/true/true1.arg
+}

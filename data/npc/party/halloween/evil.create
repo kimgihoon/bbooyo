@@ -1,0 +1,12 @@
+NPCCREATE
+##万圣节茱蒂##
+{
+name=坏心的茱蒂
+floorid=4000
+borncenter=52,93,1,1
+dir=5
+createnum=1
+time=0
+graphicname=16038
+enemy=evil|file:party/halloween/evil.arg
+}

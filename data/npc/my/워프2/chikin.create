@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=1000
+borncenter=92,79
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16090
+name=순간이동 관리인
+enemy=transman|file:my/워프2/교환소1
+}

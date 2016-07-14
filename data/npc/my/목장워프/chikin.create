@@ -1,0 +1,28 @@
+NPCCREATE
+{
+floorid=1000
+borncenter=63,90
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16090
+name=格厘 包府牢
+enemy=npcgen_warpman|file:my/格厘况橇/背券家1
+}
+
+{
+floorid=7979
+borncenter=30,2
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16091
+name=格厘 包府牢
+enemy=npcgen_warpman|file:my/格厘况橇/背券家2
+}
+
+
+
+

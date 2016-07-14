@@ -1,0 +1,45 @@
+NEWNPCENEMY
+
+START_MSG:\n타무르의 구슬를 탐험단중 한명이 가지고있습니다. 만약 저 유적신전에서 보신다면 구슬를 가져와 저와 교환해요.
+MenuHead:목록：
+
+#怒들鏤蹈돨폄넉欺構谿雷蝎
+{
+MenuStr:스톤크랩 페트알 - 구슬 1개
+FREE:ITEM=21321*1
+AddItem:21322
+DelItem:21321*1
+}
+
+{
+MenuStr:야무리 페트알 - 구슬 1개
+FREE:ITEM=21321*1
+AddItem:21323
+DelItem:21321*1
+}
+
+{
+MenuStr:이구로스 페트알 - 구슬 2개
+FREE:ITEM=21321*2
+AddItem:21324
+DelItem:21321*2
+}
+
+{
+MenuStr:카가로스 페트알 - 구슬 3개
+FREE:ITEM=21321*3
+AddItem:21325
+DelItem:21321*3
+}
+
+{
+MenuStr:갈푸스 페트알 - 구슬 3개
+FREE:ITEM=21321*3
+AddItem:21326
+DelItem:21321*3
+}
+
+
+
+
+

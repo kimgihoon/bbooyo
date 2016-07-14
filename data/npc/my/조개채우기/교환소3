@@ -1,0 +1,20 @@
+NomalMainMsg:...
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21121&ITEM=21122&ITEM=21123&ITEM=21124&ITEM=21125
+AcceptMsg:\n (조개를 독에 넣으시겠습니까?)
+ThanksMsg:\n 독이 가득찼습니다.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21126
+DelItem:21121,21122,21123,21124
+EventEnd
+
+
+
+
+
+
+
+

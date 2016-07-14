@@ -1,0 +1,34 @@
+NomalMainMsg:이 세상은 그리 호락호락 하지않답니다!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&ENDEV=163
+AcceptMsg:\n이 세상은 그리 호락호락 하지않답니다!
+ThanksMsg:\n얼마전 일어난 지진는 무엇이였을까요?
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&PET=1-192*1
+AcceptMsg:\n베루루 LV1 페트를 정확히 포획하고 오셨군요! 저는 베르가와 헷갈리실줄 알고 상당히 많이 걱정하였습니다! 괜찮다면 그 베루루와 제 페트와 교환하시겠나요?
+ThanksMsg:\n 감사합니다. 이 페트는 목장에 인수되어 잘 키워질겁니다!
+PetFullMsg:\n 페트창을 비워줄래요?
+GetPet:350
+DelPet:PET=1-192*1
+EndSetFlg:163
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4
+AcceptMsg:\n그거 아시나요? 카루타나 목장에 베루루 종류의 페트들이 들어온다는 사실를?
+ThanksMsg:\n얼마전 카루타나목장에서 베루루 종류 페트를 구매한다는 소식은 들으셨죠? 그리고 저는 카루타나목장 직원중 한명이지요 저는 베루루 매입을 당담하는 카린이라고 합니다! 쟈루섬에 서식하는 베루루 LV1 페트를 포획하여 오신다면 다른 페트와 교환 어떠신가요?
+EventEnd
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+NomalMainMsg:해저에서 살아남기 위해서는 다부진 체력이 필요합니다
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&ENDEV=194
+NomalWindowMsg:\n해저에서 살아남기 위해서는 다부진 체력이 필요합니다.
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21350
+AcceptMsg:\n\n 네튠의 활를 만들어오셨군요!
+ThanksMsg:\n 잠시만 기다려주십시오! 네튠의 활를 가져오셨으니 빛나는 산소잎을 드리겠습니다.
+itmeFullMsg:아이템창을 비워줘!!
+GetItem:21351
+DelItem:21350
+EndSetFlg:194
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29
+AcceptMsg:\n만약 인간이 장시간으로 바다생활를 한다는 생각을 해보셨나요? 그 생각이 현재 현실로 다가왔습니다. 인간에게 산소를 공급해주는 나무의 잎을 발견하였지요. 하지만 그 나무는 프라키토스의 목보다 무척 길어서 활로 잎사귀를 따야하지요. 
+ThanksMsg:\n또한 잎사귀가 있는 사정거리 위로 드는 활은 네튠의 활밖에 없습니다. 튼튼한 타무타무 나뭇가지와 호토르마을의 끈만 있으면 제작 할 수있습니다. 바다에 관심이 있다면 네튠의 활 하나를 만들어 가져 오실 수 있으신가요?
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

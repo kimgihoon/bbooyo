@@ -1,0 +1,56 @@
+#山贼的事件...............吉德
+
+NomalMainMsg:唱绰 瘤档扼绊 窍匙. 郴霸绰 叠捞 乐瘤..
+
+EventNo:21
+TYPE:ACCEPT
+EVENT:ENDEV=20&NOWEV=21&ITEM=2488
+AcceptMsg:\n捞, 捞, 捞巴篮!\n郴 叠栏肺何磐狼 祈瘤焙!\n弊 局绰 公荤洒 磊扼绊 乐焙!
+ThanksMsg:\n弊繁啊? 祈瘤绰 肋 罐疽匙. 梆 郴霸 牢荤窍矾 柯促绰 焙.\n捞霸 葛滴 磊匙 傣盒捞具.\n捞巴篮 郴 焊翠老技.\n郴 酒郴牢 墨唱啊 静带 乔府牢单, 档框捞 瞪 吧技.
+ItemFullMsg:酒捞袍捞 啊垫 谩匙.
+DelItem:2488
+GetItem:2489
+EndSetFlg:21
+EventEnd
+
+
+EventNo:20
+TYPE:REQUEST
+EVENT:ITEM=2486
+RequestMsg:\n国结 叠捞 绝绢柳瘤 16斥捞 登绰焙..\n酒抚魂狼 悼奔俊 混绊 乐绰 莉练俊霸\n缠妨艾瘤父 瘤陛档 公荤茄瘤 捌沥捞 登.\n啊瓷窍搁 叠阑 单妨坷绊 酵篮单\n何殴且 荐 乐阑鳖?
+ThanksMsg:何殴窍匙! 叠捞 混酒乐促绊 窍搁\n酒抚魂俊 乐绰 魂利狼 酒瘤飘俊 乐促绊\n积阿阑 秦.\n啊瓷窍搁 弊 局狼 决付狼\n蜡前牢 庆绢 宏复瘤甫 扒郴拎.\n庆绢 宏复瘤绰 酒甸捞 啊瘤绊 乐栏聪\n罐酒啊霸.
+StopMsg:郴 何殴阑 芭例且刨啊??
+EndStopMsg:弊犯焙..
+NoStopMsg:绊缚匙!!
+DelItem:2486
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21&ENDEV!=160
+NomalMsg:郴 叠阑 茫酒林促聪.. 绊付况!
+EventEnd
+
+EventNo:20
+TYPE:MESSAGE
+EVENT:NOWEV=20&ITEM=2487
+NomalMsg:弊扒 郴 酒郴 墨唱啊 静带 庆绢宏复瘤匙.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ENDEV=20&ENDEV=21&NOWEV=161&ITEM=2744
+AcceptMsg:判别是非善恶可要记得使用心眼去看，但是要如何学习到这般智慧也许跟是否认真生活有关啊，所以要透过“飞翔的管理者”来开阔经历。
+ThanksMsg:蓝蓝的天空是否引领你有着更广大的心胸？
+ItemFullMsg:哎呀、道具已经满了无法收下的样子喔。
+GetItem:2745*1
+DelItem:2744
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79&ENDEV=20&ENDEV=21&NOWEV=161&ITEM=2745
+NomalWindowMsg:究竟在偏远的小村落你能学习到什么精要呢？！
+EventEnd　

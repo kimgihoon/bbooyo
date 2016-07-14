@@ -1,0 +1,74 @@
+NPCCREATE
+{
+floorid=900
+borncenter=46,643
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16158
+name=선박 직원
+enemy=npcgen_warpman|file:my/섬워프/교환소1
+}
+
+{
+floorid=900
+borncenter=46,648
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16158
+name=선박 직원
+enemy=npcgen_warpman|file:my/섬워프/교환소2
+}
+
+
+{
+floorid=900
+borncenter=44,644
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=110011
+name=크랩 선박
+enemy=npcgen_warpman|file:my/섬워프/교환소3
+}
+
+
+{
+floorid=900
+borncenter=44,649
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=110046
+name=스톤크랩 선박
+enemy=npcgen_warpman|file:my/섬워프/교환소3
+}
+
+{
+floorid=13333
+borncenter=305,333
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16093
+name=선박 직원
+enemy=npcgen_warpman|file:my/섬워프/교환소4
+}
+
+{
+floorid=52000
+borncenter=91,22
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16055
+name=선박 직원
+enemy=npcgen_warpman|file:my/섬워프/교환소5
+}

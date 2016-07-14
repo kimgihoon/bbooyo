@@ -1,0 +1,24 @@
+NPCCREATE
+{
+floorid=15080
+borncenter=29,27
+time=0
+createnum=1
+graphicname=16098
+name=연구원 제이지
+dir=4
+enemy=changeevent|file:my/연구원제이/교환소1
+}
+
+
+{
+floorid=15080
+borncenter=32,33
+time=0
+createnum=1
+graphicname=16076
+name=연구원 핀토스
+dir=6
+enemy=changeevent|file:my/연구원제이/교환소2
+}
+

@@ -1,0 +1,37 @@
+##################################################
+#将乌力斯凯的信件交给乌力美之事件 (哥亚山)#
+# 				       担任者:西竹
+##################################################
+
+NomalMainMsg:曹~曹曹!
+
+EventNo:7
+TYPE:ACCEPT
+EVENT:NOWEV=7&ITEM=2414&ITEM=2424&ITEM=2425
+AcceptMsg:\n具酒~ 崔嘎捞 采捞促.\n捞 锐蓖茄 采阑 郴霸 林妨绊?
+ThanksMsg:\n狙! 祈瘤鳖瘤..?\n1摸俊 乐绰 快府胶纳揪啊 霖 芭备唱.\n刚 镑鳖瘤 傈秦林矾 客辑 绊付况.\n弧府 佬绊 翠厘阑 镜膊!\n炼陛 饶俊 促矫 客 林摆聪?
+DelItem:2425,2424
+EndSetFlg:7
+EventEnd
+
+
+
+EventNo:8
+TYPE:REQUEST
+EVENT:LV>0&ENDEV=7&ITEM=2414
+RequestMsg:\n绢! 促矫 客林菌备唱!\n快府胶纳揪俊霸 翠厘阑 借绢.\n捞 祈瘤甫 快府胶纳揪俊霸 傈秦临贰?
+ThanksMsg:\n何殴且霸.\n酪绢滚府瘤 臼档废 炼缴秦具 秦~~
+StopMsg:\n郴 何殴阑 甸绢临 荐 绝聪?
+EndStopMsg:\n绢驴 荐 绝焙, 流立 啊具摆绢.
+NoStopMsg:\n绊付况! 绢辑 傈秦拎~ 曹!
+ItemFullMsg:\n酒捞袍捞 啊垫 谩绢.
+GetItem:2426
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2414
+NomalMsg:捞 绊具魂篮 版摹啊 亮酒. 锐蓖茄 崔嘎捞 采篮 捞 魂俊辑父 唱坷瘤.
+EventEnd
+

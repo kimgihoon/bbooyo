@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=3000
+borncenter=103,102
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16465
+name=슈비나 매니저
+enemy=npcgen_warpman|file:my/공연워프/교환소1
+}

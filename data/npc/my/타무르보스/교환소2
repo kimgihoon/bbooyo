@@ -1,0 +1,27 @@
+NEWNPCENEMY
+
+entype:2
+askbattlemsg1: 캬오!! 복수의 화신이 불타오르고 있다.
+askbattlemsg2: 나를 봉인시킨 정령왕과 그의 영웅들를 모두 복수하겠다!!
+startmsg:나를 다시 봉인시킨다고? 낄때 안낄때 구분하거라 이 애송아!
+dieact:1
+warpfl:0
+warpx:112
+warpy:98
+enemyno:3344,3345,3346,3347,3348,3349,3350,3351,3352,3353
+deniedmsg:쓸모없는것...
+alreadymsg:아이템창이 꽉찼습니다.
+onebattle:0
+OVER
+
+NEWEVENT1:
+FREE:LV>0
+WARP:52000,128,81
+endmsg:이럴수가... 내가 이렇게 다시 봉인될 수 없다!!
+GetRandItem:21327
+DelItem:
+OVER
+
+
+
+

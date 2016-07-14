@@ -1,0 +1,30 @@
+NomalMainMsg:서버 오픈을 축하해주세요! 만약 레벨80인 상태에서 신세계 도끼를 장착하셨으면 장착 해제후 반납해주세요.
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=168
+NomalWindowMsg:\n 서버 오픈을 축하해주세요! 앞으로 더욱 좋은 업데이트를 하겠습니다!
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21147
+AcceptMsg:\n이벤트 기간내에 레벨80을 도달하셨군요! 약속대로 '신세계 도끼'를 반납하시면 정착금 12만스톤을 드리겠습니다. \n수령하시겠습니까?
+ThanksMsg:\n감사합니다. 좋은 모험 하십시오!
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21092
+DelItem:21147
+EndSetFlg:168
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

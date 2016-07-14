@@ -1,0 +1,27 @@
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:잠깐 넌 본적이 없는 놈인데!
+askbattlemsg3:
+askbattlemsg4:
+startmsg:여기까지 뚫고 들어오다니 참 가증스럽군
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21271
+enemyno:3314,3315,3315,3316,3316
+deniedmsg:겁도 없는놈. 
+alreadymsg:겁도 없는놈. 
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ITEM=21271
+WARP:14453,39,31
+endmsg:윽.. [본드족 확성기] 비상이다...연구실에 있는 모든 자들은 전부 비상구로 통해 이 섬에서 후퇴하도록 하라!!!
+AddItem:
+DelItem:21264,21268,21266
+OVER

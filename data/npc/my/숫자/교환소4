@@ -1,0 +1,72 @@
+NomalMainMsg:너는 누구냐!!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21261&ITEM=21265&ITEM=21266&ITEM=21267
+AcceptMsg:\n번호를 너무 많이 소지하고있어.
+ThanksMsg:\n ...
+itmeFullMsg:아이템창을 비워줄래?
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21262&ITEM=21263&ITEM=21261
+AcceptMsg:\n번호를 너무 많이 소지하고있어.
+ThanksMsg:\n ...
+itmeFullMsg:아이템창을 비워줄래?
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21262&ITEM=21263&ITEM=21261&ITEM=21265&ITEM=21266
+AcceptMsg:\n번호를 너무 많이 소지하고있어.
+ThanksMsg:\n ...
+itmeFullMsg:아이템창을 비워줄래?
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21262&ITEM=21263&ITEM=21261&ITEM=21265&ITEM=21266&ITEM=21267&ITEM=21268
+AcceptMsg:\n번호를 너무 많이 소지하고있어.
+ThanksMsg:\n ...
+itmeFullMsg:아이템창을 비워줄래?
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21262&ITEM=21261&ITEM=21265&ITEM=21266&ITEM=21267&ITEM=21268&ITEM=21269&ITEM=212670
+AcceptMsg:\n번호를 너무 많이 소지하고있어.
+ThanksMsg:\n ...
+itmeFullMsg:아이템창을 비워줄래?
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21262&ITEM=21263&ITEM=21261&ITEM=21265&ITEM=21266&ITEM=21267&ITEM=21268&ITEM=21269&ITEM=212670
+AcceptMsg:\n번호를 너무 많이 소지하고있어.
+ThanksMsg:\n ...
+itmeFullMsg:아이템창을 비워줄래?
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29
+AcceptMsg:\n숫자 4를 가져가겠나?
+ThanksMsg:\n 어서 연구에 힘을 써주게!
+itmeFullMsg:아이템창을 비워줄래?
+GetItem:21264
+EventEnd
+
+
+
+
+
+
+
+
+
+

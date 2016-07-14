@@ -1,0 +1,23 @@
+buy_rate:1.0
+sell_rate:0.2
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_msg:卖东西,卖,sell,uru
+other_msg:羽毛
+hint_msg:这是很方便的道具喔…
+sellonly_msg:不是特地买的。
+main_msg:绢辑坷技夸！
+buy_main:拱扒阑 备概窍矫妨备夸？
+sell_main:拱扒阑 魄概窍矫妨备夸？
+what_msg:捞巴阑 荤妨备？
+stone_msg:捣捞何练茄芭鞍篮单！
+level_msg:饭骇捞 何练茄单 宝满酒?!。
+realy_msg:沥富混芭瘤？！
+itemfull_msg:酒捞袍芒捞 啊垫谩绰单。
+ItemList:13071
+LimitItemType:OFFENCE
+LimitItemNo:
+special_rate:1.5
+special_item:
+
+
+

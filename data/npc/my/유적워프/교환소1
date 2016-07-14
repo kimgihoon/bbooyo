@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:14452,23,0
+FREE:LV>29&ITEM=21264&ITEM=21268&ITEM=21266
+MONEY:-1
+FreeMsg:들어가십시오.
+PayMsg:3자리의 비밀번호를 가져와야 출입할 수 있다.
+PartyMsg:파티상태로 해당 NPC와 대화 하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

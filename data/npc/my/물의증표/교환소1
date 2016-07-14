@@ -1,0 +1,62 @@
+NomalMainMsg:봉봉 때문에 앞을 지나갈수 없구먼!!!
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&ENDEV=182&ITEM=21246
+NomalWindowMsg:\n이 플롯을 들고 다리를 건너 봉봉에게 이 플롯 소리를 연주해주면 봉봉은 아무리 잠보여도 일어날걸세!
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&ENDEV=182
+NomalWindowMsg:\n 플롯을 잃어버린건가? 다신 잃어버리지 말게나 
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21246
+DelItem:
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21249&ITEM=21248
+AcceptMsg:\n코도코도에게 내 플롯을 되찾아 왔군! 고맙네
+ThanksMsg:\n이제 봉봉을 깨울 수 있는 플롯을 다 완성하였다네. 이 플롯을 갖고 봉봉 좀 깨워줄수 있겠나?
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21246
+DelItem:21249,21248
+EndSetFlg:182
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21249
+AcceptMsg:\n\n아무래도 그 유별난 코도코도를 제압하긴 힘들겠지?
+ThanksMsg:\n\n괜찮다네. 내가 한번 가봐야겠어.
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:21249
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29
+AcceptMsg:\n 자네도 다리 건너 앞으로 지나갈려고 온건가? 하지만 지나갈수없을거야.
+ThanksMsg: 커다란 봉봉이 동굴앞에서 자리잡고 잠을 자고 있거든. 봉봉은 쉽게 잠을 깨는 페트가 아니기에 봉봉의 잠을 깨울 수 있는 플롯을 만들고 있었지. 하지만 코도코도가 플롯을 훔쳐갔어. 코도코도는 다리건너 도망간것같은데. 플롯을 다시 찾아올수 있겠나?
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21249
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+NomalMainMsg:안녕하세요. 이벤트 기간내에 다섯번째 환생을 모두 마치신 유저분들에게 보상을 주고 있습니다.
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=170
+NomalWindowMsg:\n 서버 오픈 초창기에 이렇게 빨리 성장하시다니 대단합니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&TRANS=5
+AcceptMsg:\n이벤트 기간내에 다섯번째 환생까지 모두  완료하셨군요. 약속대로 이벤트 상품을 수령하시겠습니까?
+ThanksMsg:\n감사합니다. 앞으로도 많은 사랑 부탁드립니다.
+itmeFullMsg:아이템창을 비워주세요.
+PetFullMsg:\n 페트창을 비워줄래요?
+GetItem:21107,21148,21149
+GetRandPet:3119,3114,3115,3116,3117,3118,3120
+EndSetFlg:170
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

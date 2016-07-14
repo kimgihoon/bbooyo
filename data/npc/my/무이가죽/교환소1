@@ -1,0 +1,59 @@
+NomalMainMsg:물고기를 가장 빨리 낚는 법은 씨보스의 고기로 만든 미끼를 쓰는것이지!
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&ENDEV=155&ENDEV=4&ENDEV=154
+NomalWindowMsg:\n\n 내가 희귀공룡 투이를 잡아내다니! \n월척이구나! ! !
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4&ITEM=21007*30
+AcceptMsg:\n\n 정말 빠르네? 이렇게 뻘리 씨보스의 고기 30개를 구해 올 줄이야!
+ThanksMsg:\n\n 너 때문에 이번 낚시 목표를 잘 완수 할 수 있을것 같아! \n 다음에 마을에서 보면 더욱 강해져있는 모습으로 보길 바랄게!\n 잘가렴!
+PetFullMsg:\n 페트창을 비워주지 않겠어...?
+itmeFullMsg:\n 아이템창을 비워줘.
+GetPet:326
+GetItem:21008
+DelItem:21007*30
+EndSetFlg:155
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=154&ENDEV=4
+AcceptMsg:\n\n아직 안가고 있었니?
+ThanksMsg:\n마침 잘 됐다! 부탁 하나만 더 들어줘! \n 낚시를 하는 도중 미끼를 전부 동굴 호수 안에 서식하는 쟈그들이 전부 먹어치워버렀어!\n 낚시를 할려면 급하게 씨보스의 고기 30개가 필요한데 구해줄수 있겠니?
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21005*10
+AcceptMsg:\n\n무이의 가죽 10개를 가져왔군 \n상태가 아주 좋은데? 
+ThanksMsg:\n\n하하! 이제 부러진 낚싯대를 튼튼하게 고정 시킬 수 있겠어! \n내 낚싯대를 고쳐준거나 다름없으니 작은 보답이라도 주고 싶어 내가 마리너스 앞바다에서 잡은 녀석이야 받아줘!
+PetFullMsg:\n 페트창을 비워주지 않겠어?
+GetPet:359
+DelItem:21005*10
+EndSetFlg:154
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29
+AcceptMsg:\n이런! 낚싯대가 부러졌어!\n이걸 어쩐다! 어이! 거기! 꽤 힘 좀 쓰게 생겼는걸? \n나는 사이너스의 최고 낚시장인 잔코라고 해!
+ThanksMsg:\n\n 시간이 된다면 부러진 낚싯대를 튼튼하게 고정시킬 수 있게 무이의 가죽 10개 정도만 구해와줄 수 있겠어?\n훈련하면서 모으면 꽤 실용적이지 않겠어?
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

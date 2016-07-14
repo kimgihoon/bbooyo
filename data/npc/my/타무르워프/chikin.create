@@ -1,0 +1,27 @@
+NPCCREATE
+{
+floorid=52000
+borncenter=128,81
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16340
+name=문지기
+enemy=npcgen_warpman|file:my/타무르워프/교환소1
+}
+
+NPCCREATE
+
+{
+floorid=52050
+borncenter=99,88
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16444
+name=보조병 모리스
+enemy=transman|file:my/타무르워프/교환소2
+action=11
+}

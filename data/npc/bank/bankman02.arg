@@ -1,0 +1,19 @@
+#银行
+{
+GAMBLE_TYPE:4
+gamble_start:\n绢辑坷技夸！\n付阑 篮青盔涝聪促。\n家瘤陛阑 该扁角妨绰扒啊夸?\n荐荐丰绰 300胶沛 喊档涝聪促.
+gamble_msg01:          公均阑 档客靛副鳖夸？
+gamble_msg02:               ＜ 涝 免 陛 ＞
+gamble_msg03:               ＜ 扁鸥荤亲 ＞
+gamble_msg04:NULL
+gamble_msg05:                 ＜ 离开 ＞
+full_msg1:个人携带石币不可大于１百万。
+full_msg2:个人银行石币不可大于５千万。
+money_msg:你的钱不够喔！\n你所提领金额加上手续费大于你银行中的金额。
+nomal_msg:NOMALMSG
+end_msg:家瘤 啊瓷茄 陛咀捞 茄档登菌嚼聪促.
+getmax_msg:提领上限１００万。
+getmin_msg:茄档家瘤陛牢 100父胶沛阑 焊蜡窍绊 拌绞聪促. 歹 捞惑 家瘤陛阑 靛副 荐 绝绢夸!
+error_msg:本银行不提供此项服务。
+
+}

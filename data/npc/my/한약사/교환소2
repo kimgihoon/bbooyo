@@ -1,0 +1,31 @@
+NomalMainMsg:이 동굴은 위험하니 레벨25이하 모험가분들은 들어가시지않는게 좋아요
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENVDE=180
+NomalWindowMsg:\n\n 어서 카루타나마을로 가서 병원의 한약재 재고관리를 해야겠어요
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21189
+AcceptMsg:\n\n 저의 스승님이 그 한약재를 전해주시라고 했다구요?
+ThanksMsg:\n 아 그렇군요! 그럼 저는 먼저 카루타나마을로 가고있으라는 말같아요! 고맙습니다.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21162
+DelItem:21189
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

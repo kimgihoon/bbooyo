@@ -1,0 +1,40 @@
+NomalMainMsg:낚시는 말이야! 여유가 있어야 되는거라구!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2434
+AcceptMsg:\n오오! 내가 바라던 낚싯대군!
+ThanksMsg:이 낚싯대는 장인의 기술이 담겨져있군!\n낚싯대 장인은 재료에 따라 굉장한\n낚싯대를 만들 수 있다고 하더군!\n일부러 나를 위해 만들어 주다니 고마워!\n답례로 조금 전에 망에 걸린 물고기와\n감사의 선물을 주지!\n앞으로 이 낚싯대로 더 큰놈을 낚을거야!
+ItemFullMsg:아이템이 가득 찼어.
+GetItem:2437,11872*2,11863
+DelItem:2434*1
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2433
+AcceptMsg:\n오오! 내가 바라던 낚싯대군!
+ThanksMsg:이 낚싯대는 장인의 기술이 담겨져있군!\n낚싯대 장인은 재료에 따라 굉장한\n낚싯대를 만들 수 있다고 하더군!\n일부러 나를 위해 만들어 주다니 고마워!\n답례로 조금 전에 망에 걸린 물고기와\n감사의 선물을 주지!\n앞으로 이 낚싯대로 더 큰놈을 낚을거야!
+ItemFullMsg:아이템이 가득 찼어.
+GetItem:2436,11873,11863
+DelItem:2433*1
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2432
+AcceptMsg:\n오오! 내가 바라던 낚싯대군!
+ThanksMsg:이 낚싯대는 장인의 기술이 담겨져있군!\n낚싯대 장인은 재료에 따라 굉장한\n낚싯대를 만들 수 있다고 하더군!\n일부러 나를 위해 만들어 주다니 고마워!\n답례로 조금 전에 망에 걸린 물고기와\n감사의 선물을 주지!\n앞으로 이 낚싯대로 더 큰놈을 낚을거야!
+ItemFullMsg:아이템이 가득 찼어.
+GetItem:2435,11874,11863
+DelItem:2432*1
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&TIME!=0
+NomalWindowMsg:날씨가 좋으니 낚시를 하고 싶군!\n좀전에 낚싯대가 파도에 휩쓸려가 버렸어!\n그러고 보니 이 마을에는 유명한 낚싯대\n장인이 있다고 해.\n그 사람의 낚싯대로 낚시를 하고 싶군!\n아니, 뭐 가져와 달라는 건 아니고...
+EventEnd

@@ -1,0 +1,27 @@
+NomalMainMsg:...(이미 숨진듯 하다)
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21260
+AcceptMsg:\n\n( 이미 숨진듯하다... )\n혹시 모르니 몸을 뒤져보자.
+ThanksMsg:\n\n(본부장의 급박하게 써놓은 편지가 있다. 어서 하루나에게 소식과 편지를 전해주자) 
+itmeFullMsg:아이템창을 비워줘!!
+GetItem:21258
+DelItem:21260
+EventEnd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

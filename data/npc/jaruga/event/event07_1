@@ -1,0 +1,46 @@
+##################################################
+#将乌力斯凯的信件交给乌力美之事件 (哥亚山)#
+# 				       担任者:西竹
+##################################################
+
+NomalMainMsg:曹曹曹!!!
+
+EventNo:8
+TYPE:ACCEPT
+EVENT:NOWEV=8&ITEM=2414&ITEM=2426
+AcceptMsg:\n捞傈俊绰 绊付奎绢!\n郴啊 富茄措肺 采苞 窃膊 祈瘤甫\n傈秦林菌瘤?\n构? 快府固剧捞 郴霸 祈瘤甫?
+ThanksMsg:\n客! 脚唱绰 吧④! 沥富肺 绊付况!\n促 匙 傣盒捞具.\n焊翠栏肺 唱狼 焊拱阑 临霸!
+ItemFullMsg:酒捞袍捞 啊垫 谩促.
+GetItem:1206
+DelItem:2426
+EndSetFlg:8
+EventEnd
+
+
+EventNo:7
+TYPE:REQUEST
+EVENT:LV>0&ITEM=2414
+RequestMsg:曹曹曹~操快快匡!\n贸澜 焊绰 倔奔捞匙?\n唱绰 倔付傈 捞 悼奔肺 柯 快府胶纳具.\n捞 悼奔俊 混绊 乐绰 快府固剧俊霸\n祈瘤甫 焊郴绊 酵绢.\n采苞 窃膊 富具.\n郴 家盔阑 甸绢临贰?
+ThanksMsg:\n绊付况! 快府固剧俊 措茄芭扼搁 坷贰傈何磐\n捞镑俊 混绊 乐带 郴 模备甸捞\n歹 肋 舅芭具.\n奥甸茄抛 啊辑 拱绢毫.\n祈瘤绰 酪绢滚府瘤 臼档废 炼缴秦!
+ItemFullMsg:\n曹! 酒捞袍捞 啊垫谩曹!
+StopMsg:\n郴 何殴阑 芭例窍妨绊 吭曹!?
+EndStopMsg:\n曹曹.......曹曹!!!!!!!!!!
+NoStopMsg:\n绊付况! 绢辑 快府固剧阑..!
+GetItem:2425
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=7&ENDEV=8&ITEM=2414
+NomalMsg:曹曹!? 快府固剧篮 呈公 捞坏.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2414
+NomalMsg:曹曹曹~ 快府固剧~
+EventEnd
+
+
+

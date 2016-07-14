@@ -1,0 +1,180 @@
+
+########################################
+#材木商人赛尚出现！﹛﹛﹛﹛﹛﹛﹛﹛﹛#
+#﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛担任者：矢延#
+########################################
+
+NomalMainMsg:龙 亮篮 唱公甫 备秦具 秦.,酒福官捞飘 家俺厘捞 棵锭啊 夌绰单 富捞具.
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM!=2478&ITEM=2468
+NomalWindowMsg:\n国盲倾啊刘捞 绝栏搁 焊惑阑 临 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*14
+AcceptMsg:\n狙! 弊犯霸 腹捞 啊廉坷促聪!\n老阑 档客拎辑 绊付况.\n捞府 拎.
+ThanksMsg:\n荐绊沁绢!\n捞巴篮 距加茄 焊荐具.\n弊府绊 捞扒 漂喊 焊呈胶具.\n捞犯霸 腹捞 葛酒棵芭扼绊绰\n厕俊档 积阿窍瘤 给沁绢.
+GetStone:20000
+GetItem:2481
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+ItemFullMsg:酒捞袍 沫阑 厚况拎.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*13
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:16000
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*12
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:12000
+DelItem:2468,2478
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*11
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:10000
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*10
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:8000
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*9
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:7200
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*8
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:6400
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*7
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:5600
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*6
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:4800
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*5
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:4000
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*4
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:3200
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*3
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:2400
+DelItem:2468,2478,2467
+StoneFullMsg:歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*2
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:1600
+DelItem:2468,2478,2467
+StoneFullMsg::歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*1
+AcceptMsg:\n格犁甫 啊瘤绊 吭焙!\n老阑 档客拎辑 绊付况.\n歹 腹捞 啊瘤绊 坷搁 亮阑刨单\n弊父且贰?
+ThanksMsg:\n绊付况! 捞扒 焊荐具.
+GetStone:400
+DelItem:2468,2478,2467
+StoneFullMsg::歹 捞惑 胶沛阑 甸 荐 绝绢.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM!=2468
+AcceptMsg:\n给窍摆促绰芭具?\n弊烦 弊 倾啊刘阑 促矫 郴出.\n酒福官捞飘 家俺厘篮 促矫 掘绢客具 秦.
+ThanksMsg:\n弊烦 促澜俊 焊磊.
+DelItem:2478
+EventEnd
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:ITEM=2467
+RequestMsg:\n绢? 弊扒 家俺厘捞垒酒?\n呈 老窍矾 吭聪?
+ThanksMsg:\n救弊贰档 瘤陛 老颊捞 何练茄单....\n老篮 埃窜秦.\n剑俊 甸绢啊辑 格犁甫 葛栏绰 老捞瘤.\n腹捞 葛酒棵荐废 弊父怒狼 焊荐甫 临霸.\n弊府绊 捞扒 国盲倾啊刘捞聪 啊瘤绊 啊.
+StopMsg:什么？你不想工作吗？
+EndStopMsg:最近的年轻人真是没有耐性。
+NoStopMsg:嗯…不工作的话没饭吃。
+GetItem:2478*1
+DelItem:2467*1
+ItemFullMsg:喂喂！\n许可证装不进去耶。\n你先清理一下再来吧！
+EventEnd
+
+
+

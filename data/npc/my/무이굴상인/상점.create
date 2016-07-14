@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=31401
+borncorner=95,24,95,24
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16119
+name=매입전문 로이
+enemy=npcgen_shop|file:my/무이굴상인/은혜
+action=0
+}

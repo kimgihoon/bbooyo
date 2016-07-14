@@ -1,0 +1,32 @@
+NomalMainMsg:힝.. 돈을 잃어버렸어요
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=160
+NomalWindowMsg:\n\n 정말 고맙습니다! 덕분에 이제 샴기르 마을로 갈 수 있게 되었어요
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21119
+AcceptMsg:\n언니가 보내신 분이라구요?
+ThanksMsg:\n고맙습니다! 이 먼길까지 이걸 들고 오시다니! 이건 제 마음이니 받아주세요.
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21120,19692
+DelItem:21119
+EndSetFlg:160
+EventEnd
+
+
+
+
+
+
+
+
+
+
+
+

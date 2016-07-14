@@ -1,0 +1,52 @@
+NomalMainMsg:타조들의 깃털를 뽑아야하는데 애들이 얌전히 있질 못하네..
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=178
+NomalWindowMsg:\n 카키들의 깃털은 언제 만져도 부드럽다니깐
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21175&ITEM=21176*2&ITEM=21179*3&ITEM=21178*1&ITEM=21177*4
+AcceptMsg:\n\n벌써 작업을 마친거야?
+ThanksMsg:\n정말 빠른데? 기다려봐\n이 깃털로 장식구를 만들었는데 너에게 딱 어울리는것 같아! 받아줄래?\n이 익룡은 사막을 지나다 쓰러져서 있어서 데려온 친구인데 작업 하는 너를 보고 좋아졌나봐! 이 페트도 너 줄게!
+itmeFullMsg:아이템창을 비워주세요.
+PetFullMsg:\n 페트창을 비워줄래요?
+GetItem:21180
+GetPet:3201
+DelItem:21175,21176,21177,21178,21179
+EndSetFlg:178
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=21175
+AcceptMsg:\n아무래도 힘쌘 타조들를 제압하고 작업하는게 너에겐 무리겠지?
+ThanksMsg:\n괜찮아! 내가 해볼게
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:21175
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4
+AcceptMsg:\n안녕? 내 앞에 있는 타조들를 보았니? 정말 멋지지않아?\n하지만 잔 깃털를 뽑아 정리만하면 더욱 더 멋있을텐데말이야..
+ThanksMsg:\n너가 이 제모기를 가지고 타조들 깃털 좀 정리해줄래? 깃털로 장식구를 만들 수 있으니 나에게 가져오도록 해줘\n'카키의 깃털'2개 '호르쿠의 깃털'3개 '쿠쿠의 깃털'1개 '타키의 깃털' 4개
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21175
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

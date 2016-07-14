@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:5109,20,35
+FREE:LV>79&ENDEV=4&ITEM=21109
+MONEY:-1
+FreeMsg:\n마을에서 보낸 지원병이시군요. 안으로 안내해드릴까요?
+PayMsg:이 곳은 아직 공사중인 채광입니다.
+PartyMsg:파티상태로 해당 NPC와 대화 하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

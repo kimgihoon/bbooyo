@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:3666,46,21
+FREE:LV>0&ITEM=21339
+MONEY:-1
+FreeMsg:슈비나에게 얘기 잘들었습니다! 공연장에 함께 가시겠습니까?
+PayMsg:슈비나 어서 공연장으로 가자.
+PartyMsg:파티로 대화하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

@@ -1,0 +1,23 @@
+START_MSG:현재 탐험단분들이 깊은 곳을 조사하기위해 들어가셨습니다. 
+MenuHead:어느 문으로 들어가시겠습니까?
+
+{
+MenuStr:오른쪽 길 [쉬움]
+FREE:LV>159
+WARPPOINT:52051,0,15
+}
+
+
+{
+MenuStr:왼쪽 길 [어려움]
+FREE:LV>159
+WARPPOINT:52052,0,13
+}
+
+{
+MenuStr:가운데 길 [준비중]
+FREE:LV>0
+WARPPOINT:
+}
+
+

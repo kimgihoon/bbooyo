@@ -1,0 +1,10 @@
+entype:2
+askbattlemsg1:어째서 네가 그걸 가지고 있지?
+askbattlemsg2:설마 우리를 잡으러 온 것은 아니겠지?
+startmsg:하하하하! 그 말을 후회하게 해주지!
+dieact:0
+item:2431
+enemyno:514,518
+deniedmsg:응? 뭐야? 볼 일이 없음 저리가! 단단한 내 철벽을 무시하지 말라구!!
+time:300
+

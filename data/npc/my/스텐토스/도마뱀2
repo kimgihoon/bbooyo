@@ -1,0 +1,27 @@
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:※ 어둠의 계약 제 3조 6항 
+askbattlemsg2:계약을 해지할려는 자에게 오만과 나태의 차원으로 이동시킨다.
+askbattlemsg3:
+askbattlemsg4:계약조건을 파기하겠습니까?
+startmsg:...
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21167*5
+enemyno:3159,3160,3160,3160
+deniedmsg:...
+alreadymsg:...
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:ITEM=21167*5
+WARP:1006,92,99
+endmsg:계약이 무효처리되었습니다. 제1의 빛의 봉인이 풀렸습니다.
+AddItem:21168,21169
+DelItem:21167*5
+OVER

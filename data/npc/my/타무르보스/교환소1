@@ -1,0 +1,29 @@
+NEWNPCENEMY
+
+entype:2
+askbattlemsg1: ...
+askbattlemsg2: (아직 봉인이 덜 풀린 타무르 같다. 또한
+askbattlemsg3: 그림자 상태여서 말를 할 수 없나보다.)
+startmsg:...
+
+dieact:1
+warpfl:0
+warpx:112
+warpy:98
+enemyno:3331,3332,3332,3332,3332,3333,3333,3333,3333,3333
+deniedmsg:슬슬 봉인이 완전히 풀리는것같군. 그나저나 이 애송이는 뭐지?
+alreadymsg:아이템창이 꽉찼습니다.
+onebattle:0
+OVER
+
+NEWEVENT1:
+FREE:LV>0
+WARP:52000,128,81
+endmsg:(스르륵..그림자들이 점차 사라집니다.)
+GetRandItem:21328
+DelItem:
+OVER
+
+
+
+

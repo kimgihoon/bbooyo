@@ -1,0 +1,34 @@
+NPCCREATE
+{
+floorid=1006
+borncenter=12,20
+time=0
+createnum=1
+graphicname=110585
+name=도우미 안내원
+dir=4
+enemy=changeevent|file:my/마을안내/교환소1
+}
+
+
+{
+floorid=2006
+borncenter=22,14
+time=0
+createnum=1
+graphicname=110585
+name=도우미 안내원
+dir=4
+enemy=changeevent|file:my/마을안내/교환소1
+}
+
+{
+floorid=4006
+borncenter=14,22
+time=0
+createnum=1
+graphicname=110585
+name=도우미 안내원
+dir=6
+enemy=changeevent|file:my/마을안내/교환소1
+}

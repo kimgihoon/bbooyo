@@ -1,0 +1,46 @@
+NomalMainMsg:欢迎光临达那村，达那是世界最北端的村鸳喔。,达那以前也有制造石头，很沎闹的。不过最近没什么制造，所以变得有点冷清。,不过最近来拜访哈恩的人变多了呢。
+
+
+#确认玩家获得火的守护
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=180
+NomalWindowMsg:\n\n原来你已经见到了伊拉大人，并且获得祂的跃忙了摆。
+EventEnd
+
+#确认玩家执行水晶洞窟
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=177&ITEM=19304&ITEM!=19292
+NomalWindowMsg:\n\n想要安全的通过裂缝，我想只有伊拉大人有这能耐，所以你渧前往深红洞窟请毙伊拉大人。
+EventEnd
+
+#确认玩家获得火的守护
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ITEM=19292
+NomalWindowMsg:\n\n原来你已经见到了伊拉大人，并且获得祂的跃忙了摆。
+EventEnd
+
+#确认玩家见到扬恩
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30
+NomalWindowMsg:阂货 包访 捞亥飘绰 郴 糠俊 乐绰 咯磊局俊霸 巩狼秦焊霸唱
+EventEnd
+
+#确认玩家见过库伊
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=30&NOWEV=54
+NomalWindowMsg:唷！这不是找到线索了吗？挺努力的嘛！
+EventEnd
+
+#催促玩家去找福尔德长老
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&NOWEV=30&NOWEV=54
+AcceptMsg:夸硫 盲籍厘俊辑 捞惑茄 家巩捞 倒带单 弊老锭巩俊 吭唱?
+ThanksMsg1:盲籍厘俊 盲籍槽甸捞 甸绢啊扁 傈鳖瘤 快府 付阑苞 饶福档绰 茄绝捞 乞救沁菌瘤...弊繁单 富捞具? 盲籍槽甸捞 盲籍窍搁辑 何磐 悼奔俊辑 沥飞甸捞 焊牢促绰 家巩捞 乐歹焙..
+ThanksMsg2:弊 家巩俊 狼窍搁 [柳角狼 救版]捞扼绰霸 乐绢具 沥飞甸阑 杭 荐 乐促绊 窍歹焙. 饶福档厘肺俊霸 茄锅 啊毫 购啊甫 舅绊 乐促绊 沁绰单 唱绰 蓖啊 冈绢辑 富捞瘤..
+EventEnd

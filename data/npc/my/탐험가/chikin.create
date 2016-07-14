@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=100
+borncenter=635,345
+time=0
+createnum=1
+graphicname=16051
+name=탐험가 만타
+dir=6
+enemy=changeevent|file:my/탐험가/교환소1
+}
+

@@ -1,0 +1,38 @@
+NEWNPCENEMY
+
+START_MSG:\n꿈의 결정체로 아이템을 판매하고 있어요! 구경하지않을래요?
+MenuHead:목록：
+
+#怒들鏤蹈돨폄넉欺構谿雷蝎
+{
+MenuStr:봉봉의 알 - 결정체 15개
+FREE:ITEM=21247*15
+AddItem:21250
+DelItem:21247*15
+}
+
+{
+MenuStr:밍코의 알 - 결정체 8개
+FREE:ITEM=21247*8
+AddItem:21251
+DelItem:21247*8
+}
+
+
+{
+MenuStr:다이노의 알 - 결정체 5개
+FREE:ITEM=21247*5
+AddItem:21252
+DelItem:21247*5
+}
+
+{
+MenuStr:스텐토스 알 - 결정체 1개
+FREE:ITEM=21247*1
+AddItem:21253
+DelItem:21247*1
+}
+
+
+
+

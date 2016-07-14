@@ -1,0 +1,24 @@
+NomalMainMsg:...
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>79&ITEM=21272
+AcceptMsg:\n DNA 조작 머신에 탑재된 캡슐를 상자에 담아가겠습니까?
+ThanksMsg:\n 상자에 모두 담았습니다. 이제 머신 파괴만이 남았습니다. 
+itmeFullMsg:아이템창을 비워주세요.
+GetItem:21273
+DelItem:
+EventEnd
+
+
+
+
+
+
+
+
+
+
+
+

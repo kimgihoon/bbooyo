@@ -1,0 +1,46 @@
+##################################################
+#¸çÑÇÉ½µÄ¶´¿ßÖÐÓëÎÚÁ¦µÄÌ¸»°ÊÂ¼þ(¸çÑÇÉ½)#
+# 				       µ£ÈÎÕß:Î÷Öñ
+##################################################
+
+NomalMainMsg:³ª´Â ¸¶¸®³Ê½º¿¡¼­ ¿Â »óÀÎÀÌ¾ß! ¹«¾ùÀ»ÁÙ±î?
+
+EventNo:6
+TYPE:ACCEPT
+EVENT:NOWEV=6&ITEM!=2414
+AcceptMsg:\n¾È³ç! ³ª´Â ¸¶¸®³Ê½º¿¡¼­ ¿Â »óÀÎÀÌÁö.\n¹«¾ùÀ» »ç·¯ ¿Ô´Ï?\n¹¹? Á¶°³²®ÁúÀ» ´Þ¶ó±¸?\nÀÌ°Ç ¾öÃ» ÈçÇÑ°Å¶ó °ªÀ» Ä¥ ¼ö ¾ø¾î.\nÀÚ, ±×³É °¡Á®°¡µµ·ÏÇØ.
+ThanksMsg:\n³»°Ô´Â ¸¹À¸´Ï 2°³¸¦ ÁÙ°Ô.\n ÀÌ Á¶°³¿¡´Â ºñ¹ÐÀÌ ¼û°ÜÁ®ÀÖ¾î.\n±×°Ç ½º½º·Î ¾Ë¾Æ³»µµ·Ï ÇØ.\n¸¸¾à ÀÒ¾î¹ö¸®¸é ³ª¸¦ Ã£¾Æ¿Í.\n±×·³ ¾È³ç!
+ItemFullMsg:¾ÆÀÌÅÛÀÌ °¡µæÃ¡´Ù.
+GetItem:2414*2
+EventEnd
+
+
+
+EventNo:6
+TYPE:MESSAGE
+EVENT:NOWEV=6&ITEM=2414*2
+NomalWindowMsg:\nÀÀ? ±× Á¶°³ÀÇ ºñ¹ÐÀ» ¾Ë¾Æ³Â´Ï?
+EventEnd
+
+
+
+
+EventNo:6
+TYPE:ACCEPT
+EVENT:NOWEV=6&ITEM=2414
+AcceptMsg:\n¾È³ç! ³ª´Â ¸¶¸®³Ê½º¿¡¼­ ¿Â »óÀÎÀÌÁö.\n¹«¾ùÀ» »ç·¯ ¿Ô´Ï?\n¹¹? Á¶°³²®ÁúÀ» ´Þ¶ó±¸?\nÀÌ°Ç ¾öÃ» ÈçÇÑ°Å¶ó °ªÀ» Ä¥ ¼ö ¾ø¾î.\nÀÚ, ±×³É °¡Á®°¡µµ·ÏÇØ.
+ThanksMsg:\n³»°Ô´Â ¸¹À¸´Ï 1°³¸¦ ÁÙ°Ô.\nÀÌ Á¶°³¿¡´Â ºñ¹ÐÀÌ ¼û°ÜÁ®ÀÖ¾î.\n±×°Ç ½º½º·Î ¾Ë¾Æ³»µµ·Ï ÇØ.\n¸¸¾à ÀÒ¾î¹ö¸®¸é ³ª¸¦ Ã£¾Æ¿Í.\n±×·³ ¾È³ç!
+ItemFullMsg:¾ÆÀÌÅÛÀÌ °¡µæÃ¡´Ù.
+GetItem:2414
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=6&ITEM!=2414
+AcceptMsg:\n¾È³ç! ³ª´Â ¸¶¸®³Ê½º¿¡¼­ ¿Â »óÀÎÀÌÁö.\n¹«¾ùÀ» »ç·¯ ¿Ô´Ï?\n¹¹? Á¶°³²®ÁúÀ» ´Þ¶ó±¸?\nÀÌ°Ç ¾öÃ» ÈçÇÑ°Å¶ó °ªÀ» Ä¥ ¼ö ¾ø¾î.\nÀÚ, ±×³É °¡Á®°¡µµ·ÏÇØ.
+ThanksMsg:\n³»°Ô´Â ¸¹À¸´Ï 1°³¸¦ ÁÙ°Ô.\nÀÌ Á¶°³¿¡´Â ºñ¹ÐÀÌ ¼û°ÜÁ®ÀÖ¾î.\n±×°Ç ½º½º·Î ¾Ë¾Æ³»µµ·Ï ÇØ.\n¸¸¾à ÀÒ¾î¹ö¸®¸é ³ª¸¦ Ã£¾Æ¿Í.\n±×·³ ¾È³ç!
+ItemFullMsg:¾ÆÀÌÅÛÀÌ °¡µæÃ¡´Ù.
+GetItem:2414*1
+EventEnd
+

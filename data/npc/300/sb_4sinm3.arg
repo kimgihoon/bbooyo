@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:먼저 나를 이겨라. 이기지 못하면 통과할 생각을 말아라.
+start msg:
+dieact:1
+warpfl:31603
+warpx:27
+warpy:71
+end msg:
+enemyno:1031,1044,1044,1044,1044
+deniedmsg:········
+

@@ -1,0 +1,41 @@
+NomalMainMsg:자네 원주민섬에 샴기르라는 청년을 만나봤나？！
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63&ITEM=18538&ITEM18539&ITEM=18340&18541&18542
+NomalWindowMsg:자네 샴기르군을 만나고 온거야?\n정말 고생했군...!\n우리 손녀딸이 샴기르 소식을 그렇게 기다리고 있다네!\n샴기르의 소식을 좀 전해주게!
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63&ITEM=18538,ENDEV=63&ITEM=18539,ENDEV=63&ITEM=18540,ENDEV=63&ITEM=18541,ENDEV=63&ITEM=18542
+NomalWindowMsg:자네 샴기르군을 만나고 온거야?\n정말 고생했군...!\n내가 듣기론 샴기르가 구슬을 5개를 준다고 하던데...
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:원주민섬에서 샴기르가 자네를 찾고 있는거같은데?\n용왕굴에 있다는 소식을 들었어...
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79
+NomalWindowMsg:오! 원주민섬에 가보려고？\n원주민섬에 가려면 우선 이상한 조개가 필요하네~☆\n샴기르 마을 입구에 꽃을 든 소녀가 있을꺼야 그소녀에게 물어보게나^^
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:자네는 원주민의 섬이라고 들어봤나~?\n그곳에서 샴기르라는 청년이\n도움을 필요로 하던데...
+EventEnd

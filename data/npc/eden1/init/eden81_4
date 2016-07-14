@@ -1,0 +1,28 @@
+NomalMainMsg:......惩 构衬?
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=81
+NomalWindowMsg:\n你还来啊！！\n宠物已经还给你了，不要再来找我了...
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=19698
+NomalWindowMsg:\n绢辑 啊毫!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=81
+NomalWindowMsg:弄..\n呈绰 碍窍焙. 牢沥窍瘤.\n磊,\n捞 龋配贰捣狼 祈瘤甫 目磐俊霸 啊廉促 拎.
+GetItem:19698
+ItemFullMsg:酒捞袍 沫阑 厚况扼.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n促摹扁 饺栏搁 历府 啊扼.
+EventEnd
+

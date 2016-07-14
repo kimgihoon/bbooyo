@@ -1,0 +1,41 @@
+NomalMainMsg:포레스트크랩의 등껍질은 기력을 살리는데 최고로 좋아요
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=179
+NomalWindowMsg:\n\n 그 한약재를 동굴 입구에 있는 제 조수에게 가져다주었나요? 저는 이 동굴에서 재료를 더 구해 갈려합니다
+itmeFullMsg:아이템창을 비워주세요.
+DelItem:
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21188*7
+AcceptMsg:\n\n 정말로 '포레스트크랩의 등껍질' 7개를 가져다주었군요.
+ThanksMsg:\n 고맙습니다. 잠시만 기다려주십시오. 이 한약재를 동굴 입구에 있는 조수에게 전해주시겠습니까? \n나갈때 한약재 냄새때문에 위험하니 이 페트가 당신을 보호할것입니다.
+itmeFullMsg:아이템창을 비워주세요.
+PetFullMsg:\n 페트창을 비워주지 않겠어?
+GetPet:3233
+GetItem:21189
+DelItem:21188*7
+EndSetFlg:179
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>9
+AcceptMsg:\n안녕하세요! 천년굴에서 사람을 볼줄이야 저는 카루타나병원에서 약재를 구하러 온 한약사입니다. 밖에 기다리던 사람을 보았는지요?
+ThanksMsg:\n하하! 그 사람은 제 조수입니다. 아시다시피 이 천년굴에는 힘이 쌘 포레스트 크랩이 출몰하여 거기서 기다리라하였습니다. 시간이 되신다면 포레스트크랩 등껍질 7개만 구해서 가져다주겠습니까?
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

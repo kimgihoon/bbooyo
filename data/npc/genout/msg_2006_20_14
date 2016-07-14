@@ -1,0 +1,27 @@
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=607
+NomalMsg:최고의전사여~ 환영하네!
+EventEnd
+
+EventNo:607
+TYPE:ACCEPT
+EVENT:LV>149&ITEM=20917
+AcceptMsg:\n너가 이제 마리너스 샴기르 쟈쟈 카루타나 등 이 대륙의 최고의전사다.
+ThanksMsg1:\n\n축하 하네 ! 
+ThanksMsg2:여기 그 보상이네 ! 원래는 마리너스 최고의전사에게 줄 선물이지만 너에게 주겠네!
+ItemFullMsg:인벤토리에 빈자리가 없습니다.
+GetItem:20911,20912,20913,20914,20915
+DelItem:20917*1
+EndSetFlg:607
+EventEnd
+
+EventNo:607
+TYPE:REQUEST
+EVENT:LV>149&ENDEV=606
+RequestMsg:\n\n\n자네가 요즘에 유명세를 타고있다는 모험가인가요?난 마리너스를 관할하는 촌장이에요 
+ThanksMsg1:\n우리 마리너스에도 자네같은 인재가 있어요.\n그러니 자네랑 우리 마리너스의 최고의전사랑 결투를 해보는게 어떻겠어요 ?
+ThanksMsg2:그래요 그럼 나도 그녀석이 지금 어디있는지 모르니 마리너스 어딘가에 있는 그녀석과 결투후 그녀석에게 승리했다는 증표를 받아오세요.
+EventEnd
+
+

@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=992
+borncenter=13,8
+time=0
+createnum=1
+graphicname=110062
+name=아이스만모
+dir=4
+enemy=changeevent|file:my/아이스만모/교환소1
+}
+

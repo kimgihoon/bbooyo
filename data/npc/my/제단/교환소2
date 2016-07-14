@@ -1,0 +1,23 @@
+NomalMainMsg:쿠오마을의 제단입니다. 마을의 새로운 힘을 가진 페트를 얻기 위해서는 '봉인의 돌' 3개가 필요합니다.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=21168*3
+AcceptMsg:\n새로운 힘을 이끌어낼 수 있는 '봉인의 돌' 3개를 가지고 계시군요. \n 해당마을 수호페트는 '기라비' 입니다.
+ThanksMsg:\n\n\n의식을 성공하였습니다.
+PetFullMsg:\n 페트창을 비워줄래요?
+GetPet:3167
+DelItem:21168*3
+EventEnd
+
+
+
+
+
+
+
+
+
+
+
+

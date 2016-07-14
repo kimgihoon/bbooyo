@@ -1,0 +1,82 @@
+NomalMainMsg:唱绰 呈公 塞捞 绝绢。
+
+#再给亮符让玩家拿玛蕾
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&NOWEV=69&NOWEV=70&ITEM!=19621
+AcceptMsg:原来就是新藏跑进了后院的洞窟才引起了这么大的骚动啊……\n真是感谢你的热心助人呢……什么？新藏还没回到家？这可不得了啊！\n那我再给你一个护身符，再去看看新藏是不是又被困住了吧。
+ThanksMsg:事关人命，赶快去吧！
+ItemFullMsg:你身上带了太多道具，没地方放护身符了啦。
+GetItem:19621
+EventEnd
+
+#接下拯救新藏任务后给亮符
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&NOWEV=69&ITEM!=19621
+AcceptMsg1:好像有个叫新藏的年轻人之前有跑到我后院的洞窟里，不知道跟最近后院的骚动有没有关系呢。\n你也在找新藏吗？那么去洞窟看看或许可以得到一些线索喔。
+AcceptMsg2:什么，有只卡卡金宝挡住洞口了吗？这可麻烦了……\n那我帮你想个办法好了……\n我有听说过飞天蛙类都喜欢亮亮的东西，我这有个护身符或许可以帮上忙？
+AcceptMsg3:咦，我刚刚是不是已经给过你护身符了啊？……\n没有啊？对不起，老人家的脑袋不太灵光喔。\n这个护身符就交给你了？
+ThanksMsg:你可以试着拿给卡卡金宝看看，然后趁它注意力被吸引的时候赶快溜去洞里喔。
+ItemFullMsg:你身上带了太多道具，没地方收下护身符喔。
+GetItem:19621
+EventEnd
+
+#拿2547镜来还，给金羚羊
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&NOWEV=54&ITEM=2547
+AcceptMsg:绢? 倒酒吭焙... 绢锭??\n[柳角狼 救版]阑 颊俊 持菌绰啊?\n呈聪鳖 且 荐 乐阑芭扼绊绰\n积阿窍绊 乐菌瘤父...\n弊烦 芭匡阑 倒妨林瘤 臼百唱?
+ThanksMsg1:绢? 沥富 [柳角狼 救版]阑\n颊俊 持菌焙.\n沥飞 踞·固配俊霸辑 甸菌匙...\n弊 芭匡阑 倒妨林绢具父 [柳角狼 救版]阑 颊俊 持菌促绊 且 荐 乐瘤. 瘤陛何磐绰 弊 救版,付澜阑 家吝洒 秦具秦...\n鞠...弊贰具瘤...
+ThanksMsg2:弊府绊 沥飞 踞·固配俊霸辑 罐篮 巴捞 乐匙. 沥飞狼 荤磊具! 呈甫 馆靛矫 瘤难临 巴捞促. 磊! 罐霸.
+PetFullMsg:其飘 沫阑 茄沫 厚况林霸.
+DelItem:2547
+GetPet:355
+EndSetFlg:54
+EventEnd
+
+#拿2532镜来还的情形
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&NOWEV=54&ITEM=2532
+AcceptMsg:回来了呀……怎样？你已经拿到‘真实之眼’了吗？\n我一直都认为你一定可以拿到的呢，你是来还我镜子的吗？
+ThanksMsg:谢谢你呀！
+DelItem:2532
+EndSetFlg:54
+EventEnd
+
+#确认玩家身上有镜子
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=30&NOWEV=54&ITEM=2532,ENDEV=4&ENDEV=30&NOWEV=54&ITEM=2547
+NomalWindowMsg:又有什么事了吗？\n要怎么用？你怎么这么懒啊？回到吉鲁采石场自己试试看吧，我只跟你说这么多了。\n还有啊，要好好保管心性之镜啊，不可以弄丢了喔！
+EventEnd
+
+#没有2547镜，给2532镜
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&ENDEV=30&NOWEV=54&ITEM!=2547
+AcceptMsg1:你把镜子弄丢了对吧？还好我有看到捡回来……\n啊，是你刚刚已经还我了吗？\n没有啊？最近脑袋越来越不灵光了。
+AcceptMsg2:喔，你是来跟我再借一次镜子的吗？
+ThanksMsg:好啦，我知道了，再借你一次吧。\n一定要好好归还啊。
+ItemFullMsg:喂，你已经拿不了那么多物品了啦。
+GetItem:2532
+EventEnd
+
+#第一次来拿镜子
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&NOWEV=30&NOWEV=54
+AcceptMsg:开矫....\n饶福档狼 厘肺啊 娟扁秦辑 吭绰啊?\n[缴己狼 芭匡]捞扼... 弊芭扼搁\n郴啊 啊瘤绊 乐瘤.\n构扼绊? 弊吧 呼妨崔扼绊?
+ThanksMsg1:肋窍搁 匙啊 茫绰 [柳角狼 救版] 阑 掘阑 荐 勒阑波具.\n促澜篮 沥飞俊霸 拱绢焊绰霸 亮酒.\n怖 倒妨拎具 秦.
+ItemFullMsg:酒捞袍芒捞 啊垫蛮芭 鞍篮单?
+GetItem:2547
+EndSetFlg:30
+EventEnd
+
+#贸澜 富
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4
+NomalWindowMsg:捞亥 绝捞 富且 锭[固荐沥]
+EventEnd

@@ -1,0 +1,23 @@
+
+NEWNPCENEMY
+
+entype:2
+askbattlemsg1: 아직 나는 이 세상에 나갈 준비가 안되있었다.
+askbattlemsg2: 그런데 날 이렇게 깨우다니...
+startmsg:그리고 날 본 이상 남방 수호신의 수하 명예를 걸고 널 밖으로 돌려보내주지 않겠다.
+dieact:1
+warpfl:0
+warpx:0
+warpy:0
+enemyno:3227,3228,3228,3228,3228,3229,3229,3229,3229,3229
+deniedmsg:용암속에서 영원히 잠들거라
+alreadymsg:아이템창을확인하세요.
+onebattle:0
+OVER
+
+NEWEVENT1:
+FREE:LV>0
+WARP:300,277,331
+endmsg:난 다시 영원히 잠들겠지만 나의 힘은 그대로 남겨놓을것이다...
+AddItem:21186
+OVER

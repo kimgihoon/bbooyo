@@ -1,0 +1,62 @@
+NPCCREATE
+
+###########################################################
+#ÂêÀöÄÈË¹    ÏëµöÓãµÄÒ¯Ò¯Ö®ÊÂ¼ş  £¨ÂêÀöÄÈË¹£©#
+# 					            µ£ÈÎÕß£ºÎ÷Öñ#
+###########################################################
+{
+floorid=2000
+borncorner=40,63,40,63
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16064
+name=³¬½ÃÇÏ´Â ³ëÀÎ
+enemy=changeevent|file:sainasu/event/nevent01_1
+}
+
+{
+floorid=2000
+borncorner=77,109,77,109
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16024
+name=³¬½Ë´ë ÀåÀÎ
+enemy=changeevent|file:sainasu/event/nevent01_2
+}
+
+###########################################################
+#¿¨Â³ËüÄÇ    ÏëµöÓãµÄÒ¯Ò¯Ö®ÊÂ¼ş  £¨ÂêÀöÄÈË¹£©#
+# 						µ£ÈÎÕß£ºÎ÷Öñ#
+###########################################################
+
+{
+floorid=4000
+borncorner=34,62,34,62
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16064
+name=³¬½ÃÇÏ´Â ³ëÀÎ
+enemy=changeevent|file:sainasu/event/nevent01_1
+}
+
+
+{
+floorid=4000
+borncorner=77,93,77,93
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16024
+name=³¬½Ë´ë ÀåÀÎ
+enemy=changeevent|file:sainasu/event/nevent01_2
+}
+
+
+

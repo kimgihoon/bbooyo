@@ -1,0 +1,54 @@
+START_MSG:어서오세요! 또 다른 화폐인 '포타' 아이템으로 구매 가능한 포타 상점 입니다! 
+END_MSG:정말로 구매 하시겠습니까?
+
+{
+MenuStr:최하급 VIP 상자　 　　[8]
+VipItem:21053,8
+}
+
+{
+MenuStr:하급 VIP 상자　 　　[15]
+VipItem:21054,15
+}
+
+{
+MenuStr:중급 VIP 상자　 　　[30]
+VipItem:21055,30
+}
+
+{
+MenuStr:상급 VIP 상자　 　　[55]
+VipItem:21056,55
+}
+
+{
+MenuStr:최상급 VIP 상자　 　　[95]
+VipItem:21057,95
+}
+
+{
+MenuStr:유니크 VIP 상자　 　　[120]
+VipItem:21058,120
+}
+
+{
+MenuStr:초급묶음패키지 　　[80]               (최하x3하x2중x1구성)
+VipItem:21105,80
+}
+
+
+{
+MenuStr:
+VipItem:0,0
+}
+
+{
+MenuStr: 고급묶음패키지 　　[270]                        (중x3상x2최상x1구성)
+VipItem:21106,270
+}
+
+{
+MenuStr:최고급묶음패키지　　[600]                    (최상x3유니크x3구성) 
+VipItem:21107,600
+}
+

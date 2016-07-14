@@ -1,0 +1,96 @@
+NomalMainMsg:이 대륙의 페트들은 난폭하기 유명하기로 손 꼽히지!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=188
+AcceptMsg:\n이 섬은 사람이 살지않는 섬이니 조심해!
+ThanksMsg:\n\n 더욱 더 무서운 공룡이 살고 있을지몰라
+itmeFullMsg:아이템창을 비워줄래?
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=187&PET=1-1352*1
+AcceptMsg:\n코도코도 레벨1 를 드디어 포획해왔구나! 대단해. 마르모스 페트들를 제압해서 포획하기도 쉽지않았을텐데 그동안 고생했어
+ThanksMsg:\n우리 마르모스 관리소 대표로 이걸 선물로 줄게. 쟈루 깊은 숲속에서 발견된 페트와 상자인데 상자를 아직 열어본진 못했어.
+itmeFullMsg:아이템창을 비워줄래?
+PetFullMsg:\n 페트창을 비워줄래?
+GetItem:21254
+GetPet:3296
+DelPet:PET=1-1352*1
+EndSetFlg:188
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=187
+AcceptMsg:\n마지막은 코도코도 lv1 페트를 1마리 포획해와줘. 새끼 코도코도가 출몰하는 좌표는 370.350~399.399로 추정되고 있어
+ThanksMsg:\n\n마지막 부탁이니 힘을 내줘! 
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&PET=1-1349*1&ENDEV=186
+AcceptMsg:\n델타로돈 레벨 1짜리를 포획해왔구나! 
+ThanksMsg:\n 한번 더 포획할게 있으니 잠시만 기다려줘!
+itmeFullMsg:아이템창을 비워줄래?
+GetItem:21164
+DelPet:PET=1-1349*1
+EndSetFlg:187
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=186
+AcceptMsg:\n이번에는 델타로돈 lv1 페트를 1마리 포획해와줘. 새끼 델타로돈이 출몰하는 좌표는 101.91~108.97로 추정되고 있어
+ThanksMsg:\n\n이번엔 거리가 조금 멀거야 조심해!
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&PET=1-1351*1&ENDEV=185
+AcceptMsg:\n카르노스 레벨 1짜리를 포획해왔구나! 
+ThanksMsg:\n 조금 더 포획할게 많으니 잠시만 기다려줘!
+itmeFullMsg:아이템창을 비워줄래?
+GetItem:21232
+DelPet:PET=1-1351*1
+EndSetFlg:186
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=185
+AcceptMsg:\n이번에는 카르노스 lv1 페트를 1마리 포획해와줘. 새끼 카르노스가 출몰하는 좌표는 334.213~340.220로 추정되고 있어
+ThanksMsg:\n\n몸 조심하고 가도록 해!
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&PET=1-1350*1
+AcceptMsg:\n황호 레벨 1짜리를 포획해왔구나! 
+ThanksMsg:\n 아직 포획할게 많으니 잠시만 기다려줘!
+PetFullMsg:\n 페트창을 비워줄래?
+GetPet:481
+DelPet:PET=1-1350*1
+EndSetFlg:185
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ENDEV=4
+AcceptMsg:마르모스 섬에 대해 알고 있니? 이 대륙은 숲과 초원 약간의 사막지대로 이루어진 중대륙이야. 이 섬에서는 [황호] [카르노스] [델타로돈] [코도코도] 가 서식하고 있지
+ThanksMsg: 또한 우리 마르모스 특별구역 관리소에서 마르모스 페트들이 현재 건강상태가 어떻게 되는지 조사하고 있어.  시간이 괜찮다면 조사를 도와주지않겠어? 일단 [황호]  lv1 1마리 포획해줘. 새끼 황호가 서식하는 좌표는 205.144~212.148 로 알고있어
+EventEnd
+
+
+
+
+
+
+
+
+
+
+

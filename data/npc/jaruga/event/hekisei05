@@ -1,0 +1,24 @@
+###########################################################
+#朞嶝鬼芎綾쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺쯺  #
+# 						맏得훙：鮫賂#
+###########################################################
+
+NomalMainMsg:...
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2766
+AcceptMsg:\n\n선물를 열어보시겠습니까？
+ThanksMsg:\n\n\n내용물를 확인하세요。
+ItemFullMsg:\n\n\n아이템창을 비워세주요。
+GetRandItem:75,78,185,193,283,21053,21054,21055,21056
+DelItem:2766
+Break
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM!=2766
+NomalWindowMsg:\n\n많은 페트와 아이템이 들어있는 작은 선물상자.
+EventEnd

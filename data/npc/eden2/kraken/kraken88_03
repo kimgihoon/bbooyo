@@ -1,0 +1,100 @@
+NomalMainMsg:募坷..募坷..
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:HERO_OVER=2&ITEM=2414
+NomalWindowMsg:十分感谢你的帮忙，你真是一位勇者阿！！\n相信你一定会有好报的。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:HERO_OUT=2&ITEM=2414
+NomalWindowMsg:如果你的动作再快一点就好了，这样我们就不怕那可恶的生物了。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:HERO_I_NOW=2&ENDEV=81&ENDEV=88&ENDEV=89&ENDEV=224&ITEM=2414&NOWEV=225
+NomalWindowMsg:这些可恶的生物一直在尼克斯庄园附近的水底捕食鱼群，希望你能赶走他们。
+EventEnd
+
+EventNo:225
+TYPE:REQUEST
+EVENT:HERO_I_NOW=2&ENDEV=81&ENDEV=88&ENDEV=89&ENDEV=224&ITEM=2414&PET>0-242&PET>0-221&PET>0-322
+RequestMsg:感谢你的帮忙，有了这些食物，小水怪最近可以不怕肚子饿了。
+RequestMsg2:另外这些日子里经过我的跟踪，我发现那群可恶的生物常常出没的地方，如果可以的话，希望你能前去帮我们消灭这群可恶的生物，让水底再度恢复平静。
+ThanksMsg:这些可恶的生物出现在尼克斯庄园附近的水底，这些水草给你，这可以让你在水底呼吸。
+GetItem:1723*3
+DelPet:PET>0-242*1,PET>0-221*1,PET>0-322
+ItemFullMsg:你身上东西太多了，会装不下喔！！
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:HERO_I_NOW=2&ENDEV=81&ENDEV=88&ENDEV=89&ENDEV=224&ITEM=2414
+NomalWindowMsg:小水怪肚子又饿到呱呱叫了，请赶快帮我找一下食物好吗？\n记得喔！！小水怪喜欢的食物有：克邦凯斯、姆伊、萨美洛斯。
+EventEnd
+
+EventNo:224
+TYPE:ACCEPT
+EVENT:HERO_I_NOW=2&ENDEV=81&ENDEV=88&ENDEV=89&NOWEV=224&ITEM=2414
+AcceptMsg1:又再度看见你了，这次我们又有麻烦，最近的水底出现了奇怪的生物，它们拼命的捕食鱼群，就连我们外出寻找食物时，也受到攻击，害得我们现在也无法出去寻找食物。
+AcceptMsg2:我饿了没关系，可是小水怪已经饿了好几天了，我真的不知道该怎么办，你能帮我们寻找食物吗？
+ThanksMsg:由于小水怪比较挑食，如果能找到一只克邦凯斯、一只姆伊、一只萨美洛斯，就可以让小水怪这一阵子都不会饿着了。
+EndSetFlg:224
+EventEnd
+
+
+
+#催促玩家离开
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>90&ITEM=2414&ENDEV=81&ENDEV=89
+NomalWindowMsg:\n唱绰 努遏目. 捞 瘤窍荐肺狼 林牢捞瘤.
+EventEnd
+
+#第二条路线，带小水怪来
+EventNo:89
+TYPE:ACCEPT
+EVENT:LV>90&ITEM=2414&PET>0-908&ENDEV=81&NOWEV=88&NOWEV=89
+AcceptMsg:\n弊, 弊 酒捞绰 唱狼 酒捞!\n绢辑 郴 酒捞甫 捞府 促坷.
+ThanksMsg1:\n绊缚促. 牢埃\n技惑俊绰 呈鞍捞 亮篮 牢埃档 乐焙\n捞力 歹 捞惑 牢埃俊 付阑浚 啊瘤 臼摆促.\n郴 酒捞客 窃膊 咯青阑 栋朝芭具.
+ThanksMsg2:\n匙霸 焊翠阑 秦林绊 酵促.\n拱狼 版拌俊辑 怕绢抄 [扼啊肺胶]促.
+GetPet:1621
+PetFullMsg:其飘 沫捞 何练窍备唱.
+DelPet:PET>0-908*1
+EndSetFlg:89
+EventEnd
+
+#第一路线身上有小水怪
+EventNo:89
+TYPE:ACCEPT
+EVENT:LV>90&ITEM=2414&PET>0-908&ENDEV=81&ENDEV=88&NOWEV=89
+AcceptMsg:\n弊, 弊 酒捞绰 唱狼 酒捞!\n绢辑 郴 酒捞甫 捞府 促坷.
+ThanksMsg1:\n绊缚促. 牢埃\n技惑俊绰 呈鞍捞 亮篮 牢埃档 乐焙\n捞力 歹 捞惑 牢埃俊 付阑浚 啊瘤 臼摆促.\n郴 酒捞客 窃膊 咯青阑 栋朝芭具.
+ThanksMsg2:\n匙霸 焊翠阑 秦林绊 酵促.\n拱狼 版拌俊辑 怕绢抄 [扼啊肺胶]促.
+GetPet:1621
+PetFullMsg:其飘 沫捞 何练窍备唱.
+DelPet:PET>0-908*1
+EndSetFlg:89
+EventEnd
+
+#催促玩家
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>90&ITEM=2414&ENDEV=81&ENDEV=88
+NomalWindowMsg:\n郴 酒捞甫 怖 茫酒促坷..
+EventEnd
+
+#有贝壳，任务标正确，和玩家交谈，关任务标88
+EventNo:88
+TYPE:ACCEPT
+EVENT:LV>90&ITEM=2414&ENDEV=81&NOWEV=88
+AcceptMsg1:\n郴 酒捞甫 狙酒埃 牢埃甸捞咯.\n捞力 唱 付历档 单妨啊妨窍绰啊.
+AcceptMsg2:\n牢埃篮 沥富 荤厩窍扁 弊瘤 绝促.\n呈绰 郴 娟扁甫 甸阑 荐 乐栏聪\n郴 娟扁甫 甸绢林摆唱?
+ThanksMsg1:\n牢埃篮 郴 酒捞甫 哗狙酒 艾促.\n弊府绊 郴啊 乐绰 镑阑 葛滴 绢瘤反躯促.
+ThanksMsg2:\n郴 酒捞甫 单府绊 捞镑阑 笛矾焊绰 档吝 癌磊扁 雀祸 渴阑 涝篮 牢埃甸俊霸 傍拜阑 罐绊 富疽促.\n弊甸狼 格利篮 郴啊 酒聪扼 郴 酒捞看绢.\n弊甸俊霸 郴 酒捞甫 鞘荤利栏肺 瘤淖瘤父..
+ThanksMsg3:\n埃荤茄 弊甸俊霸 棱囚啊滚啡促.\n牢埃, 呈绰 磊脚狼 盒脚阑 酪篮 扁盒阑 酒绰啊?\n唱绰 牢埃俊霸 呈公 奴 角噶阑 沁促.
+ThanksMsg4:\n弊矾唱 牢埃, 匙霸 何殴阑 窍绊 酵促.\n弊 埃荤茄 牢埃甸俊霸辑 郴 酒捞甫\n登茫酒林摆唱?
+EndSetFlg:88
+EventEnd

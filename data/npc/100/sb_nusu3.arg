@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:음, 그건 우리들의 발자국이군요.
+askbattlemsg2:지금이라면 용서해 줄테니까
+askbattlemsg3:이쪽으로 가지고 와요.
+startmsg:호호호~! 속았구나!
+dieact:0
+item:2431
+enemyno:515,519
+deniedmsg:무슨 일이시죠? 저희는 아무것도 가진게 없답니다.
+time:300
+

@@ -1,0 +1,111 @@
+NPCCREATE
+{
+floorid=14451
+borncenter=27,5
+time=0
+createnum=1
+graphicname=100436
+name=본드족 원
+dir=6
+enemy=changeevent|file:my/숫자/교환소1
+}
+
+{
+floorid=14451
+borncenter=27,13
+time=0
+createnum=1
+graphicname=100436
+name=본드족 투
+dir=6
+enemy=changeevent|file:my/숫자/교환소2
+}
+
+{
+floorid=14451
+borncenter=27,19
+time=0
+createnum=1
+graphicname=100436
+name=본드족 쓰리
+dir=6
+enemy=changeevent|file:my/숫자/교환소3
+}
+
+{
+floorid=14451
+borncenter=27,25
+time=0
+createnum=1
+graphicname=100431
+name=본드족 포
+dir=6
+enemy=changeevent|file:my/숫자/교환소4
+}
+
+{
+floorid=14451
+borncenter=2,5
+time=0
+createnum=1
+graphicname=100436
+name=본드족 파이브
+dir=2
+enemy=changeevent|file:my/숫자/교환소5
+}
+
+{
+floorid=14451
+borncenter=2,13
+time=0
+createnum=1
+graphicname=100431
+name=본드족 식스
+dir=2
+enemy=changeevent|file:my/숫자/교환소6
+}
+
+{
+floorid=14451
+borncenter=2,19
+time=0
+createnum=1
+graphicname=100400
+name=본드족 세븐
+dir=2
+enemy=changeevent|file:my/숫자/교환소7
+}
+
+{
+floorid=14451
+borncenter=2,25
+time=0
+createnum=1
+graphicname=100431
+name=본드족 에이
+dir=2
+enemy=changeevent|file:my/숫자/교환소8
+}
+
+{
+floorid=14451
+borncenter=9,2
+time=0
+createnum=1
+graphicname=100400
+name=본드족 나인
+dir=4
+enemy=changeevent|file:my/숫자/교환소9
+}
+
+{
+floorid=14451
+borncenter=8,10
+time=0
+createnum=1
+graphicname=100400
+name=본드족 제로
+dir=4
+enemy=changeevent|file:my/숫자/교환소0
+}
+

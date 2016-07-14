@@ -1,0 +1,24 @@
+NEWNPCENEMY
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:Ä¼¾Æ¾Æ!(ÈïºÐÇÑ µí °ø°ÝÇØ¿Ô´Ù.)
+askbattlemsg3:
+askbattlemsg4:½Î¿ì½Ã°Ú½À´Ï±î?
+startmsg:Ä¼¾Æ¿À¿À¿À!!
+dieact:1
+warpfl:0
+warpx:0
+warpy:0
+item:2414
+enemyno:1801,1832,1832,1832,1832,1833,1833,1833
+deniedmsg:Ä¼¿À¿À¿À!!!!!
+alreadymsg:¹¾àààààà¡«¡«£¨ÕýÔÚºÍÆäËûÈË×÷Õ½µÄÑù×Ó¡­¡­£©
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:LV>90&ENDEV=81&NOWEV=88
+WARP:60213,18,12
+endmsg:Ä¼¿À¿À..
+OVER

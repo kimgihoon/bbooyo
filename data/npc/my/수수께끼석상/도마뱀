@@ -1,0 +1,29 @@
+
+
+NEWNPCENEMY
+
+
+entype:2
+askbattlemsg1:
+askbattlemsg2:봉인의 해제가 풀렸습니다.
+askbattlemsg3:고대문명의 힘이 풀려났습니다.
+askbattlemsg4:신세계에 한걸음 앞으로 나아가겠습니까?
+startmsg:고대의 심판을 통과하거라!
+dieact:1
+warpfl:0  
+warpx:0
+warpy:0
+item:21144
+enemyno:3099,3100,3100,3100,3100,3100,3100,3100,3100,3100
+deniedmsg:봉인을 풀기위해서는 봉인을 풀 수 있는 열쇠가 필요하다.
+alreadymsg:넌 앞으로 나아갈 힘이 못되는구나
+onebattle:1
+OVER
+
+
+NEWEVENT1:
+FREE:LV>79&ITEM=21144
+WARP:900,135,698
+endmsg:봉인이 풀렸다. 앞으로 나아가 더욱더 강해지거라
+OVER
+

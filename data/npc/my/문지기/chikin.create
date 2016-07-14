@@ -1,0 +1,16 @@
+NPCCREATE
+{
+floorid=100
+borncenter=640,354
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16103
+name=문지기
+enemy=npcgen_warpman|file:my/문지기/교환소1
+}
+
+
+
+

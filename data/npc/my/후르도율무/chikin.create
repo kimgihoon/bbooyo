@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=5000
+borncenter=55,60
+time=0
+createnum=1
+graphicname=16351
+name=율무
+dir=4
+enemy=changeevent|file:my/후르도율무/교환소1
+}
+

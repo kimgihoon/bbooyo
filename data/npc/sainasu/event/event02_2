@@ -1,0 +1,39 @@
+###########################################################
+#玛丽娜丝和萨姆吉尔之间的道具赠送事件（玛丽那斯）#
+# 						担任者：西竹#
+###########################################################
+
+NomalMainMsg:采篮 攫力毫档 扁盒捞 亮酒廉.
+
+EventNo:-1
+TYPE:CLEAN
+EVENT:ENDEV=2&ITEM!=2415&SP=1,ENDEV=2&ITEM!=2415&SP=2
+CleanFlg:2
+CleanFlgMsg:我在等弥生的来信\n不知道今天会不会寄到呢？
+CleanMainMsg:哎呀！花不见啦。
+EventEnd
+
+
+EventNo:2
+TYPE:ACCEPT
+EVENT:NOWEV=2&ITEM=2414
+AcceptMsg:捞吧 焊陈促备 ?
+ThanksMsg:酒公瓢~~绊付况!!\n
+ItemFullMsg:酒捞袍 芒捞 啊垫谩绢...
+GetItem:2415
+DelItem:2414
+EndSetFlg:2
+EventEnd
+
+
+EventNo:2
+TYPE:REQUEST
+EVENT:LV>0&SP=0,LV>0&SP=3
+RequestMsg:\n何殴且霸 乐绰单 甸绢临贰?
+ThanksMsg:\n捞 采 坷疵 酒魔俊 谍芭具!\n捞 采阑 付府呈胶俊 混绊 乐绰\n蜡柳捞俊霸 傈秦玲栏搁 秦!\n采捞 付福瘤 臼档废 林狼秦辑 傈秦拎!
+StopMsg:\n公府茄 何殴捞聪?
+EndStopMsg:\n弊贰, 弊烦 促澜俊 档客拎..
+NoStopMsg:\n绊付况!\n蜡柳捞啊 扁促府聪 绢辑 免惯秦拎!\n妇葛胶 滚胶甫 鸥搁 狐福霸 哎 荐 乐绢.
+ItemFullMsg:酒捞袍 芒捞 啊垫谩绢.
+GetItem:2415
+EventEnd

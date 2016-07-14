@@ -1,0 +1,19 @@
+NomalMainMsg:어서오세요. 티켓판매원입니다.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:채팅방에 입장하려구요? \n우선 저한테서 입장권을 받아야해요!\n입장권은 잊어버리면 안되니 조심하세요
+ThanksMsg:\n즐거운 하루 되시길 바랍니다.
+ItemFullMsg:아이템창이 다찬거같은데?
+GetItem:2521
+DelItem:2522,2523,2524,2597,2598,2599,2600,2601,2602
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2521
+NomalMsg:즐겁게 보내셨나요?
+EventEnd
+

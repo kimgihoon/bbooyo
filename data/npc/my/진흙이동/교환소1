@@ -1,0 +1,10 @@
+EventNo:-1
+TYPE:ACCEPT
+WARP:52001,33,28
+FREE:LV>149
+MONEY:-1
+FreeMsg:이 동굴 안으로 들어가시겠습니까?
+PayMsg:여기는 위험한 구역입니다. 조금 더 강해지시고 와주세요.
+PartyMsg:파티상태로 해당 NPC와 대화 하실 수 없습니다.
+MoneyMsg:스톤 부족 에러 발생
+

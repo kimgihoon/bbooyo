@@ -1,0 +1,22 @@
+NPCCREATE
+
+########################################
+#　　４つの宝玉イ?ント　　　　　　　　#
+#　　　　　　　　　　　　　　担当：西竹#
+########################################
+
+{
+floorid=6000
+borncorner=58,44,58,44
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16047
+name=原聖 短鰍
+enemy=changeevent|file:extra/event/hougyoku
+}
+
+
+
+

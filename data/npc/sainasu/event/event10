@@ -1,0 +1,58 @@
+#µÁÔôÊÂ¼þ£¨»ôÌØ¶ûÄÇÒ»±ß£©
+NomalMainMsg:Å«ÀÏÀÌ¾ß! Å«ÀÏ!!, ¸¶À»À» ÁöÅ°´Â µ¹ÀÌ..À¹.
+
+EventNo:10
+TYPE:ACCEPT
+EVENT:ENDEV=11&NOWEV=10&ITEM=2419
+AcceptMsg:±×·¡¿ä! ÀÌ°Å¿¡¿ä!\nÀÌ°ÍÀÌ ¿ì¸®¸¦ ÁöÄÑÁÖ´Â µ¹ÀÔ´Ï´Ù.
+ThanksMsg:°í¸¶¿ö¿ä! ÀÌ°ÍÀ¸·Î ¸¶À»À» ÁöÅ³ ¼ö ÀÖ°Ô µÆ±º¿ä!\n´ä·Ê·Î ÀÌ°ÍÀ» µå¸®°Ú½À´Ï´Ù.\nÀÌ°ÍÀ» µ·À¸·Î ¹Ù²Ù¸é ¾à 2000½ºÅæ Á¤µµ\nµÉ °ÍÀÌ¶ó »ý°¢ÇÕ´Ï´Ù.
+ItemFullMsg:¾ÆÀÌÅÛ Ä­À» ºñ¿öÁÖ¼¼¿ä.
+GetItem:2421
+DelItem:2419
+EndSetFlg:10,12
+EventEnd
+
+
+EventNo:10
+TYPE:ACCEPT
+EVENT:ENDEV=12&ITEM=2419
+AcceptMsg:ÊÇµÄ¡£¾ÍÊÇÕâ¸ö¡£\nÕâ¾ÍÊÇÎÒµÄÊØ»¤Ê¯¡£
+ThanksMsg:Ð»Ð»Äã¡£ÓÐÕâ¸ö£¬\n´å×Ó¾ÍµÃ¾ÈÁË¡£¾ÍÒÔÕâ¸ö×÷ÎªÐ»Àñ°É£¡\nÎÒÏë£¬Õâ¸öÄÃÈ¥»»Ç®µÄ»°£¬\n¿ÉÒÔ»»µ½£²£°£°£°£Ó¡£
+ItemFullMsg:°¥Ñ½£¡¶«Î÷ÒÑ¾­×°ÂúÁËÄØ£¡
+GetItem:2421
+DelItem:2419
+EndSetFlg:10
+EventEnd
+
+
+EventNo:10
+TYPE:REQUEST
+EVENT:LV>29&ENDEV=4&NOWEV=9&NOWEV=11
+RequestMsg:ÕâÊÇ´ÓÎÒ¿Â¶û¿ËºÍ¿¨Ì¹µÄÅóÓÑ\nÄÇÌýÀ´µÄ¡£ÇëÄãÎñ±ØÒª°ïÃ¦¡£í
+ThanksMsg:²»ÖªµÀÄãÓÐÃ»ÓÐÌýËµ£¬¹ØÓÚÎÒÃÇÒ²±»µÁÔôÍµÇÔÕâ¸ö´å×¯\nÖØÒªµÄÊØ»¤Ê¯µÄÊÂ£¿\nÔÚÕâÑùÏÂÈ¥£¬ÎÒÊµÔÚÃ»ÓÐÁ³\n¼ûÎÒÃÇ´å³¤¡£ÇëÄúÎñ±ØÒª°ïÎÒÄÃ»ØÀ´¡£\ÌýËµµÁÔôµÄµØÏÂ³Ç£¬ÊÇÔÚ»ô¶ûÌØÉ½Î÷±ßµÄ\nË®¾®¡£ÌýËµ°µºÅÊÇ¡®ÔÚ¿¨Ì¹ÓÐÃÎµÂ¡¯\nµÄÑù×Ó¡£
+StopMsg:¹ûÈ»»¹ÊÇÎÞÀíµÄÇëÇóÂð¡­
+EndStopMsg:ÕâÑù°¡¡­\nÄÇÎÒÕÒÔÙ±ðÈË°ïÃ¦ºÃÁË¡£\nÕæÊÇ±§Ç¸¡£
+NoStopMsg:ÕæÊÇ²»ºÃÒâË¼¡­ÄÇ¾Í°ÝÍÐÄãÁË¡£
+EventEnd
+
+
+
+
+EventNo:10
+TYPE:REQUEST
+EVENT:LV>29&ENDEV=4&NOWEV=9
+RequestMsg:Äí¸µÀÇ Ä£±¸·ÎºÎÅÍ µé¾ú±º¿ä!\nµµ¿ÍÁÖ¼¼¿ä!\nÄ«ÅºÀÇ »ç¸·¿¡ ÀÖ´Â µµÀû º»µåÁ·¿¡°Ô\n¸¶À»À» ÁöÅ°´Â µ¹À» »©¾Ñ°å½À´Ï´Ù.
+ThanksMsg:°¨»çÇÕ´Ï´Ù!\nÄ«Åº¿¡ Á¦ Ä£±¸¿¡°Ô °¡º¸¼¼¿ä!\nµµ¿òÀÌ µÉ °Ì´Ï´Ù!
+StopMsg:°¡º¸Áö ¾ÊÀ» »ý°¢ÀÌ¼¼¿ä?
+EndStopMsg:À¯°¨ÀÌ±º¿ä\nÀúÈñ ¸¶À»Àº ÀÌÁ¦ Åª..
+NoStopMsg:°¨»çÇÕ´Ï´Ù. Ä«Åº¸¶À»ÀÇ Á¦ Ä£±¸¿¡°Ô °¡ÁÖ¼¼¿ä!
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=10
+NomalMsg:È£Åä¸£ ¸¶À»Àº Àü¿¡ ´©±º°¡ÀÇ µµ¿òÀ» ¹Þ¾Ò¾î.
+EventEnd

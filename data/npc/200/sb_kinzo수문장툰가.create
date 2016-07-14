@@ -1,0 +1,12 @@
+NPCCREATE
+#######»³Â±»Ö´ê¤Î¥­¥ó¥¾¡õ¥«¥Ã¤¯¤ó##########
+{
+floorid=200
+borncenter=479,507,1,1
+movecenter=20,20,100,100
+createnum=1
+dir=0
+graphicname=100407
+name=¼ö¹®Àå Å÷°¡
+enemy=sb_kinzo|file:200/sb_kinzo.arg
+}
